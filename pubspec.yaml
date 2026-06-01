@@ -1,0 +1,23 @@
+name: roamlust
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # SVG画像を表示するためのパッケージです
+  flutter_svg: ^2.0.10
+
+flutter:
+  uses-material-design: true
+
+  # ここに登録したフォルダ内のファイルは、PWA起動時に一括でダウンロードされます
+  assets:
+    - assets/json/countries_master.json
+    - assets/json/wikipedia/
+    - assets/json/restcountries/
+    - assets/flags/
