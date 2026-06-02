@@ -26,35 +26,45 @@ class _CountryListScreenState extends State<CountryListScreen> {
     _loadData(SortType.alphabetical);
   }
 
-  // 選択された並び替えの種類に応じて、必要なJSONを読み込む関数です
+  // 選択された並び替えの種類に応じて、必要なJSON(キャッシュ)を読み込む関数です
   Future<void> _loadData(SortType sortType) async {
     setState(() {
       _isLoading = true;
       _currentSort = sortType;
     });
 
-    // 国の基本リストは常に必要なので読み込みます
-    if (_countries.isEmpty) {
-      final master = await DataService.loadMasterData();
-      _countries = List<Map<String, dynamic>>.from(master);
+    try {
+      // 国の基本リストは常に必要なので読み込みます
+      if (_countries.isEmpty) {
+        final master = await DataService.loadMasterData();
+        _countries = List<Map<String, dynamic>>.from(master);
+      }
+
+      // 選ばれたランキングの種類に応じて、対象のデータを読み込みます
+      if (sortType == SortType.population) {
+        _currentRankingData = await DataService.loadRanking('population');
+      } else if (sortType == SortType.area) {
+        _currentRankingData = await DataService.loadRanking('area');
+      } else if (sortType == SortType.gdp) {
+        _currentRankingData = await DataService.loadRanking('gdp');
+      } else {
+        _currentRankingData = {}; // あいうえお順の場合はランキングデータは不要です
+      }
+
+      _sortCountries();
+    } catch (e) {
+      // 例外処理：エラー発生時はスナックバーで通知します
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('データの読み込みに失敗しました: $e')),
+        );
+      }
+    } finally {
+      // 成功しても失敗してもローディング状態を解除します
+      setState(() {
+        _isLoading = false;
+      });
     }
-
-    // 選ばれたランキングの種類に応じて、対象のJSONファイルを読み込みます
-    if (sortType == SortType.population) {
-      _currentRankingData = await DataService.loadRanking('population');
-    } else if (sortType == SortType.area) {
-      _currentRankingData = await DataService.loadRanking('area');
-    } else if (sortType == SortType.gdp) {
-      _currentRankingData = await DataService.loadRanking('gdp');
-    } else {
-      _currentRankingData = {}; // あいうえお順の場合はランキングデータは不要です
-    }
-
-    _sortCountries();
-
-    setState(() {
-      _isLoading = false;
-    });
   }
 
   // リストの順番を並び替える関数です
@@ -80,8 +90,12 @@ class _CountryListScreenState extends State<CountryListScreen> {
         }
 
         // データがない国は、リストの最後（下）に移動させます
-        if (valA == null) return 1;
-        if (valB == null) return -1;
+        if (valA == null) {
+          return 1;
+        }
+        if (valB == null) {
+          return -1;
+        }
 
         // 数値が大きい順（降順）に並べ替えます
         return (valB as num).compareTo(valA as num);
@@ -104,6 +118,37 @@ class _CountryListScreenState extends State<CountryListScreen> {
     }
   }
 
+  // ランキングの順位に応じて色を変える関数（モダンな機能追加）
+  Color _getRankColor(int index, bool isDark, String rankStr) {
+    // データがない（ハイフン）の場合は薄いグレー
+    if (rankStr == '-') {
+      return isDark ? Colors.grey.shade600 : Colors.grey.shade400;
+    }
+
+    // あいうえお順の場合はランキングではないので、通常の文字色にします
+    if (_currentSort == SortType.alphabetical) {
+      return isDark ? Colors.grey.shade300 : Colors.grey.shade700;
+    }
+
+    // 順位（indexは0始まりなので +1 します）
+    final rank = index + 1;
+    if (rank == 1) {
+      return Colors.amber; // 1位：金
+    }
+    if (rank == 2) {
+      return isDark ? Colors.grey.shade400 : Colors.grey.shade500; // 2位：銀
+    }
+    if (rank == 3) {
+      return Colors.brown.shade400; // 3位：銅
+    }
+    if (rank >= 4 && rank <= 10) {
+      return Colors.orangeAccent.shade200; // 4〜10位：少し目立つ色
+    }
+
+    // 11位以降は通常の文字色
+    return isDark ? Colors.grey.shade400 : Colors.grey.shade700;
+  }
+
   // リストの下段に表示する「テキスト（人口などの数値）」を作成する関数です
   String _getSubtitleText(Map<String, dynamic> country) {
     if (_currentSort == SortType.alphabetical) {
@@ -113,7 +158,9 @@ class _CountryListScreenState extends State<CountryListScreen> {
     final iso3 = country['iso3'];
     final val = _currentRankingData[iso3];
 
-    if (val == null) return 'データなし';
+    if (val == null) {
+      return 'データなし';
+    }
 
     if (_currentSort == SortType.population) {
       return '人口: ${FormatUtils.formatNumber(val)}人';
@@ -128,17 +175,17 @@ class _CountryListScreenState extends State<CountryListScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(
         title:
             const Text('国の一覧', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
-        backgroundColor: Colors.white,
-        elevation: 0,
         actions: [
           PopupMenuButton<SortType>(
-            icon: const Icon(Icons.sort, color: Colors.black87),
+            icon:
+                Icon(Icons.sort, color: isDark ? Colors.white : Colors.black87),
             onSelected: (SortType result) {
               // 選択されたらデータを再読み込みします
               _loadData(result);
@@ -167,15 +214,13 @@ class _CountryListScreenState extends State<CountryListScreen> {
 
                 final rankStr = _getRankString(index, country);
                 final subtitleStr = _getSubtitleText(country);
+                // 順位に応じた色を取得します
+                final rankColor = _getRankColor(index, isDark, rankStr);
 
                 return Card(
                   margin:
                       const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-                  elevation: 0,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                    side: BorderSide(color: Colors.grey.shade200),
-                  ),
+                  // main.dartで定義したCardThemeが適用されるため、個別の色やボーダー指定は不要です
                   child: ListTile(
                     contentPadding:
                         const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
@@ -191,10 +236,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
-                              // ハイフンの場合は色を薄くします
-                              color: rankStr == '-'
-                                  ? Colors.grey.shade400
-                                  : Colors.grey.shade700,
+                              color: rankColor, // 色分けを適用
                             ),
                           ),
                         ),
@@ -207,8 +249,10 @@ class _CountryListScreenState extends State<CountryListScreen> {
                             child: SvgPicture.asset(
                               'assets/flags/$iso2.svg',
                               fit: BoxFit.cover,
-                              placeholderBuilder: (_) =>
-                                  Container(color: Colors.grey.shade200),
+                              placeholderBuilder: (_) => Container(
+                                  color: isDark
+                                      ? Colors.grey.shade800
+                                      : Colors.grey.shade200),
                             ),
                           ),
                         ),

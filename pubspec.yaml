@@ -12,6 +12,7 @@ dependencies:
   # SVG画像を表示するためのパッケージです
   flutter_svg: ^2.0.10
   intl: ^0.20.2
+  shared_preferences: ^2.5.5
 
 flutter:
   uses-material-design: true
