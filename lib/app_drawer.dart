@@ -90,7 +90,7 @@ class AppDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.support_agent),
-            title: const Text('サポート (お問い合わせ)'),
+            title: const Text('お問い合わせ'),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -103,7 +103,7 @@ class AppDrawer extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.delete_forever, color: Colors.grey),
             title: const Text(
-              'データの初期化(キャッシュ削除)',
+              'データの初期化',
               style: TextStyle(color: Colors.grey),
             ),
             onTap: () async {

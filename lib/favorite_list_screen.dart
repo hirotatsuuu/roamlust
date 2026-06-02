@@ -81,7 +81,7 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
           : _favoriteCountries.isEmpty
               ? Center(
                   child: Text(
-                    'お気に入りに登録された国はありません\n\n❤️マークをタップして追加してみましょう',
+                    'お気に入りに登録された国はありません\n\nハートをタップして追加してみましょう',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: isDark

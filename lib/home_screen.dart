@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   alignment: Alignment.center,
                   children: [
                     Positioned(
-                      top: 100,
+                      top: 70,
                       child: Icon(Icons.travel_explore,
                           size: 150, // ホーム画面のロゴのサイズ
                           color: isDark
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     fontSize: 16,
                                     color: isDark
                                         ? Colors.grey.shade400
-                                        : Colors.blueGrey)),
+                                        : Colors.grey.shade800)),
                             const SizedBox(height: 24),
                             Autocomplete<Map<String, dynamic>>(
                               optionsBuilder:

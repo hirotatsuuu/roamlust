@@ -142,6 +142,10 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                         child: SvgPicture.asset(
                           'assets/flags/${widget.iso2}.svg',
                           height: 140,
+
+                          // これを追加してSVGが表示されない挙動を無視する
+                          theme: const SvgTheme(currentColor: Colors.black),
+
                           placeholderBuilder: (_) => Container(
                               height: 140,
                               width: 210,
