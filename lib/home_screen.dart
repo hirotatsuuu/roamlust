@@ -63,9 +63,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text(
-                      '旅する国を探そう',
-                      style:
-                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                      'あなたの次の目的地は、どこですか？',
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.blueGrey,
+                      ),
                     ),
                     const SizedBox(height: 24),
                     // Autocompleteにも、扱うデータが「Map型」であることを伝えます
@@ -106,7 +108,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           focusNode: focusNode,
                           onEditingComplete: onEditingComplete,
                           decoration: InputDecoration(
-                            hintText: '国名を入力 (例: アンドラ)',
+                            hintText: '国名を入力 (例: 日本)',
+                            hintStyle: const TextStyle(
+                              color: Colors.grey,
+                            ),
                             prefixIcon: const Icon(Icons.search),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
@@ -114,6 +119,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         );
                       },
+                    ),
+                    const SizedBox(height: 24),
+                    const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                      child: Text(
+                        '地図を広げるだけでは、足りないあなたへ。\n世界は、あなたの歩みを待っています。',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            fontSize: 14, color: Colors.grey, height: 1.5),
+                      ),
                     ),
                   ],
                 ),
