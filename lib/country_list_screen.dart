@@ -80,7 +80,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
   // お気に入りボタンが押されたときの処理
   Future<void> _toggleFavorite(String iso2) async {
     try {
-      // 画面の見た目を先に変えてサクサク動かします
       setState(() {
         if (_favorites.contains(iso2)) {
           _favorites.remove(iso2);
@@ -88,18 +87,25 @@ class _CountryListScreenState extends State<CountryListScreen> {
           _favorites.add(iso2);
         }
       });
-      // 裏で保存処理を実行
       await DataService.toggleFavorite(iso2);
     } catch (e) {
-      _refreshFavorites(); // エラー時は元の状態に戻す
+      _refreshFavorites();
     }
   }
 
+  // ★修正：並び替えの処理（情報がない国を一番下にする）
   void _sortCountries() {
     _countries.sort((a, b) {
       if (_currentSort == SortType.alphabetical) {
         final nameA = a['name_ja']?.toString() ?? '';
         final nameB = b['name_ja']?.toString() ?? '';
+
+        // -- ここから追加：名前情報がない国をリストの下へ移動させる処理 --
+        if (nameA.isEmpty && nameB.isEmpty) return 0; // 両方ない場合はそのまま
+        if (nameA.isEmpty) return 1; // Aの情報がない場合は、Aを後ろ(下)へ
+        if (nameB.isEmpty) return -1; // Bの情報がない場合は、Bを後ろ(下)へ
+        // -------------------------------------------------------------
+
         return nameA.compareTo(nameB);
       } else {
         final iso3A = a['iso3'];
@@ -110,9 +116,16 @@ class _CountryListScreenState extends State<CountryListScreen> {
         if (valA == null && valB == null) {
           final nameA = a['name_ja']?.toString() ?? '';
           final nameB = b['name_ja']?.toString() ?? '';
+
+          // -- ランキング表示時も同様に、名前がない国を下へ --
+          if (nameA.isEmpty && nameB.isEmpty) return 0;
+          if (nameA.isEmpty) return 1;
+          if (nameB.isEmpty) return -1;
+          // ----------------------------------------------
+
           return nameA.compareTo(nameB);
         }
-        if (valA == null) return 1;
+        if (valA == null) return 1; // ランキングデータがない場合も下へ
         if (valB == null) return -1;
         return (valB as num).compareTo(valA as num);
       }
@@ -297,8 +310,13 @@ class _CountryListScreenState extends State<CountryListScreen> {
               itemBuilder: (context, index) {
                 final country = _countries[index];
                 final iso2 = country['iso2'];
-                final nameJa = country['name_ja'] ?? '不明';
-                final isFav = _favorites.contains(iso2); // お気に入り判定
+
+                // ★修正：名前情報がない場合は「国名情報なし」と表示する安全設計
+                final rawNameJa = country['name_ja']?.toString() ?? '';
+                final nameJa =
+                    rawNameJa.isNotEmpty ? rawNameJa : '国名情報なし (国旗から確認)';
+
+                final isFav = _favorites.contains(iso2);
 
                 final rankStr = _getRankString(index, country);
                 final subtitleStr = _getSubtitleText(country);
@@ -347,7 +365,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
                     title: Text(nameJa,
                         style: const TextStyle(fontWeight: FontWeight.bold)),
                     subtitle: Text(subtitleStr),
-                    // 右側にハートマークと矢印を並べます
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -366,7 +383,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
                       ],
                     ),
                     onTap: () {
-                      // 詳細画面から戻ってきたときに、お気に入りの状態を更新します（thenを使用）
                       Navigator.push(
                         context,
                         MaterialPageRoute(

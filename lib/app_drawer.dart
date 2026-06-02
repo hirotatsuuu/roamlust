@@ -73,9 +73,27 @@ class AppDrawer extends StatelessWidget {
             leading: const Icon(Icons.brightness_6),
             title: const Text('テーマ切り替え'),
             onTap: () {
-              themeNotifier.value = (themeNotifier.value == ThemeMode.light)
-                  ? ThemeMode.dark
-                  : ThemeMode.light;
+              String themeName = '';
+              // ライトモードとダークモードを反転させます
+              if (themeNotifier.value == ThemeMode.light) {
+                themeNotifier.value = ThemeMode.dark;
+                themeName = 'ダークテーマ';
+              } else {
+                themeNotifier.value = ThemeMode.light;
+                themeName = 'ライトテーマ';
+              }
+
+              // 通知を出す前に、まずメニュー（ドロワー）を閉じます
+              Navigator.pop(context);
+
+              // ★通知を表示（連続タップされてもいいように一度古い通知を消す）
+              ScaffoldMessenger.of(context).clearSnackBars();
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text('$themeNameに変更しました'),
+                  duration: const Duration(seconds: 2), // 2秒間表示
+                ),
+              );
             },
           ),
           const Divider(),

@@ -158,36 +158,45 @@ class DataService {
       for (var country in masterList) {
         if (shouldStop()) return;
 
-        final String iso2 = country['iso2'];
-        final bool isAlreadyCached =
-            prefs.containsKey('rest_$iso2') && prefs.containsKey('wiki_$iso2');
+        // ★追加：国ごとの処理全体を「try-catch-finally」で囲むことで、
+        // どんなエラーが起きても絶対に途中で止まらない「最強の防御」にします。
+        try {
+          final String iso2 = country['iso2'];
+          final bool isAlreadyCached = prefs.containsKey('rest_$iso2') &&
+              prefs.containsKey('wiki_$iso2');
 
-        if (isAlreadyCached) {
+          if (isAlreadyCached) {
+            if (processedCount % 10 == 0) await Future.delayed(Duration.zero);
+            // ★追加：すでにキャッシュがある場合はスキップして下の「finally」へジャンプします
+            continue;
+          }
+
+          try {
+            final String restJson = await rootBundle
+                .loadString('assets/json/restcountries/$iso2.json');
+            await prefs.setString('rest_$iso2', restJson);
+          } catch (e) {
+            debugPrint('RestCountryなし: $iso2');
+          }
+
+          try {
+            final String wikiJson =
+                await rootBundle.loadString('assets/json/wikipedia/$iso2.json');
+            await prefs.setString('wiki_$iso2', wikiJson);
+          } catch (e) {
+            debugPrint('Wikipediaなし: $iso2');
+          }
+
+          await Future.delayed(const Duration(milliseconds: 10));
+        } catch (e) {
+          // ★追加：予期せぬエラーが起きても、この国だけ諦めて次へ進む（アプリは止まらない）
+          debugPrint('予期せぬエラーでスキップしました: $e');
+          continue;
+        } finally {
+          // ★追加：エラーが起きても起きなくても、絶対にカウントを増やして画面の「〇〇%」を進める
           processedCount++;
           onProgress(processedCount / totalCountries);
-          if (processedCount % 10 == 0) await Future.delayed(Duration.zero);
-          continue;
         }
-
-        try {
-          final String restJson = await rootBundle
-              .loadString('assets/json/restcountries/$iso2.json');
-          await prefs.setString('rest_$iso2', restJson);
-        } catch (e) {
-          debugPrint('RestCountryなし: $iso2');
-        }
-
-        try {
-          final String wikiJson =
-              await rootBundle.loadString('assets/json/wikipedia/$iso2.json');
-          await prefs.setString('wiki_$iso2', wikiJson);
-        } catch (e) {
-          debugPrint('Wikipediaなし: $iso2');
-        }
-
-        processedCount++;
-        onProgress(processedCount / totalCountries);
-        await Future.delayed(const Duration(milliseconds: 10));
       }
 
       await prefs.setBool(_cacheCompletedKey, true);

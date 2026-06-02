@@ -65,12 +65,23 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
         () => _isPaused,
       );
 
+      // 正常に最後まで終わったらホーム画面へ
       if (!_isPaused && await DataService.isCacheCompleted()) {
         _navigateToHome();
       }
     } catch (e) {
+      // ★修正：エラーになっても止まらず、強制的に次へ進む処理
       setState(() {
-        _errorMessage = 'ダウンロード中にエラーが発生しました。\nネットワークやストレージを確認してください。';
+        // ユーザーには「一部スキップしたけど進むよ」とだけ優しく伝えます
+        _errorMessage = '一部の国情報（Wikipedia等）が取得できませんでしたが、\n取得できたデータでアプリを開始します。';
+        _isDownloading = false;
+      });
+
+      // 2.5秒だけメッセージを見せたあと、強制的にホーム画面へ移動させます
+      Future.delayed(const Duration(milliseconds: 2500), () {
+        if (mounted) {
+          _navigateToHome();
+        }
       });
     }
   }
@@ -114,22 +125,25 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
               style: TextStyle(fontSize: 14, color: Colors.grey),
             ),
             const SizedBox(height: 48),
+
+            // エラーメッセージが出た場合（すぐに次へ進むので短時間の表示になります）
             if (_errorMessage != null) ...[
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 child: Text(
                   _errorMessage!,
                   textAlign: TextAlign.center,
-                  style: const TextStyle(color: Colors.redAccent),
+                  style: const TextStyle(
+                      color: Colors.redAccent,
+                      fontWeight: FontWeight.bold,
+                      height: 1.5),
                 ),
               ),
               const SizedBox(height: 16),
-              ElevatedButton.icon(
-                onPressed: _startDownload,
-                icon: const Icon(Icons.refresh),
-                label: const Text('もう一度試す'),
-              ),
-            ] else if (_isPaused) ...[
+              const CircularProgressIndicator(), // 画面遷移待ちのぐるぐる
+            ]
+            // 一時停止中の場合
+            else if (_isPaused) ...[
               const Text(
                 'ダウンロードが一時停止中です',
                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -147,7 +161,9 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
                   ),
                 ),
               ),
-            ] else if (!_isDownloading && _progress == 0.0) ...[
+            ]
+            // ダウンロード開始前の場合
+            else if (!_isDownloading && _progress == 0.0) ...[
               const Text(
                 'ダウンロードの準備ができました',
                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -164,7 +180,9 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
                       borderRadius: BorderRadius.circular(30)),
                 ),
               ),
-            ] else ...[
+            ]
+            // ダウンロード実行中の場合
+            else ...[
               Stack(
                 alignment: Alignment.center,
                 children: [
@@ -188,14 +206,13 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
                 ],
               ),
               const SizedBox(height: 32),
-              // ★変更: TextButton を OutlinedButton に変更し、枠線をつけました
               OutlinedButton.icon(
                 onPressed: _pauseDownload,
                 icon: const Icon(Icons.pause),
                 label: const Text('中断する'),
                 style: OutlinedButton.styleFrom(
                   foregroundColor: Colors.redAccent,
-                  side: const BorderSide(color: Colors.redAccent), // ★枠線の設定
+                  side: const BorderSide(color: Colors.redAccent),
                   padding:
                       const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                   shape: RoundedRectangleBorder(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'initial_load_screen.dart';
 
 void main() {
@@ -30,6 +31,8 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
             useMaterial3: true,
+            textTheme: GoogleFonts.notoSansJpTextTheme(
+                ThemeData.light().textTheme), // Googleフォントの適用
             scaffoldBackgroundColor: const Color(0xFFF8FAFC),
             appBarTheme: AppBarTheme(
               backgroundColor: Colors.lightGreen.shade100,
@@ -50,6 +53,8 @@ class _MyAppState extends State<MyApp> {
           // 【ダークモードのデザイン設定】
           darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
             scaffoldBackgroundColor: const Color(0xFF1E1E1E),
+            textTheme: GoogleFonts.notoSansJpTextTheme(
+                ThemeData.light().textTheme), // Googleフォントの適用
             appBarTheme: const AppBarTheme(
               backgroundColor: Color(0xFF2E4C31),
               elevation: 0,

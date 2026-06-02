@@ -122,6 +122,9 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                // ★他のセクションと全く同じ部品（_buildSectionTitle）を使います
+                _buildSectionTitle('国旗', Icons.flag, isDark, context),
+                const SizedBox(height: 12), // タイトルと国旗の間のすき間
                 Center(
                   child: Hero(
                     tag: 'flag_${widget.iso2}',
