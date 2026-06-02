@@ -1,0 +1,219 @@
+{
+    "tld": [
+        ".ne"
+    ],
+    "cca2": "NE",
+    "ccn3": "562",
+    "cca3": "NER",
+    "cioc": "NIG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "27"
+        ]
+    },
+    "capital": [
+        "Niamey"
+    ],
+    "altSpellings": [
+        "NE",
+        "Nijar"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "landlocked": true,
+    "borders": [
+        "DZA",
+        "BEN",
+        "BFA",
+        "TCD",
+        "LBY",
+        "MLI",
+        "NGA"
+    ],
+    "area": 1267000.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/VKNU2TLsZcgxM49c8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192786"
+    },
+    "population": 26312034,
+    "fifa": "NIG",
+    "car": {
+        "signs": [
+            "RN"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇳🇪",
+    "name": {
+        "common": "Niger",
+        "official": "Republic of Niger",
+        "nativeName": {
+            "fra": {
+                "official": "République du Niger",
+                "common": "Niger"
+            }
+        }
+    },
+    "currencies": {
+        "XOF": {
+            "symbol": "Fr",
+            "name": "West African CFA franc"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        16.0,
+        8.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Nigerien",
+            "m": "Nigerien"
+        },
+        "fra": {
+            "f": "Nigérienne",
+            "m": "Nigérien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية النيجر",
+            "common": "النيجر"
+        },
+        "bre": {
+            "official": "Republik Niger",
+            "common": "Niger"
+        },
+        "ces": {
+            "official": "Nigerská republika",
+            "common": "Niger"
+        },
+        "cym": {
+            "official": "Republic of Niger",
+            "common": "Niger"
+        },
+        "deu": {
+            "official": "Republik Niger",
+            "common": "Niger"
+        },
+        "est": {
+            "official": "Nigeri Vabariik",
+            "common": "Niger"
+        },
+        "fin": {
+            "official": "Nigerin tasavalta",
+            "common": "Niger"
+        },
+        "fra": {
+            "official": "République du Niger",
+            "common": "Niger"
+        },
+        "hrv": {
+            "official": "Republika Niger",
+            "common": "Niger"
+        },
+        "hun": {
+            "official": "Nigeri Köztársaság",
+            "common": "Niger"
+        },
+        "ind": {
+            "official": "Republik Niger",
+            "common": "Niger"
+        },
+        "ita": {
+            "official": "Repubblica del Niger",
+            "common": "Niger"
+        },
+        "jpn": {
+            "official": "ニジェール共和国",
+            "common": "ニジェール"
+        },
+        "kor": {
+            "official": "니제르 공화국",
+            "common": "니제르"
+        },
+        "nld": {
+            "official": "Republiek Niger",
+            "common": "Niger"
+        },
+        "per": {
+            "official": "جمهوری نیجر",
+            "common": "نیجر"
+        },
+        "pol": {
+            "official": "Republika Nigru",
+            "common": "Niger"
+        },
+        "por": {
+            "official": "República do Níger",
+            "common": "Níger"
+        },
+        "rus": {
+            "official": "Республика Нигер",
+            "common": "Нигер"
+        },
+        "slk": {
+            "official": "Nigérská republika",
+            "common": "Niger"
+        },
+        "spa": {
+            "official": "República de Níger",
+            "common": "Níger"
+        },
+        "srp": {
+            "official": "Република Нигер",
+            "common": "Нигер"
+        },
+        "swe": {
+            "official": "Republiken Niger",
+            "common": "Niger"
+        },
+        "tur": {
+            "official": "Nijer Cumhuriyeti",
+            "common": "Nijer"
+        },
+        "urd": {
+            "official": "جمہوریہ نائجر",
+            "common": "نائجر"
+        },
+        "zho": {
+            "official": "尼日尔共和国",
+            "common": "尼日尔"
+        }
+    },
+    "gini": {
+        "2014": 34.3
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ne.png",
+        "svg": "https://flagcdn.com/ne.svg",
+        "alt": "The flag of Niger features three equal horizontal bands of orange, white and green, with an orange circle centered in the white band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ne.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ne.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            13.52,
+            2.12
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

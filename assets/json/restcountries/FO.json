@@ -1,0 +1,216 @@
+{
+    "tld": [
+        ".fo"
+    ],
+    "cca2": "FO",
+    "ccn3": "234",
+    "cca3": "FRO",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "98"
+        ]
+    },
+    "capital": [
+        "Tórshavn"
+    ],
+    "altSpellings": [
+        "FO",
+        "Føroyar",
+        "Færøerne"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "landlocked": false,
+    "area": 1393.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/52939"
+    },
+    "population": 54885,
+    "fifa": "FRO",
+    "car": {
+        "signs": [
+            "FO"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+00:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇫🇴",
+    "name": {
+        "common": "Faroe Islands",
+        "official": "Faroe Islands",
+        "nativeName": {
+            "dan": {
+                "official": "Færøerne",
+                "common": "Færøerne"
+            },
+            "fao": {
+                "official": "Føroyar",
+                "common": "Føroyar"
+            }
+        }
+    },
+    "currencies": {
+        "DKK": {
+            "symbol": "kr",
+            "name": "Danish krone"
+        },
+        "FOK": {
+            "symbol": "kr",
+            "name": "Faroese króna"
+        }
+    },
+    "languages": {
+        "dan": "Danish",
+        "fao": "Faroese"
+    },
+    "latlng": [
+        62.0,
+        -7.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Faroese",
+            "m": "Faroese"
+        },
+        "fra": {
+            "f": "Féroïenne",
+            "m": "Féroïen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر فارو",
+            "common": "جزر فارو"
+        },
+        "bre": {
+            "official": "Inizi Faero",
+            "common": "Inizi Faero"
+        },
+        "ces": {
+            "official": "Faerské ostrovy",
+            "common": "Faerské ostrovy"
+        },
+        "cym": {
+            "official": "Faroe Islands",
+            "common": "Faroe Islands"
+        },
+        "deu": {
+            "official": "Färöer",
+            "common": "Färöer-Inseln"
+        },
+        "est": {
+            "official": "Fääri saared",
+            "common": "Fääri saared"
+        },
+        "fin": {
+            "official": "Färsaaret",
+            "common": "Färsaaret"
+        },
+        "fra": {
+            "official": "Îles Féroé",
+            "common": "Îles Féroé"
+        },
+        "hrv": {
+            "official": "Farski Otoci",
+            "common": "Farski Otoci"
+        },
+        "hun": {
+            "official": "Feröer",
+            "common": "Feröer"
+        },
+        "ind": {
+            "official": "Kepulauan Faroe",
+            "common": "Kepulauan Faroe"
+        },
+        "ita": {
+            "official": "Isole Faroe",
+            "common": "Isole Far Oer"
+        },
+        "jpn": {
+            "official": "フェロー諸島",
+            "common": "フェロー諸島"
+        },
+        "kor": {
+            "official": "페로 제도",
+            "common": "페로 제도"
+        },
+        "nld": {
+            "official": "Faeröer",
+            "common": "Faeröer"
+        },
+        "per": {
+            "official": "جزایر فاروئه",
+            "common": "جزایر فاروئه"
+        },
+        "pol": {
+            "official": "Wyspy Owcze",
+            "common": "Wyspy Owcze"
+        },
+        "por": {
+            "official": "Ilhas Faroe",
+            "common": "Ilhas Faroé"
+        },
+        "rus": {
+            "official": "Фарерские острова",
+            "common": "Фарерские острова"
+        },
+        "slk": {
+            "official": "Faerské ostrovy",
+            "common": "Faerské ostrovy"
+        },
+        "spa": {
+            "official": "Islas Feroe",
+            "common": "Islas Faroe"
+        },
+        "srp": {
+            "official": "Фарска острва",
+            "common": "Фарска острва"
+        },
+        "swe": {
+            "official": "Färöarna",
+            "common": "Färöarna"
+        },
+        "tur": {
+            "official": "Faroe Adaları",
+            "common": "Faroe Adaları"
+        },
+        "urd": {
+            "official": "جزائر فارو",
+            "common": "جزائر فارو"
+        },
+        "zho": {
+            "official": "法罗群岛",
+            "common": "法罗群岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/fo.png",
+        "svg": "https://flagcdn.com/fo.svg",
+        "alt": "The flag of the Faroe Islands is white with a red cross outlined in blue extending to the edges of the flag. The vertical part of the cross is shifted toward the hoist side."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/fo.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/fo.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            62.01,
+            -6.77
+        ]
+    },
+    "postalCode": {
+        "format": "FO-###",
+        "regex": "^(?:FO)*(\\d{3})$"
+    }
+}

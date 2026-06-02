@@ -1,0 +1,215 @@
+{
+    "tld": [
+        ".ye"
+    ],
+    "cca2": "YE",
+    "ccn3": "887",
+    "cca3": "YEM",
+    "cioc": "YEM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "67"
+        ]
+    },
+    "capital": [
+        "Sana'a"
+    ],
+    "altSpellings": [
+        "YE",
+        "Yemeni Republic",
+        "al-Jumhūriyyah al-Yamaniyyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "landlocked": false,
+    "borders": [
+        "OMN",
+        "SAU"
+    ],
+    "area": 527968.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/WCmE76HKcLideQQw7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/305092"
+    },
+    "population": 32684503,
+    "fifa": "YEM",
+    "car": {
+        "signs": [
+            "YAR"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇾🇪",
+    "name": {
+        "common": "Yemen",
+        "official": "Republic of Yemen",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية اليمنية",
+                "common": "اليَمَن"
+            }
+        }
+    },
+    "currencies": {
+        "YER": {
+            "symbol": "﷼",
+            "name": "Yemeni rial"
+        }
+    },
+    "languages": {
+        "ara": "Arabic"
+    },
+    "latlng": [
+        15.0,
+        48.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Yemeni",
+            "m": "Yemeni"
+        },
+        "fra": {
+            "f": "Yéménite",
+            "m": "Yéménite"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية اليمنية",
+            "common": "اليمن"
+        },
+        "bre": {
+            "official": "Republik Yemen",
+            "common": "Yemen"
+        },
+        "ces": {
+            "official": "Jemenská republika",
+            "common": "Jemen"
+        },
+        "cym": {
+            "official": "Republic of Yemen",
+            "common": "Yemen"
+        },
+        "deu": {
+            "official": "Republik Jemen",
+            "common": "Jemen"
+        },
+        "est": {
+            "official": "Jeemeni Vabariik",
+            "common": "Jeemen"
+        },
+        "fin": {
+            "official": "Jemenin tasavalta",
+            "common": "Jemen"
+        },
+        "fra": {
+            "official": "République du Yémen",
+            "common": "Yémen"
+        },
+        "hrv": {
+            "official": "Republika Jemen",
+            "common": "Jemen"
+        },
+        "hun": {
+            "official": "Jemeni Köztársaság",
+            "common": "Jemen"
+        },
+        "ind": {
+            "official": "Republik Yaman",
+            "common": "Yaman"
+        },
+        "ita": {
+            "official": "Repubblica dello Yemen",
+            "common": "Yemen"
+        },
+        "jpn": {
+            "official": "イエメン共和国",
+            "common": "イエメン"
+        },
+        "kor": {
+            "official": "예멘 공화국",
+            "common": "예멘"
+        },
+        "nld": {
+            "official": "Republiek Jemen",
+            "common": "Jemen"
+        },
+        "per": {
+            "official": "جمهوری یمن",
+            "common": "یمن"
+        },
+        "pol": {
+            "official": "Republika Jemeńska",
+            "common": "Jemen"
+        },
+        "por": {
+            "official": "República do Iêmen",
+            "common": "Iémen"
+        },
+        "rus": {
+            "official": "Йеменская Республика",
+            "common": "Йемен"
+        },
+        "slk": {
+            "official": "Jemenská republika",
+            "common": "Jemen"
+        },
+        "spa": {
+            "official": "República de Yemen",
+            "common": "Yemen"
+        },
+        "srp": {
+            "official": "Република Јемен",
+            "common": "Јемен"
+        },
+        "swe": {
+            "official": "Republiken Jemen",
+            "common": "Jemen"
+        },
+        "tur": {
+            "official": "Yemen Cumhuriyeti",
+            "common": "Yemen"
+        },
+        "urd": {
+            "official": "جمہوریہ یمن",
+            "common": "یمن"
+        },
+        "zho": {
+            "official": "也门共和国",
+            "common": "也门"
+        }
+    },
+    "gini": {
+        "2014": 36.7
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ye.png",
+        "svg": "https://flagcdn.com/ye.svg",
+        "alt": "The flag of Yemen is composed of three equal horizontal bands of red, white and black."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ye.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ye.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            15.37,
+            44.19
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

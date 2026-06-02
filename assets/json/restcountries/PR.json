@@ -1,0 +1,211 @@
+{
+    "tld": [
+        ".pr"
+    ],
+    "cca2": "PR",
+    "ccn3": "630",
+    "cca3": "PRI",
+    "cioc": "PUR",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "787",
+            "939"
+        ]
+    },
+    "capital": [
+        "San Juan"
+    ],
+    "altSpellings": [
+        "PR",
+        "Commonwealth of Puerto Rico",
+        "Estado Libre Asociado de Puerto Rico"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 8870.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/sygfDbtwn389wu8x5",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/4422604"
+    },
+    "population": 3203295,
+    "fifa": "PUR",
+    "car": {
+        "signs": [
+            "USA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇵🇷",
+    "name": {
+        "common": "Puerto Rico",
+        "official": "Commonwealth of Puerto Rico",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            "spa": {
+                "official": "Estado Libre Asociado de Puerto Rico",
+                "common": "Puerto Rico"
+            }
+        }
+    },
+    "currencies": {
+        "USD": {
+            "symbol": "$",
+            "name": "United States dollar"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "spa": "Spanish"
+    },
+    "latlng": [
+        18.25,
+        -66.5
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Puerto Rican",
+            "m": "Puerto Rican"
+        },
+        "fra": {
+            "f": "Portoricaine",
+            "m": "Portoricain"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "كومنولث بويرتوريكو",
+            "common": "بويرتوريكو"
+        },
+        "bre": {
+            "official": "Kenglad Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "ces": {
+            "official": "Portoriko",
+            "common": "Portoriko"
+        },
+        "cym": {
+            "official": "Commonwealth of Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "deu": {
+            "official": "Freistaat Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "est": {
+            "official": "Puerto Rico Ühendus",
+            "common": "Puerto Rico"
+        },
+        "fin": {
+            "official": "Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "fra": {
+            "official": "Porto Rico",
+            "common": "Porto Rico"
+        },
+        "hrv": {
+            "official": "Zajednica Puerto Rico",
+            "common": "Portoriko"
+        },
+        "hun": {
+            "official": "Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "ind": {
+            "official": "Persemakmuran Puerto Riko",
+            "common": "Puerto Riko"
+        },
+        "ita": {
+            "official": "Commonwealth di Porto Rico",
+            "common": "Porto Rico"
+        },
+        "jpn": {
+            "official": "プエルトリコのコモンウェルス",
+            "common": "プエルトリコ"
+        },
+        "kor": {
+            "official": "푸에르토리코",
+            "common": "푸에르토리코"
+        },
+        "nld": {
+            "official": "Gemenebest van Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "per": {
+            "official": "قلمرو همسود پورتوریکو",
+            "common": "پورتوریکو"
+        },
+        "pol": {
+            "official": "Wolne Stowarzyszone Państwo Portoryko",
+            "common": "Portoryko"
+        },
+        "por": {
+            "official": "Commonwealth of Puerto Rico",
+            "common": "Porto Rico"
+        },
+        "rus": {
+            "official": "Содружество Пуэрто-Рико",
+            "common": "Пуэрто-Рико"
+        },
+        "slk": {
+            "official": "Portorické spoločenstvo",
+            "common": "Portoriko"
+        },
+        "spa": {
+            "official": "Asociado de Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "srp": {
+            "official": "Комонвелт Порторико",
+            "common": "Порторико"
+        },
+        "swe": {
+            "official": "Puerto Rico",
+            "common": "Puerto Rico"
+        },
+        "tur": {
+            "official": "Porto Riko Topluluğu",
+            "common": "Porto Riko"
+        },
+        "urd": {
+            "official": " دولتِ مشترکہ پورٹو ریکو",
+            "common": "پورٹو ریکو"
+        },
+        "zho": {
+            "official": "波多黎各联邦",
+            "common": "波多黎各"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/pr.png",
+        "svg": "https://flagcdn.com/pr.svg",
+        "alt": "The flag of Puerto Rico has five equal horizontal bands of red alternating with white. A blue isosceles triangle based on the hoist side has a large five-pointed white star in the center."
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            18.47,
+            -66.12
+        ]
+    },
+    "postalCode": {
+        "format": "#####-####",
+        "regex": "^(\\d{9})$"
+    }
+}

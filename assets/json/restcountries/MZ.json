@@ -1,0 +1,219 @@
+{
+    "tld": [
+        ".mz"
+    ],
+    "cca2": "MZ",
+    "ccn3": "508",
+    "cca3": "MOZ",
+    "cioc": "MOZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "58"
+        ]
+    },
+    "capital": [
+        "Maputo"
+    ],
+    "altSpellings": [
+        "MZ",
+        "Republic of Mozambique",
+        "República de Moçambique"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "landlocked": false,
+    "borders": [
+        "MWI",
+        "ZAF",
+        "SWZ",
+        "TZA",
+        "ZMB",
+        "ZWE"
+    ],
+    "area": 801590.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/xCLcY9fzU6x4Pueu5",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/195273"
+    },
+    "population": 34090466,
+    "fifa": "MOZ",
+    "car": {
+        "signs": [
+            "MOC"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+02:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇲🇿",
+    "name": {
+        "common": "Mozambique",
+        "official": "Republic of Mozambique",
+        "nativeName": {
+            "por": {
+                "official": "República de Moçambique",
+                "common": "Moçambique"
+            }
+        }
+    },
+    "currencies": {
+        "MZN": {
+            "symbol": "MT",
+            "name": "Mozambican metical"
+        }
+    },
+    "languages": {
+        "por": "Portuguese"
+    },
+    "latlng": [
+        -18.25,
+        35.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Mozambican",
+            "m": "Mozambican"
+        },
+        "fra": {
+            "f": "Mozambicaine",
+            "m": "Mozambicain"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية موزمبيق",
+            "common": "موزمبيق"
+        },
+        "bre": {
+            "official": "Republik Mozambik",
+            "common": "Mozambik"
+        },
+        "ces": {
+            "official": "Mosambická republika",
+            "common": "Mosambik"
+        },
+        "cym": {
+            "official": "Republic of Mozambique",
+            "common": "Mozambique"
+        },
+        "deu": {
+            "official": "Republik Mosambik",
+            "common": "Mosambik"
+        },
+        "est": {
+            "official": "Mosambiigi Vabariik",
+            "common": "Mosambiik"
+        },
+        "fin": {
+            "official": "Mosambikin tasavalta",
+            "common": "Mosambik"
+        },
+        "fra": {
+            "official": "République du Mozambique",
+            "common": "Mozambique"
+        },
+        "hrv": {
+            "official": "Republika Mozambiku",
+            "common": "Mozambik"
+        },
+        "hun": {
+            "official": "Mozambiki Köztársaság",
+            "common": "Mozambik"
+        },
+        "ind": {
+            "official": "Republik Mozambik",
+            "common": "Mozambik"
+        },
+        "ita": {
+            "official": "Repubblica del Mozambico",
+            "common": "Mozambico"
+        },
+        "jpn": {
+            "official": "モザンビーク共和国",
+            "common": "モザンビーク"
+        },
+        "kor": {
+            "official": "모잠비크 공화국",
+            "common": "모잠비크"
+        },
+        "nld": {
+            "official": "Republiek Mozambique",
+            "common": "Mozambique"
+        },
+        "per": {
+            "official": "جمهوری موزامبیک",
+            "common": "موزامبیک"
+        },
+        "pol": {
+            "official": "Republika Mozambiku",
+            "common": "Mozambik"
+        },
+        "por": {
+            "official": "República de Moçambique",
+            "common": "Moçambique"
+        },
+        "rus": {
+            "official": "Республика Мозамбик",
+            "common": "Мозамбик"
+        },
+        "slk": {
+            "official": "Mozambická republika",
+            "common": "Mozambik"
+        },
+        "spa": {
+            "official": "República de Mozambique",
+            "common": "Mozambique"
+        },
+        "srp": {
+            "official": "Република Мозамбик",
+            "common": "Мозамбик"
+        },
+        "swe": {
+            "official": "Republiken Moçambique",
+            "common": "Moçambique"
+        },
+        "tur": {
+            "official": "Mozambik Cumhuriyeti",
+            "common": "Mozambik"
+        },
+        "urd": {
+            "official": "جمہوریہ موزمبیق",
+            "common": "موزمبیق"
+        },
+        "zho": {
+            "official": "莫桑比克共和国",
+            "common": "莫桑比克"
+        }
+    },
+    "gini": {
+        "2014": 54.0
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/mz.png",
+        "svg": "https://flagcdn.com/mz.svg",
+        "alt": "The flag of Mozambique is composed of three equal horizontal bands of teal, black with white top and bottom edges, and yellow. A red isosceles triangle spanning about two-fifth the width of the field is superimposed on the hoist side with its base on the hoist end. This triangle bears a crossed rifle and hoe in black superimposed on an open white book which is superimposed on a five-pointed yellow star."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/mz.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/mz.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -25.95,
+            32.58
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

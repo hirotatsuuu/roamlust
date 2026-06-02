@@ -1,0 +1,209 @@
+{
+    "tld": [
+        ".tw",
+        ".台灣",
+        ".台湾"
+    ],
+    "cca2": "TW",
+    "ccn3": "158",
+    "cca3": "TWN",
+    "cioc": "TPE",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "86"
+        ]
+    },
+    "capital": [
+        "Taipei"
+    ],
+    "altSpellings": [
+        "TW",
+        "Táiwān",
+        "Republic of China",
+        "中華民國",
+        "Zhōnghuá Mínguó",
+        "Chinese Taipei"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "landlocked": false,
+    "area": 36197.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/449220"
+    },
+    "population": 23317031,
+    "fifa": "TPE",
+    "car": {
+        "signs": [
+            "RC"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+08:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇹🇼",
+    "name": {
+        "common": "Taiwan",
+        "official": "Republic of China (Taiwan)",
+        "nativeName": {
+            "zho": {
+                "official": "中華民國",
+                "common": "台灣"
+            }
+        }
+    },
+    "currencies": {
+        "TWD": {
+            "symbol": "$",
+            "name": "New Taiwan dollar"
+        }
+    },
+    "languages": {
+        "zho": "Chinese"
+    },
+    "latlng": [
+        23.5,
+        121.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Taiwanese",
+            "m": "Taiwanese"
+        },
+        "fra": {
+            "f": "Taïwanaise",
+            "m": "Taïwanais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية الصين (تايوان)",
+            "common": "تايوان"
+        },
+        "bre": {
+            "official": "Republik Sina (Taiwan)",
+            "common": "Taiwan"
+        },
+        "ces": {
+            "official": "Čínská republika",
+            "common": "Tchaj-wan"
+        },
+        "cym": {
+            "official": "Republic of China (Taiwan)",
+            "common": "Taiwan"
+        },
+        "deu": {
+            "official": "Republik China (Taiwan)",
+            "common": "Taiwan"
+        },
+        "est": {
+            "official": "Taiwani",
+            "common": "Taiwan"
+        },
+        "fin": {
+            "official": "Kiinan tasavalta",
+            "common": "Taiwan"
+        },
+        "fra": {
+            "official": "République de Chine (Taïwan)",
+            "common": "Taïwan"
+        },
+        "hrv": {
+            "official": "Republika Kina",
+            "common": "Tajvan"
+        },
+        "hun": {
+            "official": "Kínai Köztársaság",
+            "common": "Tajvan"
+        },
+        "ind": {
+            "official": "Republik Tiongkok",
+            "common": "Taiwan"
+        },
+        "ita": {
+            "official": "Repubblica cinese (Taiwan)",
+            "common": "Taiwan"
+        },
+        "jpn": {
+            "official": "中華民国",
+            "common": "台湾"
+        },
+        "kor": {
+            "official": "중화민국",
+            "common": "대만"
+        },
+        "nld": {
+            "official": "Republiek China (Taiwan)",
+            "common": "Taiwan"
+        },
+        "per": {
+            "official": "جمهوری چین",
+            "common": "تایوان"
+        },
+        "pol": {
+            "official": "Republika Chińska (Tajwan)",
+            "common": "Tajwan"
+        },
+        "por": {
+            "official": "República da China",
+            "common": "Ilha Formosa"
+        },
+        "rus": {
+            "official": "Китайская Республика",
+            "common": "Тайвань"
+        },
+        "slk": {
+            "official": "Čínska republika",
+            "common": "Taiwan"
+        },
+        "spa": {
+            "official": "República de China en Taiwán",
+            "common": "Taiwán"
+        },
+        "srp": {
+            "official": "Република Кина",
+            "common": "Тајван"
+        },
+        "swe": {
+            "official": "Republiken Kina",
+            "common": "Taiwan"
+        },
+        "tur": {
+            "official": "Çin Cumhuriyeti (Tayvan)",
+            "common": "Tayvan"
+        },
+        "urd": {
+            "official": "جمہوریہ چین (تائیوان)",
+            "common": "تائیوان"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/tw.png",
+        "svg": "https://flagcdn.com/tw.svg",
+        "alt": "The flag of Taiwan has a red field with a dark blue rectangle in the canton, bearing a white sun with 12 triangular rays."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/tw.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/tw.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            25.03,
+            121.52
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

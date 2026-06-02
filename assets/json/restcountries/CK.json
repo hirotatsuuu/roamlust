@@ -1,0 +1,216 @@
+{
+    "tld": [
+        ".ck"
+    ],
+    "cca2": "CK",
+    "ccn3": "184",
+    "cca3": "COK",
+    "cioc": "COK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "82"
+        ]
+    },
+    "capital": [
+        "Avarua"
+    ],
+    "altSpellings": [
+        "CK",
+        "Kūki 'Āirani"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "landlocked": false,
+    "area": 236.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2184233"
+    },
+    "population": 15040,
+    "fifa": "COK",
+    "car": {
+        "signs": [
+            "NZ"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-10:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇨🇰",
+    "name": {
+        "common": "Cook Islands",
+        "official": "Cook Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Cook Islands",
+                "common": "Cook Islands"
+            },
+            "rar": {
+                "official": "Kūki 'Āirani",
+                "common": "Kūki 'Āirani"
+            }
+        }
+    },
+    "currencies": {
+        "CKD": {
+            "symbol": "$",
+            "name": "Cook Islands dollar"
+        },
+        "NZD": {
+            "symbol": "$",
+            "name": "New Zealand dollar"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "rar": "Cook Islands Māori"
+    },
+    "latlng": [
+        -21.23333333,
+        -159.76666666
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Cook Islander",
+            "m": "Cook Islander"
+        },
+        "fra": {
+            "f": "Cookienne",
+            "m": "Cookien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر كوك",
+            "common": "جزر كوك"
+        },
+        "bre": {
+            "official": "Inizi Cook",
+            "common": "Inizi Cook"
+        },
+        "ces": {
+            "official": "Cookovy ostrovy",
+            "common": "Cookovy ostrovy"
+        },
+        "cym": {
+            "official": "Ynysoedd Cook",
+            "common": "Ynysoedd Cook"
+        },
+        "deu": {
+            "official": "Cookinseln",
+            "common": "Cookinseln"
+        },
+        "est": {
+            "official": "Cooki saared",
+            "common": "Cooki saared"
+        },
+        "fin": {
+            "official": "Cookinsaaret",
+            "common": "Cookinsaaret"
+        },
+        "fra": {
+            "official": "Îles Cook",
+            "common": "Îles Cook"
+        },
+        "hrv": {
+            "official": "Cook Islands",
+            "common": "Cookovo Otočje"
+        },
+        "hun": {
+            "official": "Cook-szigetek",
+            "common": "Cook-szigetek"
+        },
+        "ind": {
+            "official": "Kepulauan Cook",
+            "common": "Kepulauan Cook"
+        },
+        "ita": {
+            "official": "Isole Cook",
+            "common": "Isole Cook"
+        },
+        "jpn": {
+            "official": "クック諸島",
+            "common": "クック諸島"
+        },
+        "kor": {
+            "official": "쿡 제도",
+            "common": "쿡 제도"
+        },
+        "nld": {
+            "official": "Cook eilanden",
+            "common": "Cookeilanden"
+        },
+        "per": {
+            "official": "جزایر کوک",
+            "common": "جزایر کوک"
+        },
+        "pol": {
+            "official": "Wyspy Cooka",
+            "common": "Wyspy Cooka"
+        },
+        "por": {
+            "official": "Ilhas Cook",
+            "common": "Ilhas Cook"
+        },
+        "rus": {
+            "official": "острова Кука",
+            "common": "Острова Кука"
+        },
+        "slk": {
+            "official": "Cookove ostrovy",
+            "common": "Cookove ostrovy"
+        },
+        "spa": {
+            "official": "Islas Cook",
+            "common": "Islas Cook"
+        },
+        "srp": {
+            "official": "Кукова Острва",
+            "common": "Кукова Острва"
+        },
+        "swe": {
+            "official": "Cooköarna",
+            "common": "Cooköarna"
+        },
+        "tur": {
+            "official": "Cook Adaları",
+            "common": "Cook Adaları"
+        },
+        "urd": {
+            "official": "جزائر کک",
+            "common": "جزائر کک"
+        },
+        "zho": {
+            "official": "库克群岛",
+            "common": "库克群岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ck.png",
+        "svg": "https://flagcdn.com/ck.svg",
+        "alt": "The flag of the Cook Islands is blue with the UK flag in the canton and a large circle of 15 white five-pointed stars centered in the fly."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ck.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -21.2,
+            -159.77
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

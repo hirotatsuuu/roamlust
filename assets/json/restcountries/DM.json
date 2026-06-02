@@ -1,0 +1,209 @@
+{
+    "tld": [
+        ".dm"
+    ],
+    "cca2": "DM",
+    "ccn3": "212",
+    "cca3": "DMA",
+    "cioc": "DMA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "767"
+        ]
+    },
+    "capital": [
+        "Roseau"
+    ],
+    "altSpellings": [
+        "DM",
+        "Dominique",
+        "Wai‘tu kubuli",
+        "Commonwealth of Dominica"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 751.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/HSKdHYpFC8oHHuyV7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/307823"
+    },
+    "population": 67408,
+    "fifa": "DMA",
+    "car": {
+        "signs": [
+            "WD"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇩🇲",
+    "name": {
+        "common": "Dominica",
+        "official": "Commonwealth of Dominica",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of Dominica",
+                "common": "Dominica"
+            }
+        }
+    },
+    "currencies": {
+        "XCD": {
+            "symbol": "$",
+            "name": "Eastern Caribbean dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        15.41666666,
+        -61.33333333
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Dominican",
+            "m": "Dominican"
+        },
+        "fra": {
+            "f": "Dominiquaise",
+            "m": "Dominiquais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "كومونولث دومينيكا",
+            "common": "دومينيكا"
+        },
+        "bre": {
+            "official": "Kenglad Dominika",
+            "common": "Dominika"
+        },
+        "ces": {
+            "official": "Dominikánské společenství",
+            "common": "Dominika"
+        },
+        "cym": {
+            "official": "Cymanwlad Dominica",
+            "common": "Dominica"
+        },
+        "deu": {
+            "official": "Commonwealth von Dominica",
+            "common": "Dominica"
+        },
+        "est": {
+            "official": "Dominica Ühendus",
+            "common": "Dominica"
+        },
+        "fin": {
+            "official": "Dominican liittovaltio",
+            "common": "Dominica"
+        },
+        "fra": {
+            "official": "Commonwealth de la Dominique",
+            "common": "Dominique"
+        },
+        "hrv": {
+            "official": "Zajednica Dominika",
+            "common": "Dominika"
+        },
+        "hun": {
+            "official": "Dominikai Közösség",
+            "common": "Dominikai Közösség"
+        },
+        "ind": {
+            "official": "Persemakmuran Dominika",
+            "common": "Dominika"
+        },
+        "ita": {
+            "official": "Commonwealth di Dominica",
+            "common": "Dominica"
+        },
+        "jpn": {
+            "official": "ドミニカ国",
+            "common": "ドミニカ国"
+        },
+        "kor": {
+            "official": "도미니카 연방",
+            "common": "도미니카"
+        },
+        "nld": {
+            "official": "Gemenebest Dominica",
+            "common": "Dominica"
+        },
+        "per": {
+            "official": "قلمرو همسود دومینیکا",
+            "common": "دومینیکا"
+        },
+        "pol": {
+            "official": "Wspólnota Dominiki",
+            "common": "Dominika"
+        },
+        "por": {
+            "official": "Comunidade da Dominica",
+            "common": "Dominica"
+        },
+        "rus": {
+            "official": "Содружество Доминики",
+            "common": "Доминика"
+        },
+        "slk": {
+            "official": "Dominické spoločenstvo",
+            "common": "Dominika"
+        },
+        "spa": {
+            "official": "Mancomunidad de Dominica",
+            "common": "Dominica"
+        },
+        "srp": {
+            "official": "Комонвелт Доминика",
+            "common": "Доминика"
+        },
+        "swe": {
+            "official": "Samväldet Dominica",
+            "common": "Dominica"
+        },
+        "tur": {
+            "official": "Dominika Topluluğu",
+            "common": "Dominika"
+        },
+        "urd": {
+            "official": "دولتِ مشترکہ ڈومینیکا",
+            "common": "ڈومینیکا"
+        },
+        "zho": {
+            "official": "多米尼加共和国",
+            "common": "多米尼加"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/dm.png",
+        "svg": "https://flagcdn.com/dm.svg",
+        "alt": "The flag of Dominica has a green field with a large centered tricolor cross. The vertical and horizontal parts of the cross each comprise three bands of yellow, black and white. A red circle, bearing a hoist-side facing purple Sisserou parrot standing on a twig and encircled by ten five-pointed yellow-edged green stars, is superimposed at the center of the cross."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/dm.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/dm.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            15.3,
+            -61.4
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

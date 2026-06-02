@@ -1,0 +1,203 @@
+{
+    "tld": [
+        ".pn"
+    ],
+    "cca2": "PN",
+    "ccn3": "612",
+    "cca3": "PCN",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "4"
+        ]
+    },
+    "capital": [
+        "Adamstown"
+    ],
+    "altSpellings": [
+        "PN",
+        "Pitcairn",
+        "Pitcairn Henderson Ducie and Oeno Islands"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "landlocked": false,
+    "area": 47.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2185375"
+    },
+    "population": 35,
+    "car": {
+        "signs": [
+            "GB"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-08:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇵🇳",
+    "name": {
+        "common": "Pitcairn Islands",
+        "official": "Pitcairn Group of Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Pitcairn Group of Islands",
+                "common": "Pitcairn Islands"
+            }
+        }
+    },
+    "currencies": {
+        "NZD": {
+            "symbol": "$",
+            "name": "New Zealand dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        -25.06666666,
+        -130.1
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Pitcairn Islander",
+            "m": "Pitcairn Islander"
+        },
+        "fra": {
+            "f": "Pitcairnaise",
+            "m": "Pitcairnais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر بيتكيرن",
+            "common": "جزر بيتكيرن"
+        },
+        "bre": {
+            "official": "Inizi Pitcairn, Henderson, Ducie hag Oeno",
+            "common": "Inizi Pitcairn"
+        },
+        "ces": {
+            "official": "Pitcairnovy ostrovy",
+            "common": "Pitcairnovy ostrovy"
+        },
+        "cym": {
+            "official": "Pitcairn Group of Islands",
+            "common": "Pitcairn Islands"
+        },
+        "deu": {
+            "official": "Pitcairninseln",
+            "common": "Pitcairninseln"
+        },
+        "est": {
+            "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar",
+            "common": "Pitcairn"
+        },
+        "fin": {
+            "official": "Pitcairn",
+            "common": "Pitcairn"
+        },
+        "fra": {
+            "official": "Groupe d'îles Pitcairn",
+            "common": "Îles Pitcairn"
+        },
+        "hrv": {
+            "official": "Pitcairn skupine otoka",
+            "common": "Pitcairnovo otočje"
+        },
+        "hun": {
+            "official": "Pitcairn-szigetek",
+            "common": "Pitcairn-szigetek"
+        },
+        "ind": {
+            "official": "Kelompok Kepulauan Pitcairn",
+            "common": "Kepulauan Pitcairn"
+        },
+        "ita": {
+            "official": "Pitcairn gruppo di isole",
+            "common": "Isole Pitcairn"
+        },
+        "jpn": {
+            "official": "島のピトケアングループ",
+            "common": "ピトケアン"
+        },
+        "kor": {
+            "official": "핏케언 제도",
+            "common": "핏케언 제도"
+        },
+        "nld": {
+            "official": "Pitcairn groep eilanden",
+            "common": "Pitcairneilanden"
+        },
+        "per": {
+            "official": "جزایر پیت‌کرن",
+            "common": "جزایر پیت‌کرن"
+        },
+        "pol": {
+            "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno",
+            "common": "Pitcairn"
+        },
+        "por": {
+            "official": "Pitcairn grupo de ilhas",
+            "common": "Ilhas Pitcairn"
+        },
+        "rus": {
+            "official": "Питкэрн группа островов",
+            "common": "Острова Питкэрн"
+        },
+        "slk": {
+            "official": "Pitcairnove ostrovy",
+            "common": "Pitcairnove ostrovy"
+        },
+        "spa": {
+            "official": "Grupo de Islas Pitcairn",
+            "common": "Islas Pitcairn"
+        },
+        "srp": {
+            "official": "Острва Питкерн, Хендерсон, Дуци и Оин",
+            "common": "Острва Питкерн"
+        },
+        "swe": {
+            "official": "Pitcairnöarna",
+            "common": "Pitcairnöarna"
+        },
+        "tur": {
+            "official": "Pitcairn, Henderson, Ducie ve Oeno Adaları",
+            "common": "Pitcairn Adaları"
+        },
+        "urd": {
+            "official": "پٹکیرن جزائر",
+            "common": "جزائر پٹکیرن"
+        },
+        "zho": {
+            "official": "皮特凯恩群岛",
+            "common": "皮特凯恩群岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/pn.png",
+        "svg": "https://flagcdn.com/pn.svg",
+        "alt": "The flag of the Pitcairn Islands is blue with the UK flag in the canton and the national coat of arms centered on the fly half. The coat of arms has a light-blue shield with a green field which features a yellow anchor with a Bible over it. A wheelbarrow is on the crest, with a flowering twig of miro, a local plant."
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -25.07,
+            -130.08
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

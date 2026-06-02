@@ -1,0 +1,204 @@
+{
+    "tld": [
+        ".mq"
+    ],
+    "cca2": "MQ",
+    "ccn3": "474",
+    "cca3": "MTQ",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "96"
+        ]
+    },
+    "capital": [
+        "Fort-de-France"
+    ],
+    "altSpellings": [
+        "MQ"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 1128.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/87ER7sDAFU7JjcvR6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2473088"
+    },
+    "population": 349925,
+    "car": {
+        "signs": [
+            "F"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇲🇶",
+    "name": {
+        "common": "Martinique",
+        "official": "Martinique",
+        "nativeName": {
+            "fra": {
+                "official": "Martinique",
+                "common": "Martinique"
+            }
+        }
+    },
+    "currencies": {
+        "EUR": {
+            "symbol": "€",
+            "name": "euro"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        14.666667,
+        -61.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Martinican",
+            "m": "Martinican"
+        },
+        "fra": {
+            "f": "Martiniquaise",
+            "m": "Martiniquais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "مارتينيك",
+            "common": "مارتينيك"
+        },
+        "bre": {
+            "official": "Martinik",
+            "common": "Martinik"
+        },
+        "ces": {
+            "official": "Martinik",
+            "common": "Martinik"
+        },
+        "cym": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "deu": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "est": {
+            "official": "Martinique’i departemang",
+            "common": "Martinique"
+        },
+        "fin": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "fra": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "hrv": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "hun": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "ind": {
+            "official": "Martinik",
+            "common": "Martinik"
+        },
+        "ita": {
+            "official": "Martinique",
+            "common": "Martinica"
+        },
+        "jpn": {
+            "official": "マルティニーク島",
+            "common": "マルティニーク"
+        },
+        "kor": {
+            "official": "마르티니크",
+            "common": "마르티니크"
+        },
+        "nld": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "per": {
+            "official": "مارتینیک",
+            "common": "مارتینیک"
+        },
+        "pol": {
+            "official": "Martynika",
+            "common": "Martynika"
+        },
+        "por": {
+            "official": "Martinique",
+            "common": "Martinica"
+        },
+        "rus": {
+            "official": "Мартиника",
+            "common": "Мартиника"
+        },
+        "slk": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "spa": {
+            "official": "Martinica",
+            "common": "Martinica"
+        },
+        "srp": {
+            "official": "Мартиник",
+            "common": "Мартиник"
+        },
+        "swe": {
+            "official": "Martinique",
+            "common": "Martinique"
+        },
+        "tur": {
+            "official": "Martinik",
+            "common": "Martinik"
+        },
+        "urd": {
+            "official": "مارٹینیک",
+            "common": "مارٹینیک"
+        },
+        "zho": {
+            "official": "马提尼克",
+            "common": "马提尼克"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/mq.png",
+        "svg": "https://flagcdn.com/mq.svg",
+        "alt": "The flag of Martinique consists of a red triangle at the hoist, with two horizontal bands, the upper green and the lower black."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/mq.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/mq.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            14.6,
+            -61.08
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

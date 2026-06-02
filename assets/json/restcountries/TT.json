@@ -1,0 +1,210 @@
+{
+    "tld": [
+        ".tt"
+    ],
+    "cca2": "TT",
+    "ccn3": "780",
+    "cca3": "TTO",
+    "cioc": "TTO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "868"
+        ]
+    },
+    "capital": [
+        "Port of Spain"
+    ],
+    "altSpellings": [
+        "TT",
+        "Republic of Trinidad and Tobago"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 5130.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/NrRfDEWoG8FGZqWY7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/555717"
+    },
+    "population": 1367764,
+    "fifa": "TRI",
+    "car": {
+        "signs": [
+            "TT"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇹🇹",
+    "name": {
+        "common": "Trinidad and Tobago",
+        "official": "Republic of Trinidad and Tobago",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Trinidad and Tobago",
+                "common": "Trinidad and Tobago"
+            }
+        }
+    },
+    "currencies": {
+        "TTD": {
+            "symbol": "$",
+            "name": "Trinidad and Tobago dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        10.6918,
+        -61.2225
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Trinidadian",
+            "m": "Trinidadian"
+        },
+        "fra": {
+            "f": "Trinidadienne",
+            "m": "Trinidadien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية ترينيداد وتوباغو",
+            "common": "ترينيداد وتوباغو"
+        },
+        "bre": {
+            "official": "Republik Trinidad ha Tobago",
+            "common": "Trinidad ha Tobago"
+        },
+        "ces": {
+            "official": "Republika Trinidad a Tobago",
+            "common": "Trinidad a Tobago"
+        },
+        "cym": {
+            "official": "Republic of Trinidad and Tobago",
+            "common": "Trinidad and Tobago"
+        },
+        "deu": {
+            "official": "Republik Trinidad und Tobago",
+            "common": "Trinidad und Tobago"
+        },
+        "est": {
+            "official": "Trinidadi ja Tobago Vabariik",
+            "common": "Trinidad ja Tobago"
+        },
+        "fin": {
+            "official": "Trinidadin ja Tobagon tasavalta",
+            "common": "Trinidad ja Tobago"
+        },
+        "fra": {
+            "official": "République de Trinité-et-Tobago",
+            "common": "Trinité-et-Tobago"
+        },
+        "hrv": {
+            "official": "Republika Trinidad i Tobago",
+            "common": "Trinidad i Tobago"
+        },
+        "hun": {
+            "official": "Trinidad és Tobago Köztársaság",
+            "common": "Trinidad és Tobago"
+        },
+        "ind": {
+            "official": "Republik Trinidad dan Tobago",
+            "common": "Trinidad dan Tobago"
+        },
+        "ita": {
+            "official": "Repubblica di Trinidad e Tobago",
+            "common": "Trinidad e Tobago"
+        },
+        "jpn": {
+            "official": "トリニダード·トバゴ共和国",
+            "common": "トリニダード・トバゴ"
+        },
+        "kor": {
+            "official": "트리니다드 토바고 공화국",
+            "common": "트리니다드 토바고"
+        },
+        "nld": {
+            "official": "Republiek Trinidad en Tobago",
+            "common": "Trinidad en Tobago"
+        },
+        "per": {
+            "official": "جمهوری ترینیداد و توباگو",
+            "common": "ترینیداد و توباگو"
+        },
+        "pol": {
+            "official": "Trynidad i Tobago",
+            "common": "Trynidad i Tobago"
+        },
+        "por": {
+            "official": "República de Trinidad e Tobago",
+            "common": "Trinidade e Tobago"
+        },
+        "rus": {
+            "official": "Республика Тринидад и Тобаго",
+            "common": "Тринидад и Тобаго"
+        },
+        "slk": {
+            "official": "Republika Trinidad a Tobaga",
+            "common": "Trinidad a Tobago"
+        },
+        "spa": {
+            "official": "República de Trinidad y Tobago",
+            "common": "Trinidad y Tobago"
+        },
+        "srp": {
+            "official": "Република Тринидад и Тобаго",
+            "common": "Тринидад и Тобаго"
+        },
+        "swe": {
+            "official": "Republiken Trinidad och Tobago",
+            "common": "Trinidad och Tobago"
+        },
+        "tur": {
+            "official": "Trinidad ve Tobago",
+            "common": "Trinidad ve Tobago"
+        },
+        "urd": {
+            "official": "جمہوریہ ٹرینیڈاڈ و ٹوباگو",
+            "common": "ٹرینیڈاڈ و ٹوباگو"
+        },
+        "zho": {
+            "official": "特立尼达和多巴哥共和国",
+            "common": "特立尼达和多巴哥"
+        }
+    },
+    "gini": {
+        "1992": 40.3
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/tt.png",
+        "svg": "https://flagcdn.com/tt.svg",
+        "alt": "The flag of Trinidad and Tobago has a red field with a white-edged black diagonal band that extends from the upper hoist-side corner to the lower fly-side corner of the field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/tt.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/tt.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            10.65,
+            -61.52
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

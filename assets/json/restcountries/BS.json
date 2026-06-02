@@ -1,0 +1,211 @@
+{
+    "tld": [
+        ".bs"
+    ],
+    "cca2": "BS",
+    "ccn3": "044",
+    "cca3": "BHS",
+    "cioc": "BAH",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "242"
+        ]
+    },
+    "capital": [
+        "Nassau"
+    ],
+    "altSpellings": [
+        "BS",
+        "Commonwealth of the Bahamas"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 13943.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/1YzRs1BZrG8p8pmVA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/547469"
+    },
+    "population": 398165,
+    "fifa": "BAH",
+    "car": {
+        "signs": [
+            "BS"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-05:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇧🇸",
+    "name": {
+        "common": "Bahamas",
+        "official": "Commonwealth of the Bahamas",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of the Bahamas",
+                "common": "Bahamas"
+            }
+        }
+    },
+    "currencies": {
+        "BSD": {
+            "symbol": "$",
+            "name": "Bahamian dollar"
+        },
+        "USD": {
+            "symbol": "$",
+            "name": "United States dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        25.0343,
+        -77.3963
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Bahamian",
+            "m": "Bahamian"
+        },
+        "fra": {
+            "f": "Bahamienne",
+            "m": "Bahamien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "كومنولث جزر البهاما",
+            "common": "باهاماس"
+        },
+        "bre": {
+            "official": "Kenglad ar Bahamas",
+            "common": "Bahamas"
+        },
+        "ces": {
+            "official": "Bahamské společenství",
+            "common": "Bahamy"
+        },
+        "cym": {
+            "official": "Cymanwlad y Bahamas",
+            "common": "Bahamas"
+        },
+        "deu": {
+            "official": "Commonwealth der Bahamas",
+            "common": "Bahamas"
+        },
+        "est": {
+            "official": "Bahama Ühendus",
+            "common": "Bahama"
+        },
+        "fin": {
+            "official": "Bahaman liittovaltio",
+            "common": "Bahamasaaret"
+        },
+        "fra": {
+            "official": "Commonwealth des Bahamas",
+            "common": "Bahamas"
+        },
+        "hrv": {
+            "official": "Zajednica Bahama",
+            "common": "Bahami"
+        },
+        "hun": {
+            "official": "Bahamai Közösség",
+            "common": "Bahama-szigetek"
+        },
+        "ind": {
+            "official": "Persemakmuran Bahama",
+            "common": "Bahama"
+        },
+        "ita": {
+            "official": "Commonwealth delle Bahamas",
+            "common": "Bahamas"
+        },
+        "jpn": {
+            "official": "バハマ",
+            "common": "バハマ"
+        },
+        "kor": {
+            "official": "바하마 연방",
+            "common": "바하마"
+        },
+        "nld": {
+            "official": "Gemenebest van de Bahama's",
+            "common": "Bahama’s"
+        },
+        "per": {
+            "official": "قلمرو همسود باهاما",
+            "common": "باهاما"
+        },
+        "pol": {
+            "official": "Bahamy",
+            "common": "Bahamy"
+        },
+        "por": {
+            "official": "Comunidade das Bahamas",
+            "common": "Bahamas"
+        },
+        "rus": {
+            "official": "Содружество Багамских Островов",
+            "common": "Багамские Острова"
+        },
+        "slk": {
+            "official": "Bahamské spoločenstvo",
+            "common": "Bahamy"
+        },
+        "spa": {
+            "official": "Commonwealth de las Bahamas",
+            "common": "Bahamas"
+        },
+        "srp": {
+            "official": "Комонвелт Бахама",
+            "common": "Бахами"
+        },
+        "swe": {
+            "official": "Samväldet Bahamas",
+            "common": "Bahamas"
+        },
+        "tur": {
+            "official": "Bahama Milletler Topluluğu",
+            "common": "Bahamalar"
+        },
+        "urd": {
+            "official": "دولتِ مشترکہ بہاماس",
+            "common": "بہاماس"
+        },
+        "zho": {
+            "official": "巴哈马联邦",
+            "common": "巴哈马"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/bs.png",
+        "svg": "https://flagcdn.com/bs.svg",
+        "alt": "The flag of the Bahamas is composed of three equal horizontal bands of aquamarine, yellow and aquamarine, with a black equilateral triangle superimposed on the hoist side of the field. This triangle has its base on the hoist end and spans about one-third the width of the field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bs.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bs.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            25.08,
+            -77.35
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

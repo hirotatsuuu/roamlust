@@ -1,0 +1,219 @@
+{
+    "tld": [
+        ".gn"
+    ],
+    "cca2": "GN",
+    "ccn3": "324",
+    "cca3": "GIN",
+    "cioc": "GUI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "24"
+        ]
+    },
+    "capital": [
+        "Conakry"
+    ],
+    "altSpellings": [
+        "GN",
+        "Republic of Guinea",
+        "République de Guinée"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "landlocked": false,
+    "borders": [
+        "CIV",
+        "GNB",
+        "LBR",
+        "MLI",
+        "SEN",
+        "SLE"
+    ],
+    "area": 245857.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192778"
+    },
+    "population": 14363931,
+    "fifa": "GUI",
+    "car": {
+        "signs": [
+            "RG"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇬🇳",
+    "name": {
+        "common": "Guinea",
+        "official": "Republic of Guinea",
+        "nativeName": {
+            "fra": {
+                "official": "République de Guinée",
+                "common": "Guinée"
+            }
+        }
+    },
+    "currencies": {
+        "GNF": {
+            "symbol": "Fr",
+            "name": "Guinean franc"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        11.0,
+        -10.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Guinean",
+            "m": "Guinean"
+        },
+        "fra": {
+            "f": "Guinéenne",
+            "m": "Guinéen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية غينيا",
+            "common": "غينيا"
+        },
+        "bre": {
+            "official": "Republik Ginea",
+            "common": "Ginea"
+        },
+        "ces": {
+            "official": "Guinejská republika",
+            "common": "Guinea"
+        },
+        "cym": {
+            "official": "Republic of Guinea",
+            "common": "Guinea"
+        },
+        "deu": {
+            "official": "Republik Guinea",
+            "common": "Guinea"
+        },
+        "est": {
+            "official": "Guinea Vabariik",
+            "common": "Guinea"
+        },
+        "fin": {
+            "official": "Guinean tasavalta",
+            "common": "Guinea"
+        },
+        "fra": {
+            "official": "République de Guinée",
+            "common": "Guinée"
+        },
+        "hrv": {
+            "official": "Republika Gvineja",
+            "common": "Gvineja"
+        },
+        "hun": {
+            "official": "Guineai Köztársaság",
+            "common": "Guinea"
+        },
+        "ind": {
+            "official": "Republik Ginea",
+            "common": "Ginea"
+        },
+        "ita": {
+            "official": "Repubblica di Guinea",
+            "common": "Guinea"
+        },
+        "jpn": {
+            "official": "ギニア共和国",
+            "common": "ギニア"
+        },
+        "kor": {
+            "official": "기니 공화국",
+            "common": "기니"
+        },
+        "nld": {
+            "official": "Republiek Guinee",
+            "common": "Guinee"
+        },
+        "per": {
+            "official": "مملکت مستقل پاپوآ گینه نو",
+            "common": "پاپوآ گینه نو"
+        },
+        "pol": {
+            "official": "Republika Gwinei",
+            "common": "Gwinea"
+        },
+        "por": {
+            "official": "República da Guiné",
+            "common": "Guiné"
+        },
+        "rus": {
+            "official": "Республика Гвинея",
+            "common": "Гвинея"
+        },
+        "slk": {
+            "official": "Guinejská republika",
+            "common": "Guinea"
+        },
+        "spa": {
+            "official": "República de Guinea",
+            "common": "Guinea"
+        },
+        "srp": {
+            "official": "Кооперативна Република Гвајана",
+            "common": "Гвајана"
+        },
+        "swe": {
+            "official": "Republiken Guinea",
+            "common": "Guinea"
+        },
+        "tur": {
+            "official": "Gine Cumhuriyeti",
+            "common": "Gine"
+        },
+        "urd": {
+            "official": "جمہوریہ گنی",
+            "common": "گنی"
+        },
+        "zho": {
+            "official": "几内亚共和国",
+            "common": "几内亚"
+        }
+    },
+    "gini": {
+        "2012": 33.7
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/gn.png",
+        "svg": "https://flagcdn.com/gn.svg",
+        "alt": "The flag of Guinea is composed of three equal vertical bands of red, yellow and green."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gn.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gn.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            9.5,
+            -13.7
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

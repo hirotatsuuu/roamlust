@@ -1,0 +1,218 @@
+{
+    "tld": [
+        ".al"
+    ],
+    "cca2": "AL",
+    "ccn3": "008",
+    "cca3": "ALB",
+    "cioc": "ALB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "55"
+        ]
+    },
+    "capital": [
+        "Tirana"
+    ],
+    "altSpellings": [
+        "AL",
+        "Shqipëri",
+        "Shqipëria",
+        "Shqipnia"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "landlocked": false,
+    "borders": [
+        "MNE",
+        "GRC",
+        "MKD",
+        "UNK"
+    ],
+    "area": 28748.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/53292"
+    },
+    "population": 2363314,
+    "fifa": "ALB",
+    "car": {
+        "signs": [
+            "AL"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇦🇱",
+    "name": {
+        "common": "Albania",
+        "official": "Republic of Albania",
+        "nativeName": {
+            "sqi": {
+                "official": "Republika e Shqipërisë",
+                "common": "Shqipëria"
+            }
+        }
+    },
+    "currencies": {
+        "ALL": {
+            "symbol": "L",
+            "name": "Albanian lek"
+        }
+    },
+    "languages": {
+        "sqi": "Albanian"
+    },
+    "latlng": [
+        41.0,
+        20.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Albanian",
+            "m": "Albanian"
+        },
+        "fra": {
+            "f": "Albanaise",
+            "m": "Albanais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية ألبانيا",
+            "common": "ألبانيا"
+        },
+        "bre": {
+            "official": "Republik Albania",
+            "common": "Albania"
+        },
+        "ces": {
+            "official": "Albánská republika",
+            "common": "Albánie"
+        },
+        "cym": {
+            "official": "Gweriniaeth Albania",
+            "common": "Albania"
+        },
+        "deu": {
+            "official": "Republik Albanien",
+            "common": "Albanien"
+        },
+        "est": {
+            "official": "Albaania Vabariik",
+            "common": "Albaania"
+        },
+        "fin": {
+            "official": "Albanian tasavalta",
+            "common": "Albania"
+        },
+        "fra": {
+            "official": "République d'Albanie",
+            "common": "Albanie"
+        },
+        "hrv": {
+            "official": "Republika Albanija",
+            "common": "Albanija"
+        },
+        "hun": {
+            "official": "Albán Köztársaság",
+            "common": "Albánia"
+        },
+        "ind": {
+            "official": "Republik Albania",
+            "common": "Albania"
+        },
+        "ita": {
+            "official": "Repubblica d'Albania",
+            "common": "Albania"
+        },
+        "jpn": {
+            "official": "アルバニア共和国",
+            "common": "アルバニア"
+        },
+        "kor": {
+            "official": "알바니아 공화국",
+            "common": "알바니아"
+        },
+        "nld": {
+            "official": "Republiek Albanië",
+            "common": "Albanië"
+        },
+        "per": {
+            "official": "جمهوری آلبانی",
+            "common": "آلبانی"
+        },
+        "pol": {
+            "official": "Republika Albanii",
+            "common": "Albania"
+        },
+        "por": {
+            "official": "República da Albânia",
+            "common": "Albânia"
+        },
+        "rus": {
+            "official": "Республика Албания",
+            "common": "Албания"
+        },
+        "slk": {
+            "official": "Albánska republika",
+            "common": "Albánsko"
+        },
+        "spa": {
+            "official": "República de Albania",
+            "common": "Albania"
+        },
+        "srp": {
+            "official": "Република Албанија",
+            "common": "Албанија"
+        },
+        "swe": {
+            "official": "Republiken Albanien",
+            "common": "Albanien"
+        },
+        "tur": {
+            "official": "Arnavutluk Cumhuriyeti",
+            "common": "Arnavutluk"
+        },
+        "urd": {
+            "official": "جمہوریہ البانیا",
+            "common": "البانیا"
+        },
+        "zho": {
+            "official": "阿尔巴尼亚共和国",
+            "common": "阿尔巴尼亚"
+        }
+    },
+    "gini": {
+        "2017": 33.2
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/al.png",
+        "svg": "https://flagcdn.com/al.svg",
+        "alt": "The flag of Albania features a silhouetted double-headed black eagle at the center of a red field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/al.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/al.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            41.32,
+            19.82
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

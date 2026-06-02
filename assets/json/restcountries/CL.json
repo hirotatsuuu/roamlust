@@ -1,0 +1,217 @@
+{
+    "tld": [
+        ".cl"
+    ],
+    "cca2": "CL",
+    "ccn3": "152",
+    "cca3": "CHL",
+    "cioc": "CHI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "6"
+        ]
+    },
+    "capital": [
+        "Santiago"
+    ],
+    "altSpellings": [
+        "CL",
+        "Republic of Chile",
+        "República de Chile"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "landlocked": false,
+    "borders": [
+        "ARG",
+        "BOL",
+        "PER"
+    ],
+    "area": 756102.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/167454"
+    },
+    "population": 20206953,
+    "fifa": "CHI",
+    "car": {
+        "signs": [
+            "RCH"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-06:00",
+        "UTC-04:00"
+    ],
+    "continents": [
+        "South America"
+    ],
+    "flag": "🇨🇱",
+    "name": {
+        "common": "Chile",
+        "official": "Republic of Chile",
+        "nativeName": {
+            "spa": {
+                "official": "República de Chile",
+                "common": "Chile"
+            }
+        }
+    },
+    "currencies": {
+        "CLP": {
+            "symbol": "$",
+            "name": "Chilean peso"
+        }
+    },
+    "languages": {
+        "spa": "Spanish"
+    },
+    "latlng": [
+        -30.0,
+        -71.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Chilean",
+            "m": "Chilean"
+        },
+        "fra": {
+            "f": "Chilienne",
+            "m": "Chilien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية تشيلي",
+            "common": "تشيلي"
+        },
+        "bre": {
+            "official": "Republik Chile",
+            "common": "Chile"
+        },
+        "ces": {
+            "official": "Chilská republika",
+            "common": "Chile"
+        },
+        "cym": {
+            "official": "Gweriniaeth Chile",
+            "common": "Chile"
+        },
+        "deu": {
+            "official": "Republik Chile",
+            "common": "Chile"
+        },
+        "est": {
+            "official": "Tšiili Vabariik",
+            "common": "Tšiili"
+        },
+        "fin": {
+            "official": "Chilen tasavalta",
+            "common": "Chile"
+        },
+        "fra": {
+            "official": "République du Chili",
+            "common": "Chili"
+        },
+        "hrv": {
+            "official": "Republika Čile",
+            "common": "Čile"
+        },
+        "hun": {
+            "official": "Chilei Köztársaság",
+            "common": "Chile"
+        },
+        "ind": {
+            "official": "Republik Cili",
+            "common": "Cili"
+        },
+        "ita": {
+            "official": "Repubblica del Cile",
+            "common": "Cile"
+        },
+        "jpn": {
+            "official": "チリ共和国",
+            "common": "チリ"
+        },
+        "kor": {
+            "official": "칠레 공화국",
+            "common": "칠레"
+        },
+        "nld": {
+            "official": "Republiek Chili",
+            "common": "Chili"
+        },
+        "per": {
+            "official": "جمهوری شیلی",
+            "common": "شیلی"
+        },
+        "pol": {
+            "official": "Republika Chile",
+            "common": "Chile"
+        },
+        "por": {
+            "official": "República do Chile",
+            "common": "Chile"
+        },
+        "rus": {
+            "official": "Республика Чили",
+            "common": "Чили"
+        },
+        "slk": {
+            "official": "Čílska republika",
+            "common": "Čile"
+        },
+        "spa": {
+            "official": "República de Chile",
+            "common": "Chile"
+        },
+        "srp": {
+            "official": "Република Чиле",
+            "common": "Чиле"
+        },
+        "swe": {
+            "official": "Republiken Chile",
+            "common": "Chile"
+        },
+        "tur": {
+            "official": "Şili Cumhuriyeti",
+            "common": "Şili"
+        },
+        "urd": {
+            "official": "جمہوریہ چلی",
+            "common": "چلی"
+        },
+        "zho": {
+            "official": "智利共和国",
+            "common": "智利"
+        }
+    },
+    "gini": {
+        "2017": 44.4
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/cl.png",
+        "svg": "https://flagcdn.com/cl.svg",
+        "alt": "The flag of Chile is composed of two equal horizontal bands of white and red, with a blue square of the same height as the white band superimposed in the canton. A white five-pointed star is centered in the blue square."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cl.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cl.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -33.45,
+            -70.67
+        ]
+    },
+    "postalCode": {
+        "format": "#######",
+        "regex": "^(\\d{7})$"
+    }
+}

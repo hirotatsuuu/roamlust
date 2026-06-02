@@ -1,0 +1,218 @@
+{
+    "tld": [
+        ".bt"
+    ],
+    "cca2": "BT",
+    "ccn3": "064",
+    "cca3": "BTN",
+    "cioc": "BHU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "75"
+        ]
+    },
+    "capital": [
+        "Thimphu"
+    ],
+    "altSpellings": [
+        "BT",
+        "Kingdom of Bhutan"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "landlocked": true,
+    "borders": [
+        "CHN",
+        "IND"
+    ],
+    "area": 38394.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/VEfXXBftTFLUpNgp8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/184629"
+    },
+    "population": 784043,
+    "fifa": "BHU",
+    "car": {
+        "signs": [
+            "BHT"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+06:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇧🇹",
+    "name": {
+        "common": "Bhutan",
+        "official": "Kingdom of Bhutan",
+        "nativeName": {
+            "dzo": {
+                "official": "འབྲུག་རྒྱལ་ཁབ་",
+                "common": "འབྲུག་ཡུལ་"
+            }
+        }
+    },
+    "currencies": {
+        "BTN": {
+            "symbol": "Nu.",
+            "name": "Bhutanese ngultrum"
+        },
+        "INR": {
+            "symbol": "₹",
+            "name": "Indian rupee"
+        }
+    },
+    "languages": {
+        "dzo": "Dzongkha"
+    },
+    "latlng": [
+        27.5,
+        90.5
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Bhutanese",
+            "m": "Bhutanese"
+        },
+        "fra": {
+            "f": "Bhoutanaise",
+            "m": "Bhoutanais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "مملكة بوتان",
+            "common": "بوتان"
+        },
+        "bre": {
+            "official": "Rouantelezh Bhoutan",
+            "common": "Bhoutan"
+        },
+        "ces": {
+            "official": "Bhútánské království",
+            "common": "Bhútán"
+        },
+        "cym": {
+            "official": "Teyrnas Bhwtan",
+            "common": "Bhwtan"
+        },
+        "deu": {
+            "official": "Königreich Bhutan",
+            "common": "Bhutan"
+        },
+        "est": {
+            "official": "Bhutani Kuningriik",
+            "common": "Bhutan"
+        },
+        "fin": {
+            "official": "Bhutanin kuningaskunta",
+            "common": "Bhutan"
+        },
+        "fra": {
+            "official": "Royaume du Bhoutan",
+            "common": "Bhoutan"
+        },
+        "hrv": {
+            "official": "Kraljevina Butan",
+            "common": "Butan"
+        },
+        "hun": {
+            "official": "Bhutáni Királyság",
+            "common": "Bhután"
+        },
+        "ind": {
+            "official": "Kerajaan Butan",
+            "common": "Butan"
+        },
+        "ita": {
+            "official": "Regno del Bhutan",
+            "common": "Bhutan"
+        },
+        "jpn": {
+            "official": "ブータン王国",
+            "common": "ブータン"
+        },
+        "kor": {
+            "official": "부탄 왕국",
+            "common": "부탄"
+        },
+        "nld": {
+            "official": "Koninkrijk Bhutan",
+            "common": "Bhutan"
+        },
+        "per": {
+            "official": "پادشاهی بوتان",
+            "common": "بوتان"
+        },
+        "pol": {
+            "official": "Bhutan",
+            "common": "Bhutan"
+        },
+        "por": {
+            "official": "Reino do Butão",
+            "common": "Butão"
+        },
+        "rus": {
+            "official": "Королевство Бутан",
+            "common": "Бутан"
+        },
+        "slk": {
+            "official": "Bhutánske krâľovstvo",
+            "common": "Bhután"
+        },
+        "spa": {
+            "official": "Reino de Bután",
+            "common": "Bután"
+        },
+        "srp": {
+            "official": "Краљевина Бутан",
+            "common": "Бутан"
+        },
+        "swe": {
+            "official": "Konungariket Bhutan",
+            "common": "Bhutan"
+        },
+        "tur": {
+            "official": "Butan Krallığı",
+            "common": "Butan"
+        },
+        "urd": {
+            "official": "سلطنت بھوٹان",
+            "common": "بھوٹان"
+        },
+        "zho": {
+            "official": "不丹王国",
+            "common": "不丹"
+        }
+    },
+    "gini": {
+        "2017": 37.4
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/bt.png",
+        "svg": "https://flagcdn.com/bt.svg",
+        "alt": "The flag of Bhutan is divided diagonally, from the lower hoist-side corner to the upper fly-side corner, into an upper yellow and a lower orange triangle. A fly-side facing white dragon holding four jewels in its claws is situated along the boundary of the two triangles."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bt.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bt.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            27.47,
+            89.63
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

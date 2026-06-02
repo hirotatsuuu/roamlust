@@ -1,0 +1,208 @@
+{
+    "tld": [
+        ".gl"
+    ],
+    "cca2": "GL",
+    "ccn3": "304",
+    "cca3": "GRL",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "99"
+        ]
+    },
+    "capital": [
+        "Nuuk"
+    ],
+    "altSpellings": [
+        "GL",
+        "Grønland"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "landlocked": false,
+    "area": 2166086.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/j3289UPEQXt1ceSy8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2184073"
+    },
+    "population": 56542,
+    "car": {
+        "signs": [
+            "DK"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-01:00",
+        "UTC+00:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇬🇱",
+    "name": {
+        "common": "Greenland",
+        "official": "Greenland",
+        "nativeName": {
+            "kal": {
+                "official": "Kalaallit Nunaat",
+                "common": "Kalaallit Nunaat"
+            }
+        }
+    },
+    "currencies": {
+        "DKK": {
+            "symbol": "kr.",
+            "name": "krone"
+        }
+    },
+    "languages": {
+        "kal": "Greenlandic"
+    },
+    "latlng": [
+        72.0,
+        -40.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Greenlandic",
+            "m": "Greenlandic"
+        },
+        "fra": {
+            "f": "Groenlandaise",
+            "m": "Groenlandais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جرينلاند",
+            "common": "جرينلاند"
+        },
+        "bre": {
+            "official": "Greunland",
+            "common": "Greunland"
+        },
+        "ces": {
+            "official": "Grónsko",
+            "common": "Grónsko"
+        },
+        "cym": {
+            "official": "Greenland",
+            "common": "Greenland"
+        },
+        "deu": {
+            "official": "Grönland",
+            "common": "Grönland"
+        },
+        "est": {
+            "official": "Gröönimaa",
+            "common": "Gröönimaa"
+        },
+        "fin": {
+            "official": "Groönlanti",
+            "common": "Groönlanti"
+        },
+        "fra": {
+            "official": "Groenland",
+            "common": "Groenland"
+        },
+        "hrv": {
+            "official": "Grenland",
+            "common": "Grenland"
+        },
+        "hun": {
+            "official": "Grönland",
+            "common": "Grönland"
+        },
+        "ind": {
+            "official": "Grinlandia",
+            "common": "Grinlandia"
+        },
+        "ita": {
+            "official": "Groenlandia",
+            "common": "Groenlandia"
+        },
+        "jpn": {
+            "official": "グリーンランド",
+            "common": "グリーンランド"
+        },
+        "kor": {
+            "official": "그린란드",
+            "common": "그린란드"
+        },
+        "nld": {
+            "official": "Groenland",
+            "common": "Groenland"
+        },
+        "per": {
+            "official": "گروئنلند",
+            "common": "گرینلند"
+        },
+        "pol": {
+            "official": "Grenlandia",
+            "common": "Grenlandia"
+        },
+        "por": {
+            "official": "Groenlândia",
+            "common": "Gronelândia"
+        },
+        "rus": {
+            "official": "Гренландия",
+            "common": "Гренландия"
+        },
+        "slk": {
+            "official": "Grónsko",
+            "common": "Grónsko"
+        },
+        "spa": {
+            "official": "Groenlandia",
+            "common": "Groenlandia"
+        },
+        "srp": {
+            "official": "Гренланд",
+            "common": "Гренланд"
+        },
+        "swe": {
+            "official": "Grönland",
+            "common": "Grönland"
+        },
+        "tur": {
+            "official": "Grönland",
+            "common": "Grönland"
+        },
+        "urd": {
+            "official": "گرین لینڈ",
+            "common": "گرین لینڈ"
+        },
+        "zho": {
+            "official": "格陵兰",
+            "common": "格陵兰"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/gl.png",
+        "svg": "https://flagcdn.com/gl.svg",
+        "alt": "The flag of Greenland has two equal horizontal bands of white and red, with a large disk slightly to the hoist side of center. The top half of the disk is red, and the bottom half is white."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gl.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gl.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            64.18,
+            -51.75
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

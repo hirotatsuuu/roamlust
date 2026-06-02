@@ -1,0 +1,2002 @@
+[
+  {
+    "iso2": "AD",
+    "iso3": "AND",
+    "name_ja": "アンドラ",
+    "name_en": "Andorra",
+    "wiki_title": "アンドラ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AE",
+    "iso3": "ARE",
+    "name_ja": "アラブ首長国連邦",
+    "name_en": "United Arab Emirates",
+    "wiki_title": "アラブ首長国連邦",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AF",
+    "iso3": "AFG",
+    "name_ja": "アフガニスタン",
+    "name_en": "Afghanistan",
+    "wiki_title": "アフガニスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AG",
+    "iso3": "ATG",
+    "name_ja": "アンティグア・バーブーダ",
+    "name_en": "Antigua and Barbuda",
+    "wiki_title": "アンティグア・バーブーダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AI",
+    "iso3": "AIA",
+    "name_ja": "アンギラ",
+    "name_en": "Anguilla",
+    "wiki_title": "アンギラ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AL",
+    "iso3": "ALB",
+    "name_ja": "アルバニア",
+    "name_en": "Albania",
+    "wiki_title": "アルバニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AM",
+    "iso3": "ARM",
+    "name_ja": "アルメニア",
+    "name_en": "Armenia",
+    "wiki_title": "アルメニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AO",
+    "iso3": "AGO",
+    "name_ja": "アンゴラ",
+    "name_en": "Angola",
+    "wiki_title": "アンゴラ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AQ",
+    "iso3": "ATA",
+    "name_ja": "南極",
+    "name_en": "Antarctica",
+    "wiki_title": "南極",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AR",
+    "iso3": "ARG",
+    "name_ja": "アルゼンチン",
+    "name_en": "Argentina",
+    "wiki_title": "アルゼンチン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AS",
+    "iso3": "ASM",
+    "name_ja": "アメリカ領サモア",
+    "name_en": "American Samoa",
+    "wiki_title": "アメリカ領サモア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AT",
+    "iso3": "AUT",
+    "name_ja": "オーストリア",
+    "name_en": "Austria",
+    "wiki_title": "オーストリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AU",
+    "iso3": "AUS",
+    "name_ja": "オーストラリア",
+    "name_en": "Australia",
+    "wiki_title": "オーストラリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AW",
+    "iso3": "ABW",
+    "name_ja": "アルバ",
+    "name_en": "Aruba",
+    "wiki_title": "アルバ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AX",
+    "iso3": "ALA",
+    "name_ja": "オーランド諸島",
+    "name_en": "Åland Islands",
+    "wiki_title": "オーランド諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "name_ja": "アゼルバイジャン",
+    "name_en": "Azerbaijan",
+    "wiki_title": "アゼルバイジャン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BA",
+    "iso3": "BIH",
+    "name_ja": "ボスニア・ヘルツェゴビナ",
+    "name_en": "Bosnia and Herzegovina",
+    "wiki_title": "ボスニア・ヘルツェゴビナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BB",
+    "iso3": "BRB",
+    "name_ja": "バルバドス",
+    "name_en": "Barbados",
+    "wiki_title": "バルバドス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BD",
+    "iso3": "BGD",
+    "name_ja": "バングラデシュ",
+    "name_en": "Bangladesh",
+    "wiki_title": "バングラデシュ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BE",
+    "iso3": "BEL",
+    "name_ja": "ベルギー",
+    "name_en": "Belgium",
+    "wiki_title": "ベルギー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BF",
+    "iso3": "BFA",
+    "name_ja": "ブルキナファソ",
+    "name_en": "Burkina Faso",
+    "wiki_title": "ブルキナファソ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BG",
+    "iso3": "BGR",
+    "name_ja": "ブルガリア",
+    "name_en": "Bulgaria",
+    "wiki_title": "ブルガリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BH",
+    "iso3": "BHR",
+    "name_ja": "バーレーン",
+    "name_en": "Bahrain",
+    "wiki_title": "バーレーン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BI",
+    "iso3": "BDI",
+    "name_ja": "ブルンジ",
+    "name_en": "Burundi",
+    "wiki_title": "ブルンジ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "name_ja": "ベナン",
+    "name_en": "Benin",
+    "wiki_title": "ベナン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BL",
+    "iso3": "BLM",
+    "name_ja": "サン・バルテルミー",
+    "name_en": "Saint Barthélemy",
+    "wiki_title": "サン・バルテルミー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BM",
+    "iso3": "BMU",
+    "name_ja": "バミューダ",
+    "name_en": "Bermuda",
+    "wiki_title": "バミューダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BN",
+    "iso3": "BRN",
+    "name_ja": "ブルネイ・ダルサラーム",
+    "name_en": "Brunei",
+    "wiki_title": "ブルネイ・ダルサラーム",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BO",
+    "iso3": "BOL",
+    "name_ja": "ボリビア多民族国",
+    "name_en": "Bolivia",
+    "wiki_title": "ボリビア多民族国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BQ",
+    "iso3": "BES",
+    "name_ja": "ボネール、シント・ユースタティウスおよびサバ",
+    "name_en": "Caribbean Netherlands",
+    "wiki_title": "ボネール、シント・ユースタティウスおよびサバ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BR",
+    "iso3": "BRA",
+    "name_ja": "ブラジル",
+    "name_en": "Brazil",
+    "wiki_title": "ブラジル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BS",
+    "iso3": "BHS",
+    "name_ja": "バハマ",
+    "name_en": "Bahamas",
+    "wiki_title": "バハマ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BT",
+    "iso3": "BTN",
+    "name_ja": "ブータン",
+    "name_en": "Bhutan",
+    "wiki_title": "ブータン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BV",
+    "iso3": "BVT",
+    "name_ja": "ブーベ島",
+    "name_en": "Bouvet Island",
+    "wiki_title": "ブーベ島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BW",
+    "iso3": "BWA",
+    "name_ja": "ボツワナ",
+    "name_en": "Botswana",
+    "wiki_title": "ボツワナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BY",
+    "iso3": "BLR",
+    "name_ja": "ベラルーシ",
+    "name_en": "Belarus",
+    "wiki_title": "ベラルーシ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "name_ja": "ベリーズ",
+    "name_en": "Belize",
+    "wiki_title": "ベリーズ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CA",
+    "iso3": "CAN",
+    "name_ja": "カナダ",
+    "name_en": "Canada",
+    "wiki_title": "カナダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CC",
+    "iso3": "CCK",
+    "name_ja": "ココス（キーリング）諸島",
+    "name_en": "Cocos (Keeling) Islands",
+    "wiki_title": "ココス（キーリング）諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CD",
+    "iso3": "COD",
+    "name_ja": "コンゴ民主共和国",
+    "name_en": "DR Congo",
+    "wiki_title": "コンゴ民主共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CF",
+    "iso3": "CAF",
+    "name_ja": "中央アフリカ共和国",
+    "name_en": "Central African Republic",
+    "wiki_title": "中央アフリカ共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CG",
+    "iso3": "COG",
+    "name_ja": "コンゴ共和国",
+    "name_en": "Republic of the Congo",
+    "wiki_title": "コンゴ共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CH",
+    "iso3": "CHE",
+    "name_ja": "スイス",
+    "name_en": "Switzerland",
+    "wiki_title": "スイス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CI",
+    "iso3": "CIV",
+    "name_ja": "コートジボワール",
+    "name_en": "Ivory Coast",
+    "wiki_title": "コートジボワール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CK",
+    "iso3": "COK",
+    "name_ja": "クック諸島",
+    "name_en": "Cook Islands",
+    "wiki_title": "クック諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CL",
+    "iso3": "CHL",
+    "name_ja": "チリ",
+    "name_en": "Chile",
+    "wiki_title": "チリ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CM",
+    "iso3": "CMR",
+    "name_ja": "カメルーン",
+    "name_en": "Cameroon",
+    "wiki_title": "カメルーン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CN",
+    "iso3": "CHN",
+    "name_ja": "中国",
+    "name_en": "China",
+    "wiki_title": "中国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CO",
+    "iso3": "COL",
+    "name_ja": "コロンビア",
+    "name_en": "Colombia",
+    "wiki_title": "コロンビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CR",
+    "iso3": "CRI",
+    "name_ja": "コスタリカ",
+    "name_en": "Costa Rica",
+    "wiki_title": "コスタリカ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CU",
+    "iso3": "CUB",
+    "name_ja": "キューバ",
+    "name_en": "Cuba",
+    "wiki_title": "キューバ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CV",
+    "iso3": "CPV",
+    "name_ja": "カーボベルデ",
+    "name_en": "Cape Verde",
+    "wiki_title": "カーボベルデ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CW",
+    "iso3": "CUW",
+    "name_ja": "",
+    "name_en": "Curaçao",
+    "wiki_title": "",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CX",
+    "iso3": "CXR",
+    "name_ja": "クリスマス島",
+    "name_en": "Christmas Island",
+    "wiki_title": "クリスマス島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CY",
+    "iso3": "CYP",
+    "name_ja": "キプロス",
+    "name_en": "Cyprus",
+    "wiki_title": "キプロス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "name_ja": "チェコ",
+    "name_en": "Czechia",
+    "wiki_title": "チェコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DE",
+    "iso3": "DEU",
+    "name_ja": "ドイツ",
+    "name_en": "Germany",
+    "wiki_title": "ドイツ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "name_ja": "ジブチ",
+    "name_en": "Djibouti",
+    "wiki_title": "ジブチ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DK",
+    "iso3": "DNK",
+    "name_ja": "デンマーク",
+    "name_en": "Denmark",
+    "wiki_title": "デンマーク",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DM",
+    "iso3": "DMA",
+    "name_ja": "ドミニカ国",
+    "name_en": "Dominica",
+    "wiki_title": "ドミニカ国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DO",
+    "iso3": "DOM",
+    "name_ja": "ドミニカ共和国",
+    "name_en": "Dominican Republic",
+    "wiki_title": "ドミニカ共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "name_ja": "アルジェリア",
+    "name_en": "Algeria",
+    "wiki_title": "アルジェリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "EC",
+    "iso3": "ECU",
+    "name_ja": "エクアドル",
+    "name_en": "Ecuador",
+    "wiki_title": "エクアドル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "EE",
+    "iso3": "EST",
+    "name_ja": "エストニア",
+    "name_en": "Estonia",
+    "wiki_title": "エストニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "EG",
+    "iso3": "EGY",
+    "name_ja": "エジプト",
+    "name_en": "Egypt",
+    "wiki_title": "エジプト",
+    "mofa_code": null
+  },
+  {
+    "iso2": "EH",
+    "iso3": "ESH",
+    "name_ja": "西サハラ",
+    "name_en": "Western Sahara",
+    "wiki_title": "西サハラ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ER",
+    "iso3": "ERI",
+    "name_ja": "エリトリア",
+    "name_en": "Eritrea",
+    "wiki_title": "エリトリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ES",
+    "iso3": "ESP",
+    "name_ja": "スペイン",
+    "name_en": "Spain",
+    "wiki_title": "スペイン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ET",
+    "iso3": "ETH",
+    "name_ja": "エチオピア",
+    "name_en": "Ethiopia",
+    "wiki_title": "エチオピア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FI",
+    "iso3": "FIN",
+    "name_ja": "フィンランド",
+    "name_en": "Finland",
+    "wiki_title": "フィンランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "name_ja": "フィジー",
+    "name_en": "Fiji",
+    "wiki_title": "フィジー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FK",
+    "iso3": "FLK",
+    "name_ja": "フォークランド（マルビナス）諸島",
+    "name_en": "Falkland Islands",
+    "wiki_title": "フォークランド（マルビナス）諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FM",
+    "iso3": "FSM",
+    "name_ja": "ミクロネシア連邦",
+    "name_en": "Micronesia",
+    "wiki_title": "ミクロネシア連邦",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FO",
+    "iso3": "FRO",
+    "name_ja": "フェロー諸島",
+    "name_en": "Faroe Islands",
+    "wiki_title": "フェロー諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "FR",
+    "iso3": "FRA",
+    "name_ja": "フランス",
+    "name_en": "France",
+    "wiki_title": "フランス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GA",
+    "iso3": "GAB",
+    "name_ja": "ガボン",
+    "name_en": "Gabon",
+    "wiki_title": "ガボン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GB",
+    "iso3": "GBR",
+    "name_ja": "イギリス",
+    "name_en": "United Kingdom",
+    "wiki_title": "イギリス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GD",
+    "iso3": "GRD",
+    "name_ja": "グレナダ",
+    "name_en": "Grenada",
+    "wiki_title": "グレナダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GE",
+    "iso3": "GEO",
+    "name_ja": "グルジア",
+    "name_en": "Georgia",
+    "wiki_title": "グルジア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GF",
+    "iso3": "GUF",
+    "name_ja": "フランス領ギアナ",
+    "name_en": "French Guiana",
+    "wiki_title": "フランス領ギアナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GG",
+    "iso3": "GGY",
+    "name_ja": "ガーンジー",
+    "name_en": "Guernsey",
+    "wiki_title": "ガーンジー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GH",
+    "iso3": "GHA",
+    "name_ja": "ガーナ",
+    "name_en": "Ghana",
+    "wiki_title": "ガーナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GI",
+    "iso3": "GIB",
+    "name_ja": "ジブラルタル",
+    "name_en": "Gibraltar",
+    "wiki_title": "ジブラルタル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GL",
+    "iso3": "GRL",
+    "name_ja": "グリーンランド",
+    "name_en": "Greenland",
+    "wiki_title": "グリーンランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GM",
+    "iso3": "GMB",
+    "name_ja": "ガンビア",
+    "name_en": "Gambia",
+    "wiki_title": "ガンビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GN",
+    "iso3": "GIN",
+    "name_ja": "ギニア",
+    "name_en": "Guinea",
+    "wiki_title": "ギニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GP",
+    "iso3": "GLP",
+    "name_ja": "グアドループ",
+    "name_en": "Guadeloupe",
+    "wiki_title": "グアドループ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "name_ja": "赤道ギニア",
+    "name_en": "Equatorial Guinea",
+    "wiki_title": "赤道ギニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GR",
+    "iso3": "GRC",
+    "name_ja": "ギリシャ",
+    "name_en": "Greece",
+    "wiki_title": "ギリシャ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GS",
+    "iso3": "SGS",
+    "name_ja": "サウスジョージア・サウスサンドウィッチ諸島",
+    "name_en": "South Georgia",
+    "wiki_title": "サウスジョージア・サウスサンドウィッチ諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GT",
+    "iso3": "GTM",
+    "name_ja": "グアテマラ",
+    "name_en": "Guatemala",
+    "wiki_title": "グアテマラ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GU",
+    "iso3": "GUM",
+    "name_ja": "グアム",
+    "name_en": "Guam",
+    "wiki_title": "グアム",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GW",
+    "iso3": "GNB",
+    "name_ja": "ギニアビサウ",
+    "name_en": "Guinea-Bissau",
+    "wiki_title": "ギニアビサウ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "GY",
+    "iso3": "GUY",
+    "name_ja": "ガイアナ",
+    "name_en": "Guyana",
+    "wiki_title": "ガイアナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HK",
+    "iso3": "HKG",
+    "name_ja": "香港",
+    "name_en": "Hong Kong",
+    "wiki_title": "香港",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HM",
+    "iso3": "HMD",
+    "name_ja": "ハード島とマクドナルド諸島",
+    "name_en": "Heard Island and McDonald Islands",
+    "wiki_title": "ハード島とマクドナルド諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HN",
+    "iso3": "HND",
+    "name_ja": "ホンジュラス",
+    "name_en": "Honduras",
+    "wiki_title": "ホンジュラス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HR",
+    "iso3": "HRV",
+    "name_ja": "クロアチア",
+    "name_en": "Croatia",
+    "wiki_title": "クロアチア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HT",
+    "iso3": "HTI",
+    "name_ja": "ハイチ",
+    "name_en": "Haiti",
+    "wiki_title": "ハイチ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "HU",
+    "iso3": "HUN",
+    "name_ja": "ハンガリー",
+    "name_en": "Hungary",
+    "wiki_title": "ハンガリー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ID",
+    "iso3": "IDN",
+    "name_ja": "インドネシア",
+    "name_en": "Indonesia",
+    "wiki_title": "インドネシア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IE",
+    "iso3": "IRL",
+    "name_ja": "アイルランド",
+    "name_en": "Ireland",
+    "wiki_title": "アイルランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IL",
+    "iso3": "ISR",
+    "name_ja": "イスラエル",
+    "name_en": "Israel",
+    "wiki_title": "イスラエル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IM",
+    "iso3": "IMN",
+    "name_ja": "マン島",
+    "name_en": "Isle of Man",
+    "wiki_title": "マン島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IN",
+    "iso3": "IND",
+    "name_ja": "インド",
+    "name_en": "India",
+    "wiki_title": "インド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IO",
+    "iso3": "IOT",
+    "name_ja": "イギリス領インド洋地域",
+    "name_en": "British Indian Ocean Territory",
+    "wiki_title": "イギリス領インド洋地域",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "name_ja": "イラク",
+    "name_en": "Iraq",
+    "wiki_title": "イラク",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IR",
+    "iso3": "IRN",
+    "name_ja": "イラン・イスラム共和国",
+    "name_en": "Iran",
+    "wiki_title": "イラン・イスラム共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IS",
+    "iso3": "ISL",
+    "name_ja": "アイスランド",
+    "name_en": "Iceland",
+    "wiki_title": "アイスランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "IT",
+    "iso3": "ITA",
+    "name_ja": "イタリア",
+    "name_en": "Italy",
+    "wiki_title": "イタリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "JE",
+    "iso3": "JEY",
+    "name_ja": "ジャージー",
+    "name_en": "Jersey",
+    "wiki_title": "ジャージー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "JM",
+    "iso3": "JAM",
+    "name_ja": "ジャマイカ",
+    "name_en": "Jamaica",
+    "wiki_title": "ジャマイカ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "JO",
+    "iso3": "JOR",
+    "name_ja": "ヨルダン",
+    "name_en": "Jordan",
+    "wiki_title": "ヨルダン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "JP",
+    "iso3": "JPN",
+    "name_ja": "日本",
+    "name_en": "Japan",
+    "wiki_title": "日本",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KE",
+    "iso3": "KEN",
+    "name_ja": "ケニア",
+    "name_en": "Kenya",
+    "wiki_title": "ケニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "name_ja": "キルギス",
+    "name_en": "Kyrgyzstan",
+    "wiki_title": "キルギス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KH",
+    "iso3": "KHM",
+    "name_ja": "カンボジア",
+    "name_en": "Cambodia",
+    "wiki_title": "カンボジア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KI",
+    "iso3": "KIR",
+    "name_ja": "キリバス",
+    "name_en": "Kiribati",
+    "wiki_title": "キリバス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KM",
+    "iso3": "COM",
+    "name_ja": "コモロ",
+    "name_en": "Comoros",
+    "wiki_title": "コモロ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KN",
+    "iso3": "KNA",
+    "name_ja": "セントクリストファー・ネイビス",
+    "name_en": "Saint Kitts and Nevis",
+    "wiki_title": "セントクリストファー・ネイビス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KP",
+    "iso3": "PRK",
+    "name_ja": "朝鮮民主主義人民共和国",
+    "name_en": "North Korea",
+    "wiki_title": "朝鮮民主主義人民共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KR",
+    "iso3": "KOR",
+    "name_ja": "韓国",
+    "name_en": "South Korea",
+    "wiki_title": "韓国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KW",
+    "iso3": "KWT",
+    "name_ja": "クウェート",
+    "name_en": "Kuwait",
+    "wiki_title": "クウェート",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KY",
+    "iso3": "CYM",
+    "name_ja": "ケイマン諸島",
+    "name_en": "Cayman Islands",
+    "wiki_title": "ケイマン諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "name_ja": "カザフスタン",
+    "name_en": "Kazakhstan",
+    "wiki_title": "カザフスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LA",
+    "iso3": "LAO",
+    "name_ja": "ラオス人民民主共和国",
+    "name_en": "Laos",
+    "wiki_title": "ラオス人民民主共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LB",
+    "iso3": "LBN",
+    "name_ja": "レバノン",
+    "name_en": "Lebanon",
+    "wiki_title": "レバノン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LC",
+    "iso3": "LCA",
+    "name_ja": "セントルシア",
+    "name_en": "Saint Lucia",
+    "wiki_title": "セントルシア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LI",
+    "iso3": "LIE",
+    "name_ja": "リヒテンシュタイン",
+    "name_en": "Liechtenstein",
+    "wiki_title": "リヒテンシュタイン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LK",
+    "iso3": "LKA",
+    "name_ja": "スリランカ",
+    "name_en": "Sri Lanka",
+    "wiki_title": "スリランカ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LR",
+    "iso3": "LBR",
+    "name_ja": "リベリア",
+    "name_en": "Liberia",
+    "wiki_title": "リベリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LS",
+    "iso3": "LSO",
+    "name_ja": "レソト",
+    "name_en": "Lesotho",
+    "wiki_title": "レソト",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LT",
+    "iso3": "LTU",
+    "name_ja": "リトアニア",
+    "name_en": "Lithuania",
+    "wiki_title": "リトアニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LU",
+    "iso3": "LUX",
+    "name_ja": "ルクセンブルク",
+    "name_en": "Luxembourg",
+    "wiki_title": "ルクセンブルク",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LV",
+    "iso3": "LVA",
+    "name_ja": "ラトビア",
+    "name_en": "Latvia",
+    "wiki_title": "ラトビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "LY",
+    "iso3": "LBY",
+    "name_ja": "リビア",
+    "name_en": "Libya",
+    "wiki_title": "リビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MA",
+    "iso3": "MAR",
+    "name_ja": "モロッコ",
+    "name_en": "Morocco",
+    "wiki_title": "モロッコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MC",
+    "iso3": "MCO",
+    "name_ja": "モナコ",
+    "name_en": "Monaco",
+    "wiki_title": "モナコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MD",
+    "iso3": "MDA",
+    "name_ja": "モルドバ共和国",
+    "name_en": "Moldova",
+    "wiki_title": "モルドバ共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ME",
+    "iso3": "MNE",
+    "name_ja": "モンテネグロ",
+    "name_en": "Montenegro",
+    "wiki_title": "モンテネグロ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MF",
+    "iso3": "MAF",
+    "name_ja": "サン・マルタン（フランス領）",
+    "name_en": "Saint Martin",
+    "wiki_title": "サン・マルタン（フランス領）",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MG",
+    "iso3": "MDG",
+    "name_ja": "マダガスカル",
+    "name_en": "Madagascar",
+    "wiki_title": "マダガスカル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MH",
+    "iso3": "MHL",
+    "name_ja": "マーシャル諸島",
+    "name_en": "Marshall Islands",
+    "wiki_title": "マーシャル諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MK",
+    "iso3": "MKD",
+    "name_ja": "北マケドニア ",
+    "name_en": "North Macedonia",
+    "wiki_title": "北マケドニア ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ML",
+    "iso3": "MLI",
+    "name_ja": "マリ",
+    "name_en": "Mali",
+    "wiki_title": "マリ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MM",
+    "iso3": "MMR",
+    "name_ja": "ミャンマー",
+    "name_en": "Myanmar",
+    "wiki_title": "ミャンマー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MN",
+    "iso3": "MNG",
+    "name_ja": "モンゴル",
+    "name_en": "Mongolia",
+    "wiki_title": "モンゴル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MO",
+    "iso3": "MAC",
+    "name_ja": "マカオ",
+    "name_en": "Macau",
+    "wiki_title": "マカオ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MP",
+    "iso3": "MNP",
+    "name_ja": "北マリアナ諸島",
+    "name_en": "Northern Mariana Islands",
+    "wiki_title": "北マリアナ諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MQ",
+    "iso3": "MTQ",
+    "name_ja": "マルティニーク",
+    "name_en": "Martinique",
+    "wiki_title": "マルティニーク",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MR",
+    "iso3": "MRT",
+    "name_ja": "モーリタニア",
+    "name_en": "Mauritania",
+    "wiki_title": "モーリタニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MS",
+    "iso3": "MSR",
+    "name_ja": "モントセラト",
+    "name_en": "Montserrat",
+    "wiki_title": "モントセラト",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MT",
+    "iso3": "MLT",
+    "name_ja": "マルタ",
+    "name_en": "Malta",
+    "wiki_title": "マルタ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MU",
+    "iso3": "MUS",
+    "name_ja": "モーリシャス",
+    "name_en": "Mauritius",
+    "wiki_title": "モーリシャス",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MV",
+    "iso3": "MDV",
+    "name_ja": "モルディブ",
+    "name_en": "Maldives",
+    "wiki_title": "モルディブ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MW",
+    "iso3": "MWI",
+    "name_ja": "マラウイ",
+    "name_en": "Malawi",
+    "wiki_title": "マラウイ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MX",
+    "iso3": "MEX",
+    "name_ja": "メキシコ",
+    "name_en": "Mexico",
+    "wiki_title": "メキシコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MY",
+    "iso3": "MYS",
+    "name_ja": "マレーシア",
+    "name_en": "Malaysia",
+    "wiki_title": "マレーシア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "name_ja": "モザンビーク",
+    "name_en": "Mozambique",
+    "wiki_title": "モザンビーク",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NA",
+    "iso3": "NAM",
+    "name_ja": "ナミビア",
+    "name_en": "Namibia",
+    "wiki_title": "ナミビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NC",
+    "iso3": "NCL",
+    "name_ja": "ニューカレドニア",
+    "name_en": "New Caledonia",
+    "wiki_title": "ニューカレドニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NE",
+    "iso3": "NER",
+    "name_ja": "ニジェール",
+    "name_en": "Niger",
+    "wiki_title": "ニジェール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NF",
+    "iso3": "NFK",
+    "name_ja": "ノーフォーク島",
+    "name_en": "Norfolk Island",
+    "wiki_title": "ノーフォーク島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NG",
+    "iso3": "NGA",
+    "name_ja": "ナイジェリア",
+    "name_en": "Nigeria",
+    "wiki_title": "ナイジェリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NI",
+    "iso3": "NIC",
+    "name_ja": "ニカラグア",
+    "name_en": "Nicaragua",
+    "wiki_title": "ニカラグア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NL",
+    "iso3": "NLD",
+    "name_ja": "オランダ",
+    "name_en": "Netherlands",
+    "wiki_title": "オランダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NO",
+    "iso3": "NOR",
+    "name_ja": "ノルウェー",
+    "name_en": "Norway",
+    "wiki_title": "ノルウェー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NP",
+    "iso3": "NPL",
+    "name_ja": "ネパール",
+    "name_en": "Nepal",
+    "wiki_title": "ネパール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NR",
+    "iso3": "NRU",
+    "name_ja": "ナウル",
+    "name_en": "Nauru",
+    "wiki_title": "ナウル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NU",
+    "iso3": "NIU",
+    "name_ja": "ニウエ",
+    "name_en": "Niue",
+    "wiki_title": "ニウエ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "name_ja": "ニュージーランド",
+    "name_en": "New Zealand",
+    "wiki_title": "ニュージーランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "OM",
+    "iso3": "OMN",
+    "name_ja": "オマーン",
+    "name_en": "Oman",
+    "wiki_title": "オマーン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PA",
+    "iso3": "PAN",
+    "name_ja": "パナマ",
+    "name_en": "Panama",
+    "wiki_title": "パナマ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PE",
+    "iso3": "PER",
+    "name_ja": "ペルー",
+    "name_en": "Peru",
+    "wiki_title": "ペルー",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PF",
+    "iso3": "PYF",
+    "name_ja": "フランス領ポリネシア",
+    "name_en": "French Polynesia",
+    "wiki_title": "フランス領ポリネシア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PG",
+    "iso3": "PNG",
+    "name_ja": "パプアニューギニア",
+    "name_en": "Papua New Guinea",
+    "wiki_title": "パプアニューギニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PH",
+    "iso3": "PHL",
+    "name_ja": "フィリピン",
+    "name_en": "Philippines",
+    "wiki_title": "フィリピン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PK",
+    "iso3": "PAK",
+    "name_ja": "パキスタン",
+    "name_en": "Pakistan",
+    "wiki_title": "パキスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PL",
+    "iso3": "POL",
+    "name_ja": "ポーランド",
+    "name_en": "Poland",
+    "wiki_title": "ポーランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PM",
+    "iso3": "SPM",
+    "name_ja": "サンピエール島・ミクロン島",
+    "name_en": "Saint Pierre and Miquelon",
+    "wiki_title": "サンピエール島・ミクロン島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PN",
+    "iso3": "PCN",
+    "name_ja": "ピトケアン",
+    "name_en": "Pitcairn Islands",
+    "wiki_title": "ピトケアン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PR",
+    "iso3": "PRI",
+    "name_ja": "プエルトリコ",
+    "name_en": "Puerto Rico",
+    "wiki_title": "プエルトリコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PS",
+    "iso3": "PSE",
+    "name_ja": "パレスチナ",
+    "name_en": "Palestine",
+    "wiki_title": "パレスチナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PT",
+    "iso3": "PRT",
+    "name_ja": "ポルトガル",
+    "name_en": "Portugal",
+    "wiki_title": "ポルトガル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PW",
+    "iso3": "PLW",
+    "name_ja": "パラオ",
+    "name_en": "Palau",
+    "wiki_title": "パラオ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "PY",
+    "iso3": "PRY",
+    "name_ja": "パラグアイ",
+    "name_en": "Paraguay",
+    "wiki_title": "パラグアイ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "QA",
+    "iso3": "QAT",
+    "name_ja": "カタール",
+    "name_en": "Qatar",
+    "wiki_title": "カタール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "RE",
+    "iso3": "REU",
+    "name_ja": "レユニオン",
+    "name_en": "Réunion",
+    "wiki_title": "レユニオン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "RO",
+    "iso3": "ROU",
+    "name_ja": "ルーマニア",
+    "name_en": "Romania",
+    "wiki_title": "ルーマニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "RS",
+    "iso3": "SRB",
+    "name_ja": "セルビア",
+    "name_en": "Serbia",
+    "wiki_title": "セルビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "RU",
+    "iso3": "RUS",
+    "name_ja": "ロシア連邦",
+    "name_en": "Russia",
+    "wiki_title": "ロシア連邦",
+    "mofa_code": null
+  },
+  {
+    "iso2": "RW",
+    "iso3": "RWA",
+    "name_ja": "ルワンダ",
+    "name_en": "Rwanda",
+    "wiki_title": "ルワンダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SA",
+    "iso3": "SAU",
+    "name_ja": "サウジアラビア",
+    "name_en": "Saudi Arabia",
+    "wiki_title": "サウジアラビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SB",
+    "iso3": "SLB",
+    "name_ja": "ソロモン諸島",
+    "name_en": "Solomon Islands",
+    "wiki_title": "ソロモン諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SC",
+    "iso3": "SYC",
+    "name_ja": "セーシェル",
+    "name_en": "Seychelles",
+    "wiki_title": "セーシェル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SD",
+    "iso3": "SDN",
+    "name_ja": "スーダン",
+    "name_en": "Sudan",
+    "wiki_title": "スーダン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SE",
+    "iso3": "SWE",
+    "name_ja": "スウェーデン",
+    "name_en": "Sweden",
+    "wiki_title": "スウェーデン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SG",
+    "iso3": "SGP",
+    "name_ja": "シンガポール",
+    "name_en": "Singapore",
+    "wiki_title": "シンガポール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SH",
+    "iso3": "SHN",
+    "name_ja": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+    "name_en": "Saint Helena, Ascension and Tristan da Cunha",
+    "wiki_title": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SI",
+    "iso3": "SVN",
+    "name_ja": "スロベニア",
+    "name_en": "Slovenia",
+    "wiki_title": "スロベニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SJ",
+    "iso3": "SJM",
+    "name_ja": "スヴァールバル諸島およびヤンマイエン島",
+    "name_en": "Svalbard and Jan Mayen",
+    "wiki_title": "スヴァールバル諸島およびヤンマイエン島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SK",
+    "iso3": "SVK",
+    "name_ja": "スロバキア",
+    "name_en": "Slovakia",
+    "wiki_title": "スロバキア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SL",
+    "iso3": "SLE",
+    "name_ja": "シエラレオネ",
+    "name_en": "Sierra Leone",
+    "wiki_title": "シエラレオネ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SM",
+    "iso3": "SMR",
+    "name_ja": "サンマリノ",
+    "name_en": "San Marino",
+    "wiki_title": "サンマリノ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SN",
+    "iso3": "SEN",
+    "name_ja": "セネガル",
+    "name_en": "Senegal",
+    "wiki_title": "セネガル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SO",
+    "iso3": "SOM",
+    "name_ja": "ソマリア",
+    "name_en": "Somalia",
+    "wiki_title": "ソマリア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SR",
+    "iso3": "SUR",
+    "name_ja": "スリナム",
+    "name_en": "Suriname",
+    "wiki_title": "スリナム",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SS",
+    "iso3": "SSD",
+    "name_ja": "南スーダン",
+    "name_en": "South Sudan",
+    "wiki_title": "南スーダン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ST",
+    "iso3": "STP",
+    "name_ja": "サントメ・プリンシペ",
+    "name_en": "São Tomé and Príncipe",
+    "wiki_title": "サントメ・プリンシペ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SV",
+    "iso3": "SLV",
+    "name_ja": "エルサルバドル",
+    "name_en": "El Salvador",
+    "wiki_title": "エルサルバドル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SX",
+    "iso3": "SXM",
+    "name_ja": "シント・マールテン",
+    "name_en": "Sint Maarten",
+    "wiki_title": "シント・マールテン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SY",
+    "iso3": "SYR",
+    "name_ja": "シリア・アラブ共和国",
+    "name_en": "Syria",
+    "wiki_title": "シリア・アラブ共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "name_ja": "スワジランド",
+    "name_en": "Eswatini",
+    "wiki_title": "スワジランド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TC",
+    "iso3": "TCA",
+    "name_ja": "タークス・カイコス諸島",
+    "name_en": "Turks and Caicos Islands",
+    "wiki_title": "タークス・カイコス諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TD",
+    "iso3": "TCD",
+    "name_ja": "チャド",
+    "name_en": "Chad",
+    "wiki_title": "チャド",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TF",
+    "iso3": "ATF",
+    "name_ja": "フランス領南方・南極地域",
+    "name_en": "French Southern and Antarctic Lands",
+    "wiki_title": "フランス領南方・南極地域",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TG",
+    "iso3": "TGO",
+    "name_ja": "トーゴ",
+    "name_en": "Togo",
+    "wiki_title": "トーゴ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TH",
+    "iso3": "THA",
+    "name_ja": "タイ",
+    "name_en": "Thailand",
+    "wiki_title": "タイ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "name_ja": "タジキスタン",
+    "name_en": "Tajikistan",
+    "wiki_title": "タジキスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TK",
+    "iso3": "TKL",
+    "name_ja": "トケラウ",
+    "name_en": "Tokelau",
+    "wiki_title": "トケラウ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TL",
+    "iso3": "TLS",
+    "name_ja": "東ティモール",
+    "name_en": "Timor-Leste",
+    "wiki_title": "東ティモール",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TM",
+    "iso3": "TKM",
+    "name_ja": "トルクメニスタン",
+    "name_en": "Turkmenistan",
+    "wiki_title": "トルクメニスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TN",
+    "iso3": "TUN",
+    "name_ja": "チュニジア",
+    "name_en": "Tunisia",
+    "wiki_title": "チュニジア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TO",
+    "iso3": "TON",
+    "name_ja": "トンガ",
+    "name_en": "Tonga",
+    "wiki_title": "トンガ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TR",
+    "iso3": "TUR",
+    "name_ja": "トルコ",
+    "name_en": "Turkey",
+    "wiki_title": "トルコ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TT",
+    "iso3": "TTO",
+    "name_ja": "トリニダード・トバゴ",
+    "name_en": "Trinidad and Tobago",
+    "wiki_title": "トリニダード・トバゴ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TV",
+    "iso3": "TUV",
+    "name_ja": "ツバル",
+    "name_en": "Tuvalu",
+    "wiki_title": "ツバル",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TW",
+    "iso3": "TWN",
+    "name_ja": "台湾",
+    "name_en": "Taiwan",
+    "wiki_title": "台湾",
+    "mofa_code": null
+  },
+  {
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "name_ja": "タンザニア",
+    "name_en": "Tanzania",
+    "wiki_title": "タンザニア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "UA",
+    "iso3": "UKR",
+    "name_ja": "ウクライナ",
+    "name_en": "Ukraine",
+    "wiki_title": "ウクライナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "UG",
+    "iso3": "UGA",
+    "name_ja": "ウガンダ",
+    "name_en": "Uganda",
+    "wiki_title": "ウガンダ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "UM",
+    "iso3": "UMI",
+    "name_ja": "合衆国領有小離島",
+    "name_en": "United States Minor Outlying Islands",
+    "wiki_title": "合衆国領有小離島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "US",
+    "iso3": "USA",
+    "name_ja": "アメリカ合衆国",
+    "name_en": "United States",
+    "wiki_title": "アメリカ合衆国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "UY",
+    "iso3": "URY",
+    "name_ja": "ウルグアイ",
+    "name_en": "Uruguay",
+    "wiki_title": "ウルグアイ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "name_ja": "ウズベキスタン",
+    "name_en": "Uzbekistan",
+    "wiki_title": "ウズベキスタン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VA",
+    "iso3": "VAT",
+    "name_ja": "バチカン市国",
+    "name_en": "Vatican City",
+    "wiki_title": "バチカン市国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VC",
+    "iso3": "VCT",
+    "name_ja": "セントビンセントおよびグレナディーン諸島",
+    "name_en": "Saint Vincent and the Grenadines",
+    "wiki_title": "セントビンセントおよびグレナディーン諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VE",
+    "iso3": "VEN",
+    "name_ja": "ベネズエラ・ボリバル共和国",
+    "name_en": "Venezuela",
+    "wiki_title": "ベネズエラ・ボリバル共和国",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VG",
+    "iso3": "VGB",
+    "name_ja": "イギリス領ヴァージン諸島",
+    "name_en": "British Virgin Islands",
+    "wiki_title": "イギリス領ヴァージン諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VI",
+    "iso3": "VIR",
+    "name_ja": "アメリカ領ヴァージン諸島",
+    "name_en": "United States Virgin Islands",
+    "wiki_title": "アメリカ領ヴァージン諸島",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VN",
+    "iso3": "VNM",
+    "name_ja": "ベトナム",
+    "name_en": "Vietnam",
+    "wiki_title": "ベトナム",
+    "mofa_code": null
+  },
+  {
+    "iso2": "VU",
+    "iso3": "VUT",
+    "name_ja": "バヌアツ",
+    "name_en": "Vanuatu",
+    "wiki_title": "バヌアツ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "WF",
+    "iso3": "WLF",
+    "name_ja": "ウォリス・フツナ",
+    "name_en": "Wallis and Futuna",
+    "wiki_title": "ウォリス・フツナ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "WS",
+    "iso3": "WSM",
+    "name_ja": "サモア",
+    "name_en": "Samoa",
+    "wiki_title": "サモア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "XK",
+    "iso3": "UNK",
+    "name_ja": "",
+    "name_en": "Kosovo",
+    "wiki_title": "",
+    "mofa_code": null
+  },
+  {
+    "iso2": "YE",
+    "iso3": "YEM",
+    "name_ja": "イエメン",
+    "name_en": "Yemen",
+    "wiki_title": "イエメン",
+    "mofa_code": null
+  },
+  {
+    "iso2": "YT",
+    "iso3": "MYT",
+    "name_ja": "マヨット",
+    "name_en": "Mayotte",
+    "wiki_title": "マヨット",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "name_ja": "南アフリカ",
+    "name_en": "South Africa",
+    "wiki_title": "南アフリカ",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "name_ja": "ザンビア",
+    "name_en": "Zambia",
+    "wiki_title": "ザンビア",
+    "mofa_code": null
+  },
+  {
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "name_ja": "ジンバブエ",
+    "name_en": "Zimbabwe",
+    "wiki_title": "ジンバブエ",
+    "mofa_code": null
+  }
+]

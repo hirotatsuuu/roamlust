@@ -1,0 +1,223 @@
+{
+    "tld": [
+        ".so"
+    ],
+    "cca2": "SO",
+    "ccn3": "706",
+    "cca3": "SOM",
+    "cioc": "SOM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "52"
+        ]
+    },
+    "capital": [
+        "Mogadishu"
+    ],
+    "altSpellings": [
+        "SO",
+        "aṣ-Ṣūmāl",
+        "Federal Republic of Somalia",
+        "Jamhuuriyadda Federaalka Soomaaliya",
+        "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "landlocked": false,
+    "borders": [
+        "DJI",
+        "ETH",
+        "KEN"
+    ],
+    "area": 637657.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192799"
+    },
+    "population": 19655000,
+    "fifa": "SOM",
+    "car": {
+        "signs": [
+            "SO"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇸🇴",
+    "name": {
+        "common": "Somalia",
+        "official": "Federal Republic of Somalia",
+        "nativeName": {
+            "ara": {
+                "official": "جمهورية الصومال‎‎",
+                "common": "الصومال‎‎"
+            },
+            "som": {
+                "official": "Jamhuuriyadda Federaalka Soomaaliya",
+                "common": "Soomaaliya"
+            }
+        }
+    },
+    "currencies": {
+        "SOS": {
+            "symbol": "Sh",
+            "name": "Somali shilling"
+        }
+    },
+    "languages": {
+        "ara": "Arabic",
+        "som": "Somali"
+    },
+    "latlng": [
+        10.0,
+        49.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Somali",
+            "m": "Somali"
+        },
+        "fra": {
+            "f": "Somalienne",
+            "m": "Somalien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية الصومال الفيدرالية",
+            "common": "الصومال"
+        },
+        "bre": {
+            "official": "Republik Kevreadel Somalia",
+            "common": "Somalia"
+        },
+        "ces": {
+            "official": "Somálská demokratická republika",
+            "common": "Somálsko"
+        },
+        "cym": {
+            "official": "Federal Republic of Somalia",
+            "common": "Somalia"
+        },
+        "deu": {
+            "official": "Bundesrepublik Somalia",
+            "common": "Somalia"
+        },
+        "est": {
+            "official": "Somaalia Liitvabariik",
+            "common": "Somaalia"
+        },
+        "fin": {
+            "official": "Somalian liittotasavalta",
+            "common": "Somalia"
+        },
+        "fra": {
+            "official": "République fédérale de Somalie",
+            "common": "Somalie"
+        },
+        "hrv": {
+            "official": "Savezna Republika Somaliji",
+            "common": "Somalija"
+        },
+        "hun": {
+            "official": "Szomáli Szövetségi Köztársaság",
+            "common": "Szomália"
+        },
+        "ind": {
+            "official": "Republik Federal Somalia",
+            "common": "Somalia"
+        },
+        "ita": {
+            "official": "Repubblica federale di Somalia",
+            "common": "Somalia"
+        },
+        "jpn": {
+            "official": "ソマリア連邦共和国",
+            "common": "ソマリア"
+        },
+        "kor": {
+            "official": " 소말리아 연방 공화국",
+            "common": "소말리아"
+        },
+        "nld": {
+            "official": "Federale Republiek Somalië",
+            "common": "Somalië"
+        },
+        "per": {
+            "official": "جمهوری فدرال سومالی",
+            "common": "سومالی"
+        },
+        "pol": {
+            "official": "Federalna Republika Somalii",
+            "common": "Somalia"
+        },
+        "por": {
+            "official": "República Federal da Somália",
+            "common": "Somália"
+        },
+        "rus": {
+            "official": "Федеративная Республика Сомали",
+            "common": "Сомали"
+        },
+        "slk": {
+            "official": "Somálska federatívna republika",
+            "common": "Somálsko"
+        },
+        "spa": {
+            "official": "República Federal de Somalia",
+            "common": "Somalia"
+        },
+        "srp": {
+            "official": "Савезна Република Сомалија",
+            "common": "Сомалија"
+        },
+        "swe": {
+            "official": "Förbundsrepubliken Somalia",
+            "common": "Somalia"
+        },
+        "tur": {
+            "official": "Somali Federal Cumhuriyeti",
+            "common": "Somali"
+        },
+        "urd": {
+            "official": "وفاقی جمہوریہ صومالیہ",
+            "common": "صومالیہ"
+        },
+        "zho": {
+            "official": "索马里共和国",
+            "common": "索马里"
+        }
+    },
+    "gini": {
+        "2017": 36.8
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/so.png",
+        "svg": "https://flagcdn.com/so.svg",
+        "alt": "The flag of Somalia features a large five-pointed white star centered on a light blue field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/so.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/so.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            2.07,
+            45.33
+        ]
+    },
+    "postalCode": {
+        "format": "@@  #####",
+        "regex": "^([A-Z]{2}\\d{5})$"
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "tld": [
+        ".pa"
+    ],
+    "cca2": "PA",
+    "ccn3": "591",
+    "cca3": "PAN",
+    "cioc": "PAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "07"
+        ]
+    },
+    "capital": [
+        "Panama City"
+    ],
+    "altSpellings": [
+        "PA",
+        "Republic of Panama",
+        "República de Panamá"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "landlocked": false,
+    "borders": [
+        "COL",
+        "CRI"
+    ],
+    "area": 75417.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/287668"
+    },
+    "population": 4064780,
+    "fifa": "PAN",
+    "car": {
+        "signs": [
+            "PA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-05:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇵🇦",
+    "name": {
+        "common": "Panama",
+        "official": "Republic of Panama",
+        "nativeName": {
+            "spa": {
+                "official": "República de Panamá",
+                "common": "Panamá"
+            }
+        }
+    },
+    "currencies": {
+        "PAB": {
+            "symbol": "B/.",
+            "name": "Panamanian balboa"
+        },
+        "USD": {
+            "symbol": "$",
+            "name": "United States dollar"
+        }
+    },
+    "languages": {
+        "spa": "Spanish"
+    },
+    "latlng": [
+        9.0,
+        -80.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Panamanian",
+            "m": "Panamanian"
+        },
+        "fra": {
+            "f": "Panaméenne",
+            "m": "Panaméen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية بنما",
+            "common": "بنما"
+        },
+        "bre": {
+            "official": "Republik Panama",
+            "common": "Panama"
+        },
+        "ces": {
+            "official": "Panamská republika",
+            "common": "Panama"
+        },
+        "cym": {
+            "official": "Republic of Panama",
+            "common": "Panama"
+        },
+        "deu": {
+            "official": "Republik Panama",
+            "common": "Panama"
+        },
+        "est": {
+            "official": "Panama Vabariik",
+            "common": "Panama"
+        },
+        "fin": {
+            "official": "Panaman tasavalta",
+            "common": "Panama"
+        },
+        "fra": {
+            "official": "République du Panama",
+            "common": "Panama"
+        },
+        "hrv": {
+            "official": "Republika Panama",
+            "common": "Panama"
+        },
+        "hun": {
+            "official": "Panamai Köztársaság",
+            "common": "Panama"
+        },
+        "ind": {
+            "official": "Republik Panama",
+            "common": "Panama"
+        },
+        "ita": {
+            "official": "Repubblica di Panama",
+            "common": "Panama"
+        },
+        "jpn": {
+            "official": "パナマ共和国",
+            "common": "パナマ"
+        },
+        "kor": {
+            "official": "파나마 공화국",
+            "common": "파나마"
+        },
+        "nld": {
+            "official": "Republiek Panama",
+            "common": "Panama"
+        },
+        "per": {
+            "official": "جمهوری پاناما",
+            "common": "پاناما"
+        },
+        "pol": {
+            "official": "Republika Panamy",
+            "common": "Panama"
+        },
+        "por": {
+            "official": "República do Panamá",
+            "common": "Panamá"
+        },
+        "rus": {
+            "official": "Республика Панама",
+            "common": "Панама"
+        },
+        "slk": {
+            "official": "Panamská republika",
+            "common": "Panama"
+        },
+        "spa": {
+            "official": "República de Panamá",
+            "common": "Panamá"
+        },
+        "srp": {
+            "official": "Република Панама",
+            "common": "Панама"
+        },
+        "swe": {
+            "official": "Republiken Panama",
+            "common": "Panama"
+        },
+        "tur": {
+            "official": "Panama Cumhuriyeti",
+            "common": "Panama"
+        },
+        "urd": {
+            "official": "جمہوریہ پاناما",
+            "common": "پاناما"
+        },
+        "zho": {
+            "official": "巴拿马共和国",
+            "common": "巴拿马"
+        }
+    },
+    "gini": {
+        "2019": 49.8
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/pa.png",
+        "svg": "https://flagcdn.com/pa.svg",
+        "alt": "The flag of Panama is composed of four equal rectangular areas — a white rectangular area with a blue five-pointed star at its center, a red rectangular area, a white rectangular area with a red five-pointed star at its center, and a blue rectangular area — in the upper hoist side, upper fly side, lower fly side and lower hoist side respectively."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/pa.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/pa.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            8.97,
+            -79.53
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

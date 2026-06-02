@@ -1,0 +1,226 @@
+{
+    "tld": [
+        ".eh"
+    ],
+    "cca2": "EH",
+    "ccn3": "732",
+    "cca3": "ESH",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "125288",
+            "125289"
+        ]
+    },
+    "capital": [
+        "El Aaiún"
+    ],
+    "altSpellings": [
+        "EH",
+        "Taneẓroft Tutrimt"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "landlocked": false,
+    "borders": [
+        "DZA",
+        "MRT",
+        "MAR"
+    ],
+    "area": 266000.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/5441968"
+    },
+    "population": 600904,
+    "car": {
+        "signs": [
+            ""
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+00:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇪🇭",
+    "name": {
+        "common": "Western Sahara",
+        "official": "Sahrawi Arab Democratic Republic",
+        "nativeName": {
+            "ber": {
+                "official": "Sahrawi Arab Democratic Republic",
+                "common": "Western Sahara"
+            },
+            "mey": {
+                "official": "الجمهورية العربية الصحراوية الديمقراطية",
+                "common": "الصحراء الغربية"
+            },
+            "spa": {
+                "official": "República Árabe Saharaui Democrática",
+                "common": "Sahara Occidental"
+            }
+        }
+    },
+    "currencies": {
+        "DZD": {
+            "symbol": "دج",
+            "name": "Algerian dinar"
+        },
+        "MAD": {
+            "symbol": "DH",
+            "name": "Moroccan dirham"
+        },
+        "MRU": {
+            "symbol": "UM",
+            "name": "Mauritanian ouguiya"
+        }
+    },
+    "languages": {
+        "ber": "Berber",
+        "mey": "Hassaniya",
+        "spa": "Spanish"
+    },
+    "latlng": [
+        24.5,
+        -13.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Sahrawi",
+            "m": "Sahrawi"
+        },
+        "fra": {
+            "f": "",
+            "m": ""
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية العربية الصحراوية الديمقراطية",
+            "common": "الصحراء الغربية"
+        },
+        "bre": {
+            "official": "Republik Arab Saharaoui Demokratel",
+            "common": "Sahara ar C'hornôg"
+        },
+        "ces": {
+            "official": "Západní Sahara",
+            "common": "Západní Sahara"
+        },
+        "cym": {
+            "official": "Sahrawi Arab Democratic Republic",
+            "common": "Western Sahara"
+        },
+        "deu": {
+            "official": "Demokratische Arabische Republik Sahara",
+            "common": "Westsahara"
+        },
+        "est": {
+            "official": "Lääne-Sahara",
+            "common": "Lääne-Sahara"
+        },
+        "fin": {
+            "official": "Länsi-Sahara",
+            "common": "Länsi-Sahara"
+        },
+        "fra": {
+            "official": "République arabe sahraouie démocratique",
+            "common": "Sahara Occidental"
+        },
+        "hrv": {
+            "official": "Sahrawi Arab Demokratska Republika",
+            "common": "Zapadna Sahara"
+        },
+        "hun": {
+            "official": "Nyugat-Szahara",
+            "common": "Nyugat-Szahara"
+        },
+        "ind": {
+            "official": "Republik Demokratik Arab Sahrawi",
+            "common": "Sahara Barat"
+        },
+        "ita": {
+            "official": "Repubblica Araba Saharawi Democratica",
+            "common": "Sahara Occidentale"
+        },
+        "jpn": {
+            "official": "サハラアラブ民主共和国",
+            "common": "西サハラ"
+        },
+        "kor": {
+            "official": "사하라 아랍 민주 공화국",
+            "common": "서사하라"
+        },
+        "nld": {
+            "official": "Sahrawi Arabische Democratische Republiek",
+            "common": "Westelijke Sahara"
+        },
+        "per": {
+            "official": "صحرای غربی",
+            "common": "صحرای غربی"
+        },
+        "pol": {
+            "official": "Saharyjska Arabska Republika Demokratyczna",
+            "common": "Sahara Zachodnia"
+        },
+        "por": {
+            "official": "República Árabe Saharaui Democrática",
+            "common": "Saara Ocidental"
+        },
+        "rus": {
+            "official": "Sahrawi Арабская Демократическая Республика",
+            "common": "Западная Сахара"
+        },
+        "slk": {
+            "official": "Západná Sahara",
+            "common": "Západná Sahara"
+        },
+        "spa": {
+            "official": "República Árabe Saharaui Democrática",
+            "common": "Sahara Occidental"
+        },
+        "srp": {
+            "official": "Сахарска Арапска Демократска Република",
+            "common": "Сахарска Република"
+        },
+        "swe": {
+            "official": "Västsahara",
+            "common": "Västsahara"
+        },
+        "tur": {
+            "official": "Sahra Demokratik Arap Cumhuriyeti",
+            "common": "Sahra Demokratik Arap Cumhuriyeti"
+        },
+        "urd": {
+            "official": "صحراوی عرب عوامی جمہوریہ",
+            "common": "مغربی صحارا"
+        },
+        "zho": {
+            "official": "阿拉伯撒哈拉民主共和国",
+            "common": "西撒哈拉"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/eh.png",
+        "svg": "https://flagcdn.com/eh.svg",
+        "alt": "The flag of Western Sahara has three equal horizontal stripes of black, white, and green overlaid by a red triangle issuing from the hoist. Centered in the white band is a red fly-facing crescent surrounding a red five-pointed star."
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -13.28,
+            27.14
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "tld": [
+        ".cm"
+    ],
+    "cca2": "CM",
+    "ccn3": "120",
+    "cca3": "CMR",
+    "cioc": "CMR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "37"
+        ]
+    },
+    "capital": [
+        "Yaoundé"
+    ],
+    "altSpellings": [
+        "CM",
+        "Republic of Cameroon",
+        "République du Cameroun"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "landlocked": false,
+    "borders": [
+        "CAF",
+        "TCD",
+        "COG",
+        "GNQ",
+        "GAB",
+        "NGA"
+    ],
+    "area": 475442.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/JqiipHgFboG3rBJh9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192830"
+    },
+    "population": 29442327,
+    "fifa": "CMR",
+    "car": {
+        "signs": [
+            "CAM"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇨🇲",
+    "name": {
+        "common": "Cameroon",
+        "official": "Republic of Cameroon",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Cameroon",
+                "common": "Cameroon"
+            },
+            "fra": {
+                "official": "République du Cameroun",
+                "common": "Cameroun"
+            }
+        }
+    },
+    "currencies": {
+        "XAF": {
+            "symbol": "Fr",
+            "name": "Central African CFA franc"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "fra": "French"
+    },
+    "latlng": [
+        6.0,
+        12.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Cameroonian",
+            "m": "Cameroonian"
+        },
+        "fra": {
+            "f": "Camerounaise",
+            "m": "Camerounais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية الكاميرون",
+            "common": "الكاميرون"
+        },
+        "bre": {
+            "official": "Republik Kameroun",
+            "common": "Kameroun"
+        },
+        "ces": {
+            "official": "Kamerunská republika",
+            "common": "Kamerun"
+        },
+        "cym": {
+            "official": "Gweriniaeth Camerŵn",
+            "common": "Camerŵn"
+        },
+        "deu": {
+            "official": "Republik Kamerun",
+            "common": "Kamerun"
+        },
+        "est": {
+            "official": "Kameruni Vabariik",
+            "common": "Kamerun"
+        },
+        "fin": {
+            "official": "Kamerunin tasavalta",
+            "common": "Kamerun"
+        },
+        "fra": {
+            "official": "République du Cameroun",
+            "common": "Cameroun"
+        },
+        "hrv": {
+            "official": "Republika Kamerun",
+            "common": "Kamerun"
+        },
+        "hun": {
+            "official": "Kameruni Köztársaság",
+            "common": "Kamerun"
+        },
+        "ind": {
+            "official": "Republik Kamerun",
+            "common": "Kamerun"
+        },
+        "ita": {
+            "official": "Repubblica del Camerun",
+            "common": "Camerun"
+        },
+        "jpn": {
+            "official": "カメルーン共和国",
+            "common": "カメルーン"
+        },
+        "kor": {
+            "official": "카메룬 공화국",
+            "common": "카메룬"
+        },
+        "nld": {
+            "official": "Republiek Kameroen",
+            "common": "Kameroen"
+        },
+        "per": {
+            "official": "جمهوری کامِرون",
+            "common": "کامِرون"
+        },
+        "pol": {
+            "official": "Republika Kamerunu",
+            "common": "Kamerun"
+        },
+        "por": {
+            "official": "República dos Camarões",
+            "common": "Camarões"
+        },
+        "rus": {
+            "official": "Республика Камерун",
+            "common": "Камерун"
+        },
+        "slk": {
+            "official": "Kamerunská republika",
+            "common": "Kamerun"
+        },
+        "spa": {
+            "official": "República de Camerún",
+            "common": "Camerún"
+        },
+        "srp": {
+            "official": "Република Камерун",
+            "common": "Камерун"
+        },
+        "swe": {
+            "official": "Republiken Kamerun",
+            "common": "Kamerun"
+        },
+        "tur": {
+            "official": "Kamerun Cumhuriyeti",
+            "common": "Kamerun"
+        },
+        "urd": {
+            "official": "جمہوریہ کیمرون",
+            "common": "کیمرون"
+        },
+        "zho": {
+            "official": "喀麦隆共和国",
+            "common": "喀麦隆"
+        }
+    },
+    "gini": {
+        "2014": 46.6
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/cm.png",
+        "svg": "https://flagcdn.com/cm.svg",
+        "alt": "The flag of Cameroon is composed of three equal vertical bands of green, red and yellow, with a yellow five-pointed star in the center."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cm.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cm.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            3.85,
+            11.5
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

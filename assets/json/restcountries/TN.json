@@ -1,0 +1,215 @@
+{
+    "tld": [
+        ".tn"
+    ],
+    "cca2": "TN",
+    "ccn3": "788",
+    "cca3": "TUN",
+    "cioc": "TUN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "16"
+        ]
+    },
+    "capital": [
+        "Tunis"
+    ],
+    "altSpellings": [
+        "TN",
+        "Republic of Tunisia",
+        "al-Jumhūriyyah at-Tūnisiyyah"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "landlocked": false,
+    "borders": [
+        "DZA",
+        "LBY"
+    ],
+    "area": 163610.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/KgUmpZdUuNRaougs8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192757"
+    },
+    "population": 11972169,
+    "fifa": "TUN",
+    "car": {
+        "signs": [
+            "TN"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇹🇳",
+    "name": {
+        "common": "Tunisia",
+        "official": "Tunisian Republic",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية التونسية",
+                "common": "تونس"
+            }
+        }
+    },
+    "currencies": {
+        "TND": {
+            "symbol": "د.ت",
+            "name": "Tunisian dinar"
+        }
+    },
+    "languages": {
+        "ara": "Arabic"
+    },
+    "latlng": [
+        34.0,
+        9.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Tunisian",
+            "m": "Tunisian"
+        },
+        "fra": {
+            "f": "Tunisienne",
+            "m": "Tunisien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية التونسية",
+            "common": "تونس"
+        },
+        "bre": {
+            "official": "Republik Tunizian",
+            "common": "Tunizia"
+        },
+        "ces": {
+            "official": "Tuniská republika",
+            "common": "Tunisko"
+        },
+        "cym": {
+            "official": "Tunisian Republic",
+            "common": "Tunisia"
+        },
+        "deu": {
+            "official": "Tunesische Republik",
+            "common": "Tunesien"
+        },
+        "est": {
+            "official": "Tuneesia Vabariik",
+            "common": "Tuneesia"
+        },
+        "fin": {
+            "official": "Tunisian tasavalta",
+            "common": "Tunisia"
+        },
+        "fra": {
+            "official": "République tunisienne",
+            "common": "Tunisie"
+        },
+        "hrv": {
+            "official": "Tuniski Republika",
+            "common": "Tunis"
+        },
+        "hun": {
+            "official": "Tunéziai Köztársaság",
+            "common": "Tunézia"
+        },
+        "ind": {
+            "official": "Republik Tunisia",
+            "common": "Tunisia"
+        },
+        "ita": {
+            "official": "Repubblica tunisina",
+            "common": "Tunisia"
+        },
+        "jpn": {
+            "official": "チュニジア共和国",
+            "common": "チュニジア"
+        },
+        "kor": {
+            "official": "튀니지 공화국",
+            "common": "튀니지"
+        },
+        "nld": {
+            "official": "Republiek Tunesië",
+            "common": "Tunesië"
+        },
+        "per": {
+            "official": "جمهوری تونس",
+            "common": "تونس"
+        },
+        "pol": {
+            "official": "Republika Tunezyjska",
+            "common": "Tunezja"
+        },
+        "por": {
+            "official": "República da Tunísia",
+            "common": "Tunísia"
+        },
+        "rus": {
+            "official": "Тунисской Республики",
+            "common": "Тунис"
+        },
+        "slk": {
+            "official": "Tuniská republika",
+            "common": "Tunisko"
+        },
+        "spa": {
+            "official": "República de Túnez",
+            "common": "Túnez"
+        },
+        "srp": {
+            "official": "Тунишанска Република",
+            "common": "Тунис"
+        },
+        "swe": {
+            "official": "Republiken Tunisien",
+            "common": "Tunisien"
+        },
+        "tur": {
+            "official": "Tunus Cumhuriyeti",
+            "common": "Tunus"
+        },
+        "urd": {
+            "official": "جمہوریہ تونس",
+            "common": "تونس"
+        },
+        "zho": {
+            "official": "突尼斯共和国",
+            "common": "突尼斯"
+        }
+    },
+    "gini": {
+        "2015": 32.8
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/tn.png",
+        "svg": "https://flagcdn.com/tn.svg",
+        "alt": "The flag of Tunisia has a red field. A white circle bearing a five-pointed red star within a fly-side facing red crescent is situated at the center of the field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/tn.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/tn.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            36.8,
+            10.18
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

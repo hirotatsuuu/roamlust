@@ -1,0 +1,217 @@
+{
+    "tld": [
+        ".ss"
+    ],
+    "cca2": "SS",
+    "ccn3": "728",
+    "cca3": "SSD",
+    "cioc": "SSD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "11"
+        ]
+    },
+    "capital": [
+        "Juba"
+    ],
+    "altSpellings": [
+        "SS"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "landlocked": true,
+    "borders": [
+        "CAF",
+        "COD",
+        "ETH",
+        "KEN",
+        "SDN",
+        "UGA"
+    ],
+    "area": 619745.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/Zm1AYCXb9HSNF1P27",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1656678"
+    },
+    "population": 15786898,
+    "fifa": "SSD",
+    "car": {
+        "signs": [
+            ""
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇸🇸",
+    "name": {
+        "common": "South Sudan",
+        "official": "Republic of South Sudan",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of South Sudan",
+                "common": "South Sudan"
+            }
+        }
+    },
+    "currencies": {
+        "SSP": {
+            "symbol": "£",
+            "name": "South Sudanese pound"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        7.0,
+        30.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "South Sudanese",
+            "m": "South Sudanese"
+        },
+        "fra": {
+            "f": "Sud-Soudanaise",
+            "m": "Sud-Soudanais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية جنوب السودان",
+            "common": "جنوب السودان"
+        },
+        "bre": {
+            "official": "Republik Soudan ar Su",
+            "common": "Soudan ar Su"
+        },
+        "ces": {
+            "official": "Jihosúdánská republika",
+            "common": "Jižní Súdán"
+        },
+        "cym": {
+            "official": "Republic of South Sudan",
+            "common": "South Sudan"
+        },
+        "deu": {
+            "official": "Republik Südsudan",
+            "common": "Südsudan"
+        },
+        "est": {
+            "official": "Lõuna-Sudaani Vabariik",
+            "common": "Lõuna-Sudaan"
+        },
+        "fin": {
+            "official": "Etelä-Sudanin tasavalta",
+            "common": "Etelä-Sudan"
+        },
+        "fra": {
+            "official": "République du Soudan du Sud",
+            "common": "Soudan du Sud"
+        },
+        "hrv": {
+            "official": "Republika Južni Sudan",
+            "common": "Južni Sudan"
+        },
+        "hun": {
+            "official": "Dél-szudáni Köztársaság",
+            "common": "Dél-Szudán"
+        },
+        "ind": {
+            "official": "Republik Sudan Selatan",
+            "common": "Sudan Selatan"
+        },
+        "ita": {
+            "official": "Repubblica del Sudan del Sud",
+            "common": "Sudan del sud"
+        },
+        "jpn": {
+            "official": "南スーダン共和国",
+            "common": "南スーダン"
+        },
+        "kor": {
+            "official": "남수단 공화국",
+            "common": "남수단"
+        },
+        "nld": {
+            "official": "Republiek Zuid-Soedan",
+            "common": "Zuid-Soedan"
+        },
+        "per": {
+            "official": "جمهوری سودان جنوبی",
+            "common": "سودان جنوبی"
+        },
+        "pol": {
+            "official": "Republika Sudanu",
+            "common": "Sudan"
+        },
+        "por": {
+            "official": "República do Sudão do Sul",
+            "common": "Sudão do Sul"
+        },
+        "rus": {
+            "official": "Республика Южный Судан",
+            "common": "Южный Судан"
+        },
+        "slk": {
+            "official": "Juhosudánska republika",
+            "common": "Južný Sudán"
+        },
+        "spa": {
+            "official": "República de Sudán del Sur",
+            "common": "Sudán del Sur"
+        },
+        "srp": {
+            "official": "Република Јужни Судан",
+            "common": "Јужни Судан"
+        },
+        "swe": {
+            "official": "Republiken Sydsudan",
+            "common": "Sydsudan"
+        },
+        "tur": {
+            "official": "Güney Sudan Cumhuriyeti",
+            "common": "Güney Sudan"
+        },
+        "urd": {
+            "official": "جمہوریہ جنوبی سوڈان",
+            "common": "جنوبی سوڈان"
+        },
+        "zho": {
+            "official": "南苏丹共和国",
+            "common": "南苏丹"
+        }
+    },
+    "gini": {
+        "2016": 44.1
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ss.png",
+        "svg": "https://flagcdn.com/ss.svg",
+        "alt": "The flag of South Sudan is composed of three equal horizontal bands of black, red with white top and bottom edges, and green. A blue equilateral triangle which spans about two-fifth the width of the field is superimposed on the hoist side with its base on the hoist end of the field. At the center of this triangle is a five-pointed yellow star."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ss.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ss.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            4.85,
+            31.62
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

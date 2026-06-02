@@ -1,0 +1,225 @@
+{
+    "tld": [
+        ".by"
+    ],
+    "cca2": "BY",
+    "ccn3": "112",
+    "cca3": "BLR",
+    "cioc": "BLR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "75"
+        ]
+    },
+    "capital": [
+        "Minsk"
+    ],
+    "altSpellings": [
+        "BY",
+        "Bielaruś",
+        "Republic of Belarus",
+        "Белоруссия",
+        "Республика Белоруссия"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "landlocked": true,
+    "borders": [
+        "LVA",
+        "LTU",
+        "POL",
+        "RUS",
+        "UKR"
+    ],
+    "area": 207600.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/59065"
+    },
+    "population": 9109280,
+    "fifa": "BLR",
+    "car": {
+        "signs": [
+            "BY"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇧🇾",
+    "name": {
+        "common": "Belarus",
+        "official": "Republic of Belarus",
+        "nativeName": {
+            "bel": {
+                "official": "Рэспубліка Беларусь",
+                "common": "Белару́сь"
+            },
+            "rus": {
+                "official": "Республика Беларусь",
+                "common": "Беларусь"
+            }
+        }
+    },
+    "currencies": {
+        "BYN": {
+            "symbol": "Br",
+            "name": "Belarusian ruble"
+        }
+    },
+    "languages": {
+        "bel": "Belarusian",
+        "rus": "Russian"
+    },
+    "latlng": [
+        53.0,
+        28.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Belarusian",
+            "m": "Belarusian"
+        },
+        "fra": {
+            "f": "Biélorusse",
+            "m": "Biélorusse"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية بيلاروسيا",
+            "common": "بيلاروسيا"
+        },
+        "bre": {
+            "official": "Republik Belarus",
+            "common": "Belarus"
+        },
+        "ces": {
+            "official": "Běloruská republika",
+            "common": "Bělorusko"
+        },
+        "cym": {
+            "official": "Gweriniaeth Belarws",
+            "common": "Belarws"
+        },
+        "deu": {
+            "official": "Republik Belarus",
+            "common": "Weißrussland"
+        },
+        "est": {
+            "official": "Valgevene Vabariik",
+            "common": "Valgevene"
+        },
+        "fin": {
+            "official": "Valko-Venäjän tasavalta",
+            "common": "Valko-Venäjä"
+        },
+        "fra": {
+            "official": "République de Biélorussie",
+            "common": "Biélorussie"
+        },
+        "hrv": {
+            "official": "Republika Bjelorusija",
+            "common": "Bjelorusija"
+        },
+        "hun": {
+            "official": "Fehérorosz Köztársaság",
+            "common": "Fehéroroszország"
+        },
+        "ind": {
+            "official": "Republik Belarus",
+            "common": "Belarus"
+        },
+        "ita": {
+            "official": "Repubblica di Belarus",
+            "common": "Bielorussia"
+        },
+        "jpn": {
+            "official": "ベラルーシ共和国",
+            "common": "ベラルーシ"
+        },
+        "kor": {
+            "official": "벨라루스 공화국",
+            "common": "벨라루스"
+        },
+        "nld": {
+            "official": "Republiek Belarus",
+            "common": "Wit-Rusland"
+        },
+        "per": {
+            "official": "جمهوری بلاروس",
+            "common": "بلاروس"
+        },
+        "pol": {
+            "official": "Republika Białorusi",
+            "common": "Białoruś"
+        },
+        "por": {
+            "official": "República da Bielorrússia",
+            "common": "Bielorússia"
+        },
+        "rus": {
+            "official": "Республика Беларусь",
+            "common": "Беларусь"
+        },
+        "slk": {
+            "official": "Bieloruská republika",
+            "common": "Bielorusko"
+        },
+        "spa": {
+            "official": "República de Belarús",
+            "common": "Bielorrusia"
+        },
+        "srp": {
+            "official": "Република Белорусија",
+            "common": "Белорусија"
+        },
+        "swe": {
+            "official": "Republiken Vitryssland",
+            "common": "Belarus"
+        },
+        "tur": {
+            "official": "Belarus Cumhuriyeti",
+            "common": "Belarus"
+        },
+        "urd": {
+            "official": "جمہوریہ بیلاروس",
+            "common": "بیلاروس"
+        },
+        "zho": {
+            "official": "白俄罗斯共和国",
+            "common": "白俄罗斯"
+        }
+    },
+    "gini": {
+        "2019": 25.3
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/by.png",
+        "svg": "https://flagcdn.com/by.svg",
+        "alt": "The flag of Belarus features a vertical band, with a white and red ornamental pattern, spanning about one-fifth the width of the field on the hoist side. Adjoining the vertical band are two horizontal bands of red and green, with the red band twice the height of the green band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/by.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/by.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            53.9,
+            27.57
+        ]
+    },
+    "postalCode": {
+        "format": "######",
+        "regex": "^(\\d{6})$"
+    }
+}

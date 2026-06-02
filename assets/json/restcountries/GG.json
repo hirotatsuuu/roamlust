@@ -1,0 +1,220 @@
+{
+    "tld": [
+        ".gg"
+    ],
+    "cca2": "GG",
+    "ccn3": "831",
+    "cca3": "GGY",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "4"
+        ]
+    },
+    "capital": [
+        "St. Peter Port"
+    ],
+    "altSpellings": [
+        "GG",
+        "Bailiwick of Guernsey",
+        "Bailliage de Guernesey"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "landlocked": false,
+    "area": 78.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/270009"
+    },
+    "population": 64781,
+    "car": {
+        "signs": [
+            "GBG"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+00:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇬🇬",
+    "name": {
+        "common": "Guernsey",
+        "official": "Bailiwick of Guernsey",
+        "nativeName": {
+            "eng": {
+                "official": "Bailiwick of Guernsey",
+                "common": "Guernsey"
+            },
+            "fra": {
+                "official": "Bailliage de Guernesey",
+                "common": "Guernesey"
+            },
+            "nfr": {
+                "official": "Dgèrnésiais",
+                "common": "Dgèrnésiais"
+            }
+        }
+    },
+    "currencies": {
+        "GBP": {
+            "symbol": "£",
+            "name": "British pound"
+        },
+        "GGP": {
+            "symbol": "£",
+            "name": "Guernsey pound"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "fra": "French",
+        "nfr": "Guernésiais"
+    },
+    "latlng": [
+        49.46666666,
+        -2.58333333
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Channel Islander",
+            "m": "Channel Islander"
+        },
+        "fra": {
+            "f": "Guernesiaise",
+            "m": "Guernesiais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "غيرنزي",
+            "common": "غيرنزي"
+        },
+        "bre": {
+            "official": "Gwernenez",
+            "common": "Gwernenez"
+        },
+        "ces": {
+            "official": "Rychtářství Guernsey",
+            "common": "Guernsey"
+        },
+        "cym": {
+            "official": "Bailiwick of Guernsey",
+            "common": "Guernsey"
+        },
+        "deu": {
+            "official": "Vogtei Guernsey",
+            "common": "Guernsey"
+        },
+        "est": {
+            "official": "Guernsey foogtkond",
+            "common": "Guernsey"
+        },
+        "fin": {
+            "official": "Guernsey",
+            "common": "Guernsey"
+        },
+        "fra": {
+            "official": "Bailliage de Guernesey",
+            "common": "Guernesey"
+        },
+        "hrv": {
+            "official": "Struka Guernsey",
+            "common": "Guernsey"
+        },
+        "hun": {
+            "official": "Guernsey",
+            "common": "Guernsey"
+        },
+        "ind": {
+            "official": "Bailiwick Guernsey",
+            "common": "Guernsey"
+        },
+        "ita": {
+            "official": "Baliato di Guernsey",
+            "common": "Guernsey"
+        },
+        "jpn": {
+            "official": "ガーンジーの得意分野",
+            "common": "ガーンジー"
+        },
+        "kor": {
+            "official": "건지 섬",
+            "common": "건지 섬"
+        },
+        "nld": {
+            "official": "Baljuwschap Guernsey",
+            "common": "Guernsey"
+        },
+        "per": {
+            "official": "گرنزی",
+            "common": "گرنزی"
+        },
+        "pol": {
+            "official": "Baliwat Guernsey",
+            "common": "Guernsey"
+        },
+        "por": {
+            "official": "Bailiado de Guernsey",
+            "common": "Guernsey"
+        },
+        "rus": {
+            "official": "Коронное владение Гернси",
+            "common": "Гернси"
+        },
+        "slk": {
+            "official": "Guernsey",
+            "common": "Guernsey"
+        },
+        "spa": {
+            "official": "Bailía de Guernsey",
+            "common": "Guernsey"
+        },
+        "srp": {
+            "official": "Бејливик Гернзи",
+            "common": "Гернзи"
+        },
+        "swe": {
+            "official": "Guernsey",
+            "common": "Guernsey"
+        },
+        "tur": {
+            "official": "Guernsey Muhafızlığı",
+            "common": "Guernsey"
+        },
+        "urd": {
+            "official": "گرنزی رودبار",
+            "common": "گرنزی"
+        },
+        "zho": {
+            "official": "根西岛",
+            "common": "根西岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/gg.png",
+        "svg": "https://flagcdn.com/gg.svg",
+        "alt": "The flag of Guernsey is white with a red cross extending to the edges. Superimposed on it is a gold equal-armed cross capped with serifs."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gg.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gg.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            49.45,
+            -2.54
+        ]
+    },
+    "postalCode": {
+        "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
+        "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+    }
+}

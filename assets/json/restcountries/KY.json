@@ -1,0 +1,206 @@
+{
+    "tld": [
+        ".ky"
+    ],
+    "cca2": "KY",
+    "ccn3": "136",
+    "cca3": "CYM",
+    "cioc": "CAY",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "345"
+        ]
+    },
+    "capital": [
+        "George Town"
+    ],
+    "altSpellings": [
+        "KY"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 264.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/7269765"
+    },
+    "population": 84738,
+    "fifa": "CAY",
+    "car": {
+        "signs": [
+            "GB"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-05:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇰🇾",
+    "name": {
+        "common": "Cayman Islands",
+        "official": "Cayman Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Cayman Islands",
+                "common": "Cayman Islands"
+            }
+        }
+    },
+    "currencies": {
+        "KYD": {
+            "symbol": "$",
+            "name": "Cayman Islands dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        19.3133,
+        -81.2546
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Caymanian",
+            "m": "Caymanian"
+        },
+        "fra": {
+            "f": "Caïmanienne",
+            "m": "Caïmanien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر كايمان",
+            "common": "جزر كايمان"
+        },
+        "bre": {
+            "official": "Inizi Cayman",
+            "common": "Inizi Cayman"
+        },
+        "ces": {
+            "official": "Kajmanské ostrovy",
+            "common": "Kajmanské ostrovy"
+        },
+        "cym": {
+            "official": "Ynysoedd Cayman",
+            "common": "Ynysoedd Cayman"
+        },
+        "deu": {
+            "official": "Cayman-Inseln",
+            "common": "Kaimaninseln"
+        },
+        "est": {
+            "official": "Kaimanisaared",
+            "common": "Kaimanisaared"
+        },
+        "fin": {
+            "official": "Caymansaaret",
+            "common": "Caymansaaret"
+        },
+        "fra": {
+            "official": "Îles Caïmans",
+            "common": "Îles Caïmans"
+        },
+        "hrv": {
+            "official": "Kajmanski otoci",
+            "common": "Kajmanski otoci"
+        },
+        "hun": {
+            "official": "Kajmán-szigetek",
+            "common": "Kajmán-szigetek"
+        },
+        "ind": {
+            "official": "Kepulauan Cayman",
+            "common": "Kepulauan Cayman"
+        },
+        "ita": {
+            "official": "Isole Cayman",
+            "common": "Isole Cayman"
+        },
+        "jpn": {
+            "official": "ケイマン諸島",
+            "common": "ケイマン諸島"
+        },
+        "kor": {
+            "official": "케이맨 제도",
+            "common": "케이맨 제도"
+        },
+        "nld": {
+            "official": "Caymaneilanden",
+            "common": "Caymaneilanden"
+        },
+        "per": {
+            "official": "جزایر کیمن",
+            "common": "جزایر کیمن"
+        },
+        "pol": {
+            "official": "Kajmany",
+            "common": "Kajmany"
+        },
+        "por": {
+            "official": "Ilhas Cayman",
+            "common": "Ilhas Caimão"
+        },
+        "rus": {
+            "official": "Каймановы острова",
+            "common": "Каймановы острова"
+        },
+        "slk": {
+            "official": "Kajmanie ostrovy",
+            "common": "Kajmanie ostrovy"
+        },
+        "spa": {
+            "official": "Islas Caimán",
+            "common": "Islas Caimán"
+        },
+        "srp": {
+            "official": "Кајманска Острва",
+            "common": "Кајманска Острва"
+        },
+        "swe": {
+            "official": "Caymanöarna",
+            "common": "Caymanöarna"
+        },
+        "tur": {
+            "official": "Cayman Adaları",
+            "common": "Cayman Adaları"
+        },
+        "urd": {
+            "official": "جزائر کیمین",
+            "common": "جزائر کیمین"
+        },
+        "zho": {
+            "official": "开曼群岛",
+            "common": "开曼群岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ky.png",
+        "svg": "https://flagcdn.com/ky.svg",
+        "alt": "The flag of the Cayman Islands is composed of a blue field with the UK flag in the canton and the national coat of arms centered on the fly half. The coat of arms includes a crest with a pineapple and a turtle above a shield bearing a golden lion. Below are three green stars over white and blue wavy lines. A scroll below the shield bears the motto \"HE HATH FOUNDED IT UPON THE SEAS.\""
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ky.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ky.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            19.3,
+            -81.38
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "tld": [
+        ".ua",
+        ".укр"
+    ],
+    "cca2": "UA",
+    "ccn3": "804",
+    "cca3": "UKR",
+    "cioc": "UKR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "80"
+        ]
+    },
+    "capital": [
+        "Kyiv"
+    ],
+    "altSpellings": [
+        "UA",
+        "Ukrayina"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "landlocked": false,
+    "borders": [
+        "BLR",
+        "HUN",
+        "MDA",
+        "POL",
+        "ROU",
+        "RUS",
+        "SVK"
+    ],
+    "area": 603550.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/60199"
+    },
+    "population": 32862000,
+    "fifa": "UKR",
+    "car": {
+        "signs": [
+            "UA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+02:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇺🇦",
+    "name": {
+        "common": "Ukraine",
+        "official": "Ukraine",
+        "nativeName": {
+            "ukr": {
+                "official": "Україна",
+                "common": "Україна"
+            }
+        }
+    },
+    "currencies": {
+        "UAH": {
+            "symbol": "₴",
+            "name": "Ukrainian hryvnia"
+        }
+    },
+    "languages": {
+        "ukr": "Ukrainian"
+    },
+    "latlng": [
+        49.0,
+        32.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Ukrainian",
+            "m": "Ukrainian"
+        },
+        "fra": {
+            "f": "Ukrainienne",
+            "m": "Ukrainien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "أوكرانيا",
+            "common": "أوكرانيا"
+        },
+        "bre": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "ces": {
+            "official": "Ukrajina",
+            "common": "Ukrajina"
+        },
+        "cym": {
+            "official": "Ukraine",
+            "common": "Ukraine"
+        },
+        "deu": {
+            "official": "Ukraine",
+            "common": "Ukraine"
+        },
+        "est": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "fin": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "fra": {
+            "official": "Ukraine",
+            "common": "Ukraine"
+        },
+        "hrv": {
+            "official": "Ukrajina",
+            "common": "Ukrajina"
+        },
+        "hun": {
+            "official": "Ukrajna",
+            "common": "Ukrajna"
+        },
+        "ind": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "ita": {
+            "official": "Ucraina",
+            "common": "Ucraina"
+        },
+        "jpn": {
+            "official": "ウクライナ",
+            "common": "ウクライナ"
+        },
+        "kor": {
+            "official": "우크라이나",
+            "common": "우크라이나"
+        },
+        "nld": {
+            "official": "Oekraïne",
+            "common": "Oekraïne"
+        },
+        "per": {
+            "official": "اوکراین",
+            "common": "اوکراین"
+        },
+        "pol": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "por": {
+            "official": "Ucrânia",
+            "common": "Ucrânia"
+        },
+        "rus": {
+            "official": "Украина",
+            "common": "Украина"
+        },
+        "slk": {
+            "official": "Ukrajina",
+            "common": "Ukrajina"
+        },
+        "spa": {
+            "official": "Ucrania",
+            "common": "Ucrania"
+        },
+        "srp": {
+            "official": "Украјина",
+            "common": "Украјина"
+        },
+        "swe": {
+            "official": "Ukraina",
+            "common": "Ukraina"
+        },
+        "tur": {
+            "official": "Ukrayna",
+            "common": "Ukrayna"
+        },
+        "urd": {
+            "official": "یوکرین",
+            "common": "یوکرین"
+        },
+        "zho": {
+            "official": "乌克兰",
+            "common": "乌克兰"
+        }
+    },
+    "gini": {
+        "2019": 26.6
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ua.png",
+        "svg": "https://flagcdn.com/ua.svg",
+        "alt": "The flag of Ukraine is composed of two equal horizontal bands of blue and yellow."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ua.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ua.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            50.43,
+            30.52
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "tld": [
+        ".gw"
+    ],
+    "cca2": "GW",
+    "ccn3": "624",
+    "cca3": "GNB",
+    "cioc": "GBS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "45"
+        ]
+    },
+    "capital": [
+        "Bissau"
+    ],
+    "altSpellings": [
+        "GW",
+        "Republic of Guinea-Bissau",
+        "República da Guiné-Bissau"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "landlocked": false,
+    "borders": [
+        "GIN",
+        "SEN"
+    ],
+    "area": 36125.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/5Wyaz17miUc1zLc67",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192776"
+    },
+    "population": 1781308,
+    "fifa": "GNB",
+    "car": {
+        "signs": [
+            "RGB"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇬🇼",
+    "name": {
+        "common": "Guinea-Bissau",
+        "official": "Republic of Guinea-Bissau",
+        "nativeName": {
+            "por": {
+                "official": "República da Guiné-Bissau",
+                "common": "Guiné-Bissau"
+            },
+            "pov": {
+                "official": "República da Guiné-Bissau",
+                "common": "Guiné-Bissau"
+            }
+        }
+    },
+    "currencies": {
+        "XOF": {
+            "symbol": "Fr",
+            "name": "West African CFA franc"
+        }
+    },
+    "languages": {
+        "por": "Portuguese",
+        "pov": "Upper Guinea Creole"
+    },
+    "latlng": [
+        12.0,
+        -15.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Guinea-Bissauan",
+            "m": "Guinea-Bissauan"
+        },
+        "fra": {
+            "f": "Bissau-Guinéenne",
+            "m": "Bissau-Guinéen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية غينيا بيساو",
+            "common": "غينيا بيساو"
+        },
+        "bre": {
+            "official": "Republik Ginea-Bissau",
+            "common": "Ginea-Bissau"
+        },
+        "ces": {
+            "official": "Republika Guinea-Bissau",
+            "common": "Guinea-Bissau"
+        },
+        "cym": {
+            "official": "Republic of Guinea-Bissau",
+            "common": "Guinea-Bissau"
+        },
+        "deu": {
+            "official": "Republik Guinea-Bissau",
+            "common": "Guinea-Bissau"
+        },
+        "est": {
+            "official": "Guinea-Bissau Vabariik",
+            "common": "Guinea-Bissau"
+        },
+        "fin": {
+            "official": "Guinea-Bissaun tasavalta",
+            "common": "Guinea-Bissau"
+        },
+        "fra": {
+            "official": "République de Guinée-Bissau",
+            "common": "Guinée-Bissau"
+        },
+        "hrv": {
+            "official": "Republika Gvineja Bisau",
+            "common": "Gvineja Bisau"
+        },
+        "hun": {
+            "official": "Bissau-Guineai Köztársaság",
+            "common": "Bissau-Guinea"
+        },
+        "ind": {
+            "official": "Republik Ginea dan Bisau",
+            "common": "Ginea dan Bisau"
+        },
+        "ita": {
+            "official": "Repubblica di Guinea-Bissau",
+            "common": "Guinea-Bissau"
+        },
+        "jpn": {
+            "official": "ギニアビサウ共和国",
+            "common": "ギニアビサウ"
+        },
+        "kor": {
+            "official": "기니비사우 공화국",
+            "common": "기니비사우"
+        },
+        "nld": {
+            "official": "Republiek Guinee-Bissau",
+            "common": "Guinee-Bissau"
+        },
+        "per": {
+            "official": "جمهوری گینه بیسائو",
+            "common": "گینه بیسائو"
+        },
+        "pol": {
+            "official": "Republika Gwinei Bissau",
+            "common": "Gwinea Bissau"
+        },
+        "por": {
+            "official": "República da Guiné-Bissau",
+            "common": "Guiné-Bissau"
+        },
+        "rus": {
+            "official": "Республика Гвинея -Бисау",
+            "common": "Гвинея-Бисау"
+        },
+        "slk": {
+            "official": "Guinejsko-bissauská republika",
+            "common": "Guinea-Bissau"
+        },
+        "spa": {
+            "official": "República de Guinea-Bissau",
+            "common": "Guinea-Bisáu"
+        },
+        "srp": {
+            "official": "Република Гвинеја Бисао",
+            "common": "Гвинеја Бисао"
+        },
+        "swe": {
+            "official": "Republiken Guinea-Bissau",
+            "common": "Guinea-Bissau"
+        },
+        "tur": {
+            "official": "Gine-Bissau Cumhuriyeti",
+            "common": "Gine-Bissau"
+        },
+        "urd": {
+            "official": "جمہوریہ گنی بساؤ",
+            "common": "گنی بساؤ"
+        },
+        "zho": {
+            "official": "几内亚比绍共和国",
+            "common": "几内亚比绍"
+        }
+    },
+    "gini": {
+        "2010": 50.7
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/gw.png",
+        "svg": "https://flagcdn.com/gw.svg",
+        "alt": "The flag of Guinea-Bissau features a red vertical band on its hoist side that takes up about two-fifth the width of the field, and two equal horizontal bands of yellow and green adjoining the vertical band. A five-pointed black star is centered in the vertical band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gw.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gw.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            11.85,
+            -15.58
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

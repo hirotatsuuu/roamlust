@@ -1,0 +1,216 @@
+{
+    "tld": [
+        ".ly"
+    ],
+    "cca2": "LY",
+    "ccn3": "434",
+    "cca3": "LBY",
+    "cioc": "LBA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "18"
+        ]
+    },
+    "capital": [
+        "Tripoli"
+    ],
+    "altSpellings": [
+        "LY",
+        "State of Libya",
+        "Dawlat Libya"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "landlocked": false,
+    "borders": [
+        "DZA",
+        "TCD",
+        "EGY",
+        "NER",
+        "SDN",
+        "TUN"
+    ],
+    "area": 1759540.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
+        "openStreetMaps": "openstreetmap.org/relation/192758"
+    },
+    "population": 7459000,
+    "fifa": "LBY",
+    "car": {
+        "signs": [
+            "LAR"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇱🇾",
+    "name": {
+        "common": "Libya",
+        "official": "State of Libya",
+        "nativeName": {
+            "ara": {
+                "official": "الدولة ليبيا",
+                "common": "‏ليبيا"
+            }
+        }
+    },
+    "currencies": {
+        "LYD": {
+            "symbol": "ل.د",
+            "name": "Libyan dinar"
+        }
+    },
+    "languages": {
+        "ara": "Arabic"
+    },
+    "latlng": [
+        25.0,
+        17.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Libyan",
+            "m": "Libyan"
+        },
+        "fra": {
+            "f": "Libyenne",
+            "m": "Libyen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "دولة ليبيا",
+            "common": "‏ليبيا"
+        },
+        "bre": {
+            "official": "Stad Libia",
+            "common": "Libia"
+        },
+        "ces": {
+            "official": "Stát Libye",
+            "common": "Libye"
+        },
+        "cym": {
+            "official": "State of Libya",
+            "common": "Libya"
+        },
+        "deu": {
+            "official": "Staat Libyen",
+            "common": "Libyen"
+        },
+        "est": {
+            "official": "Liibüa",
+            "common": "Liibüa"
+        },
+        "fin": {
+            "official": "Libyan valtio",
+            "common": "Libya"
+        },
+        "fra": {
+            "official": "Grande République arabe libyenne populaire et socialiste",
+            "common": "Libye"
+        },
+        "hrv": {
+            "official": "Država Libiji",
+            "common": "Libija"
+        },
+        "hun": {
+            "official": "Líbia Állam",
+            "common": "Líbia"
+        },
+        "ind": {
+            "official": "Negara Libya",
+            "common": "Libya"
+        },
+        "ita": {
+            "official": "Stato della Libia",
+            "common": "Libia"
+        },
+        "jpn": {
+            "official": "リビアの国家",
+            "common": "リビア"
+        },
+        "kor": {
+            "official": "리비아",
+            "common": "리비아"
+        },
+        "nld": {
+            "official": "Staat van Libië",
+            "common": "Libië"
+        },
+        "per": {
+            "official": "دولت لیبی",
+            "common": "لیبی"
+        },
+        "pol": {
+            "official": "Państwo Libia",
+            "common": "Libia"
+        },
+        "por": {
+            "official": "Estado da Líbia",
+            "common": "Líbia"
+        },
+        "rus": {
+            "official": "Государство Ливии",
+            "common": "Ливия"
+        },
+        "slk": {
+            "official": "Líbya",
+            "common": "Líbya"
+        },
+        "spa": {
+            "official": "Estado de Libia",
+            "common": "Libia"
+        },
+        "srp": {
+            "official": "Држава Либија",
+            "common": "Либија"
+        },
+        "swe": {
+            "official": "Staten Libyen",
+            "common": "Libyen"
+        },
+        "tur": {
+            "official": "Libya Devleti",
+            "common": "Libya"
+        },
+        "urd": {
+            "official": "ریاستِ لیبیا",
+            "common": "لیبیا"
+        },
+        "zho": {
+            "official": "利比亚国",
+            "common": "利比亚"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ly.png",
+        "svg": "https://flagcdn.com/ly.svg",
+        "alt": "The flag of Libya is composed of three horizontal bands of red, black and green, with the black band twice the height of the other two bands. At the center of the black band is a fly-side facing white crescent and a five-pointed white star placed just outside the crescent opening."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ly.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ly.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            32.88,
+            13.17
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

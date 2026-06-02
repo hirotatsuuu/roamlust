@@ -1,0 +1,218 @@
+{
+    "tld": [
+        ".id"
+    ],
+    "cca2": "ID",
+    "ccn3": "360",
+    "cca3": "IDN",
+    "cioc": "INA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "2"
+        ]
+    },
+    "capital": [
+        "Jakarta"
+    ],
+    "altSpellings": [
+        "ID",
+        "Republic of Indonesia",
+        "Republik Indonesia"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "landlocked": false,
+    "borders": [
+        "TLS",
+        "MYS",
+        "PNG"
+    ],
+    "area": 1904569.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+    },
+    "population": 284438782,
+    "fifa": "IDN",
+    "car": {
+        "signs": [
+            "RI"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇮🇩",
+    "name": {
+        "common": "Indonesia",
+        "official": "Republic of Indonesia",
+        "nativeName": {
+            "ind": {
+                "official": "Republik Indonesia",
+                "common": "Indonesia"
+            }
+        }
+    },
+    "currencies": {
+        "IDR": {
+            "symbol": "Rp",
+            "name": "Indonesian rupiah"
+        }
+    },
+    "languages": {
+        "ind": "Indonesian"
+    },
+    "latlng": [
+        -5.0,
+        120.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Indonesian",
+            "m": "Indonesian"
+        },
+        "fra": {
+            "f": "Indonésienne",
+            "m": "Indonésien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية إندونيسيا",
+            "common": "إندونيسيا"
+        },
+        "bre": {
+            "official": "Republik Indonezia",
+            "common": "Indonezia"
+        },
+        "ces": {
+            "official": "Indonéská republika",
+            "common": "Indonésie"
+        },
+        "cym": {
+            "official": "Republic of Indonesia",
+            "common": "Indonesia"
+        },
+        "deu": {
+            "official": "Republik Indonesien",
+            "common": "Indonesien"
+        },
+        "est": {
+            "official": "Indoneesia Vabariik",
+            "common": "Indoneesia"
+        },
+        "fin": {
+            "official": "Indonesian tasavalta",
+            "common": "Indonesia"
+        },
+        "fra": {
+            "official": "République d'Indonésie",
+            "common": "Indonésie"
+        },
+        "hrv": {
+            "official": "Republika Indonezija",
+            "common": "Indonezija"
+        },
+        "hun": {
+            "official": "Indonéz Köztársaság",
+            "common": "Indonézia"
+        },
+        "ind": {
+            "official": "Republik Indonesia",
+            "common": "Indonesia"
+        },
+        "ita": {
+            "official": "Repubblica di Indonesia",
+            "common": "Indonesia"
+        },
+        "jpn": {
+            "official": "インドネシア共和国",
+            "common": "インドネシア"
+        },
+        "kor": {
+            "official": "인도네시아 공화국",
+            "common": "인도네시아"
+        },
+        "nld": {
+            "official": "Republiek Indonesië",
+            "common": "Indonesië"
+        },
+        "per": {
+            "official": "جمهوری اندونزی",
+            "common": "اندونزی"
+        },
+        "pol": {
+            "official": "Republika Indonezji",
+            "common": "Indonezja"
+        },
+        "por": {
+            "official": "República da Indonésia",
+            "common": "Indonésia"
+        },
+        "rus": {
+            "official": "Республика Индонезия",
+            "common": "Индонезия"
+        },
+        "slk": {
+            "official": "Indonézska republika",
+            "common": "Indonézia"
+        },
+        "spa": {
+            "official": "República de Indonesia",
+            "common": "Indonesia"
+        },
+        "srp": {
+            "official": "Република Индонезија",
+            "common": "Индонезија"
+        },
+        "swe": {
+            "official": "Republiken Indonesien",
+            "common": "Indonesien"
+        },
+        "tur": {
+            "official": "Endonezya Cumhuriyeti",
+            "common": "Endonezya"
+        },
+        "urd": {
+            "official": "جمہوریہ انڈونیشیا",
+            "common": "انڈونیشیا"
+        },
+        "zho": {
+            "official": "印度尼西亚共和国",
+            "common": "印度尼西亚"
+        }
+    },
+    "gini": {
+        "2019": 38.2
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/id.png",
+        "svg": "https://flagcdn.com/id.svg",
+        "alt": "The flag of Indonesia is composed of two equal horizontal bands of red and white."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/id.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/id.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -6.17,
+            106.82
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

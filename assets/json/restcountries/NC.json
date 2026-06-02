@@ -1,0 +1,205 @@
+{
+    "tld": [
+        ".nc"
+    ],
+    "cca2": "NC",
+    "ccn3": "540",
+    "cca3": "NCL",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "87"
+        ]
+    },
+    "capital": [
+        "Nouméa"
+    ],
+    "altSpellings": [
+        "NC"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "landlocked": false,
+    "area": 18575.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/3407643"
+    },
+    "population": 264596,
+    "fifa": "NCL",
+    "car": {
+        "signs": [
+            "F"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+11:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇳🇨",
+    "name": {
+        "common": "New Caledonia",
+        "official": "New Caledonia",
+        "nativeName": {
+            "fra": {
+                "official": "Nouvelle-Calédonie",
+                "common": "Nouvelle-Calédonie"
+            }
+        }
+    },
+    "currencies": {
+        "XPF": {
+            "symbol": "₣",
+            "name": "CFP franc"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        -21.5,
+        165.5
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "New Caledonian",
+            "m": "New Caledonian"
+        },
+        "fra": {
+            "f": "Néo-Calédonienne",
+            "m": "Néo-Calédonien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "كاليدونيا الجديدة",
+            "common": "كاليدونيا الجديدة"
+        },
+        "bre": {
+            "official": "Kaledonia-Nevez",
+            "common": "Kaledonia-Nevez"
+        },
+        "ces": {
+            "official": "Nová Kaledonie",
+            "common": "Nová Kaledonie"
+        },
+        "cym": {
+            "official": "New Caledonia",
+            "common": "New Caledonia"
+        },
+        "deu": {
+            "official": "Neukaledonien",
+            "common": "Neukaledonien"
+        },
+        "est": {
+            "official": "Uus-Kaledoonia",
+            "common": "Uus-Kaledoonia"
+        },
+        "fin": {
+            "official": "Uusi-Kaledonia",
+            "common": "Uusi-Kaledonia"
+        },
+        "fra": {
+            "official": "Nouvelle-Calédonie",
+            "common": "Nouvelle-Calédonie"
+        },
+        "hrv": {
+            "official": "Nova Kaledonija",
+            "common": "Nova Kaledonija"
+        },
+        "hun": {
+            "official": "Új-Kaledónia",
+            "common": "Új-Kaledónia"
+        },
+        "ind": {
+            "official": "Kaledonia Baru",
+            "common": "Kaledonia Baru"
+        },
+        "ita": {
+            "official": "Nuova Caledonia",
+            "common": "Nuova Caledonia"
+        },
+        "jpn": {
+            "official": "ニューカレドニア",
+            "common": "ニューカレドニア"
+        },
+        "kor": {
+            "official": "누벨칼레도니",
+            "common": "누벨칼레도니"
+        },
+        "nld": {
+            "official": "nieuw -Caledonië",
+            "common": "Nieuw-Caledonië"
+        },
+        "per": {
+            "official": "کالدونیای جدید",
+            "common": "کالدونیای جدید"
+        },
+        "pol": {
+            "official": "Nowa Kaledonia",
+            "common": "Nowa Kaledonia"
+        },
+        "por": {
+            "official": "New Caledonia",
+            "common": "Nova Caledónia"
+        },
+        "rus": {
+            "official": "Новая Каледония",
+            "common": "Новая Каледония"
+        },
+        "slk": {
+            "official": "Nová Kaledónia",
+            "common": "Nová Kaledónia"
+        },
+        "spa": {
+            "official": "nueva Caledonia",
+            "common": "Nueva Caledonia"
+        },
+        "srp": {
+            "official": "Нова Каледонија",
+            "common": "Нова Каледонија"
+        },
+        "swe": {
+            "official": "Nya Kaledonien",
+            "common": "Nya Kaledonien"
+        },
+        "tur": {
+            "official": "Yeni Kaledonya",
+            "common": "Yeni Kaledonya"
+        },
+        "urd": {
+            "official": "نیو کیلیڈونیا",
+            "common": "نیو کیلیڈونیا"
+        },
+        "zho": {
+            "official": "新喀里多尼亚",
+            "common": "新喀里多尼亚"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/nc.png",
+        "svg": "https://flagcdn.com/nc.svg",
+        "alt": "The flag of New Caledonia has three equal horizontal bands of blue, red, and green. A large yellow disk shifted slightly to the hoist side displays a black symbol of a native rooftop adornment."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/nc.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/nc.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -22.27,
+            166.45
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

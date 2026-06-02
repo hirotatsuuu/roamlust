@@ -1,0 +1,204 @@
+{
+    "tld": [
+        ".vi"
+    ],
+    "cca2": "VI",
+    "ccn3": "850",
+    "cca3": "VIR",
+    "cioc": "ISV",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "340"
+        ]
+    },
+    "capital": [
+        "Charlotte Amalie"
+    ],
+    "altSpellings": [
+        "VI",
+        "Virgin Islands, U.S."
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 347.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/mBfreywj8dor6q4m9",
+        "openStreetMaps": "openstreetmap.org/relation/286898"
+    },
+    "population": 87146,
+    "fifa": "VIR",
+    "car": {
+        "signs": [
+            "USA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇻🇮",
+    "name": {
+        "common": "United States Virgin Islands",
+        "official": "Virgin Islands of the United States",
+        "nativeName": {
+            "eng": {
+                "official": "Virgin Islands of the United States",
+                "common": "United States Virgin Islands"
+            }
+        }
+    },
+    "currencies": {
+        "USD": {
+            "symbol": "$",
+            "name": "United States dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        18.35,
+        -64.933333
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Virgin Islander",
+            "m": "Virgin Islander"
+        },
+        "fra": {
+            "f": "",
+            "m": ""
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر العذراء الامريكية",
+            "common": "جزر العذراء الامريكية"
+        },
+        "bre": {
+            "official": "Inizi Gwerc'h ar Stadoù-Unanet",
+            "common": "Inizi Gwerc'h ar Stadoù-Unanet"
+        },
+        "ces": {
+            "official": "Americké Panenské ostrovy",
+            "common": "Americké Panenské ostrovy"
+        },
+        "cym": {
+            "official": "Virgin Islands of the United States",
+            "common": "United States Virgin Islands"
+        },
+        "deu": {
+            "official": "Amerikanische Jungferninseln",
+            "common": "Amerikanische Jungferninseln"
+        },
+        "est": {
+            "official": "Ühendriikide Neitsisaared",
+            "common": "Neitsisaared, USA"
+        },
+        "fin": {
+            "official": "Yhdysvaltain Neitsytsaaret",
+            "common": "Neitsytsaaret"
+        },
+        "fra": {
+            "official": "Îles Vierges des États-Unis",
+            "common": "Îles Vierges des États-Unis"
+        },
+        "hrv": {
+            "official": "Djevičanski Otoci SAD",
+            "common": "Američki Djevičanski Otoci"
+        },
+        "hun": {
+            "official": "Amerikai Virgin-szigetek",
+            "common": "Amerikai Virgin-szigetek"
+        },
+        "ind": {
+            "official": "Kepulauan Virgin Amerika Serikat",
+            "common": "Kepulauan Virgin Amerika Serikat"
+        },
+        "ita": {
+            "official": "Isole Vergini degli Stati Uniti",
+            "common": "Isole Vergini americane"
+        },
+        "jpn": {
+            "official": "米国のバージン諸島",
+            "common": "アメリカ領ヴァージン諸島"
+        },
+        "kor": {
+            "official": "미국령 버진아일랜드",
+            "common": "미국령 버진아일랜드"
+        },
+        "nld": {
+            "official": "Maagdeneilanden van de Verenigde Staten",
+            "common": "Amerikaanse Maagdeneilanden"
+        },
+        "per": {
+            "official": "جزایر ویرجین ایالات متحده آمریکا",
+            "common": "جزایر ویرجین ایالات متحده آمریکا"
+        },
+        "pol": {
+            "official": "Wyspy Dziewicze Stanów Zjednoczonych",
+            "common": "Wyspy Dziewicze Stanów Zjednoczonych"
+        },
+        "por": {
+            "official": "Ilhas Virgens dos Estados Unidos",
+            "common": "Ilhas Virgens dos Estados Unidos"
+        },
+        "rus": {
+            "official": "Виргинские острова Соединенных Штатов",
+            "common": "Виргинские Острова"
+        },
+        "slk": {
+            "official": "Americké Panenské ostrovy",
+            "common": "Americké Panenské ostrovy"
+        },
+        "spa": {
+            "official": "Islas Vírgenes de los Estados Unidos",
+            "common": "Islas Vírgenes de los Estados Unidos"
+        },
+        "srp": {
+            "official": "Америчка Девичанска Острва",
+            "common": "Америчка Девичанска Острва"
+        },
+        "swe": {
+            "official": "Amerikanska Jungfruöarna",
+            "common": "Amerikanska Jungfruöarna"
+        },
+        "tur": {
+            "official": "Amerika Birleşik Devletleri Virjin Adaları",
+            "common": "ABD Virjin Adaları"
+        },
+        "urd": {
+            "official": "امریکی جزائر ورجن",
+            "common": "امریکی جزائر ورجن"
+        },
+        "zho": {
+            "official": "美属维尔京群岛",
+            "common": "美属维尔京群岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/vi.png",
+        "svg": "https://flagcdn.com/vi.svg",
+        "alt": "The flag of the United States Virgin Islands is composed of a white field with the national coat of arms in the center between the large blue initials V and I. The coat of arms shows a yellow eagle holding an olive branch in its right talon and three arrows in the left, with a shield of seven red and six white vertical stripes below a blue panel."
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            18.35,
+            -64.93
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

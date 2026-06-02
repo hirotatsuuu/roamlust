@@ -1,0 +1,212 @@
+{
+    "tld": [
+        ".cu"
+    ],
+    "cca2": "CU",
+    "ccn3": "192",
+    "cca3": "CUB",
+    "cioc": "CUB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "3"
+        ]
+    },
+    "capital": [
+        "Havana"
+    ],
+    "altSpellings": [
+        "CU",
+        "Republic of Cuba",
+        "República de Cuba"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 109884.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/1dDw1QfZspfMUTm99",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/307833"
+    },
+    "population": 9748007,
+    "fifa": "CUB",
+    "car": {
+        "signs": [
+            "C"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-05:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇨🇺",
+    "name": {
+        "common": "Cuba",
+        "official": "Republic of Cuba",
+        "nativeName": {
+            "spa": {
+                "official": "República de Cuba",
+                "common": "Cuba"
+            }
+        }
+    },
+    "currencies": {
+        "CUC": {
+            "symbol": "$",
+            "name": "Cuban convertible peso"
+        },
+        "CUP": {
+            "symbol": "$",
+            "name": "Cuban peso"
+        }
+    },
+    "languages": {
+        "spa": "Spanish"
+    },
+    "latlng": [
+        21.5,
+        -80.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Cuban",
+            "m": "Cuban"
+        },
+        "fra": {
+            "f": "Cubaine",
+            "m": "Cubain"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية كوبا",
+            "common": "كوبا"
+        },
+        "bre": {
+            "official": "Republik Kuba",
+            "common": "Kuba"
+        },
+        "ces": {
+            "official": "Kubánská republika",
+            "common": "Kuba"
+        },
+        "cym": {
+            "official": "Gweriniaeth Ciwba",
+            "common": "Ciwba"
+        },
+        "deu": {
+            "official": "Republik Kuba",
+            "common": "Kuba"
+        },
+        "est": {
+            "official": "Kuuba Vabariik",
+            "common": "Kuuba"
+        },
+        "fin": {
+            "official": "Kuuban tasavalta",
+            "common": "Kuuba"
+        },
+        "fra": {
+            "official": "République de Cuba",
+            "common": "Cuba"
+        },
+        "hrv": {
+            "official": "Republika Kuba",
+            "common": "Kuba"
+        },
+        "hun": {
+            "official": "Kubai Köztársaság",
+            "common": "Kuba"
+        },
+        "ind": {
+            "official": "Republik Kuba",
+            "common": "Kuba"
+        },
+        "ita": {
+            "official": "Repubblica di Cuba",
+            "common": "Cuba"
+        },
+        "jpn": {
+            "official": "キューバ共和国",
+            "common": "キューバ"
+        },
+        "kor": {
+            "official": "쿠바 공화국",
+            "common": "쿠바"
+        },
+        "nld": {
+            "official": "Republiek Cuba",
+            "common": "Cuba"
+        },
+        "per": {
+            "official": "جمهوری کوبا",
+            "common": "کوبا"
+        },
+        "pol": {
+            "official": "Republika Kuby",
+            "common": "Kuba"
+        },
+        "por": {
+            "official": "República de Cuba",
+            "common": "Cuba"
+        },
+        "rus": {
+            "official": "Республика Куба",
+            "common": "Куба"
+        },
+        "slk": {
+            "official": "Kubánska republika",
+            "common": "Kuba"
+        },
+        "spa": {
+            "official": "República de Cuba",
+            "common": "Cuba"
+        },
+        "srp": {
+            "official": "Република Куба",
+            "common": "Куба"
+        },
+        "swe": {
+            "official": "Republiken Kuba",
+            "common": "Kuba"
+        },
+        "tur": {
+            "official": "Küba Cumhuriyeti",
+            "common": "Küba"
+        },
+        "urd": {
+            "official": "جمہوریہ کیوبا",
+            "common": "کیوبا"
+        },
+        "zho": {
+            "official": "古巴共和国",
+            "common": "古巴"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/cu.png",
+        "svg": "https://flagcdn.com/cu.svg",
+        "alt": "The flag of Cuba is composed of five equal horizontal bands of blue alternating with white and a red equilateral triangle superimposed on the hoist side of the field. The triangle has its base on the hoist end, spans about two-fifth the width of the field and bears a white five-pointed star at its center."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cu.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            23.12,
+            -82.35
+        ]
+    },
+    "postalCode": {
+        "format": "CP #####",
+        "regex": "^(?:CP)*(\\d{5})$"
+    }
+}

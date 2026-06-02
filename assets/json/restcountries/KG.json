@@ -1,0 +1,224 @@
+{
+    "tld": [
+        ".kg"
+    ],
+    "cca2": "KG",
+    "ccn3": "417",
+    "cca3": "KGZ",
+    "cioc": "KGZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "96"
+        ]
+    },
+    "capital": [
+        "Bishkek"
+    ],
+    "altSpellings": [
+        "KG",
+        "Киргизия",
+        "Kyrgyz Republic",
+        "Кыргыз Республикасы",
+        "Kyrgyz Respublikasy"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "landlocked": true,
+    "borders": [
+        "CHN",
+        "KAZ",
+        "TJK",
+        "UZB"
+    ],
+    "area": 199951.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/SKG8BSMMQVvxkRkB7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/178009"
+    },
+    "population": 7281800,
+    "fifa": "KGZ",
+    "car": {
+        "signs": [
+            "KS"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+06:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇰🇬",
+    "name": {
+        "common": "Kyrgyzstan",
+        "official": "Kyrgyz Republic",
+        "nativeName": {
+            "kir": {
+                "official": "Кыргыз Республикасы",
+                "common": "Кыргызстан"
+            },
+            "rus": {
+                "official": "Кыргызская Республика",
+                "common": "Киргизия"
+            }
+        }
+    },
+    "currencies": {
+        "KGS": {
+            "symbol": "с",
+            "name": "Kyrgyzstani som"
+        }
+    },
+    "languages": {
+        "kir": "Kyrgyz",
+        "rus": "Russian"
+    },
+    "latlng": [
+        41.0,
+        75.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Kirghiz",
+            "m": "Kirghiz"
+        },
+        "fra": {
+            "f": "Kirghize",
+            "m": "Kirghize"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية القيرغيزية",
+            "common": "قيرغيزستان"
+        },
+        "bre": {
+            "official": "Republik Kirgiz",
+            "common": "Kirgizstan"
+        },
+        "ces": {
+            "official": "Kyrgyzská republika",
+            "common": "Kyrgyzstán"
+        },
+        "cym": {
+            "official": "Kyrgyz Republic",
+            "common": "Kyrgyzstan"
+        },
+        "deu": {
+            "official": "Kirgisische Republik",
+            "common": "Kirgisistan"
+        },
+        "est": {
+            "official": "Kirgiisi Vabariik",
+            "common": "Kõrgõzstan"
+        },
+        "fin": {
+            "official": "Kirgisian tasavalta",
+            "common": "Kirgisia"
+        },
+        "fra": {
+            "official": "République kirghize",
+            "common": "Kirghizistan"
+        },
+        "hrv": {
+            "official": "Kirgistanu",
+            "common": "Kirgistan"
+        },
+        "hun": {
+            "official": "Kirgiz Köztársaság",
+            "common": "Kirgizisztán"
+        },
+        "ind": {
+            "official": "Republik Kirgistan",
+            "common": "Kirgistan"
+        },
+        "ita": {
+            "official": "Kirghizistan",
+            "common": "Kirghizistan"
+        },
+        "jpn": {
+            "official": "キルギス共和国",
+            "common": "キルギス"
+        },
+        "kor": {
+            "official": "키르기스 공화국",
+            "common": "키르기스스탄"
+        },
+        "nld": {
+            "official": "Kirgizische Republiek",
+            "common": "Kirgizië"
+        },
+        "per": {
+            "official": "جمهوری قِرقیزستان",
+            "common": "قرقیزستان"
+        },
+        "pol": {
+            "official": "Republika Kirgiska",
+            "common": "Kirgistan"
+        },
+        "por": {
+            "official": "República do Quirguistão",
+            "common": "Quirguistão"
+        },
+        "rus": {
+            "official": "Кыргызская Республика",
+            "common": "Киргизия"
+        },
+        "slk": {
+            "official": "Kirgizská republika",
+            "common": "Kirgizsko"
+        },
+        "spa": {
+            "official": "República Kirguisa",
+            "common": "Kirguizistán"
+        },
+        "srp": {
+            "official": "Киргиска Република",
+            "common": "Киргизија"
+        },
+        "swe": {
+            "official": "Republiken Kirgizistan",
+            "common": "Kirgizistan"
+        },
+        "tur": {
+            "official": "Kırgızistan Cumhuriyeti",
+            "common": "Kırgızistan"
+        },
+        "urd": {
+            "official": "جمہوریہ کرغیزستان",
+            "common": "کرغیزستان"
+        },
+        "zho": {
+            "official": "吉尔吉斯斯坦共和国",
+            "common": "吉尔吉斯斯坦"
+        }
+    },
+    "gini": {
+        "2019": 29.7
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/kg.png",
+        "svg": "https://flagcdn.com/kg.svg",
+        "alt": "The flag of Kyrgyzstan features a yellow sun with forty rays at the center of a red field. At the center of the sun is a stylized depiction of a tunduk."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/kg.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/kg.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            42.87,
+            74.6
+        ]
+    },
+    "postalCode": {
+        "format": "######",
+        "regex": "^(\\d{6})$"
+    }
+}

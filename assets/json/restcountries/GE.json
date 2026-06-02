@@ -1,0 +1,216 @@
+{
+    "tld": [
+        ".ge"
+    ],
+    "cca2": "GE",
+    "ccn3": "268",
+    "cca3": "GEO",
+    "cioc": "GEO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "95"
+        ]
+    },
+    "capital": [
+        "Tbilisi"
+    ],
+    "altSpellings": [
+        "GE",
+        "Sakartvelo"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "landlocked": false,
+    "borders": [
+        "ARM",
+        "AZE",
+        "RUS",
+        "TUR"
+    ],
+    "area": 69700.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/bvCaGBePR1ZEDK5cA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/28699"
+    },
+    "population": 4000921,
+    "fifa": "GEO",
+    "car": {
+        "signs": [
+            "GE"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+04:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇬🇪",
+    "name": {
+        "common": "Georgia",
+        "official": "Georgia",
+        "nativeName": {
+            "kat": {
+                "official": "საქართველო",
+                "common": "საქართველო"
+            }
+        }
+    },
+    "currencies": {
+        "GEL": {
+            "symbol": "₾",
+            "name": "lari"
+        }
+    },
+    "languages": {
+        "kat": "Georgian"
+    },
+    "latlng": [
+        42.0,
+        43.5
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Georgian",
+            "m": "Georgian"
+        },
+        "fra": {
+            "f": "Géorgienne",
+            "m": "Géorgien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جورجيا",
+            "common": "جورجيا"
+        },
+        "bre": {
+            "official": "Republik Jorjia",
+            "common": "Jorjia"
+        },
+        "ces": {
+            "official": "Gruzie",
+            "common": "Gruzie"
+        },
+        "cym": {
+            "official": "Georgia",
+            "common": "Georgia"
+        },
+        "deu": {
+            "official": "Georgien",
+            "common": "Georgien"
+        },
+        "est": {
+            "official": "Gruusia",
+            "common": "Gruusia"
+        },
+        "fin": {
+            "official": "Georgia",
+            "common": "Georgia"
+        },
+        "fra": {
+            "official": "République de Géorgie",
+            "common": "Géorgie"
+        },
+        "hrv": {
+            "official": "Gruzija",
+            "common": "Gruzija"
+        },
+        "hun": {
+            "official": "Grúzia",
+            "common": "Grúzia"
+        },
+        "ind": {
+            "official": "Georgia",
+            "common": "Georgia"
+        },
+        "ita": {
+            "official": "Georgia",
+            "common": "Georgia"
+        },
+        "jpn": {
+            "official": "グルジア",
+            "common": "グルジア"
+        },
+        "kor": {
+            "official": "조지아",
+            "common": "조지아"
+        },
+        "nld": {
+            "official": "Georgia",
+            "common": "Georgië"
+        },
+        "per": {
+            "official": "گرجستان",
+            "common": "گرجستان"
+        },
+        "pol": {
+            "official": "Gruzja",
+            "common": "Gruzja"
+        },
+        "por": {
+            "official": "Georgia",
+            "common": "Geórgia"
+        },
+        "rus": {
+            "official": "Грузия",
+            "common": "Грузия"
+        },
+        "slk": {
+            "official": "Gruzínsko",
+            "common": "Gruzínsko"
+        },
+        "spa": {
+            "official": "Georgia",
+            "common": "Georgia"
+        },
+        "srp": {
+            "official": "Грузија",
+            "common": "Грузија"
+        },
+        "swe": {
+            "official": "Georgien",
+            "common": "Georgien"
+        },
+        "tur": {
+            "official": "Gürcistan",
+            "common": "Gürcistan"
+        },
+        "urd": {
+            "official": "جارجیا",
+            "common": "جارجیا"
+        },
+        "zho": {
+            "official": "格鲁吉亚",
+            "common": "格鲁吉亚"
+        }
+    },
+    "gini": {
+        "2019": 35.9
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ge.png",
+        "svg": "https://flagcdn.com/ge.svg",
+        "alt": "The flag of Georgia has a white field with a large centered red cross that extends to the edges and divides the field into four quarters. A small red Bolnur-Katskhuri cross is centered in each quarter."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ge.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ge.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            41.68,
+            44.83
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

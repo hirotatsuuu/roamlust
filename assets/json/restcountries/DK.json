@@ -1,0 +1,219 @@
+{
+    "tld": [
+        ".dk"
+    ],
+    "cca2": "DK",
+    "ccn3": "208",
+    "cca3": "DNK",
+    "cioc": "DEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "5"
+        ]
+    },
+    "capital": [
+        "Copenhagen"
+    ],
+    "altSpellings": [
+        "DK",
+        "Danmark",
+        "Kingdom of Denmark",
+        "Kongeriget Danmark"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "landlocked": false,
+    "borders": [
+        "DEU"
+    ],
+    "area": 43094.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/50046"
+    },
+    "population": 6011488,
+    "fifa": "DEN",
+    "car": {
+        "signs": [
+            "DK"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-01:00",
+        "UTC",
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇩🇰",
+    "name": {
+        "common": "Denmark",
+        "official": "Kingdom of Denmark",
+        "nativeName": {
+            "dan": {
+                "official": "Kongeriget Danmark",
+                "common": "Danmark"
+            }
+        }
+    },
+    "currencies": {
+        "DKK": {
+            "symbol": "kr",
+            "name": "Danish krone"
+        }
+    },
+    "languages": {
+        "dan": "Danish"
+    },
+    "latlng": [
+        56.0,
+        10.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Danish",
+            "m": "Danish"
+        },
+        "fra": {
+            "f": "Danoise",
+            "m": "Danois"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "مملكة الدنمارك",
+            "common": "الدنمارك"
+        },
+        "bre": {
+            "official": "Rouantelezh Danmark",
+            "common": "Danmark"
+        },
+        "ces": {
+            "official": "Dánské království",
+            "common": "Dánsko"
+        },
+        "cym": {
+            "official": "Teyrnas Denmarc",
+            "common": "Denmarc"
+        },
+        "deu": {
+            "official": "Königreich Dänemark",
+            "common": "Dänemark"
+        },
+        "est": {
+            "official": "Taani Kuningriik",
+            "common": "Taani"
+        },
+        "fin": {
+            "official": "Tanskan kuningaskunta",
+            "common": "Tanska"
+        },
+        "fra": {
+            "official": "Royaume du Danemark",
+            "common": "Danemark"
+        },
+        "hrv": {
+            "official": "Kraljevina Danska",
+            "common": "Danska"
+        },
+        "hun": {
+            "official": "Dán Királyság",
+            "common": "Dánia"
+        },
+        "ind": {
+            "official": "Kerajaan Denmark",
+            "common": "Denmark"
+        },
+        "ita": {
+            "official": "Regno di Danimarca",
+            "common": "Danimarca"
+        },
+        "jpn": {
+            "official": "デンマーク王国",
+            "common": "デンマーク"
+        },
+        "kor": {
+            "official": "덴마크 왕국",
+            "common": "덴마크"
+        },
+        "nld": {
+            "official": "Koninkrijk Denemarken",
+            "common": "Denemarken"
+        },
+        "per": {
+            "official": "پادشاهی دانمارک",
+            "common": "دانمارک"
+        },
+        "pol": {
+            "official": "Królestwo Danii",
+            "common": "Dania"
+        },
+        "por": {
+            "official": "Reino da Dinamarca",
+            "common": "Dinamarca"
+        },
+        "rus": {
+            "official": "Королевство Дания",
+            "common": "Дания"
+        },
+        "slk": {
+            "official": "Dánske kráľovstvo",
+            "common": "Dánsko"
+        },
+        "spa": {
+            "official": "Reino de Dinamarca",
+            "common": "Dinamarca"
+        },
+        "srp": {
+            "official": "Краљевина Данска",
+            "common": "Данска"
+        },
+        "swe": {
+            "official": "Konungariket Danmark",
+            "common": "Danmark"
+        },
+        "tur": {
+            "official": "Danimarka Krallığı",
+            "common": "Danimarka"
+        },
+        "urd": {
+            "official": "مملکتِ ڈنمارک",
+            "common": "ڈنمارک"
+        },
+        "zho": {
+            "official": "丹麦王国",
+            "common": "丹麦"
+        }
+    },
+    "gini": {
+        "2018": 28.2
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/dk.png",
+        "svg": "https://flagcdn.com/dk.svg",
+        "alt": "The flag of Denmark has a red field with a large white cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/dk.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/dk.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            55.67,
+            12.58
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

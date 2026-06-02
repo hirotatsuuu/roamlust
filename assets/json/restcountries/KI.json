@@ -1,0 +1,221 @@
+{
+    "tld": [
+        ".ki"
+    ],
+    "cca2": "KI",
+    "ccn3": "296",
+    "cca3": "KIR",
+    "cioc": "KIR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "86"
+        ]
+    },
+    "capital": [
+        "South Tarawa"
+    ],
+    "altSpellings": [
+        "KI",
+        "Republic of Kiribati",
+        "Ribaberiki Kiribati"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "landlocked": false,
+    "area": 811.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/NBfYvrndW4skAimw9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/571178"
+    },
+    "population": 120740,
+    "car": {
+        "signs": [
+            "KIR"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+12:00",
+        "UTC+13:00",
+        "UTC+14:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇰🇮",
+    "name": {
+        "common": "Kiribati",
+        "official": "Independent and Sovereign Republic of Kiribati",
+        "nativeName": {
+            "eng": {
+                "official": "Independent and Sovereign Republic of Kiribati",
+                "common": "Kiribati"
+            },
+            "gil": {
+                "official": "Ribaberiki Kiribati",
+                "common": "Kiribati"
+            }
+        }
+    },
+    "currencies": {
+        "AUD": {
+            "symbol": "$",
+            "name": "Australian dollar"
+        },
+        "KID": {
+            "symbol": "$",
+            "name": "Kiribati dollar"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "gil": "Gilbertese"
+    },
+    "latlng": [
+        1.41666666,
+        173.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "I-Kiribati",
+            "m": "I-Kiribati"
+        },
+        "fra": {
+            "f": "Kiribatienne",
+            "m": "Kiribatien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية كيريباتي",
+            "common": "كيريباتي"
+        },
+        "bre": {
+            "official": "Republik Kiribati",
+            "common": "Kiribati"
+        },
+        "ces": {
+            "official": "Republika Kiribati",
+            "common": "Kiribati"
+        },
+        "cym": {
+            "official": "Independent and Sovereign Republic of Kiribati",
+            "common": "Kiribati"
+        },
+        "deu": {
+            "official": "Republik Kiribati",
+            "common": "Kiribati"
+        },
+        "est": {
+            "official": "Kiribati Vabariik",
+            "common": "Kiribati"
+        },
+        "fin": {
+            "official": "Kiribatin tasavalta",
+            "common": "Kiribati"
+        },
+        "fra": {
+            "official": "République de Kiribati",
+            "common": "Kiribati"
+        },
+        "hrv": {
+            "official": "Samostalne i suverene Republike Kiribati",
+            "common": "Kiribati"
+        },
+        "hun": {
+            "official": "Kiribati Köztársaság",
+            "common": "Kiribati"
+        },
+        "ind": {
+            "official": "Republik Kiribati",
+            "common": "Kiribati"
+        },
+        "ita": {
+            "official": "Repubblica indipendente e sovrano di Kiribati",
+            "common": "Kiribati"
+        },
+        "jpn": {
+            "official": "キリバスの独立と主権共和国",
+            "common": "キリバス"
+        },
+        "kor": {
+            "official": "키리바시 공화국",
+            "common": "키리바시"
+        },
+        "nld": {
+            "official": "Onafhankelijke en soevereine republiek Kiribati",
+            "common": "Kiribati"
+        },
+        "per": {
+            "official": "جمهوری کیریباتی",
+            "common": "کیریباتی"
+        },
+        "pol": {
+            "official": "Republika Kiribati",
+            "common": "Kiribati"
+        },
+        "por": {
+            "official": "Independente e soberano República de Kiribati",
+            "common": "Kiribati"
+        },
+        "rus": {
+            "official": "Независимой и суверенной Республики Кирибати",
+            "common": "Кирибати"
+        },
+        "slk": {
+            "official": "Kiribatská republika",
+            "common": "Kiribati"
+        },
+        "spa": {
+            "official": "República Independiente y Soberano de Kiribati",
+            "common": "Kiribati"
+        },
+        "srp": {
+            "official": "Независна и Суверена Република Кирибати",
+            "common": "Кирибати"
+        },
+        "swe": {
+            "official": "Republiken Kiribati",
+            "common": "Kiribati"
+        },
+        "tur": {
+            "official": "Kiribati Cumhuriyeti",
+            "common": "Kiribati"
+        },
+        "urd": {
+            "official": "سلطنت آزاد جمہوریہ کیریباتی",
+            "common": "کیریباتی"
+        },
+        "zho": {
+            "official": "基里巴斯共和国",
+            "common": "基里巴斯"
+        }
+    },
+    "gini": {
+        "2006": 37.0
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ki.png",
+        "svg": "https://flagcdn.com/ki.svg",
+        "alt": "The flag of Kiribati is divided into two halves. While the upper half has a red field, at the center of which is a yellow frigate bird flying over the top half of a rising yellow sun with seventeen visible rays, the lower half is composed of six horizontal wavy bands of white alternating with blue to depict the ocean."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ki.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ki.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            1.33,
+            172.98
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

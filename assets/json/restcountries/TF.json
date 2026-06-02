@@ -1,0 +1,204 @@
+{
+    "tld": [
+        ".tf"
+    ],
+    "cca2": "TF",
+    "ccn3": "260",
+    "cca3": "ATF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "62"
+        ]
+    },
+    "capital": [
+        "Port-aux-Français"
+    ],
+    "altSpellings": [
+        "TF",
+        "French Southern Territories"
+    ],
+    "region": "Antarctic",
+    "landlocked": false,
+    "area": 7747.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/6ua6CX1m4w1xF2Em7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2186658"
+    },
+    "population": 400,
+    "car": {
+        "signs": [
+            ""
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+05:00"
+    ],
+    "continents": [
+        "Antarctica"
+    ],
+    "flag": "🇹🇫",
+    "name": {
+        "common": "French Southern and Antarctic Lands",
+        "official": "Territory of the French Southern and Antarctic Lands",
+        "nativeName": {
+            "fra": {
+                "official": "Territoire des Terres australes et antarctiques françaises",
+                "common": "Terres australes et antarctiques françaises"
+            }
+        }
+    },
+    "currencies": {
+        "EUR": {
+            "symbol": "€",
+            "name": "euro"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        -49.25,
+        69.167
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "French",
+            "m": "French"
+        },
+        "fra": {
+            "f": "Française",
+            "m": "Français"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "مقاطعات وأقاليم ما وراء البحار الفرنسية",
+            "common": "أراض فرنسية جنوبية وأنتارتيكية"
+        },
+        "bre": {
+            "official": "Tiriad Douaroù Aostral hag Antarktikel Frañs",
+            "common": "Douaroù Aostral hag Antarktikel Frañs"
+        },
+        "ces": {
+            "official": "Teritorium Francouzská jižní a antarktická území",
+            "common": "Francouzská jižní a antarktická území"
+        },
+        "cym": {
+            "official": "Territory of the French Southern and Antarctic Lands",
+            "common": "French Southern and Antarctic Lands"
+        },
+        "deu": {
+            "official": "Gebiet der Französisch Süd- und Antarktisgebiete",
+            "common": "Französische Süd- und Antarktisgebiete"
+        },
+        "est": {
+            "official": "Prantsuse Lõunaalad",
+            "common": "Prantsuse Lõunaalad"
+        },
+        "fin": {
+            "official": "Ranskan eteläiset ja antarktiset alueet",
+            "common": "Ranskan eteläiset ja antarktiset alueet"
+        },
+        "fra": {
+            "official": "Territoire des Terres australes et antarctiques françaises",
+            "common": "Terres australes et antarctiques françaises"
+        },
+        "hrv": {
+            "official": "Teritoriju Francuski južni i antarktički teritoriji",
+            "common": "Francuski južni i antarktički teritoriji"
+        },
+        "hun": {
+            "official": "Francia déli és antarktiszi területek",
+            "common": "Francia déli és antarktiszi területek"
+        },
+        "ind": {
+            "official": "Daratan Selatan dan Antarktika Prancis",
+            "common": "Daratan Selatan dan Antarktika Prancis"
+        },
+        "ita": {
+            "official": "Territorio della australi e antartiche francesi Terre",
+            "common": "Territori Francesi del Sud"
+        },
+        "jpn": {
+            "official": "フランス領南方·南極地域の領土",
+            "common": "フランス領南方・南極地域"
+        },
+        "kor": {
+            "official": "프랑스령 남부와 남극 지역",
+            "common": "프랑스령 남부와 남극 지역"
+        },
+        "nld": {
+            "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden",
+            "common": "Franse Gebieden in de zuidelijke Indische Oceaan"
+        },
+        "per": {
+            "official": "سرزمین‌های جنوبی و جنوبگانی فرانسه",
+            "common": "سرزمین‌های جنوبی و جنوبگانی فرانسه"
+        },
+        "pol": {
+            "official": "Francuskie Terytoria Południowe i Antarktyczne",
+            "common": "Francuskie Terytoria Południowe i Antarktyczne"
+        },
+        "por": {
+            "official": "Território do Sul e Antártica Francesa",
+            "common": "Terras Austrais e Antárticas Francesas"
+        },
+        "rus": {
+            "official": "Территория Французские Южные и Антарктические земли",
+            "common": "Французские Южные и Антарктические территории"
+        },
+        "slk": {
+            "official": "Francúzske južné a antarktické územia",
+            "common": "Francúzske juŽné a antarktické územia"
+        },
+        "spa": {
+            "official": "Territorio del Francés Tierras australes y antárticas",
+            "common": "Tierras Australes y Antárticas Francesas"
+        },
+        "srp": {
+            "official": "Француске јужне и антарктичке земље",
+            "common": "Француске јужне и антарктичке земље"
+        },
+        "swe": {
+            "official": "Franska syd- och Antarktisterritorierna",
+            "common": "Franska södra territorierna"
+        },
+        "tur": {
+            "official": "Fransız Güney ve Antarktika Toprakları",
+            "common": "Fransız Güney ve Antarktika Toprakları"
+        },
+        "urd": {
+            "official": "سرزمینِ جنوبی فرانسیسیہ و انٹارکٹیکہ",
+            "common": "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"
+        },
+        "zho": {
+            "official": "法国南部和南极土地",
+            "common": "法国南部和南极土地"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/tf.png",
+        "svg": "https://flagcdn.com/tf.svg",
+        "alt": "The flag of the French Southern and Antarctic Lands is blue and features the French tricolor in the canton, often displayed with a white border. In the lower fly, the letters T.A.A.F. form a monogram in white, which is stylized to resemble an anchor. The monogram is surrounded by five white stars."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/tf.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/tf.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            48.81,
+            -1.4
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

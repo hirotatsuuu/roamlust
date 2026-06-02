@@ -1,0 +1,217 @@
+{
+    "tld": [
+        ".bj"
+    ],
+    "cca2": "BJ",
+    "ccn3": "204",
+    "cca3": "BEN",
+    "cioc": "BEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "29"
+        ]
+    },
+    "capital": [
+        "Porto-Novo"
+    ],
+    "altSpellings": [
+        "BJ",
+        "Republic of Benin",
+        "République du Bénin"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "landlocked": false,
+    "borders": [
+        "BFA",
+        "NER",
+        "NGA",
+        "TGO"
+    ],
+    "area": 112622.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192784"
+    },
+    "population": 13224860,
+    "fifa": "BEN",
+    "car": {
+        "signs": [
+            "DY"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇧🇯",
+    "name": {
+        "common": "Benin",
+        "official": "Republic of Benin",
+        "nativeName": {
+            "fra": {
+                "official": "République du Bénin",
+                "common": "Bénin"
+            }
+        }
+    },
+    "currencies": {
+        "XOF": {
+            "symbol": "Fr",
+            "name": "West African CFA franc"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        9.5,
+        2.25
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Beninese",
+            "m": "Beninese"
+        },
+        "fra": {
+            "f": "Béninoise",
+            "m": "Béninois"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية بنين",
+            "common": "بنين"
+        },
+        "bre": {
+            "official": "Republik Benin",
+            "common": "Benin"
+        },
+        "ces": {
+            "official": "Beninská republika",
+            "common": "Benin"
+        },
+        "cym": {
+            "official": "Gweriniaeth Benin",
+            "common": "Benin"
+        },
+        "deu": {
+            "official": "Republik Benin",
+            "common": "Benin"
+        },
+        "est": {
+            "official": "Benini Vabariik",
+            "common": "Benin"
+        },
+        "fin": {
+            "official": "Beninin tasavalta",
+            "common": "Benin"
+        },
+        "fra": {
+            "official": "République du Bénin",
+            "common": "Bénin"
+        },
+        "hrv": {
+            "official": "Republika Benin",
+            "common": "Benin"
+        },
+        "hun": {
+            "official": "Benini Köztársaság",
+            "common": "Benin"
+        },
+        "ind": {
+            "official": "Republik Benin",
+            "common": "Benin"
+        },
+        "ita": {
+            "official": "Repubblica del Benin",
+            "common": "Benin"
+        },
+        "jpn": {
+            "official": "ベナン共和国",
+            "common": "ベナン"
+        },
+        "kor": {
+            "official": "베냉 공화국",
+            "common": "베냉"
+        },
+        "nld": {
+            "official": "Republiek Benin",
+            "common": "Benin"
+        },
+        "per": {
+            "official": "جمهوری بنین",
+            "common": "بنین"
+        },
+        "pol": {
+            "official": "Benin",
+            "common": "Benin"
+        },
+        "por": {
+            "official": "República do Benin",
+            "common": "Benin"
+        },
+        "rus": {
+            "official": "Республика Бенин",
+            "common": "Бенин"
+        },
+        "slk": {
+            "official": "Beninská republika",
+            "common": "Benin"
+        },
+        "spa": {
+            "official": "República de Benin",
+            "common": "Benín"
+        },
+        "srp": {
+            "official": "Република Бенин",
+            "common": "Бенин"
+        },
+        "swe": {
+            "official": "Republiken Benin",
+            "common": "Benin"
+        },
+        "tur": {
+            "official": "Benin Cumhuriyeti",
+            "common": "Benin"
+        },
+        "urd": {
+            "official": "جمہوریہ بینن",
+            "common": "بینن"
+        },
+        "zho": {
+            "official": "贝宁共和国",
+            "common": "贝宁"
+        }
+    },
+    "gini": {
+        "2015": 47.8
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/bj.png",
+        "svg": "https://flagcdn.com/bj.svg",
+        "alt": "The flag of Benin features a green vertical band on its hoist side that takes up about two-fifth the width of the field and two equal horizontal bands of yellow and red adjoining the vertical band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bj.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bj.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            6.48,
+            2.62
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

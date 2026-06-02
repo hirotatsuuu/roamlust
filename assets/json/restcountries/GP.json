@@ -1,0 +1,205 @@
+{
+    "tld": [
+        ".gp"
+    ],
+    "cca2": "GP",
+    "ccn3": "312",
+    "cca3": "GLP",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "90"
+        ]
+    },
+    "capital": [
+        "Basse-Terre"
+    ],
+    "altSpellings": [
+        "GP",
+        "Gwadloup"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "landlocked": false,
+    "area": 1628.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/Dy9R2EufJtoWm8UN9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/7109289"
+    },
+    "population": 378561,
+    "car": {
+        "signs": [
+            "F"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flag": "🇬🇵",
+    "name": {
+        "common": "Guadeloupe",
+        "official": "Guadeloupe",
+        "nativeName": {
+            "fra": {
+                "official": "Guadeloupe",
+                "common": "Guadeloupe"
+            }
+        }
+    },
+    "currencies": {
+        "EUR": {
+            "symbol": "€",
+            "name": "euro"
+        }
+    },
+    "languages": {
+        "fra": "French"
+    },
+    "latlng": [
+        16.25,
+        -61.583333
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Guadeloupian",
+            "m": "Guadeloupian"
+        },
+        "fra": {
+            "f": "Guadeloupéenne",
+            "m": "Guadeloupéen"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "غوادلوب",
+            "common": "غوادلوب"
+        },
+        "bre": {
+            "official": "Gwadeloup",
+            "common": "Gwadeloup"
+        },
+        "ces": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "cym": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "deu": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "est": {
+            "official": "Guadeloupe’i ja sõltkondade departemang",
+            "common": "Guadeloupe"
+        },
+        "fin": {
+            "official": "Guadeloupen departmentti",
+            "common": "Guadeloupe"
+        },
+        "fra": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "hrv": {
+            "official": "Gvadalupa",
+            "common": "Gvadalupa"
+        },
+        "hun": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "ind": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "ita": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupa"
+        },
+        "jpn": {
+            "official": "グアドループ島",
+            "common": "グアドループ"
+        },
+        "kor": {
+            "official": "과들루프",
+            "common": "과들루프"
+        },
+        "nld": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "per": {
+            "official": "گوادلوپ",
+            "common": "گوادلوپ"
+        },
+        "pol": {
+            "official": "Gwadelupa",
+            "common": "Gwadelupa"
+        },
+        "por": {
+            "official": "Guadalupe",
+            "common": "Guadalupe"
+        },
+        "rus": {
+            "official": "Гваделупа",
+            "common": "Гваделупа"
+        },
+        "slk": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "spa": {
+            "official": "Guadalupe",
+            "common": "Guadalupe"
+        },
+        "srp": {
+            "official": "Гваделуп",
+            "common": "Гваделуп"
+        },
+        "swe": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "tur": {
+            "official": "Guadeloupe",
+            "common": "Guadeloupe"
+        },
+        "urd": {
+            "official": "گواڈیلوپ",
+            "common": "گواڈیلوپ"
+        },
+        "zho": {
+            "official": "瓜德罗普岛",
+            "common": "瓜德罗普岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/gp.png",
+        "svg": "https://flagcdn.com/gp.svg",
+        "alt": "The flag of Guadeloupe has a black field with a 30-rayed yellow sun in front of a green sugarcane, as well as a blue stripe with three yellow fleurs-de-lis on the top."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gp.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gp.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            16.03,
+            -61.73
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^((97|98)\\d{3})$"
+    }
+}

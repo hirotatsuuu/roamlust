@@ -1,0 +1,217 @@
+{
+    "tld": [
+        ".nr"
+    ],
+    "cca2": "NR",
+    "ccn3": "520",
+    "cca3": "NRU",
+    "cioc": "NRU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "74"
+        ]
+    },
+    "capital": [
+        "Yaren"
+    ],
+    "altSpellings": [
+        "NR",
+        "Naoero",
+        "Pleasant Island",
+        "Republic of Nauru",
+        "Ripublik Naoero"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "landlocked": false,
+    "area": 21.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/571804"
+    },
+    "population": 11680,
+    "car": {
+        "signs": [
+            "NAU"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+12:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇳🇷",
+    "name": {
+        "common": "Nauru",
+        "official": "Republic of Nauru",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Nauru",
+                "common": "Nauru"
+            },
+            "nau": {
+                "official": "Republic of Nauru",
+                "common": "Nauru"
+            }
+        }
+    },
+    "currencies": {
+        "AUD": {
+            "symbol": "$",
+            "name": "Australian dollar"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "nau": "Nauru"
+    },
+    "latlng": [
+        -0.53333333,
+        166.91666666
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Nauruan",
+            "m": "Nauruan"
+        },
+        "fra": {
+            "f": "Nauruane",
+            "m": "Nauruan"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية ناورو",
+            "common": "ناورو"
+        },
+        "bre": {
+            "official": "Republik Nauru",
+            "common": "Nauru"
+        },
+        "ces": {
+            "official": "Republika Nauru",
+            "common": "Nauru"
+        },
+        "cym": {
+            "official": "Republic of Nauru",
+            "common": "Nauru"
+        },
+        "deu": {
+            "official": "Republik Nauru",
+            "common": "Nauru"
+        },
+        "est": {
+            "official": "Nauru Vabariik",
+            "common": "Nauru"
+        },
+        "fin": {
+            "official": "Naurun tasavalta",
+            "common": "Nauru"
+        },
+        "fra": {
+            "official": "République de Nauru",
+            "common": "Nauru"
+        },
+        "hrv": {
+            "official": "Republika Nauru",
+            "common": "Nauru"
+        },
+        "hun": {
+            "official": "Naurui Köztársaság",
+            "common": "Nauru"
+        },
+        "ind": {
+            "official": "Republik Nauru",
+            "common": "Nauru"
+        },
+        "ita": {
+            "official": "Repubblica di Nauru",
+            "common": "Nauru"
+        },
+        "jpn": {
+            "official": "ナウル共和国",
+            "common": "ナウル"
+        },
+        "kor": {
+            "official": "나우루 공화국",
+            "common": "나우루"
+        },
+        "nld": {
+            "official": "Republiek Nauru",
+            "common": "Nauru"
+        },
+        "per": {
+            "official": "جمهوری نائورو",
+            "common": "نائورو"
+        },
+        "pol": {
+            "official": "Republika Nauru",
+            "common": "Nauru"
+        },
+        "por": {
+            "official": "República de Nauru",
+            "common": "Nauru"
+        },
+        "rus": {
+            "official": "Республика Науру",
+            "common": "Науру"
+        },
+        "slk": {
+            "official": "Naurská republika",
+            "common": "Nauru"
+        },
+        "spa": {
+            "official": "República de Nauru",
+            "common": "Nauru"
+        },
+        "srp": {
+            "official": "Република Науру",
+            "common": "Науру"
+        },
+        "swe": {
+            "official": "Republiken Nauru",
+            "common": "Nauru"
+        },
+        "tur": {
+            "official": "Nauru Cumhuriyeti",
+            "common": "Nauru"
+        },
+        "urd": {
+            "official": "جمہوریہ ناورو",
+            "common": "ناورو"
+        },
+        "zho": {
+            "official": "瑙鲁共和国",
+            "common": "瑙鲁"
+        }
+    },
+    "gini": {
+        "2012": 34.8
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/nr.png",
+        "svg": "https://flagcdn.com/nr.svg",
+        "alt": "The flag of Nauru has a dark blue field with a thin yellow horizontal band across the center and a large white twelve-pointed star beneath the horizontal band on the hoist side of the field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/nr.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/nr.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -0.55,
+            166.92
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

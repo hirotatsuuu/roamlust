@@ -1,0 +1,218 @@
+{
+    "tld": [
+        ".hu"
+    ],
+    "cca2": "HU",
+    "ccn3": "348",
+    "cca3": "HUN",
+    "cioc": "HUN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "6"
+        ]
+    },
+    "capital": [
+        "Budapest"
+    ],
+    "altSpellings": [
+        "HU"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "landlocked": true,
+    "borders": [
+        "AUT",
+        "HRV",
+        "ROU",
+        "SRB",
+        "SVK",
+        "SVN",
+        "UKR"
+    ],
+    "area": 93028.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+    },
+    "population": 9539502,
+    "fifa": "HUN",
+    "car": {
+        "signs": [
+            "H"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇭🇺",
+    "name": {
+        "common": "Hungary",
+        "official": "Hungary",
+        "nativeName": {
+            "hun": {
+                "official": "Magyarország",
+                "common": "Magyarország"
+            }
+        }
+    },
+    "currencies": {
+        "HUF": {
+            "symbol": "Ft",
+            "name": "Hungarian forint"
+        }
+    },
+    "languages": {
+        "hun": "Hungarian"
+    },
+    "latlng": [
+        47.0,
+        20.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Hungarian",
+            "m": "Hungarian"
+        },
+        "fra": {
+            "f": "Hongroise",
+            "m": "Hongrois"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية المجرية",
+            "common": "المجر"
+        },
+        "bre": {
+            "official": "Hungaria",
+            "common": "Hungaria"
+        },
+        "ces": {
+            "official": "Maďarsko",
+            "common": "Maďarsko"
+        },
+        "cym": {
+            "official": "Hungary",
+            "common": "Hungary"
+        },
+        "deu": {
+            "official": "Ungarn",
+            "common": "Ungarn"
+        },
+        "est": {
+            "official": "Ungari",
+            "common": "Ungari"
+        },
+        "fin": {
+            "official": "Unkari",
+            "common": "Unkari"
+        },
+        "fra": {
+            "official": "Hongrie",
+            "common": "Hongrie"
+        },
+        "hrv": {
+            "official": "Madžarska",
+            "common": "Mađarska"
+        },
+        "hun": {
+            "official": "Magyarország",
+            "common": "Magyarország"
+        },
+        "ind": {
+            "official": "Hungaria",
+            "common": "Hungaria"
+        },
+        "ita": {
+            "official": "Ungheria",
+            "common": "Ungheria"
+        },
+        "jpn": {
+            "official": "ハンガリー",
+            "common": "ハンガリー"
+        },
+        "kor": {
+            "official": "헝가리",
+            "common": "헝가리"
+        },
+        "nld": {
+            "official": "Hongarije",
+            "common": "Hongarije"
+        },
+        "per": {
+            "official": "مجارستان",
+            "common": "مجارستان"
+        },
+        "pol": {
+            "official": "Węgry",
+            "common": "Węgry"
+        },
+        "por": {
+            "official": "Hungria",
+            "common": "Hungria"
+        },
+        "rus": {
+            "official": "Венгрия",
+            "common": "Венгрия"
+        },
+        "slk": {
+            "official": "Maďarsko",
+            "common": "Maďarsko"
+        },
+        "spa": {
+            "official": "Hungría",
+            "common": "Hungría"
+        },
+        "srp": {
+            "official": "Мађарска",
+            "common": "Мађарска"
+        },
+        "swe": {
+            "official": "Ungern",
+            "common": "Ungern"
+        },
+        "tur": {
+            "official": "Macaristan",
+            "common": "Macaristan"
+        },
+        "urd": {
+            "official": "مجارستان",
+            "common": "مجارستان"
+        },
+        "zho": {
+            "official": "匈牙利",
+            "common": "匈牙利"
+        }
+    },
+    "gini": {
+        "2018": 29.6
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/hu.png",
+        "svg": "https://flagcdn.com/hu.svg",
+        "alt": "The flag of Hungary is composed of three equal horizontal bands of red, white and green."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/hu.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/hu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            47.5,
+            19.08
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

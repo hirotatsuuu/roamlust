@@ -1,0 +1,227 @@
+{
+    "tld": [
+        ".tz"
+    ],
+    "cca2": "TZ",
+    "ccn3": "834",
+    "cca3": "TZA",
+    "cioc": "TAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "55"
+        ]
+    },
+    "capital": [
+        "Dodoma"
+    ],
+    "altSpellings": [
+        "TZ",
+        "Tanzania, United Republic of",
+        "United Republic of Tanzania",
+        "Jamhuri ya Muungano wa Tanzania"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "landlocked": false,
+    "borders": [
+        "BDI",
+        "COD",
+        "KEN",
+        "MWI",
+        "MOZ",
+        "RWA",
+        "UGA",
+        "ZMB"
+    ],
+    "area": 947303.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/195270"
+    },
+    "population": 68153004,
+    "fifa": "TAN",
+    "car": {
+        "signs": [
+            "EAT"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flag": "🇹🇿",
+    "name": {
+        "common": "Tanzania",
+        "official": "United Republic of Tanzania",
+        "nativeName": {
+            "eng": {
+                "official": "United Republic of Tanzania",
+                "common": "Tanzania"
+            },
+            "swa": {
+                "official": "Jamhuri ya Muungano wa Tanzania",
+                "common": "Tanzania"
+            }
+        }
+    },
+    "currencies": {
+        "TZS": {
+            "symbol": "Sh",
+            "name": "Tanzanian shilling"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+    },
+    "latlng": [
+        -6.0,
+        35.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Tanzanian",
+            "m": "Tanzanian"
+        },
+        "fra": {
+            "f": "Tanzanienne",
+            "m": "Tanzanien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية تنزانيا الاتحادية",
+            "common": "تنزانيا"
+        },
+        "bre": {
+            "official": "Republik Unanet Tanzania",
+            "common": "Tanzania"
+        },
+        "ces": {
+            "official": "Sjednocená tanzanská republika",
+            "common": "Tanzanie"
+        },
+        "cym": {
+            "official": "United Republic of Tanzania",
+            "common": "Tanzania"
+        },
+        "deu": {
+            "official": "Vereinigte Republik Tansania",
+            "common": "Tansania"
+        },
+        "est": {
+            "official": "Tansaania Ühendvabariik",
+            "common": "Tansaania"
+        },
+        "fin": {
+            "official": "Tansanian yhdistynyt tasavalta",
+            "common": "Tansania"
+        },
+        "fra": {
+            "official": "République -Unie de Tanzanie",
+            "common": "Tanzanie"
+        },
+        "hrv": {
+            "official": "Ujedinjena Republika Tanzanija",
+            "common": "Tanzanija"
+        },
+        "hun": {
+            "official": "Tádzsik Köztársaság",
+            "common": "Tádzsikisztán"
+        },
+        "ind": {
+            "official": "Republik Kesatuan Tanzania",
+            "common": "Tanzania"
+        },
+        "ita": {
+            "official": "Repubblica Unita di Tanzania",
+            "common": "Tanzania"
+        },
+        "jpn": {
+            "official": "タンザニア連合共和国",
+            "common": "タンザニア"
+        },
+        "kor": {
+            "official": "탄자니아 연합 공화국",
+            "common": "탄자니아"
+        },
+        "nld": {
+            "official": "Verenigde Republiek Tanzania",
+            "common": "Tanzania"
+        },
+        "per": {
+            "official": "جمهوری متحد تانزانیا",
+            "common": "تانزانیا"
+        },
+        "pol": {
+            "official": "Zjednoczona Republika Tanzanii",
+            "common": "Tanzania"
+        },
+        "por": {
+            "official": "República Unida da Tanzânia",
+            "common": "Tanzânia"
+        },
+        "rus": {
+            "official": "Объединенная Республика Танзания",
+            "common": "Танзания"
+        },
+        "slk": {
+            "official": "Tanzánijská zjednotená republika",
+            "common": "Tanzánia"
+        },
+        "spa": {
+            "official": "República Unida de Tanzania",
+            "common": "Tanzania"
+        },
+        "srp": {
+            "official": "Уједињена Република Танзанија",
+            "common": "Танзанија"
+        },
+        "swe": {
+            "official": "Förenade republiken Tanzania",
+            "common": "Tanzania"
+        },
+        "tur": {
+            "official": "Tanzanya Birleşik Cumhuriyeti",
+            "common": "Tanzanya"
+        },
+        "urd": {
+            "official": "متحدہ جمہوریہ تنزانیہ",
+            "common": "تنزانیہ"
+        },
+        "zho": {
+            "official": "坦桑尼亚联合共和国",
+            "common": "坦桑尼亚"
+        }
+    },
+    "gini": {
+        "2017": 40.5
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/tz.png",
+        "svg": "https://flagcdn.com/tz.svg",
+        "alt": "The flag of Tanzania features a yellow-edged black diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a green and light blue triangle respectively."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/tz.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/tz.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -6.16,
+            35.75
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

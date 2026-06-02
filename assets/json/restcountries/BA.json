@@ -1,0 +1,226 @@
+{
+    "tld": [
+        ".ba"
+    ],
+    "cca2": "BA",
+    "ccn3": "070",
+    "cca3": "BIH",
+    "cioc": "BIH",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "87"
+        ]
+    },
+    "capital": [
+        "Sarajevo"
+    ],
+    "altSpellings": [
+        "BA",
+        "Bosnia-Herzegovina",
+        "Босна и Херцеговина"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "landlocked": false,
+    "borders": [
+        "HRV",
+        "MNE",
+        "SRB"
+    ],
+    "area": 51209.0,
+    "maps": {
+        "googleMaps": "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2528142"
+    },
+    "population": 3422000,
+    "fifa": "BIH",
+    "car": {
+        "signs": [
+            "BIH"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flag": "🇧🇦",
+    "name": {
+        "common": "Bosnia and Herzegovina",
+        "official": "Bosnia and Herzegovina",
+        "nativeName": {
+            "bos": {
+                "official": "Bosna i Hercegovina",
+                "common": "Bosna i Hercegovina"
+            },
+            "hrv": {
+                "official": "Bosna i Hercegovina",
+                "common": "Bosna i Hercegovina"
+            },
+            "srp": {
+                "official": "Босна и Херцеговина",
+                "common": "Босна и Херцеговина"
+            }
+        }
+    },
+    "currencies": {
+        "BAM": {
+            "symbol": "KM",
+            "name": "Bosnia and Herzegovina convertible mark"
+        }
+    },
+    "languages": {
+        "bos": "Bosnian",
+        "hrv": "Croatian",
+        "srp": "Serbian"
+    },
+    "latlng": [
+        44.0,
+        18.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Bosnian, Herzegovinian",
+            "m": "Bosnian, Herzegovinian"
+        },
+        "fra": {
+            "f": "Bosnienne",
+            "m": "Bosnien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية البوسنة والهرسك",
+            "common": "البوسنة والهرسك"
+        },
+        "bre": {
+            "official": "Bosnia-ha-Herzegovina",
+            "common": "Bosnia-ha-Herzegovina"
+        },
+        "ces": {
+            "official": "Bosna a Hercegovina",
+            "common": "Bosna a Hercegovina"
+        },
+        "cym": {
+            "official": "Bosnia a Hercegovina",
+            "common": "Bosnia a Hercegovina"
+        },
+        "deu": {
+            "official": "Bosnien und Herzegowina",
+            "common": "Bosnien und Herzegowina"
+        },
+        "est": {
+            "official": "Bosnia ja Hertsegoviina",
+            "common": "Bosnia ja Hertsegoviina"
+        },
+        "fin": {
+            "official": "Bosnia ja Hertsegovina",
+            "common": "Bosnia ja Hertsegovina"
+        },
+        "fra": {
+            "official": "Bosnie-et-Herzégovine",
+            "common": "Bosnie-Herzégovine"
+        },
+        "hrv": {
+            "official": "Bosna i Hercegovina",
+            "common": "Bosna i Hercegovina"
+        },
+        "hun": {
+            "official": "Bosznia-Hercegovina",
+            "common": "Bosznia-Hercegovina"
+        },
+        "ind": {
+            "official": "Bosnia dan Herzegovina",
+            "common": "Bosnia dan Herzegovina"
+        },
+        "ita": {
+            "official": "Bosnia-Erzegovina",
+            "common": "Bosnia ed Erzegovina"
+        },
+        "jpn": {
+            "official": "ボスニア·ヘルツェゴビナ",
+            "common": "ボスニア・ヘルツェゴビナ"
+        },
+        "kor": {
+            "official": "보스니아 헤르체고비나",
+            "common": "보스니아 헤르체고비나"
+        },
+        "nld": {
+            "official": "Bosnië-Herzegovina",
+            "common": "Bosnië en Herzegovina"
+        },
+        "per": {
+            "official": "بوسنی و هرزگوین",
+            "common": "بوسنی و هرزگوین"
+        },
+        "pol": {
+            "official": "Bośnia i Hercegowina",
+            "common": "Bośnia i Hercegowina"
+        },
+        "por": {
+            "official": "Bósnia e Herzegovina",
+            "common": "Bósnia e Herzegovina"
+        },
+        "rus": {
+            "official": "Босния и Герцеговина",
+            "common": "Босния и Герцеговина"
+        },
+        "slk": {
+            "official": "Republika Bosny a Hercegoviny",
+            "common": "Bosna a Hercegovina"
+        },
+        "spa": {
+            "official": "Bosnia y Herzegovina",
+            "common": "Bosnia y Herzegovina"
+        },
+        "srp": {
+            "official": "Босна и Херцеговина",
+            "common": "Босна и Херцеговина"
+        },
+        "swe": {
+            "official": "Bosnien och Hercegovina",
+            "common": "Bosnien och Hercegovina"
+        },
+        "tur": {
+            "official": "Bosna ve Hersek",
+            "common": "Bosna-Hersek"
+        },
+        "urd": {
+            "official": "بوسنیا و ہرزیگووینا",
+            "common": "بوسنیا و ہرزیگووینا"
+        },
+        "zho": {
+            "official": "波斯尼亚和黑塞哥维那",
+            "common": "波斯尼亚和黑塞哥维那"
+        }
+    },
+    "gini": {
+        "2011": 33.0
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/ba.png",
+        "svg": "https://flagcdn.com/ba.svg",
+        "alt": "The flag of Bosnia and Herzegovina has a blue field, at the center of which is a large yellow hoist-side facing right-angled triangle that is based on the top edge and spans the height of the field. Adjacent to the hypotenuse of this triangle are nine adjoining five-pointed white stars with the top and bottom stars cut in half by the edges of the field."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ba.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ba.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            43.87,
+            18.42
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+}

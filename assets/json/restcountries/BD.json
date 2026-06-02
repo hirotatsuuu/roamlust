@@ -1,0 +1,215 @@
+{
+    "tld": [
+        ".bd"
+    ],
+    "cca2": "BD",
+    "ccn3": "050",
+    "cca3": "BGD",
+    "cioc": "BAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "80"
+        ]
+    },
+    "capital": [
+        "Dhaka"
+    ],
+    "altSpellings": [
+        "BD",
+        "People's Republic of Bangladesh",
+        "Gônôprôjatôntri Bangladesh"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "landlocked": false,
+    "borders": [
+        "MMR",
+        "IND"
+    ],
+    "area": 147570.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/op6gmLbHcvv6rLhH6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/184640"
+    },
+    "population": 169828911,
+    "fifa": "BAN",
+    "car": {
+        "signs": [
+            "BD"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+06:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flag": "🇧🇩",
+    "name": {
+        "common": "Bangladesh",
+        "official": "People's Republic of Bangladesh",
+        "nativeName": {
+            "ben": {
+                "official": "বাংলাদেশ গণপ্রজাতন্ত্রী",
+                "common": "বাংলাদেশ"
+            }
+        }
+    },
+    "currencies": {
+        "BDT": {
+            "symbol": "৳",
+            "name": "Bangladeshi taka"
+        }
+    },
+    "languages": {
+        "ben": "Bengali"
+    },
+    "latlng": [
+        24.0,
+        90.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Bangladeshi",
+            "m": "Bangladeshi"
+        },
+        "fra": {
+            "f": "Bangladaise",
+            "m": "Bangladais"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية بنغلاديش الشعبية",
+            "common": "بنغلاديش"
+        },
+        "bre": {
+            "official": "Republik pobl Bangladesh",
+            "common": "Bangladesh"
+        },
+        "ces": {
+            "official": "Bangladéšská lidová republika",
+            "common": "Bangladéš"
+        },
+        "cym": {
+            "official": "Gweriniaeth Pobl Bangladesh",
+            "common": "Bangladesh"
+        },
+        "deu": {
+            "official": "Volksrepublik Bangladesch",
+            "common": "Bangladesch"
+        },
+        "est": {
+            "official": "Bangladeshi Rahvavabariik",
+            "common": "Bangladesh"
+        },
+        "fin": {
+            "official": "Bangladeshin kansantasavalta",
+            "common": "Bangladesh"
+        },
+        "fra": {
+            "official": "La République populaire du Bangladesh",
+            "common": "Bangladesh"
+        },
+        "hrv": {
+            "official": "Narodna Republika Bangladeš",
+            "common": "Bangladeš"
+        },
+        "hun": {
+            "official": "Banglades",
+            "common": "Banglades"
+        },
+        "ind": {
+            "official": "Republik Rakyat Banglades",
+            "common": "Banglades"
+        },
+        "ita": {
+            "official": "Repubblica popolare del Bangladesh",
+            "common": "Bangladesh"
+        },
+        "jpn": {
+            "official": "バングラデシュ人民共和国",
+            "common": "バングラデシュ"
+        },
+        "kor": {
+            "official": "방글라데시 인민 공화국",
+            "common": "방글라데시"
+        },
+        "nld": {
+            "official": "Volksrepubliek Bangladesh",
+            "common": "Bangladesh"
+        },
+        "per": {
+            "official": "جمهوری خلق بنگلادش",
+            "common": "بنگلادش"
+        },
+        "pol": {
+            "official": "Ludowa Republika Bangladeszu",
+            "common": "Bangladesz"
+        },
+        "por": {
+            "official": "República Popular do Bangladesh",
+            "common": "Bangladesh"
+        },
+        "rus": {
+            "official": "Народная Республика Бангладеш",
+            "common": "Бангладеш"
+        },
+        "slk": {
+            "official": "Bangladéšska ľudová republika",
+            "common": "Bangladéš"
+        },
+        "spa": {
+            "official": "República Popular de Bangladesh",
+            "common": "Bangladesh"
+        },
+        "srp": {
+            "official": "Народна Република Бангладеш",
+            "common": "Бангладеш"
+        },
+        "swe": {
+            "official": "Folkrepubliken Bangladesh",
+            "common": "Bangladesh"
+        },
+        "tur": {
+            "official": "Bangladeş Halk Cumhuriyeti",
+            "common": "Bangladeş"
+        },
+        "urd": {
+            "official": "عوامی جمہوریہ بنگلہ دیش",
+            "common": "بنگلہ دیش"
+        },
+        "zho": {
+            "official": "孟加拉人民共和国",
+            "common": "孟加拉国"
+        }
+    },
+    "gini": {
+        "2016": 32.4
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/bd.png",
+        "svg": "https://flagcdn.com/bd.svg",
+        "alt": "The flag of Bangladesh has a dark green field bearing a large red circle that is offset slightly towards the hoist side of center."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bd.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bd.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            23.72,
+            90.4
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+}

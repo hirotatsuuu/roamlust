@@ -1,0 +1,223 @@
+{
+    "tld": [
+        ".fj"
+    ],
+    "cca2": "FJ",
+    "ccn3": "242",
+    "cca3": "FJI",
+    "cioc": "FIJ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "79"
+        ]
+    },
+    "capital": [
+        "Suva"
+    ],
+    "altSpellings": [
+        "FJ",
+        "Viti",
+        "Republic of Fiji",
+        "Matanitu ko Viti",
+        "Fijī Gaṇarājya"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "landlocked": false,
+    "area": 18272.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/571747"
+    },
+    "population": 900869,
+    "fifa": "FIJ",
+    "car": {
+        "signs": [
+            "FJI"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+12:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇫🇯",
+    "name": {
+        "common": "Fiji",
+        "official": "Republic of Fiji",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Fiji",
+                "common": "Fiji"
+            },
+            "fij": {
+                "official": "Matanitu Tugalala o Viti",
+                "common": "Viti"
+            },
+            "hif": {
+                "official": "रिपब्लिक ऑफ फीजी",
+                "common": "फिजी"
+            }
+        }
+    },
+    "currencies": {
+        "FJD": {
+            "symbol": "$",
+            "name": "Fijian dollar"
+        }
+    },
+    "languages": {
+        "eng": "English",
+        "fij": "Fijian",
+        "hif": "Fiji Hindi"
+    },
+    "latlng": [
+        -17.7134,
+        178.065
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Fijian",
+            "m": "Fijian"
+        },
+        "fra": {
+            "f": "Fidjienne",
+            "m": "Fidjien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية جزر فيجي",
+            "common": "فيجي"
+        },
+        "bre": {
+            "official": "Republik Fidji",
+            "common": "Fidji"
+        },
+        "ces": {
+            "official": "Republika Fidžijských ostrovů",
+            "common": "Fidži"
+        },
+        "cym": {
+            "official": "Republic of Fiji",
+            "common": "Fiji"
+        },
+        "deu": {
+            "official": "Republik Fidschi",
+            "common": "Fidschi"
+        },
+        "est": {
+            "official": "Fidži Vabariik",
+            "common": "Fidži"
+        },
+        "fin": {
+            "official": "Fidžin tasavalta",
+            "common": "Fidži"
+        },
+        "fra": {
+            "official": "République des Fidji",
+            "common": "Fidji"
+        },
+        "hrv": {
+            "official": "Republika Fidži",
+            "common": "Fiđi"
+        },
+        "hun": {
+            "official": "Fidzsi-szigeteki Köztársaság",
+            "common": "Fidzsi-szigetek"
+        },
+        "ind": {
+            "official": "Republik Fiji",
+            "common": "Fiji"
+        },
+        "ita": {
+            "official": "Repubblica di Figi",
+            "common": "Figi"
+        },
+        "jpn": {
+            "official": "フィジー共和国",
+            "common": "フィジー"
+        },
+        "kor": {
+            "official": "피지 공화국",
+            "common": "피지"
+        },
+        "nld": {
+            "official": "Republiek Fiji",
+            "common": "Fiji"
+        },
+        "per": {
+            "official": "جمهوری جزایر فیجی",
+            "common": "فیجی"
+        },
+        "pol": {
+            "official": "Republika Fidżi",
+            "common": "Fidżi"
+        },
+        "por": {
+            "official": "República de Fiji",
+            "common": "Fiji"
+        },
+        "rus": {
+            "official": "Республика Фиджи",
+            "common": "Фиджи"
+        },
+        "slk": {
+            "official": "Fiǆijská republika",
+            "common": "Fiǆi"
+        },
+        "spa": {
+            "official": "República de Fiji",
+            "common": "Fiyi"
+        },
+        "srp": {
+            "official": "Република Фиџи",
+            "common": "Фиџи"
+        },
+        "swe": {
+            "official": "Republiken Fiji",
+            "common": "Fiji"
+        },
+        "tur": {
+            "official": "Fiji Cumhuriyeti",
+            "common": "Fiji"
+        },
+        "urd": {
+            "official": "جمہوریہ فجی",
+            "common": "فجی"
+        },
+        "zho": {
+            "official": "斐济共和国",
+            "common": "斐济"
+        }
+    },
+    "gini": {
+        "2013": 36.7
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/fj.png",
+        "svg": "https://flagcdn.com/fj.svg",
+        "alt": "The flag of Fiji has a light blue field. It features the flag of the United Kingdom — the Union Jack — in the canton and the shield of the national coat of arms centered in the fly half."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/fj.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/fj.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -18.13,
+            178.42
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

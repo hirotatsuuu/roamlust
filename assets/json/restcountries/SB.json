@@ -1,0 +1,209 @@
+{
+    "tld": [
+        ".sb"
+    ],
+    "cca2": "SB",
+    "ccn3": "090",
+    "cca3": "SLB",
+    "cioc": "SOL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "77"
+        ]
+    },
+    "capital": [
+        "Honiara"
+    ],
+    "altSpellings": [
+        "SB"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "landlocked": false,
+    "area": 28896.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1857436"
+    },
+    "population": 750325,
+    "fifa": "SOL",
+    "car": {
+        "signs": [
+            "SOL"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC+11:00"
+    ],
+    "continents": [
+        "Oceania"
+    ],
+    "flag": "🇸🇧",
+    "name": {
+        "common": "Solomon Islands",
+        "official": "Solomon Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Solomon Islands",
+                "common": "Solomon Islands"
+            }
+        }
+    },
+    "currencies": {
+        "SBD": {
+            "symbol": "$",
+            "name": "Solomon Islands dollar"
+        }
+    },
+    "languages": {
+        "eng": "English"
+    },
+    "latlng": [
+        -8.0,
+        159.0
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "Solomon Islander",
+            "m": "Solomon Islander"
+        },
+        "fra": {
+            "f": "Salomonienne",
+            "m": "Salomonien"
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر سليمان",
+            "common": "جزر سليمان"
+        },
+        "bre": {
+            "official": "Inizi Salomon",
+            "common": "Inizi Salomon"
+        },
+        "ces": {
+            "official": "Šalamounovy ostrovy",
+            "common": "Šalamounovy ostrovy"
+        },
+        "cym": {
+            "official": "Solomon Islands",
+            "common": "Solomon Islands"
+        },
+        "deu": {
+            "official": "Salomonen",
+            "common": "Salomonen"
+        },
+        "est": {
+            "official": "Saalomoni Saared",
+            "common": "Saalomoni Saared"
+        },
+        "fin": {
+            "official": "Salomonsaaret",
+            "common": "Salomonsaaret"
+        },
+        "fra": {
+            "official": "Îles Salomon",
+            "common": "Îles Salomon"
+        },
+        "hrv": {
+            "official": "Solomonski Otoci",
+            "common": "Solomonski Otoci"
+        },
+        "hun": {
+            "official": "Salamon-szigetek",
+            "common": "Salamon-szigetek"
+        },
+        "ind": {
+            "official": "Kepulauan Solomon",
+            "common": "Kepulauan Solomon"
+        },
+        "ita": {
+            "official": "Isole Salomone",
+            "common": "Isole Salomone"
+        },
+        "jpn": {
+            "official": "ソロモン諸島",
+            "common": "ソロモン諸島"
+        },
+        "kor": {
+            "official": "솔로몬 제도",
+            "common": "솔로몬 제도"
+        },
+        "nld": {
+            "official": "Solomon eilanden",
+            "common": "Salomonseilanden"
+        },
+        "per": {
+            "official": "جزایر سلیمان",
+            "common": "جزایر سلیمان"
+        },
+        "pol": {
+            "official": "Wyspy Salomona",
+            "common": "Wyspy Salomona"
+        },
+        "por": {
+            "official": "Ilhas Salomão",
+            "common": "Ilhas Salomão"
+        },
+        "rus": {
+            "official": "Соломоновы острова",
+            "common": "Соломоновы Острова"
+        },
+        "slk": {
+            "official": "Salomonove ostrovy",
+            "common": "Salomonove ostrovy"
+        },
+        "spa": {
+            "official": "islas Salomón",
+            "common": "Islas Salomón"
+        },
+        "srp": {
+            "official": "Соломонска Острва",
+            "common": "Соломонска Острва"
+        },
+        "swe": {
+            "official": "Salomonöarna",
+            "common": "Salomonöarna"
+        },
+        "tur": {
+            "official": "Solomon Adaları",
+            "common": "Solomon Adaları"
+        },
+        "urd": {
+            "official": "جزائر سلیمان",
+            "common": "جزائر سلیمان"
+        },
+        "zho": {
+            "official": "所罗门群岛",
+            "common": "所罗门群岛"
+        }
+    },
+    "gini": {
+        "2012": 37.1
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/sb.png",
+        "svg": "https://flagcdn.com/sb.svg",
+        "alt": "The flag of Solomon Islands features a thin yellow diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a blue and green triangle respectively. Five white five-pointed stars arranged in an X shape are situated on the hoist side of the upper blue triangle."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/sb.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/sb.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -9.43,
+            159.95
+        ]
+    },
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}

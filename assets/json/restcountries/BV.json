@@ -1,0 +1,188 @@
+{
+    "tld": [
+        ".bv"
+    ],
+    "cca2": "BV",
+    "ccn3": "074",
+    "cca3": "BVT",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "7"
+        ]
+    },
+    "altSpellings": [
+        "BV",
+        "Bouvetøya",
+        "Bouvet-øya"
+    ],
+    "region": "Antarctic",
+    "landlocked": false,
+    "area": 49.0,
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/7WRQAEKZb4uK36yi9",
+        "openStreetMaps": "https://www.openstreetmap.org/way/174996681"
+    },
+    "population": 0,
+    "car": {
+        "signs": [
+            ""
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Antarctica"
+    ],
+    "flag": "🇧🇻",
+    "name": {
+        "common": "Bouvet Island",
+        "official": "Bouvet Island",
+        "nativeName": {
+            "nor": {
+                "official": "Bouvetøya",
+                "common": "Bouvetøya"
+            }
+        }
+    },
+    "languages": {
+        "nor": "Norwegian"
+    },
+    "latlng": [
+        -54.4208,
+        3.3464
+    ],
+    "demonyms": {
+        "eng": {
+            "f": "",
+            "m": ""
+        },
+        "fra": {
+            "f": "",
+            "m": ""
+        }
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر بوفيه",
+            "common": "جزر بوفيه"
+        },
+        "bre": {
+            "official": "Enez Bouvet",
+            "common": "Enez Bouvet"
+        },
+        "ces": {
+            "official": "Bouvetův ostrov",
+            "common": "Bouvetův ostrov"
+        },
+        "cym": {
+            "official": "Bouvet Island",
+            "common": "Bouvet Island"
+        },
+        "deu": {
+            "official": "Bouvetinsel",
+            "common": "Bouvetinsel"
+        },
+        "est": {
+            "official": "Bouvet’ saar",
+            "common": "Bouvet’ saar"
+        },
+        "fin": {
+            "official": "Bouvet'nsaari",
+            "common": "Bouvet'nsaari"
+        },
+        "fra": {
+            "official": "Île Bouvet",
+            "common": "Île Bouvet"
+        },
+        "hrv": {
+            "official": "Bouvet Island",
+            "common": "Otok Bouvet"
+        },
+        "hun": {
+            "official": "Bouvet-sziget",
+            "common": "Bouvet-sziget"
+        },
+        "ind": {
+            "official": "Pulau Bouvet",
+            "common": "Pulau Bouvet"
+        },
+        "ita": {
+            "official": "Isola Bouvet",
+            "common": "Isola Bouvet"
+        },
+        "jpn": {
+            "official": "ブーヴェ島",
+            "common": "ブーベ島"
+        },
+        "kor": {
+            "official": "부베 섬",
+            "common": "부베 섬"
+        },
+        "nld": {
+            "official": "Bouvet Island",
+            "common": "Bouveteiland"
+        },
+        "per": {
+            "official": "جزیرهٔ بووه",
+            "common": "جزیرهٔ بووه"
+        },
+        "pol": {
+            "official": "Wyspa Bouveta",
+            "common": "Wyspa Bouveta"
+        },
+        "por": {
+            "official": "Ilha Bouvet",
+            "common": "Ilha Bouvet"
+        },
+        "rus": {
+            "official": "Остров Буве",
+            "common": "Остров Буве"
+        },
+        "slk": {
+            "official": "Bouvetov ostrov",
+            "common": "Bouvetov ostrov"
+        },
+        "spa": {
+            "official": "Isla Bouvet",
+            "common": "Isla Bouvet"
+        },
+        "srp": {
+            "official": "Буве",
+            "common": "Буве"
+        },
+        "swe": {
+            "official": "Bouvetön",
+            "common": "Bouvetön"
+        },
+        "tur": {
+            "official": "Bouvet Adası",
+            "common": "Bouvet Adası"
+        },
+        "urd": {
+            "official": "جزیرہ بووہ",
+            "common": "جزیرہ بووہ"
+        },
+        "zho": {
+            "official": "布维岛",
+            "common": "布维岛"
+        }
+    },
+    "flags": {
+        "png": "https://flagcdn.com/w320/bv.png",
+        "svg": "https://flagcdn.com/bv.svg",
+        "alt": "The flag of Bouvet Island has a red field with a large white-edged navy blue cross that extends to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {},
+    "postalCode": {
+        "format": null,
+        "regex": null
+    }
+}
