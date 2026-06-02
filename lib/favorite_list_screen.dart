@@ -110,7 +110,7 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
                             width: 45,
                             height: 30,
                             child: SvgPicture.asset(
-                              'assets/flags/$iso2.svg',
+                              'assets/flags/$iso2.toLowerCase().svg',
                               fit: BoxFit.cover,
                               placeholderBuilder: (_) => Container(
                                   color: isDark
