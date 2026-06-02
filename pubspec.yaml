@@ -30,3 +30,12 @@ flutter:
     - assets/logo.svg
 dev_dependencies:
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_size: 21 # Androidの仕様対策
+  web:
+    generate: true
+    image_path: "assets/icon.png"

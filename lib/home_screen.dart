@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                         // 5. 旅に出たくなる詩的な文章（結合＆アップデート）
                         Text(
-                          'まだ見ぬ景色の記憶をたどり、\n僕らは果てしない旅路を夢見る。\n胸の奥に灯る小さな憧れは、\n未知なる世界へ飛び出すための確かな道標。\n地図の余白を埋めるのは、他の誰でもないあなた自身。\n\nさぁ、新しい風の匂いを感じる旅の準備を始めましょう。',
+                          'まだ見ぬ景色の記憶をたどり、\n僕らは果てしない旅路を夢見る。\n胸の奥に灯る小さな憧れは、\n未知なる世界へ飛び出すための確かな道標。\n地図の余白を埋めるのはあなた自身。\n\nさぁ、旅の準備を始めましょう。',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 13,
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                         // 6. 最後の一文（太字）
                         Text(
-                          '広大な世界は、あなたの最初の一歩を静かに待っている。',
+                          '世界は、あなたの最初の一歩を待っている。',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 13,
