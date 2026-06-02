@@ -140,16 +140,14 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: SvgPicture.asset(
-                          'assets/flags/${widget.iso2}.svg',
+                          'assets/flags/${widget.iso2.toLowerCase()}.svg',
                           height: 140,
-                          //    SVGが表示されないのでテスト
-                          //  placeholderBuilder: (_) => Container(
-                          //  height: 140,
-                          //  width: 210,
-                          //    color: isDark
-                          //      ? Colors.grey.shade800
-                          //       : Colors.grey.shade200
-                          // ),
+                          placeholderBuilder: (_) => Container(
+                              height: 140,
+                              width: 210,
+                              color: isDark
+                                  ? Colors.grey.shade800
+                                  : Colors.grey.shade200),
                         ),
                       ),
                     ),
