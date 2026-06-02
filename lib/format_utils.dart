@@ -20,11 +20,11 @@ class FormatUtils {
     return number.toString();
   }
 
-  // GDPなど、大きすぎる数字を「億」などで短くする関数です（今回はシンプルにカンマのみにします）
+  // お金の表記（GDPなど）をきれいにします
   static String formatMoney(dynamic number) {
     if (number == null || number == 0) {
       return 'データなし';
     }
-    return '\$${formatNumber(number)}';
+    return '\$${formatNumber(number)}'; // 頭に$マークをつけます
   }
 }
