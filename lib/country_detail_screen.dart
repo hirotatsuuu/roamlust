@@ -91,7 +91,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
             icon: Icon(
               _isFavorite ? Icons.favorite : Icons.favorite_border,
               color: _isFavorite
-                  ? Colors.grey
+                  ? Colors.pink.shade100
                   : (isDark ? Colors.white : Colors.black87),
             ),
             onPressed: _toggleFavorite,

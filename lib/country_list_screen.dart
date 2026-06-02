@@ -357,7 +357,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
                             padding: const EdgeInsets.all(8.0),
                             child: Icon(
                               isFav ? Icons.favorite : Icons.favorite_border,
-                              color: isFav ? Colors.grey : Colors.grey,
+                              color: isFav ? Colors.pink.shade100 : Colors.grey,
                               size: 28,
                             ),
                           ),

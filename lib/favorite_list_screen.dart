@@ -131,7 +131,8 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
                               child: const Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Icon(Icons.favorite,
-                                    color: Colors.grey, size: 28),
+                                    color: Color.fromARGB(255, 248, 187, 208),
+                                    size: 28), // お気に入り一覧のカラー
                               ),
                             ),
                             const Icon(Icons.chevron_right, color: Colors.grey),
