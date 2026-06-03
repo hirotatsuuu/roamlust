@@ -38,6 +38,7 @@ dependencies:
 dev_dependencies:
   flutter_lints: ^6.0.0        # 【コード添削】きれいでバグの少ないDartコードを書くための注意書き（警告）を出してくれるルール集
   flutter_launcher_icons: ^0.13.1 # 【アプリアイコン自動生成】1枚の画像から各OS用のアプリアイコンを全自動作成するツール
+  flutter_native_splash: ^2.4.0   # 【起動時の画面設定】背景色や背景ロゴを設定
 
 # ==============================================================================
 # アプリアイコン自動生成ツールの詳細設定エリア（dart run flutter_launcher_icons で実行）
@@ -50,6 +51,16 @@ flutter_launcher_icons:
   web:
     generate: true              # Webサイト（PWA）用のアイコンやファビコン（favicon）も同時に作成する
     image_path: "assets/icon.png" # Web用に使用する大元画像（通常はスマホ用と同じでOK）
+
+# ==============================================================================
+# アプリアイコン自動生成ツールの詳細設定エリア（dart run flutter_launcher_icons で実行）
+# ==============================================================================
+flutter_native_splash:
+  color: "#ffffff" # 背景を真っ白に設定
+  image: "assets/icon.svg" # 中央に置きたい画像
+  android_12:
+    color: "#ffffff"
+    image: "assets/icon.svg"
 
 # ==============================================================================
 # Flutterシステム全体に関わるデザインや画像アセットの設定エリア

@@ -77,8 +77,9 @@ class _CountryListScreenState extends State<CountryListScreen> {
         ScaffoldMessenger.of(context).clearSnackBars();
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('${_getSortName(sortType)}に並び替えました'),
-            duration: const Duration(seconds: 1),
+            content: Text('${_getSortName(sortType)}に並び替えました',
+                textAlign: TextAlign.center),
+            duration: const Duration(seconds: 2),
           ),
         );
       }

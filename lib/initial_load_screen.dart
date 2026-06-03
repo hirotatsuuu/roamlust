@@ -48,10 +48,15 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
 
   // ホーム画面へ移動する処理です。
   // pushReplacement を使うことで、スマホの「戻る」ボタンでこの画面に戻ってこれないようにします。
-  void _navigateToHome() {
+  // isJustDownloaded という条件を受け取れるようにします
+  void _navigateToHome({bool isJustDownloaded = false}) {
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
-        builder: (context) => HomeScreen(themeNotifier: widget.themeNotifier),
+        // HomeScreenに合図を渡します
+        builder: (context) => HomeScreen(
+          themeNotifier: widget.themeNotifier,
+          isJustDownloaded: isJustDownloaded,
+        ),
       ),
     );
   }
@@ -78,7 +83,7 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
 
       // 途中で停止されず、無事にすべて完了したらホーム画面へ進みます。
       if (!_isPaused && await DataService.isCacheCompleted()) {
-        _navigateToHome();
+        _navigateToHome(isJustDownloaded: true);
       }
     } catch (e) {
       // エラーが起きた場合はメッセージを表示し、少し待ってから強制的にホーム画面へ進みます。

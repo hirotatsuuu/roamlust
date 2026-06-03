@@ -61,17 +61,6 @@ class AppDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.favorite),
-            title: const Text(Config.menuFavorite),
-            onTap: () {
-              Navigator.pop(context);
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => const FavoriteListScreen()));
-            },
-          ),
-          ListTile(
             leading: const Icon(Icons.public),
             title: const Text(Config.menuRegion),
             onTap: () {
@@ -81,6 +70,17 @@ class AppDrawer extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (context) => const RegionListScreen()));
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.favorite),
+            title: const Text(Config.menuFavorite),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const FavoriteListScreen()));
             },
           ),
           const Divider(), // 区切り線
@@ -153,8 +153,13 @@ class AppDrawer extends StatelessWidget {
               final bool confirm = await showDialog(
                     context: context,
                     builder: (context) => AlertDialog(
-                      title: const Text('確認'),
-                      content: const Text('ダウンロードした情報をすべて削除して初期状態に戻しますか？'),
+                      // タイトルも中央に
+                      title: const Text('確認', textAlign: TextAlign.center),
+                      // 本文を中央揃えに設定
+                      content: const Text('ダウンロードした情報をすべて削除して\n初期状態に戻しますか？',
+                          textAlign: TextAlign.center),
+                      // ボタン群も中央に寄せたい場合は以下を追加します
+                      actionsAlignment: MainAxisAlignment.center,
                       actions: [
                         TextButton(
                           onPressed: () =>

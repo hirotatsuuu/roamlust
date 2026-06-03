@@ -46,8 +46,9 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-              content: Text(isNowFav ? 'お気に入りに追加しました' : 'お気に入りから削除しました'),
-              duration: const Duration(seconds: 1)),
+              content: Text(isNowFav ? 'お気に入りに追加しました' : 'お気に入りから削除しました',
+                  textAlign: TextAlign.center),
+              duration: const Duration(seconds: 2)),
         );
       }
     } catch (e) {

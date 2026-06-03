@@ -28,7 +28,9 @@ class _SupportScreenState extends State<SupportScreen> {
     // お問い合わせ内容が空っぽならエラーを出して処理を止めます。
     if (_bodyController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('お問い合わせ内容は必須です')),
+        const SnackBar(
+            content: Text('お問い合わせ内容は必須です', textAlign: TextAlign.center),
+            duration: Duration(seconds: 2)),
       );
       return;
     }
@@ -53,7 +55,10 @@ class _SupportScreenState extends State<SupportScreen> {
     } else {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('メールアプリを起動できませんでした。設定をご確認ください。')),
+          const SnackBar(
+              content: Text('メールアプリを起動できませんでした。設定をご確認ください。',
+                  textAlign: TextAlign.center),
+              duration: Duration(seconds: 2)),
         );
       }
     }

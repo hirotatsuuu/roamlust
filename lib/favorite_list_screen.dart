@@ -62,8 +62,9 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
     await DataService.toggleFavorite(iso2);
     _loadFavorites(); // 削除したら、リストから消すために再読み込みします。
     if (mounted) {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(const SnackBar(content: Text('お気に入りから削除しました')));
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+          content: Text('お気に入りから削除しました', textAlign: TextAlign.center),
+          duration: Duration(seconds: 3)));
     }
   }
 

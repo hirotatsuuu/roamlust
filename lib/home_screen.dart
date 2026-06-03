@@ -8,8 +8,11 @@ import 'initial_load_screen.dart';
 // アプリのメインとなるホーム画面です。
 class HomeScreen extends StatefulWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
+  // ダウンロード直後かどうかを判定するフラグを追加（初期値はfalse）
+  final bool isJustDownloaded;
 
-  const HomeScreen({super.key, required this.themeNotifier});
+  const HomeScreen(
+      {super.key, required this.themeNotifier, this.isJustDownloaded = false});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -25,6 +28,28 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _loadData();
+    // もしダウンロード直後なら、画面が描画された直後にダイアログを表示します
+    if (widget.isJustDownloaded) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        showDialog(
+          context: context,
+          builder: (context) => AlertDialog(
+            // タイトルと本文を中央揃えにします
+            title: const Text('WELCOME', textAlign: TextAlign.center),
+            content: const Text('Roamlustへようこそ！\n世界を探索する準備が整いました。',
+                textAlign: TextAlign.center),
+            actionsAlignment: MainAxisAlignment.center, // ボタンも中央に配置
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context), // 閉じる処理
+                child: const Text('閉じる',
+                    style: TextStyle(fontWeight: FontWeight.bold)),
+              ),
+            ],
+          ),
+        );
+      });
+    }
   }
 
   // マスターデータを読み込む処理です。

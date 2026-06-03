@@ -44,9 +44,9 @@ class Config {
   // ===========================================================================
   // 6. メニュー（ドロワー）のテキスト (app_drawer.dart)
   // ===========================================================================
-  static const String menuCountryList = '国の一覧';
-  static const String menuFavorite = 'お気に入り';
+  static const String menuCountryList = '国一覧';
   static const String menuRegion = '地域別';
+  static const String menuFavorite = 'お気に入り';
   static const String menuTheme = 'テーマ切り替え';
   static const String menuAbout = 'アプリについて';
   static const String menuSupport = 'お問い合わせ';
