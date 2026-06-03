@@ -1,208 +1,87 @@
 {
-    "tld": [
-        ".sh",
-        ".ac"
+  "tld": [
+    ".sh",
+    ".ac"
+  ],
+  "cca2": "SH",
+  "ccn3": "654",
+  "cca3": "SHN",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "90",
+      "47"
+    ]
+  },
+  "capital": [
+    "Jamestown"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "area": 394.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/iv4VxnPzHkjLCJuc6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120"
+  },
+  "population": 5651,
+  "car": {
+    "signs": [
+      "GB"
     ],
-    "cca2": "SH",
-    "ccn3": "654",
-    "cca3": "SHN",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "90",
-            "47"
-        ]
-    },
-    "capital": [
-        "Jamestown"
-    ],
-    "altSpellings": [
-        "Saint Helena",
-        "St. Helena, Ascension and Tristan da Cunha"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "area": 394.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/iv4VxnPzHkjLCJuc6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120"
-    },
-    "population": 5651,
-    "car": {
-        "signs": [
-            "GB"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇸🇭",
-    "name": {
-        "common": "Saint Helena, Ascension and Tristan da Cunha",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+00:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇸🇭",
+  "name": {
+    "common": "Saint Helena, Ascension and Tristan da Cunha",
+    "official": "Saint Helena, Ascension and Tristan da Cunha",
+    "nativeName": {
+      "eng": {
         "official": "Saint Helena, Ascension and Tristan da Cunha",
-        "nativeName": {
-            "eng": {
-                "official": "Saint Helena, Ascension and Tristan da Cunha",
-                "common": "Saint Helena, Ascension and Tristan da Cunha"
-            }
-        }
-    },
-    "currencies": {
-        "GBP": {
-            "symbol": "£",
-            "name": "Pound sterling"
-        },
-        "SHP": {
-            "symbol": "£",
-            "name": "Saint Helena pound"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        -15.95,
-        -5.72
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Saint Helenian",
-            "m": "Saint Helenian"
-        },
-        "fra": {
-            "f": "Sainte-Hélénoise",
-            "m": "Sainte-Hélènois"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "سانت هيلينا وأسينشين وتريستان دا كونا",
-            "common": "سانت هيلينا وأسينشين وتريستان دا كونا"
-        },
-        "bre": {
-            "official": "Saint Helena, Ascension ha Tristan da Cunha",
-            "common": "Saint Helena, Ascension ha Tristan da Cunha"
-        },
-        "ces": {
-            "official": "Svatá Helena, Ascension a Tristan da Cunha",
-            "common": "Svatá Helena, Ascension a Tristan da Cunha"
-        },
-        "cym": {
-            "official": "Saint Helena, Ascension and Tristan da Cunha",
-            "common": "Saint Helena, Ascension and Tristan da Cunha"
-        },
-        "deu": {
-            "official": "Sankt Helena, Ascension und Tristan da Cunha",
-            "common": "St. Helena, Ascension und Tristan da Cunha"
-        },
-        "est": {
-            "official": "Saint Helena, Ascension ja Tristan da Cunha",
-            "common": "Saint Helena, Ascension ja Tristan da Cunha"
-        },
-        "fin": {
-            "official": "Saint Helena, Ascension ja Tristan da Cunha",
-            "common": "Saint Helena, Ascension ja Tristan da Cunha"
-        },
-        "fra": {
-            "official": "Sainte-Hélène, Ascension et Tristan da Cunha",
-            "common": "Sainte-Hélène, Ascension et Tristan da Cunha"
-        },
-        "hrv": {
-            "official": "Sveta Helena",
-            "common": "Sveta Helena"
-        },
-        "hun": {
-            "official": "Szent Ilona",
-            "common": "Szent Ilona-sziget"
-        },
-        "ind": {
-            "official": "Saint Helena, Ascension dan Tristan da Cunha",
-            "common": "Saint Helena, Ascension dan Tristan da Cunha"
-        },
-        "ita": {
-            "official": "Sant'Elena, Ascensione e Tristan da Cunha",
-            "common": "Sant'Elena, Ascensione e Tristan da Cunha"
-        },
-        "jpn": {
-            "official": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
-            "common": "セントヘレナ・アセンションおよびトリスタンダクーニャ"
-        },
-        "kor": {
-            "official": "세인트헬레나",
-            "common": "세인트헬레나"
-        },
-        "nld": {
-            "official": "Sint-Helena, Ascension en Tristan da Cunha",
-            "common": "Sint-Helena, Ascension en Tristan da Cunha"
-        },
-        "per": {
-            "official": "سنت هلن",
-            "common": "سنت هلن"
-        },
-        "pol": {
-            "official": "Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha",
-            "common": "Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha"
-        },
-        "por": {
-            "official": "Santa Helena, Ascensão e Tristão da Cunha",
-            "common": "Santa Helena, Ascensão e Tristão da Cunha"
-        },
-        "rus": {
-            "official": "Острова Святой Елены, Вознесения и Тристан-да-Кунья",
-            "common": "Острова Святой Елены, Вознесения и Тристан-да-Кунья"
-        },
-        "slk": {
-            "official": "Svätá Helena (zámorské územie)",
-            "common": "Svätá Helena (zámorské územie)"
-        },
-        "spa": {
-            "official": "Santa Elena, Ascensión y Tristán de Acuña",
-            "common": "Santa Elena, Ascensión y Tristán de Acuña"
-        },
-        "srp": {
-            "official": "Света Јелена, Асенсион и Тристан да Куња",
-            "common": "Света Јелена"
-        },
-        "swe": {
-            "official": "Sankta Helena",
-            "common": "Sankta Helena"
-        },
-        "tur": {
-            "official": "Saint Helena",
-            "common": "Saint Helena"
-        },
-        "urd": {
-            "official": "سینٹ ہلینا، اسینشن و ترسٹان دا کونیا",
-            "common": "سینٹ ہلینا، اسینشن و ترسٹان دا کونیا"
-        },
-        "zho": {
-            "official": "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
-            "common": "圣赫勒拿、阿森松和特里斯坦-达库尼亚"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/sh.png",
-        "svg": "https://flagcdn.com/sh.svg",
-        "alt": "The flag of Saint Helena, Ascension and Tristan da Cunha is blue with the UK flag in the canton and the national coat of arms shield centered on the fly half. The upper third of the shield depicts a white plover, a native bird, on a yellow field. The rest of the shield depicts a rocky coastline and a three-masted sailing ship with sails furled and flying an English flag."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -15.93,
-            -5.72
-        ]
-    },
-    "postalCode": {
-        "format": "STHL 1ZZ",
-        "regex": "^(STHL1ZZ)$"
+        "common": "Saint Helena, Ascension and Tristan da Cunha"
+      }
     }
+  },
+  "currencies": {
+    "GBP": {
+      "symbol": "£",
+      "name": "Pound sterling"
+    },
+    "SHP": {
+      "symbol": "£",
+      "name": "Saint Helena pound"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    -15.95,
+    -5.72
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Saint Helenian",
+      "m": "Saint Helenian"
+    },
+    "fra": {
+      "f": "Sainte-Hélénoise",
+      "m": "Sainte-Hélènois"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -15.93,
+      -5.72
+    ]
+  }
 }

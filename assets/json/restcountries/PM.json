@@ -1,202 +1,81 @@
 {
-    "tld": [
-        ".pm"
+  "tld": [
+    ".pm"
+  ],
+  "cca2": "PM",
+  "ccn3": "666",
+  "cca3": "SPM",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+5",
+    "suffixes": [
+      "08"
+    ]
+  },
+  "capital": [
+    "Saint-Pierre"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "landlocked": false,
+  "area": 242.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/bUM8Yc8pA8ghyhmt6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/3406826"
+  },
+  "population": 5819,
+  "car": {
+    "signs": [
+      "F"
     ],
-    "cca2": "PM",
-    "ccn3": "666",
-    "cca3": "SPM",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+5",
-        "suffixes": [
-            "08"
-        ]
-    },
-    "capital": [
-        "Saint-Pierre"
-    ],
-    "altSpellings": [
-        "PM",
-        "Collectivité territoriale de Saint-Pierre-et-Miquelon"
-    ],
-    "region": "Americas",
-    "subregion": "North America",
-    "landlocked": false,
-    "area": 242.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/bUM8Yc8pA8ghyhmt6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/3406826"
-    },
-    "population": 5819,
-    "car": {
-        "signs": [
-            "F"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-03:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇵🇲",
-    "name": {
-        "common": "Saint Pierre and Miquelon",
-        "official": "Saint Pierre and Miquelon",
-        "nativeName": {
-            "fra": {
-                "official": "Collectivité territoriale de Saint-Pierre-et-Miquelon",
-                "common": "Saint-Pierre-et-Miquelon"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        46.83333333,
-        -56.33333333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Saint-Pierrais, Miquelonnais",
-            "m": "Saint-Pierrais, Miquelonnais"
-        },
-        "fra": {
-            "f": "Saint-Pierraise, Miquelonaise",
-            "m": "Saint-Pierrais, Miquelonais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "سان بيير وميكلون",
-            "common": "سان بيير وميكلون"
-        },
-        "bre": {
-            "official": "Sant-Pêr-ha-Mikelon",
-            "common": "Sant-Pêr-ha-Mikelon"
-        },
-        "ces": {
-            "official": "Saint-Pierre a Miquelon",
-            "common": "Saint-Pierre a Miquelon"
-        },
-        "cym": {
-            "official": "Saint Pierre and Miquelon",
-            "common": "Saint Pierre and Miquelon"
-        },
-        "deu": {
-            "official": "St. Pierre und Miquelon",
-            "common": "St. Pierre und Miquelon"
-        },
-        "est": {
-            "official": "Saint-Pierre’i ja Miqueloni territoriaalühendus",
-            "common": "Saint-Pierre ja Miquelon"
-        },
-        "fin": {
-            "official": "Saint-Pierre ja Miquelon",
-            "common": "Saint-Pierre ja Miquelon"
-        },
-        "fra": {
-            "official": "Saint-Pierre-et-Miquelon",
-            "common": "Saint-Pierre-et-Miquelon"
-        },
-        "hrv": {
-            "official": "Saint Pierre i Miquelon",
-            "common": "Sveti Petar i Mikelon"
-        },
-        "hun": {
-            "official": "Saint-Pierre és Miquelon",
-            "common": "Saint-Pierre és Miquelon"
-        },
-        "ind": {
-            "official": "Wilayah Jajahan Saint Pierre dan Miquelon",
-            "common": "Saint Pierre dan Miquelon"
-        },
-        "ita": {
-            "official": "Saint Pierre e Miquelon",
-            "common": "Saint-Pierre e Miquelon"
-        },
-        "jpn": {
-            "official": "サンピエール島·ミクロン島",
-            "common": "サンピエール島・ミクロン島"
-        },
-        "kor": {
-            "official": "생피에르 미클롱",
-            "common": "생피에르 미클롱"
-        },
-        "nld": {
-            "official": "Saint-Pierre en Miquelon",
-            "common": "Saint Pierre en Miquelon"
-        },
-        "per": {
-            "official": "سن-پیر-ا-میکلون",
-            "common": "سن-پیِر و میکلُن"
-        },
-        "pol": {
-            "official": "Saint-Pierre i Miquelon",
-            "common": "Saint-Pierre i Miquelon"
-        },
-        "por": {
-            "official": "Saint Pierre e Miquelon",
-            "common": "Saint-Pierre e Miquelon"
-        },
-        "rus": {
-            "official": "Сен-Пьер и Микелон",
-            "common": "Сен-Пьер и Микелон"
-        },
-        "slk": {
-            "official": "Ostrovy Saint Pierre a Miquelon",
-            "common": "Saint Pierre a Miquelon"
-        },
-        "spa": {
-            "official": "San Pedro y Miquelón",
-            "common": "San Pedro y Miquelón"
-        },
-        "srp": {
-            "official": "Сен Пјер и Микелон",
-            "common": "Сен Пјер и Микелон"
-        },
-        "swe": {
-            "official": "Saint-Pierre och Miquelon",
-            "common": "Saint-Pierre och Miquelon"
-        },
-        "tur": {
-            "official": "Saint Pierre ve Miquelon",
-            "common": "Saint Pierre ve Miquelon"
-        },
-        "urd": {
-            "official": "سینٹ پیئر و میکیلون",
-            "common": "سینٹ پیئر و میکیلون"
-        },
-        "zho": {
-            "official": "圣皮埃尔和密克隆",
-            "common": "圣皮埃尔和密克隆"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/pm.png",
-        "svg": "https://flagcdn.com/pm.svg",
-        "alt": "The flag of Saint Pierre and Miquelon features a yellow three-masted sailing ship facing the hoist side riding on a blue background with wavy white lines. A black-over-white wavy line divides the ship from the white wavy lines. On the hoist side, a vertical band is divided into three heraldic arms: the top is red with a green diagonal cross extending to the corners and overlaid with a white cross, the middle is white with an ermine pattern, and the bottom is red with two yellow lions outlined in black."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            46.77,
-            -56.18
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(97500)$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-03:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇵🇲",
+  "name": {
+    "common": "Saint Pierre and Miquelon",
+    "official": "Saint Pierre and Miquelon",
+    "nativeName": {
+      "fra": {
+        "official": "Collectivité territoriale de Saint-Pierre-et-Miquelon",
+        "common": "Saint-Pierre-et-Miquelon"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    46.83333333,
+    -56.33333333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Saint-Pierrais, Miquelonnais",
+      "m": "Saint-Pierrais, Miquelonnais"
+    },
+    "fra": {
+      "f": "Saint-Pierraise, Miquelonaise",
+      "m": "Saint-Pierrais, Miquelonais"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      46.77,
+      -56.18
+    ]
+  }
 }

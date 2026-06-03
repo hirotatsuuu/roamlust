@@ -1,209 +1,84 @@
 {
-    "tld": [
-        ".lc"
+  "tld": [
+    ".lc"
+  ],
+  "cca2": "LC",
+  "ccn3": "662",
+  "cca3": "LCA",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "758"
+    ]
+  },
+  "capital": [
+    "Castries"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 616.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/4HhJ2jkPdSL9BPRcA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/550728"
+  },
+  "population": 184100,
+  "car": {
+    "signs": [
+      "WL"
     ],
-    "cca2": "LC",
-    "ccn3": "662",
-    "cca3": "LCA",
-    "cioc": "LCA",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "758"
-        ]
-    },
-    "capital": [
-        "Castries"
-    ],
-    "altSpellings": [
-        "LC"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 616.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/4HhJ2jkPdSL9BPRcA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/550728"
-    },
-    "population": 184100,
-    "fifa": "LCA",
-    "car": {
-        "signs": [
-            "WL"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇱🇨",
-    "name": {
-        "common": "Saint Lucia",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇱🇨",
+  "name": {
+    "common": "Saint Lucia",
+    "official": "Saint Lucia",
+    "nativeName": {
+      "eng": {
         "official": "Saint Lucia",
-        "nativeName": {
-            "eng": {
-                "official": "Saint Lucia",
-                "common": "Saint Lucia"
-            }
-        }
-    },
-    "currencies": {
-        "XCD": {
-            "symbol": "$",
-            "name": "Eastern Caribbean dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        13.88333333,
-        -60.96666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Saint Lucian",
-            "m": "Saint Lucian"
-        },
-        "fra": {
-            "f": "Saint-Lucienne",
-            "m": "Saint-Lucien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "سانت لوسيا",
-            "common": "سانت لوسيا"
-        },
-        "bre": {
-            "official": "Santez-Lusia",
-            "common": "Santez-Lusia"
-        },
-        "ces": {
-            "official": "Svatá Lucie",
-            "common": "Svatá Lucie"
-        },
-        "cym": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "deu": {
-            "official": "St. Lucia",
-            "common": "St. Lucia"
-        },
-        "est": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "fin": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "fra": {
-            "official": "Sainte-Lucie",
-            "common": "Sainte-Lucie"
-        },
-        "hrv": {
-            "official": "Sveta Lucija",
-            "common": "Sveta Lucija"
-        },
-        "hun": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "ind": {
-            "official": "Santa Lusia",
-            "common": "Santa Lusia"
-        },
-        "ita": {
-            "official": "Santa Lucia",
-            "common": "Santa Lucia"
-        },
-        "jpn": {
-            "official": "セントルシア",
-            "common": "セントルシア"
-        },
-        "kor": {
-            "official": "세인트루시아",
-            "common": "세인트루시아"
-        },
-        "nld": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "per": {
-            "official": "سنت لوسیا",
-            "common": "سنت لوسیا"
-        },
-        "pol": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "por": {
-            "official": "Santa Lúcia",
-            "common": "Santa Lúcia"
-        },
-        "rus": {
-            "official": "Сент-Люсия",
-            "common": "Сент-Люсия"
-        },
-        "slk": {
-            "official": "Svätá Lucia",
-            "common": "Svätá Lucia"
-        },
-        "spa": {
-            "official": "Santa Lucía",
-            "common": "Santa Lucía"
-        },
-        "srp": {
-            "official": "Света Луција",
-            "common": "Света Луција"
-        },
-        "swe": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "tur": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "urd": {
-            "official": "سینٹ لوسیا",
-            "common": "سینٹ لوسیا"
-        },
-        "zho": {
-            "official": "圣卢西亚",
-            "common": "圣卢西亚"
-        }
-    },
-    "gini": {
-        "2016": 51.2
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/lc.png",
-        "svg": "https://flagcdn.com/lc.svg",
-        "alt": "The flag of Saint Lucia has a light blue field, at the center of which are two triangles which share a common base — a small golden-yellow isosceles triangle superimposed on a large white-edged black isosceles triangle."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/lc.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/lc.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            14.0,
-            -61.0
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Saint Lucia"
+      }
     }
+  },
+  "currencies": {
+    "XCD": {
+      "symbol": "$",
+      "name": "Eastern Caribbean dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    13.88333333,
+    -60.96666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Saint Lucian",
+      "m": "Saint Lucian"
+    },
+    "fra": {
+      "f": "Saint-Lucienne",
+      "m": "Saint-Lucien"
+    }
+  },
+  "gini": {
+    "2016": 51.2
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      14.0,
+      -61.0
+    ]
+  }
 }

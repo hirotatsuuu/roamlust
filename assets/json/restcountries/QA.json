@@ -1,212 +1,85 @@
 {
-    "tld": [
-        ".qa",
-        "قطر."
+  "tld": [
+    ".qa",
+    "قطر."
+  ],
+  "cca2": "QA",
+  "ccn3": "634",
+  "cca3": "QAT",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+9",
+    "suffixes": [
+      "74"
+    ]
+  },
+  "capital": [
+    "Doha"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "landlocked": false,
+  "borders": [
+    "SAU"
+  ],
+  "area": 11586.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/305095"
+  },
+  "population": 3173024,
+  "car": {
+    "signs": [
+      "Q"
     ],
-    "cca2": "QA",
-    "ccn3": "634",
-    "cca3": "QAT",
-    "cioc": "QAT",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+9",
-        "suffixes": [
-            "74"
-        ]
-    },
-    "capital": [
-        "Doha"
-    ],
-    "altSpellings": [
-        "QA",
-        "State of Qatar",
-        "Dawlat Qaṭar"
-    ],
-    "region": "Asia",
-    "subregion": "Western Asia",
-    "landlocked": false,
-    "borders": [
-        "SAU"
-    ],
-    "area": 11586.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/305095"
-    },
-    "population": 3173024,
-    "fifa": "QAT",
-    "car": {
-        "signs": [
-            "Q"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇶🇦",
-    "name": {
-        "common": "Qatar",
-        "official": "State of Qatar",
-        "nativeName": {
-            "ara": {
-                "official": "دولة قطر",
-                "common": "قطر"
-            }
-        }
-    },
-    "currencies": {
-        "QAR": {
-            "symbol": "ر.ق",
-            "name": "Qatari riyal"
-        }
-    },
-    "languages": {
-        "ara": "Arabic"
-    },
-    "latlng": [
-        25.5,
-        51.25
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Qatari",
-            "m": "Qatari"
-        },
-        "fra": {
-            "f": "Qatarienne",
-            "m": "Qatarien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "دولة قطر",
-            "common": "قطر"
-        },
-        "bre": {
-            "official": "Stad Katar",
-            "common": "Katar"
-        },
-        "ces": {
-            "official": "Stát Katar",
-            "common": "Katar"
-        },
-        "cym": {
-            "official": "State of Qatar",
-            "common": "Qatar"
-        },
-        "deu": {
-            "official": "Staat Katar",
-            "common": "Katar"
-        },
-        "est": {
-            "official": "Katari Riik",
-            "common": "Katar"
-        },
-        "fin": {
-            "official": "Qatarin valtio",
-            "common": "Qatar"
-        },
-        "fra": {
-            "official": "État du Qatar",
-            "common": "Qatar"
-        },
-        "hrv": {
-            "official": "Država Katar",
-            "common": "Katar"
-        },
-        "hun": {
-            "official": "Katari Állam",
-            "common": "Katar"
-        },
-        "ind": {
-            "official": "Negara Qatar",
-            "common": "Qatar"
-        },
-        "ita": {
-            "official": "Stato del Qatar",
-            "common": "Qatar"
-        },
-        "jpn": {
-            "official": "カタール国",
-            "common": "カタール"
-        },
-        "kor": {
-            "official": "카타르국",
-            "common": "카타르"
-        },
-        "nld": {
-            "official": "Staat Qatar",
-            "common": "Qatar"
-        },
-        "per": {
-            "official": "دولت قطر",
-            "common": "قطر"
-        },
-        "pol": {
-            "official": "Państwo Katar",
-            "common": "Katar"
-        },
-        "por": {
-            "official": "Estado do Qatar",
-            "common": "Catar"
-        },
-        "rus": {
-            "official": "Государство Катар",
-            "common": "Катар"
-        },
-        "slk": {
-            "official": "Katarský štát",
-            "common": "Katar"
-        },
-        "spa": {
-            "official": "Estado de Qatar",
-            "common": "Catar"
-        },
-        "srp": {
-            "official": "Држава Катар",
-            "common": "Катар"
-        },
-        "swe": {
-            "official": "Staten Qatar",
-            "common": "Qatar"
-        },
-        "tur": {
-            "official": "Katar Devleti",
-            "common": "Katar"
-        },
-        "urd": {
-            "official": "ریاستِ قطر",
-            "common": "قطر"
-        },
-        "zho": {
-            "official": "卡塔尔国",
-            "common": "卡塔尔"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/qa.png",
-        "svg": "https://flagcdn.com/qa.svg",
-        "alt": "The flag of Qatar has a maroon field, on the hoist side of which is a white vertical band that spans about one-third the width of the field and is separated from the rest of the field by nine adjoining fly-side pointing white isosceles triangles that serve as a serrated line."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/qa.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/qa.svg"
-    },
-    "startOfWeek": "sunday",
-    "capitalInfo": {
-        "latlng": [
-            25.28,
-            51.53
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇶🇦",
+  "name": {
+    "common": "Qatar",
+    "official": "State of Qatar",
+    "nativeName": {
+      "ara": {
+        "official": "دولة قطر",
+        "common": "قطر"
+      }
     }
+  },
+  "currencies": {
+    "QAR": {
+      "symbol": "ر.ق",
+      "name": "Qatari riyal"
+    }
+  },
+  "languages": {
+    "ara": "Arabic"
+  },
+  "latlng": [
+    25.5,
+    51.25
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Qatari",
+      "m": "Qatari"
+    },
+    "fra": {
+      "f": "Qatarienne",
+      "m": "Qatarien"
+    }
+  },
+  "startOfWeek": "sunday",
+  "capitalInfo": {
+    "latlng": [
+      25.28,
+      51.53
+    ]
+  }
 }

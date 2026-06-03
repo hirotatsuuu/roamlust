@@ -1,228 +1,99 @@
 {
-    "tld": [
-        ".lu"
+  "tld": [
+    ".lu"
+  ],
+  "cca2": "LU",
+  "ccn3": "442",
+  "cca3": "LUX",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+3",
+    "suffixes": [
+      "52"
+    ]
+  },
+  "capital": [
+    "Luxembourg"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "landlocked": true,
+  "borders": [
+    "BEL",
+    "FRA",
+    "DEU"
+  ],
+  "area": 2586.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
+  },
+  "population": 681973,
+  "car": {
+    "signs": [
+      "L"
     ],
-    "cca2": "LU",
-    "ccn3": "442",
-    "cca3": "LUX",
-    "cioc": "LUX",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+3",
-        "suffixes": [
-            "52"
-        ]
-    },
-    "capital": [
-        "Luxembourg"
-    ],
-    "altSpellings": [
-        "LU",
-        "Grand Duchy of Luxembourg",
-        "Grand-Duché de Luxembourg",
-        "Großherzogtum Luxemburg",
-        "Groussherzogtum Lëtzebuerg"
-    ],
-    "region": "Europe",
-    "subregion": "Western Europe",
-    "landlocked": true,
-    "borders": [
-        "BEL",
-        "FRA",
-        "DEU"
-    ],
-    "area": 2586.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
-    },
-    "population": 681973,
-    "fifa": "LUX",
-    "car": {
-        "signs": [
-            "L"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇱🇺",
-    "name": {
-        "common": "Luxembourg",
-        "official": "Grand Duchy of Luxembourg",
-        "nativeName": {
-            "deu": {
-                "official": "Großherzogtum Luxemburg",
-                "common": "Luxemburg"
-            },
-            "fra": {
-                "official": "Grand-Duché de Luxembourg",
-                "common": "Luxembourg"
-            },
-            "ltz": {
-                "official": "Groussherzogtum Lëtzebuerg",
-                "common": "Lëtzebuerg"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "deu": "German",
-        "fra": "French",
-        "ltz": "Luxembourgish"
-    },
-    "latlng": [
-        49.75,
-        6.16666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Luxembourger",
-            "m": "Luxembourger"
-        },
-        "fra": {
-            "f": "Luxembourgeoise",
-            "m": "Luxembourgeois"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "دوقية لوكسمبورغ",
-            "common": "لوكسمبورغ"
-        },
-        "bre": {
-            "official": "Dugelezh Veur Luksembourg",
-            "common": "Luksembourg"
-        },
-        "ces": {
-            "official": "Lucemburské velkovévodství",
-            "common": "Lucembursko"
-        },
-        "cym": {
-            "official": "Grand Duchy of Luxembourg",
-            "common": "Luxembourg"
-        },
-        "deu": {
-            "official": "Großherzogtum Luxemburg,",
-            "common": "Luxemburg"
-        },
-        "est": {
-            "official": "Luksemburgi Suurhertsogiriik",
-            "common": "Luksemburg"
-        },
-        "fin": {
-            "official": "Luxemburgin suurherttuakunta",
-            "common": "Luxemburg"
-        },
-        "fra": {
-            "official": "Grand-Duché de Luxembourg",
-            "common": "Luxembourg"
-        },
-        "hrv": {
-            "official": "Veliko Vojvodstvo Luksemburg",
-            "common": "Luksemburg"
-        },
-        "hun": {
-            "official": "Luxemburgi Nagyhercegség",
-            "common": "Luxemburg"
-        },
-        "ind": {
-            "official": "Keharyapatihan Luksemburg",
-            "common": "Luksemburg"
-        },
-        "ita": {
-            "official": "Granducato di Lussemburgo",
-            "common": "Lussemburgo"
-        },
-        "jpn": {
-            "official": "ルクセンブルク大公国",
-            "common": "ルクセンブルク"
-        },
-        "kor": {
-            "official": "룩셈부르크 대공국",
-            "common": "룩셈부르크"
-        },
-        "nld": {
-            "official": "Groothertogdom Luxemburg",
-            "common": "Luxemburg"
-        },
-        "per": {
-            "official": "دوک‌نشین لوکزامبورگ",
-            "common": "لوکزامبورگ"
-        },
-        "pol": {
-            "official": "Wielkie Księstwo Luksemburga",
-            "common": "Luksemburg"
-        },
-        "por": {
-            "official": "Grão-Ducado do Luxemburgo",
-            "common": "Luxemburgo"
-        },
-        "rus": {
-            "official": "Великое Герцогство Люксембург",
-            "common": "Люксембург"
-        },
-        "slk": {
-            "official": "Luxemburské veľkovojvodstvo",
-            "common": "Luxembursko"
-        },
-        "spa": {
-            "official": "Gran Ducado de Luxemburgo",
-            "common": "Luxemburgo"
-        },
-        "srp": {
-            "official": "Велико Војводство Луксембург",
-            "common": "Луксембург"
-        },
-        "swe": {
-            "official": "Storhertigdömet Luxemburg",
-            "common": "Luxemburg"
-        },
-        "tur": {
-            "official": "Lüksemburg Büyük Dükalığı",
-            "common": "Lüksemburg"
-        },
-        "urd": {
-            "official": "دوقیہ کبیرلکسمبرگ",
-            "common": "لکسمبرگ"
-        },
-        "zho": {
-            "official": "卢森堡大公国",
-            "common": "卢森堡"
-        }
-    },
-    "gini": {
-        "2018": 35.4
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/lu.png",
-        "svg": "https://flagcdn.com/lu.svg",
-        "alt": "The flag of Luxembourg is composed of three equal horizontal bands of red, white and light blue."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/lu.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/lu.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            49.6,
-            6.12
-        ]
-    },
-    "postalCode": {
-        "format": "####",
-        "regex": "^(\\d{4})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇱🇺",
+  "name": {
+    "common": "Luxembourg",
+    "official": "Grand Duchy of Luxembourg",
+    "nativeName": {
+      "deu": {
+        "official": "Großherzogtum Luxemburg",
+        "common": "Luxemburg"
+      },
+      "fra": {
+        "official": "Grand-Duché de Luxembourg",
+        "common": "Luxembourg"
+      },
+      "ltz": {
+        "official": "Groussherzogtum Lëtzebuerg",
+        "common": "Lëtzebuerg"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "deu": "German",
+    "fra": "French",
+    "ltz": "Luxembourgish"
+  },
+  "latlng": [
+    49.75,
+    6.16666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Luxembourger",
+      "m": "Luxembourger"
+    },
+    "fra": {
+      "f": "Luxembourgeoise",
+      "m": "Luxembourgeois"
+    }
+  },
+  "gini": {
+    "2018": 35.4
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      49.6,
+      6.12
+    ]
+  }
 }

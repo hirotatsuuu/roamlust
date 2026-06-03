@@ -1,198 +1,78 @@
 {
-    "tld": [
-        ".us"
+  "tld": [
+    ".us"
+  ],
+  "cca2": "UM",
+  "ccn3": "581",
+  "cca3": "UMI",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "68"
+    ]
+  },
+  "capital": [
+    "Washington DC"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "landlocked": false,
+  "area": 34.2,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/hZKnrzgeK69dDyPF8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/6430384"
+  },
+  "population": 0,
+  "car": {
+    "signs": [
+      ""
     ],
-    "cca2": "UM",
-    "ccn3": "581",
-    "cca3": "UMI",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "68"
-        ]
-    },
-    "capital": [
-        "Washington DC"
-    ],
-    "altSpellings": [
-        "UM"
-    ],
-    "region": "Americas",
-    "subregion": "North America",
-    "landlocked": false,
-    "area": 34.2,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/hZKnrzgeK69dDyPF8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/6430384"
-    },
-    "population": 0,
-    "car": {
-        "signs": [
-            ""
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-11:00",
-        "UTC-10:00",
-        "UTC+12:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇺🇲",
-    "name": {
-        "common": "United States Minor Outlying Islands",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-11:00",
+    "UTC-10:00",
+    "UTC+12:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇺🇲",
+  "name": {
+    "common": "United States Minor Outlying Islands",
+    "official": "United States Minor Outlying Islands",
+    "nativeName": {
+      "eng": {
         "official": "United States Minor Outlying Islands",
-        "nativeName": {
-            "eng": {
-                "official": "United States Minor Outlying Islands",
-                "common": "United States Minor Outlying Islands"
-            }
-        }
-    },
-    "currencies": {
-        "USD": {
-            "symbol": "$",
-            "name": "United States dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        19.3,
-        166.633333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "American Islander",
-            "m": "American Islander"
-        },
-        "fra": {
-            "f": "",
-            "m": ""
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جزر الولايات المتحدة الصغيرة النائية",
-            "common": "جزر الولايات المتحدة الصغيرة النائية"
-        },
-        "bre": {
-            "official": "Inizi Minor A-bell Stadoù-Unanet",
-            "common": "Inizi Minor A-bell Stadoù-Unanet"
-        },
-        "ces": {
-            "official": "Menší odlehlé ostrovy Spojených států amerických",
-            "common": "Menší odlehlé ostrovy USA"
-        },
-        "cym": {
-            "official": "United States Minor Outlying Islands",
-            "common": "United States Minor Outlying Islands"
-        },
-        "deu": {
-            "official": "USA, kleinere ausgelagerte Inseln",
-            "common": "Kleinere Inselbesitzungen der Vereinigten Staaten"
-        },
-        "est": {
-            "official": "Ühendriikide väikesed hajasaared",
-            "common": "Ühendriikide hajasaared"
-        },
-        "fin": {
-            "official": "Yhdysvaltain asumattomat saaret",
-            "common": "Yhdysvaltain asumattomat saaret"
-        },
-        "fra": {
-            "official": "Îles mineures éloignées des États-Unis",
-            "common": "Îles mineures éloignées des États-Unis"
-        },
-        "hrv": {
-            "official": "Mali udaljeni otoci SAD-a",
-            "common": "Mali udaljeni otoci SAD-a"
-        },
-        "hun": {
-            "official": "Az Amerikai Egyesült Államok lakatlan külbirtokai",
-            "common": "Az Amerikai Egyesült Államok lakatlan külbirtokai"
-        },
-        "ind": {
-            "official": "Kepulauan Terluar Kecil Amerika Serikat",
-            "common": "Kepulauan Terluar Kecil Amerika Serikat"
-        },
-        "ita": {
-            "official": "Stati Uniti Isole Minori",
-            "common": "Isole minori esterne degli Stati Uniti d'America"
-        },
-        "jpn": {
-            "official": "アメリカ合衆国外諸島",
-            "common": "合衆国領有小離島"
-        },
-        "kor": {
-            "official": "미국령 군소 제도",
-            "common": "미국령 군소 제도"
-        },
-        "nld": {
-            "official": "Kleine afgelegen eilanden van de Verenigde Staten",
-            "common": "Kleine afgelegen eilanden van de Verenigde Staten"
-        },
-        "per": {
-            "official": "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
-            "common": "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا"
-        },
-        "pol": {
-            "official": "Dalekie Wyspy Mniejsze Stanów Zjednoczonych",
-            "common": "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"
-        },
-        "por": {
-            "official": "Estados Unidos Ilhas Menores Distantes",
-            "common": "Ilhas Menores Distantes dos Estados Unidos"
-        },
-        "rus": {
-            "official": "Внешние малые острова США",
-            "common": "Внешние малые острова США"
-        },
-        "slk": {
-            "official": "Menšie odľahlé ostrovy Spjoených štátov",
-            "common": "Menšie odľahlé ostrovy USA"
-        },
-        "spa": {
-            "official": "Estados Unidos Islas menores alejadas de",
-            "common": "Islas Ultramarinas Menores de Estados Unidos"
-        },
-        "srp": {
-            "official": "Мала спољна острва Сједињених Америчких Држава",
-            "common": "Мала спољна острва Сједињених Америчких Држава"
-        },
-        "swe": {
-            "official": "Förenta staternas mindre öar i Oceanien och Västindien",
-            "common": "Förenta staternas mindre öar i Oceanien och Västindien"
-        },
-        "tur": {
-            "official": "Amerika Birleşik Devletleri Küçük Dış Adaları",
-            "common": "Amerika Birleşik Devletleri Küçük Dış Adaları"
-        },
-        "urd": {
-            "official": "امریکی چھوٹے بیرونی جزائر",
-            "common": "امریکی چھوٹے بیرونی جزائر"
-        },
-        "zho": {
-            "official": "美国本土外小岛屿",
-            "common": "美国本土外小岛屿"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/um.png",
-        "svg": "https://flagcdn.com/um.svg",
-        "alt": "The flag of the United States Minor Outlying Islands is composed of thirteen equal horizontal bands of red alternating with white. A blue rectangle, bearing fifty small five-pointed white stars arranged in nine rows where rows of six stars alternate with rows of five stars, is superimposed in the canton."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {},
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "United States Minor Outlying Islands"
+      }
     }
+  },
+  "currencies": {
+    "USD": {
+      "symbol": "$",
+      "name": "United States dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    19.3,
+    166.633333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "American Islander",
+      "m": "American Islander"
+    },
+    "fra": {
+      "f": "",
+      "m": ""
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {}
 }

@@ -59,7 +59,7 @@ flutter:
 
   # 【アセット（画像やJSONデータ）の登録】ここに書いたファイルだけがアプリ内にパックされて利用可能になります
   assets:
-    - assets/json/countries_master.json # 国の基本情報が載った親玉のJSONファイル
+    - assets/json/country_master.json # 国の基本情報が載った親玉のJSONファイル
     - assets/json/rankings/             # 人口・面積・GDPなどのランキング情報が入ったフォルダ丸ごと登録
     - assets/json/wikipedia/            # Wikipediaの解説文データが入ったフォルダ丸ごと登録
     - assets/json/restcountries/        # 各国の詳細な国際データが入ったフォルダ丸ごと登録

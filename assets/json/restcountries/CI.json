@@ -1,220 +1,91 @@
 {
-    "tld": [
-        ".ci"
+  "tld": [
+    ".ci"
+  ],
+  "cca2": "CI",
+  "ccn3": "384",
+  "cca3": "CIV",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "25"
+    ]
+  },
+  "capital": [
+    "Yamoussoukro"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "borders": [
+    "BFA",
+    "GHA",
+    "GIN",
+    "LBR",
+    "MLI"
+  ],
+  "area": 322463.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192779"
+  },
+  "population": 31719275,
+  "car": {
+    "signs": [
+      "CI"
     ],
-    "cca2": "CI",
-    "ccn3": "384",
-    "cca3": "CIV",
-    "cioc": "CIV",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "25"
-        ]
-    },
-    "capital": [
-        "Yamoussoukro"
-    ],
-    "altSpellings": [
-        "CI",
-        "Côte d'Ivoire",
-        "Ivory Coast",
-        "Republic of Côte d'Ivoire",
-        "République de Côte d'Ivoire"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "borders": [
-        "BFA",
-        "GHA",
-        "GIN",
-        "LBR",
-        "MLI"
-    ],
-    "area": 322463.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192779"
-    },
-    "population": 31719275,
-    "fifa": "CIV",
-    "car": {
-        "signs": [
-            "CI"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇨🇮",
-    "name": {
-        "common": "Ivory Coast",
-        "official": "Republic of Côte d'Ivoire",
-        "nativeName": {
-            "fra": {
-                "official": "République de Côte d'Ivoire",
-                "common": "Côte d'Ivoire"
-            }
-        }
-    },
-    "currencies": {
-        "XOF": {
-            "symbol": "Fr",
-            "name": "West African CFA franc"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        8.0,
-        -5.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Ivorian",
-            "m": "Ivorian"
-        },
-        "fra": {
-            "f": "Ivoirienne",
-            "m": "Ivoirien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية ساحل العاج",
-            "common": "ساحل العاج"
-        },
-        "bre": {
-            "official": "Republik Aod an Olifant",
-            "common": "Aod an Olifant"
-        },
-        "ces": {
-            "official": "Republika Pobřeží slonoviny",
-            "common": "Pobřeží slonoviny"
-        },
-        "cym": {
-            "official": "Republic of Côte d'Ivoire",
-            "common": "Ivory Coast"
-        },
-        "deu": {
-            "official": "Republik Côte d'Ivoire",
-            "common": "Elfenbeinküste"
-        },
-        "est": {
-            "official": "Côte d’Ivoire’i Vabariik",
-            "common": "Elevandiluurannik"
-        },
-        "fin": {
-            "official": "Norsunluurannikon tasavalta",
-            "common": "Norsunluurannikko"
-        },
-        "fra": {
-            "official": "République de Côte d' Ivoire",
-            "common": "Côte d'Ivoire"
-        },
-        "hrv": {
-            "official": "Republika Côte d'Ivoire",
-            "common": "Obala Bjelokosti"
-        },
-        "hun": {
-            "official": "Elefántcsontparti Köztársaság",
-            "common": "Elefántcsontpart"
-        },
-        "ind": {
-            "official": "Republik Pantai Gading",
-            "common": "Pantai Gading"
-        },
-        "ita": {
-            "official": "Repubblica della Costa d'Avorio",
-            "common": "Costa d'Avorio"
-        },
-        "jpn": {
-            "official": "コートジボワール共和国",
-            "common": "コートジボワール"
-        },
-        "kor": {
-            "official": "코트디부아르 공화국",
-            "common": "코트디부아르"
-        },
-        "nld": {
-            "official": "Republiek Ivoorkust",
-            "common": "Ivoorkust"
-        },
-        "per": {
-            "official": "جمهوری ساحل عاج",
-            "common": "ساحل عاج"
-        },
-        "pol": {
-            "official": "Republika WybrzeŻa Kości Słoniowej",
-            "common": "WybrzeŻe Kości Słoniowej"
-        },
-        "por": {
-            "official": "República da Côte d'Ivoire",
-            "common": "Costa do Marfim"
-        },
-        "rus": {
-            "official": "Республика Кот-д'Ивуаре",
-            "common": "Кот-д’Ивуар"
-        },
-        "slk": {
-            "official": "Republika Pobrežie Slonoviny",
-            "common": "Pobrežie Slonoviny"
-        },
-        "spa": {
-            "official": "República de Côte d'Ivoire",
-            "common": "Costa de Marfil"
-        },
-        "srp": {
-            "official": "Република Обала Слоноваче",
-            "common": "Обала Слоноваче"
-        },
-        "swe": {
-            "official": "Republiken Elfenbenskusten",
-            "common": "Elfenbenskusten"
-        },
-        "tur": {
-            "official": "Fildişi Sahili",
-            "common": "Fildişi Sahili"
-        },
-        "urd": {
-            "official": "جمہوریہ کوت دیواغ",
-            "common": "آئیوری کوسٹ"
-        },
-        "zho": {
-            "official": "科特迪瓦共和国",
-            "common": "科特迪瓦"
-        }
-    },
-    "gini": {
-        "2015": 41.5
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ci.png",
-        "svg": "https://flagcdn.com/ci.svg",
-        "alt": "The flag of Ivory Coast is composed of three equal vertical bands of orange, white and green."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ci.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ci.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            6.82,
-            -5.27
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇨🇮",
+  "name": {
+    "common": "Ivory Coast",
+    "official": "Republic of Côte d'Ivoire",
+    "nativeName": {
+      "fra": {
+        "official": "République de Côte d'Ivoire",
+        "common": "Côte d'Ivoire"
+      }
     }
+  },
+  "currencies": {
+    "XOF": {
+      "symbol": "Fr",
+      "name": "West African CFA franc"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    8.0,
+    -5.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Ivorian",
+      "m": "Ivorian"
+    },
+    "fra": {
+      "f": "Ivoirienne",
+      "m": "Ivoirien"
+    }
+  },
+  "gini": {
+    "2015": 41.5
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      6.82,
+      -5.27
+    ]
+  }
 }

@@ -1,215 +1,94 @@
 {
-    "tld": [
-        ".sx"
+  "tld": [
+    ".sx"
+  ],
+  "cca2": "SX",
+  "ccn3": "534",
+  "cca3": "SXM",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "721"
+    ]
+  },
+  "capital": [
+    "Philipsburg"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "borders": [
+    "MAF"
+  ],
+  "area": 34.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/DjvcESy1a1oGEZuNA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1231790"
+  },
+  "population": 41349,
+  "car": {
+    "signs": [
+      "SX"
     ],
-    "cca2": "SX",
-    "ccn3": "534",
-    "cca3": "SXM",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "721"
-        ]
-    },
-    "capital": [
-        "Philipsburg"
-    ],
-    "altSpellings": [
-        "SX",
-        "Sint Maarten (Dutch part)"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "borders": [
-        "MAF"
-    ],
-    "area": 34.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/DjvcESy1a1oGEZuNA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1231790"
-    },
-    "population": 41349,
-    "car": {
-        "signs": [
-            "SX"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇸🇽",
-    "name": {
-        "common": "Sint Maarten",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇸🇽",
+  "name": {
+    "common": "Sint Maarten",
+    "official": "Sint Maarten",
+    "nativeName": {
+      "eng": {
         "official": "Sint Maarten",
-        "nativeName": {
-            "eng": {
-                "official": "Sint Maarten",
-                "common": "Sint Maarten"
-            },
-            "fra": {
-                "official": "Saint-Martin",
-                "common": "Saint-Martin"
-            },
-            "nld": {
-                "official": "Sint Maarten",
-                "common": "Sint Maarten"
-            }
-        }
-    },
-    "currencies": {
-        "ANG": {
-            "symbol": "ƒ",
-            "name": "Netherlands Antillean guilder"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "fra": "French",
-        "nld": "Dutch"
-    },
-    "latlng": [
-        18.033333,
-        -63.05
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "St. Maartener",
-            "m": "St. Maartener"
-        },
-        "fra": {
-            "f": "Saint-Martinoise",
-            "m": "Saint-Martinois"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "سينت مارتن",
-            "common": "سينت مارتن"
-        },
-        "bre": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "ces": {
-            "official": "Svatý Martin",
-            "common": "Svatý Martin (Nizozemsko)"
-        },
-        "cym": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "deu": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "est": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "fin": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "fra": {
-            "official": "Sint Maarten",
-            "common": "Saint-Martin"
-        },
-        "hrv": {
-            "official": "Sveti Martin",
-            "common": "Sveti Martin"
-        },
-        "hun": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "ind": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "ita": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "jpn": {
-            "official": "シントマールテン島",
-            "common": "シント・マールテン"
-        },
-        "kor": {
-            "official": "신트마르턴",
-            "common": "신트마르턴"
-        },
-        "nld": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "per": {
-            "official": "سن مارتن",
-            "common": "سن مارتن"
-        },
-        "pol": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "por": {
-            "official": "Sint Maarten",
-            "common": "São Martinho"
-        },
-        "rus": {
-            "official": "Синт-Маартен",
-            "common": "Синт-Мартен"
-        },
-        "slk": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "spa": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "srp": {
-            "official": "Свети Мартин",
-            "common": "Свети Мартин"
-        },
-        "swe": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "tur": {
-            "official": "Sint Maarten",
-            "common": "Sint Maarten"
-        },
-        "urd": {
-            "official": "سنٹ مارٹن",
-            "common": "سنٹ مارٹن"
-        },
-        "zho": {
-            "official": "圣马丁岛",
-            "common": "圣马丁岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/sx.png",
-        "svg": "https://flagcdn.com/sx.svg",
-        "alt": "The flag of Sint Maarten features two equal horizontal bands of red and blue, with a white isosceles triangle based on the hoist side. The center of the triangle displays the national coat of arms with an orange-bordered blue shield that prominently displays a white courthouse, as well as yellow sage in the upper left and the silhouette of a monument in the upper right. Over the shield is a yellow rising sun and a brown pelican in flight. A yellow scroll below the shield has the Latin motto \"SEMPER PROGREDIENS\" (Always Progressing)."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            18.02,
-            -63.03
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Sint Maarten"
+      },
+      "fra": {
+        "official": "Saint-Martin",
+        "common": "Saint-Martin"
+      },
+      "nld": {
+        "official": "Sint Maarten",
+        "common": "Sint Maarten"
+      }
     }
+  },
+  "currencies": {
+    "ANG": {
+      "symbol": "ƒ",
+      "name": "Netherlands Antillean guilder"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "fra": "French",
+    "nld": "Dutch"
+  },
+  "latlng": [
+    18.033333,
+    -63.05
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "St. Maartener",
+      "m": "St. Maartener"
+    },
+    "fra": {
+      "f": "Saint-Martinoise",
+      "m": "Saint-Martinois"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      18.02,
+      -63.03
+    ]
+  }
 }

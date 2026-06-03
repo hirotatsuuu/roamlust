@@ -1,203 +1,81 @@
 {
-    "tld": [
-        ".yt"
+  "tld": [
+    ".yt"
+  ],
+  "cca2": "YT",
+  "ccn3": "175",
+  "cca3": "MYT",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "62"
+    ]
+  },
+  "capital": [
+    "Mamoudzou"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "landlocked": false,
+  "area": 374.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1259885"
+  },
+  "population": 320901,
+  "car": {
+    "signs": [
+      "F"
     ],
-    "cca2": "YT",
-    "ccn3": "175",
-    "cca3": "MYT",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "62"
-        ]
-    },
-    "capital": [
-        "Mamoudzou"
-    ],
-    "altSpellings": [
-        "YT",
-        "Department of Mayotte",
-        "Département de Mayotte"
-    ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "landlocked": false,
-    "area": 374.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1259885"
-    },
-    "population": 320901,
-    "car": {
-        "signs": [
-            "F"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇾🇹",
-    "name": {
-        "common": "Mayotte",
-        "official": "Department of Mayotte",
-        "nativeName": {
-            "fra": {
-                "official": "Département de Mayotte",
-                "common": "Mayotte"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        -12.83333333,
-        45.16666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Mahoran",
-            "m": "Mahoran"
-        },
-        "fra": {
-            "f": "Mahoraise",
-            "m": "Mahorais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "مايوت",
-            "common": "مايوت"
-        },
-        "bre": {
-            "official": "Departamant Mayotte",
-            "common": "Mayotte"
-        },
-        "ces": {
-            "official": "Mayotte",
-            "common": "Mayotte"
-        },
-        "cym": {
-            "official": "Department of Mayotte",
-            "common": "Mayotte"
-        },
-        "deu": {
-            "official": "Übersee-Département Mayotte",
-            "common": "Mayotte"
-        },
-        "est": {
-            "official": "Mayotte",
-            "common": "Mayotte"
-        },
-        "fin": {
-            "official": "Mayotte",
-            "common": "Mayotte"
-        },
-        "fra": {
-            "official": "Département de Mayotte",
-            "common": "Mayotte"
-        },
-        "hrv": {
-            "official": "Odjel Mayotte",
-            "common": "Mayotte"
-        },
-        "hun": {
-            "official": "Mayotte",
-            "common": "Mayotte"
-        },
-        "ind": {
-            "official": "Region Mayotte",
-            "common": "Mayotte"
-        },
-        "ita": {
-            "official": "Dipartimento di Mayotte",
-            "common": "Mayotte"
-        },
-        "jpn": {
-            "official": "マヨット科",
-            "common": "マヨット"
-        },
-        "kor": {
-            "official": "마요트",
-            "common": "마요트"
-        },
-        "nld": {
-            "official": "Afdeling Mayotte",
-            "common": "Mayotte"
-        },
-        "per": {
-            "official": "مجموعه شهرستانی مایوت",
-            "common": "مایوت"
-        },
-        "pol": {
-            "official": "Majotta",
-            "common": "Majotta"
-        },
-        "por": {
-            "official": "Departamento de Mayotte",
-            "common": "Mayotte"
-        },
-        "rus": {
-            "official": "Департамент Майотта",
-            "common": "Майотта"
-        },
-        "slk": {
-            "official": "Department Mayotte",
-            "common": "Mayotte"
-        },
-        "spa": {
-            "official": "Departamento de Mayotte",
-            "common": "Mayotte"
-        },
-        "srp": {
-            "official": "Мајот",
-            "common": "Мајот"
-        },
-        "swe": {
-            "official": "Departementsområdet Mayotte",
-            "common": "Mayotte"
-        },
-        "tur": {
-            "official": "Mayotte",
-            "common": "Mayotte"
-        },
-        "urd": {
-            "official": "مایوٹ",
-            "common": "مایوٹ"
-        },
-        "zho": {
-            "official": "马约特",
-            "common": "马约特"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/yt.png",
-        "svg": "https://flagcdn.com/yt.svg",
-        "alt": "The flag of Mayotte bears a white field with the national coat of arms in the center and the country's name in red above it. The coat of arms consists of a shield supported by two seahorses and the national motto in a banner below it. The shield has a white fringe and bears a blue field with an upwards-facing white crescent on the top half and a red field with two yellow ylang-ylang flowers on the bottom half."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -12.78,
-            45.22
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇾🇹",
+  "name": {
+    "common": "Mayotte",
+    "official": "Department of Mayotte",
+    "nativeName": {
+      "fra": {
+        "official": "Département de Mayotte",
+        "common": "Mayotte"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    -12.83333333,
+    45.16666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Mahoran",
+      "m": "Mahoran"
+    },
+    "fra": {
+      "f": "Mahoraise",
+      "m": "Mahorais"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -12.78,
+      45.22
+    ]
+  }
 }

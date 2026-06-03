@@ -1,216 +1,89 @@
 {
-    "tld": [
-        ".ws"
+  "tld": [
+    ".ws"
+  ],
+  "cca2": "WS",
+  "ccn3": "882",
+  "cca3": "WSM",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "85"
+    ]
+  },
+  "capital": [
+    "Apia"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "landlocked": false,
+  "area": 2842.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1872673"
+  },
+  "population": 205557,
+  "car": {
+    "signs": [
+      "WS"
     ],
-    "cca2": "WS",
-    "ccn3": "882",
-    "cca3": "WSM",
-    "cioc": "SAM",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "85"
-        ]
-    },
-    "capital": [
-        "Apia"
-    ],
-    "altSpellings": [
-        "WS",
-        "Independent State of Samoa",
-        "Malo Saʻoloto Tutoʻatasi o Sāmoa"
-    ],
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "landlocked": false,
-    "area": 2842.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1872673"
-    },
-    "population": 205557,
-    "fifa": "SAM",
-    "car": {
-        "signs": [
-            "WS"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+13:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇼🇸",
-    "name": {
-        "common": "Samoa",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+13:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇼🇸",
+  "name": {
+    "common": "Samoa",
+    "official": "Independent State of Samoa",
+    "nativeName": {
+      "eng": {
         "official": "Independent State of Samoa",
-        "nativeName": {
-            "eng": {
-                "official": "Independent State of Samoa",
-                "common": "Samoa"
-            },
-            "smo": {
-                "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
-                "common": "Sāmoa"
-            }
-        }
-    },
-    "currencies": {
-        "WST": {
-            "symbol": "T",
-            "name": "Samoan tālā"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "smo": "Samoan"
-    },
-    "latlng": [
-        -13.58333333,
-        -172.33333333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Samoan",
-            "m": "Samoan"
-        },
-        "fra": {
-            "f": "Samoane",
-            "m": "Samoan"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "دولة ساموا المستقلة",
-            "common": "ساموا"
-        },
-        "bre": {
-            "official": "Stad Dizalc'h Samoa",
-            "common": "Samoa"
-        },
-        "ces": {
-            "official": "Nezávislý stát Samoa",
-            "common": "Samoa"
-        },
-        "cym": {
-            "official": "Independent State of Samoa",
-            "common": "Samoa"
-        },
-        "deu": {
-            "official": "Unabhängige Staat Samoa",
-            "common": "Samoa"
-        },
-        "est": {
-            "official": "Samoa Iseseisvusriik",
-            "common": "Samoa"
-        },
-        "fin": {
-            "official": "Samoan itsenäinen valtio",
-            "common": "Samoa"
-        },
-        "fra": {
-            "official": "Samoa",
-            "common": "Samoa"
-        },
-        "hrv": {
-            "official": "Nezavisna Država Samoa",
-            "common": "Samoa"
-        },
-        "hun": {
-            "official": "Szamoai Független Állam",
-            "common": "Szamoa"
-        },
-        "ind": {
-            "official": "Negara Independen Samoa",
-            "common": "Samoa"
-        },
-        "ita": {
-            "official": "Stato indipendente di Samoa",
-            "common": "Samoa"
-        },
-        "jpn": {
-            "official": "サモア独立国",
-            "common": "サモア"
-        },
-        "kor": {
-            "official": "사모아 독립국",
-            "common": "사모아"
-        },
-        "nld": {
-            "official": "Onafhankelijke Staat Samoa",
-            "common": "Samoa"
-        },
-        "per": {
-            "official": "ایالت مستقل ساموآ",
-            "common": "ساموآ"
-        },
-        "pol": {
-            "official": "Niezależne Państwo Samoa",
-            "common": "Samoa"
-        },
-        "por": {
-            "official": "Estado Independente de Samoa",
-            "common": "Samoa"
-        },
-        "rus": {
-            "official": "Независимое Государство Самоа",
-            "common": "Самоа"
-        },
-        "slk": {
-            "official": "Nezávislý štátSamoa",
-            "common": "Samoa"
-        },
-        "spa": {
-            "official": "Estado Independiente de Samoa",
-            "common": "Samoa"
-        },
-        "srp": {
-            "official": "Независна Држава Самоа",
-            "common": "Самоа"
-        },
-        "swe": {
-            "official": "Självständiga staten Samoa",
-            "common": "Samoa"
-        },
-        "tur": {
-            "official": "Bağımsız Samoa Devleti",
-            "common": "Bağımsız Samoa Devleti"
-        },
-        "urd": {
-            "official": "آزاد سلطنتِ ساموا",
-            "common": "سامووا"
-        },
-        "zho": {
-            "official": "萨摩亚独立国",
-            "common": "萨摩亚"
-        }
-    },
-    "gini": {
-        "2013": 38.7
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ws.png",
-        "svg": "https://flagcdn.com/ws.svg",
-        "alt": "The flag of Samoa has a red field. A blue rectangle, bearing a representation of the Southern Cross made up of five large and one smaller five-pointed white stars, is superimposed in the canton."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ws.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ws.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -13.82,
-            -171.77
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Samoa"
+      },
+      "smo": {
+        "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+        "common": "Sāmoa"
+      }
     }
+  },
+  "currencies": {
+    "WST": {
+      "symbol": "T",
+      "name": "Samoan tālā"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "smo": "Samoan"
+  },
+  "latlng": [
+    -13.58333333,
+    -172.33333333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Samoan",
+      "m": "Samoan"
+    },
+    "fra": {
+      "f": "Samoane",
+      "m": "Samoan"
+    }
+  },
+  "gini": {
+    "2013": 38.7
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -13.82,
+      -171.77
+    ]
+  }
 }

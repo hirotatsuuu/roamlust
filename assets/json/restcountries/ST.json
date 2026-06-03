@@ -1,212 +1,84 @@
 {
-    "tld": [
-        ".st"
+  "tld": [
+    ".st"
+  ],
+  "cca2": "ST",
+  "ccn3": "678",
+  "cca3": "STP",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "39"
+    ]
+  },
+  "capital": [
+    "São Tomé"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "landlocked": false,
+  "area": 964.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/9EUppm13RtPX9oF46",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/535880"
+  },
+  "population": 209607,
+  "car": {
+    "signs": [
+      "STP"
     ],
-    "cca2": "ST",
-    "ccn3": "678",
-    "cca3": "STP",
-    "cioc": "STP",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "39"
-        ]
-    },
-    "capital": [
-        "São Tomé"
-    ],
-    "altSpellings": [
-        "ST",
-        "Democratic Republic of São Tomé and Príncipe",
-        "Sao Tome and Principe",
-        "República Democrática de São Tomé e Príncipe"
-    ],
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "landlocked": false,
-    "area": 964.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/9EUppm13RtPX9oF46",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/535880"
-    },
-    "population": 209607,
-    "fifa": "STP",
-    "car": {
-        "signs": [
-            "STP"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇸🇹",
-    "name": {
-        "common": "São Tomé and Príncipe",
-        "official": "Democratic Republic of São Tomé and Príncipe",
-        "nativeName": {
-            "por": {
-                "official": "República Democrática do São Tomé e Príncipe",
-                "common": "São Tomé e Príncipe"
-            }
-        }
-    },
-    "currencies": {
-        "STN": {
-            "symbol": "Db",
-            "name": "São Tomé and Príncipe dobra"
-        }
-    },
-    "languages": {
-        "por": "Portuguese"
-    },
-    "latlng": [
-        1.0,
-        7.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Sao Tomean",
-            "m": "Sao Tomean"
-        },
-        "fra": {
-            "f": "Santoméenne",
-            "m": "Santoméen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية ساو تومي وبرينسيب الديمقراطية",
-            "common": "ساو تومي وبرينسيب"
-        },
-        "bre": {
-            "official": "Republik Demokratel São Tomé ha Príncipe",
-            "common": "São Tomé ha Príncipe"
-        },
-        "ces": {
-            "official": "Demokratická republika Svatý Tomáš a Princův ostrov",
-            "common": "Svatý Tomáš a Princův ostrov"
-        },
-        "cym": {
-            "official": "Democratic Republic of São Tomé and Príncipe",
-            "common": "São Tomé and Príncipe"
-        },
-        "deu": {
-            "official": "Demokratische Republik São Tomé und Príncipe",
-            "common": "São Tomé und Príncipe"
-        },
-        "est": {
-            "official": "São Tomé ja Príncipe Demokraatlik Vabariik",
-            "common": "São Tomé ja Príncipe"
-        },
-        "fin": {
-            "official": "São Tomé ja Príncipen demokraattinen tasavalta",
-            "common": "São Téme ja Príncipe"
-        },
-        "fra": {
-            "official": "République démocratique de São Tomé et Príncipe",
-            "common": "São Tomé et Príncipe"
-        },
-        "hrv": {
-            "official": "Demokratska Republika São Tome i Principe",
-            "common": "Sveti Toma i Princip"
-        },
-        "hun": {
-            "official": "São Tomé és Príncipe Demokratikus Köztársaság",
-            "common": "São Tomé és Príncipe"
-        },
-        "ind": {
-            "official": "Republik Demokratik Santo Tomas dan Prinsipe",
-            "common": "Santo Tomas dan Prinsipe"
-        },
-        "ita": {
-            "official": "Repubblica democratica di São Tomé e Príncipe",
-            "common": "São Tomé e Príncipe"
-        },
-        "jpn": {
-            "official": "サントメ·プリンシペ民主共和国",
-            "common": "サントメ・プリンシペ"
-        },
-        "kor": {
-            "official": "상투메 프린시페 민주 공화국",
-            "common": "상투메 프린시페"
-        },
-        "nld": {
-            "official": "Democratische Republiek Sao Tomé en Principe",
-            "common": "Sao Tomé en Principe"
-        },
-        "per": {
-            "official": "جمهوری دموکراتیک سائوتومه و پرنسیپ",
-            "common": "سائوتومه و پرنسیپ"
-        },
-        "pol": {
-            "official": "Demokratyczna Republika Wysp Świętego Tomasza i Książęcej",
-            "common": "Wyspy Świętego Tomasza i Książęca"
-        },
-        "por": {
-            "official": "República Democrática de São Tomé e Príncipe",
-            "common": "São Tomé e Príncipe"
-        },
-        "rus": {
-            "official": "Демократическая Республика Сан-Томе и Принсипи",
-            "common": "Сан-Томе и Принсипи"
-        },
-        "slk": {
-            "official": "Demokratická republika Svätého Tomáša A princovho ostrova",
-            "common": "Svätý Tomáš a Princov ostrov"
-        },
-        "spa": {
-            "official": "República Democrática de Santo Tomé y Príncipe",
-            "common": "Santo Tomé y Príncipe"
-        },
-        "srp": {
-            "official": "Демократска Република Сао Томе и Принсипе",
-            "common": "Сао Томе и Принсипе"
-        },
-        "swe": {
-            "official": "Demokratiska republiken São Tomé och Príncipe",
-            "common": "São Tomé och Príncipe"
-        },
-        "tur": {
-            "official": "São Tomé ve Príncipe Demokratik Cumhuriyeti",
-            "common": "São Tomé ve Príncipe"
-        },
-        "urd": {
-            "official": "جمہوریہ ساؤ ٹومے و پرنسپے",
-            "common": "ساؤ ٹومے و پرنسپے"
-        },
-        "zho": {
-            "official": "圣多美和普林西比民主共和国",
-            "common": "圣多美和普林西比"
-        }
-    },
-    "gini": {
-        "2017": 56.3
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/st.png",
-        "svg": "https://flagcdn.com/st.svg",
-        "alt": "The flag of São Tomé and Príncipe has three horizontal bands of green, yellow (double-width), and green, with two black five-pointed stars in the center of the yellow band and a red isosceles triangle based on the hoist side."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/st.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/st.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            0.34,
-            6.73
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇸🇹",
+  "name": {
+    "common": "São Tomé and Príncipe",
+    "official": "Democratic Republic of São Tomé and Príncipe",
+    "nativeName": {
+      "por": {
+        "official": "República Democrática do São Tomé e Príncipe",
+        "common": "São Tomé e Príncipe"
+      }
     }
+  },
+  "currencies": {
+    "STN": {
+      "symbol": "Db",
+      "name": "São Tomé and Príncipe dobra"
+    }
+  },
+  "languages": {
+    "por": "Portuguese"
+  },
+  "latlng": [
+    1.0,
+    7.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Sao Tomean",
+      "m": "Sao Tomean"
+    },
+    "fra": {
+      "f": "Santoméenne",
+      "m": "Santoméen"
+    }
+  },
+  "gini": {
+    "2017": 56.3
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      0.34,
+      6.73
+    ]
+  }
 }

@@ -1,215 +1,90 @@
 {
-    "tld": [
-        ".gt"
+  "tld": [
+    ".gt"
+  ],
+  "cca2": "GT",
+  "ccn3": "320",
+  "cca3": "GTM",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+5",
+    "suffixes": [
+      "02"
+    ]
+  },
+  "capital": [
+    "Guatemala City"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "landlocked": false,
+  "borders": [
+    "BLZ",
+    "SLV",
+    "HND",
+    "MEX"
+  ],
+  "area": 108889.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1521463"
+  },
+  "population": 18079810,
+  "car": {
+    "signs": [
+      "GCA"
     ],
-    "cca2": "GT",
-    "ccn3": "320",
-    "cca3": "GTM",
-    "cioc": "GUA",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+5",
-        "suffixes": [
-            "02"
-        ]
-    },
-    "capital": [
-        "Guatemala City"
-    ],
-    "altSpellings": [
-        "GT"
-    ],
-    "region": "Americas",
-    "subregion": "Central America",
-    "landlocked": false,
-    "borders": [
-        "BLZ",
-        "SLV",
-        "HND",
-        "MEX"
-    ],
-    "area": 108889.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1521463"
-    },
-    "population": 18079810,
-    "fifa": "GUA",
-    "car": {
-        "signs": [
-            "GCA"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-06:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇬🇹",
-    "name": {
-        "common": "Guatemala",
-        "official": "Republic of Guatemala",
-        "nativeName": {
-            "spa": {
-                "official": "República de Guatemala",
-                "common": "Guatemala"
-            }
-        }
-    },
-    "currencies": {
-        "GTQ": {
-            "symbol": "Q",
-            "name": "Guatemalan quetzal"
-        }
-    },
-    "languages": {
-        "spa": "Spanish"
-    },
-    "latlng": [
-        15.5,
-        -90.25
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Guatemalan",
-            "m": "Guatemalan"
-        },
-        "fra": {
-            "f": "Guatémaltèque",
-            "m": "Guatémaltèque"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية غواتيمالا",
-            "common": "غواتيمالا"
-        },
-        "bre": {
-            "official": "Republik Guatemala",
-            "common": "Guatemala"
-        },
-        "ces": {
-            "official": "Republika Guatemala",
-            "common": "Guatemala"
-        },
-        "cym": {
-            "official": "Republic of Guatemala",
-            "common": "Guatemala"
-        },
-        "deu": {
-            "official": "Republik Guatemala",
-            "common": "Guatemala"
-        },
-        "est": {
-            "official": "Guatemala Vabariik",
-            "common": "Guatemala"
-        },
-        "fin": {
-            "official": "Guatemalan tasavalta",
-            "common": "Guatemala"
-        },
-        "fra": {
-            "official": "République du Guatemala",
-            "common": "Guatemala"
-        },
-        "hrv": {
-            "official": "Republika Gvatemala",
-            "common": "Gvatemala"
-        },
-        "hun": {
-            "official": "Guatemalai Köztársaság",
-            "common": "Guatemala"
-        },
-        "ind": {
-            "official": "Republik Guatemala",
-            "common": "Guatemala"
-        },
-        "ita": {
-            "official": "Repubblica del Guatemala",
-            "common": "Guatemala"
-        },
-        "jpn": {
-            "official": "グアテマラ共和国",
-            "common": "グアテマラ"
-        },
-        "kor": {
-            "official": "과테말라 공화국",
-            "common": "과테말라"
-        },
-        "nld": {
-            "official": "Republiek Guatemala",
-            "common": "Guatemala"
-        },
-        "per": {
-            "official": "جمهوری گواتِمالا",
-            "common": "گواتِمالا"
-        },
-        "pol": {
-            "official": "Republika Gwatemali",
-            "common": "Gwatemala"
-        },
-        "por": {
-            "official": "República da Guatemala",
-            "common": "Guatemala"
-        },
-        "rus": {
-            "official": "Республика Гватемала",
-            "common": "Гватемала"
-        },
-        "slk": {
-            "official": "Guatemalská republika",
-            "common": "Guatemala"
-        },
-        "spa": {
-            "official": "República de Guatemala",
-            "common": "Guatemala"
-        },
-        "srp": {
-            "official": "Република Гватемала",
-            "common": "Гватемала"
-        },
-        "swe": {
-            "official": "Republiken Guatemala",
-            "common": "Guatemala"
-        },
-        "tur": {
-            "official": "Guatemala Cumhuriyeti",
-            "common": "Guatemala"
-        },
-        "urd": {
-            "official": "جمہوریہ گواتیمالا",
-            "common": "گواتیمالا"
-        },
-        "zho": {
-            "official": "危地马拉共和国",
-            "common": "危地马拉"
-        }
-    },
-    "gini": {
-        "2014": 48.3
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gt.png",
-        "svg": "https://flagcdn.com/gt.svg",
-        "alt": "The flag of Guatemala is composed of three equal vertical bands of light blue, white and light blue, with the national coat of arms centered in the white band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gt.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gt.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            14.62,
-            -90.52
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-06:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇬🇹",
+  "name": {
+    "common": "Guatemala",
+    "official": "Republic of Guatemala",
+    "nativeName": {
+      "spa": {
+        "official": "República de Guatemala",
+        "common": "Guatemala"
+      }
     }
+  },
+  "currencies": {
+    "GTQ": {
+      "symbol": "Q",
+      "name": "Guatemalan quetzal"
+    }
+  },
+  "languages": {
+    "spa": "Spanish"
+  },
+  "latlng": [
+    15.5,
+    -90.25
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Guatemalan",
+      "m": "Guatemalan"
+    },
+    "fra": {
+      "f": "Guatémaltèque",
+      "m": "Guatémaltèque"
+    }
+  },
+  "gini": {
+    "2014": 48.3
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      14.62,
+      -90.52
+    ]
+  }
 }

@@ -1,220 +1,92 @@
 {
-    "tld": [
-        ".et"
+  "tld": [
+    ".et"
+  ],
+  "cca2": "ET",
+  "ccn3": "231",
+  "cca3": "ETH",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "51"
+    ]
+  },
+  "capital": [
+    "Addis Ababa"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "landlocked": true,
+  "borders": [
+    "DJI",
+    "ERI",
+    "KEN",
+    "SOM",
+    "SSD",
+    "SDN"
+  ],
+  "area": 1104300.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192800"
+  },
+  "population": 111652998,
+  "car": {
+    "signs": [
+      "ETH"
     ],
-    "cca2": "ET",
-    "ccn3": "231",
-    "cca3": "ETH",
-    "cioc": "ETH",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "51"
-        ]
-    },
-    "capital": [
-        "Addis Ababa"
-    ],
-    "altSpellings": [
-        "ET",
-        "ʾĪtyōṗṗyā",
-        "Federal Democratic Republic of Ethiopia",
-        "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
-    ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "landlocked": true,
-    "borders": [
-        "DJI",
-        "ERI",
-        "KEN",
-        "SOM",
-        "SSD",
-        "SDN"
-    ],
-    "area": 1104300.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192800"
-    },
-    "population": 111652998,
-    "fifa": "ETH",
-    "car": {
-        "signs": [
-            "ETH"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇪🇹",
-    "name": {
-        "common": "Ethiopia",
-        "official": "Federal Democratic Republic of Ethiopia",
-        "nativeName": {
-            "amh": {
-                "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
-                "common": "ኢትዮጵያ"
-            }
-        }
-    },
-    "currencies": {
-        "ETB": {
-            "symbol": "Br",
-            "name": "Ethiopian birr"
-        }
-    },
-    "languages": {
-        "amh": "Amharic"
-    },
-    "latlng": [
-        8.0,
-        38.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Ethiopian",
-            "m": "Ethiopian"
-        },
-        "fra": {
-            "f": "Éthiopienne",
-            "m": "Éthiopien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية إثيوبيا الفدرالية الديموقراطية",
-            "common": "إثيوبيا"
-        },
-        "bre": {
-            "official": "Republik Demokratel Kevredadel Etiopia",
-            "common": "Etiopia"
-        },
-        "ces": {
-            "official": "Etiopská federativní demokratická republika",
-            "common": "Etiopie"
-        },
-        "cym": {
-            "official": "Gweriniaeth Ddemocrataidd Ffederal Ethiopia",
-            "common": "Ethiopia"
-        },
-        "deu": {
-            "official": "Demokratische Bundesrepublik Äthiopien",
-            "common": "Äthiopien"
-        },
-        "est": {
-            "official": "Etioopia Demokraatlik Liitvabariik",
-            "common": "Etioopia"
-        },
-        "fin": {
-            "official": "Etiopian demokraattinen liittotasavalta",
-            "common": "Etiopia"
-        },
-        "fra": {
-            "official": "République fédérale démocratique d'Éthiopie",
-            "common": "Éthiopie"
-        },
-        "hrv": {
-            "official": "Savezna Demokratska Republika Etiopija",
-            "common": "Etiopija"
-        },
-        "hun": {
-            "official": "Etióp Szövetségi Demokratikus Köztársaság",
-            "common": "Etiópia"
-        },
-        "ind": {
-            "official": "Republik Demokratik Federal Etiopia",
-            "common": "Etiopia"
-        },
-        "ita": {
-            "official": "Repubblica federale democratica di Etiopia",
-            "common": "Etiopia"
-        },
-        "jpn": {
-            "official": "エチオピア連邦民主共和国",
-            "common": "エチオピア"
-        },
-        "kor": {
-            "official": "에티오피아 연방 민주 공화국",
-            "common": "에티오피아"
-        },
-        "nld": {
-            "official": "Federale Democratische Republiek Ethiopië",
-            "common": "Ethiopië"
-        },
-        "per": {
-            "official": "جمهوری فدرال دموکراتیک اتیوپی",
-            "common": "اِتیوپی"
-        },
-        "pol": {
-            "official": "Federalna Demokratyczna Republika Etiopii",
-            "common": "Etiopia"
-        },
-        "por": {
-            "official": "República Federal Democrática da Etiópia",
-            "common": "Etiópia"
-        },
-        "rus": {
-            "official": "Федеративная Демократическая Республика Эфиопия",
-            "common": "Эфиопия"
-        },
-        "slk": {
-            "official": "Etiópska federatívna demokratická republika",
-            "common": "Etiópia"
-        },
-        "spa": {
-            "official": "República Democrática Federal de Etiopía",
-            "common": "Etiopía"
-        },
-        "srp": {
-            "official": "Савезна Демократска Република Етиопија",
-            "common": "Етиопија"
-        },
-        "swe": {
-            "official": "Demokratiska förbundsrepubliken Etiopien",
-            "common": "Etiopien"
-        },
-        "tur": {
-            "official": "Etiyopya Federal Demokratik Cumhuriyeti",
-            "common": "Etiyopya"
-        },
-        "urd": {
-            "official": "وفاقی جمہوری جمہوریہ ایتھوپیا",
-            "common": "ایتھوپیا"
-        },
-        "zho": {
-            "official": "埃塞俄比亚联邦民主共和国",
-            "common": "埃塞俄比亚"
-        }
-    },
-    "gini": {
-        "2015": 35.0
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/et.png",
-        "svg": "https://flagcdn.com/et.svg",
-        "alt": "The flag of Ethiopia is composed of three equal horizontal bands of green, yellow and red, with the national emblem superimposed at the center of the field. The national emblem comprises a light blue circle bearing a golden-yellow pentagram with single yellow rays emanating from the angles between the points of the pentagram."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/et.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/et.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            9.03,
-            38.7
-        ]
-    },
-    "postalCode": {
-        "format": "####",
-        "regex": "^(\\d{4})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇪🇹",
+  "name": {
+    "common": "Ethiopia",
+    "official": "Federal Democratic Republic of Ethiopia",
+    "nativeName": {
+      "amh": {
+        "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+        "common": "ኢትዮጵያ"
+      }
     }
+  },
+  "currencies": {
+    "ETB": {
+      "symbol": "Br",
+      "name": "Ethiopian birr"
+    }
+  },
+  "languages": {
+    "amh": "Amharic"
+  },
+  "latlng": [
+    8.0,
+    38.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Ethiopian",
+      "m": "Ethiopian"
+    },
+    "fra": {
+      "f": "Éthiopienne",
+      "m": "Éthiopien"
+    }
+  },
+  "gini": {
+    "2015": 35.0
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      9.03,
+      38.7
+    ]
+  }
 }

@@ -1,204 +1,81 @@
 {
-    "tld": [
-        ".bl"
+  "tld": [
+    ".bl"
+  ],
+  "cca2": "BL",
+  "ccn3": "652",
+  "cca3": "BLM",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+5",
+    "suffixes": [
+      "90"
+    ]
+  },
+  "capital": [
+    "Gustavia"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 21.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/Mc7GqH466S7AAk297",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/7552779"
+  },
+  "population": 10562,
+  "car": {
+    "signs": [
+      "F"
     ],
-    "cca2": "BL",
-    "ccn3": "652",
-    "cca3": "BLM",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+5",
-        "suffixes": [
-            "90"
-        ]
-    },
-    "capital": [
-        "Gustavia"
-    ],
-    "altSpellings": [
-        "BL",
-        "St. Barthelemy",
-        "Collectivity of Saint Barthélemy",
-        "Collectivité de Saint-Barthélemy"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 21.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/Mc7GqH466S7AAk297",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/7552779"
-    },
-    "population": 10562,
-    "car": {
-        "signs": [
-            "F"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇧🇱",
-    "name": {
-        "common": "Saint Barthélemy",
-        "official": "Collectivity of Saint Barthélemy",
-        "nativeName": {
-            "fra": {
-                "official": "Collectivité de Saint-Barthélemy",
-                "common": "Saint-Barthélemy"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        18.5,
-        -63.41666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Saint Barthélemy Islander",
-            "m": "Saint Barthélemy Islander"
-        },
-        "fra": {
-            "f": "Barthéloméenne",
-            "m": "Barthéloméen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "التجمع الإقليمي لسانت بارتيليمي",
-            "common": "سان بارتليمي"
-        },
-        "bre": {
-            "official": "Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "ces": {
-            "official": "Svatý Bartoloměj",
-            "common": "Svatý Bartoloměj"
-        },
-        "cym": {
-            "official": "Collectivity of Saint Barthélemy",
-            "common": "Saint Barthélemy"
-        },
-        "deu": {
-            "official": "Gebietskörperschaft Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "est": {
-            "official": "Saint-Barthélemy territoriaalühendus",
-            "common": "Saint-Barthélemy"
-        },
-        "fin": {
-            "official": "Saint-Barthélemyn yhteisö",
-            "common": "Saint-Barthélemy"
-        },
-        "fra": {
-            "official": "Collectivité de Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "hrv": {
-            "official": "Kolektivnost sv Barthélemy",
-            "common": "Saint Barthélemy"
-        },
-        "hun": {
-            "official": "Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "ind": {
-            "official": "Wilayah Jajahan Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "ita": {
-            "official": "Collettività di Saint Barthélemy",
-            "common": "Antille Francesi"
-        },
-        "jpn": {
-            "official": "サン·バルテルミー島の集合体",
-            "common": "サン・バルテルミー"
-        },
-        "kor": {
-            "official": "생바르텔레미",
-            "common": "생바르텔레미"
-        },
-        "nld": {
-            "official": "Gemeenschap Saint Barthélemy",
-            "common": "Saint Barthélemy"
-        },
-        "per": {
-            "official": "سن بارتلمی",
-            "common": "سن بارتلمی"
-        },
-        "pol": {
-            "official": "Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "por": {
-            "official": "Coletividade de Saint Barthélemy",
-            "common": "São Bartolomeu"
-        },
-        "rus": {
-            "official": "Коллективность Санкт -Бартельми",
-            "common": "Сен-Бартелеми"
-        },
-        "slk": {
-            "official": "Svätý Bartolomej",
-            "common": "Svätý Bartolomej"
-        },
-        "spa": {
-            "official": "Colectividad de San Barthélemy",
-            "common": "San Bartolomé"
-        },
-        "srp": {
-            "official": "Сен Бартелеми",
-            "common": "Територијални Kолектив Сен Бартелеми"
-        },
-        "swe": {
-            "official": "Saint-Barthélemy",
-            "common": "Saint-Barthélemy"
-        },
-        "tur": {
-            "official": "Saint Barthélemy",
-            "common": "Saint Barthélemy"
-        },
-        "urd": {
-            "official": "سینٹ بارتھیملے",
-            "common": "سینٹ بارتھیملے"
-        },
-        "zho": {
-            "official": "圣巴泰勒米集体",
-            "common": "圣巴泰勒米"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/bl.png",
-        "svg": "https://flagcdn.com/bl.svg",
-        "alt": "The flag of Saint Barthélemy features the national coat of arms centered on a white field. The coat of arms is a shield divided into three horizontal stripes: three gold fleurs-de-lis on blue, above a white Maltese cross on red, over three gold crowns on blue. Below the shield is a banner with \"OUANALAO,\" which is what the indigenous people called the island. On top of the shield is a mural crown."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            17.88,
-            -62.85
-        ]
-    },
-    "postalCode": {
-        "format": "### ###",
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇧🇱",
+  "name": {
+    "common": "Saint Barthélemy",
+    "official": "Collectivity of Saint Barthélemy",
+    "nativeName": {
+      "fra": {
+        "official": "Collectivité de Saint-Barthélemy",
+        "common": "Saint-Barthélemy"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    18.5,
+    -63.41666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Saint Barthélemy Islander",
+      "m": "Saint Barthélemy Islander"
+    },
+    "fra": {
+      "f": "Barthéloméenne",
+      "m": "Barthéloméen"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      17.88,
+      -62.85
+    ]
+  }
 }

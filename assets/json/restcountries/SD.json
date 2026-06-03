@@ -1,225 +1,98 @@
 {
-    "tld": [
-        ".sd"
+  "tld": [
+    ".sd"
+  ],
+  "cca2": "SD",
+  "ccn3": "729",
+  "cca3": "SDN",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "49"
+    ]
+  },
+  "capital": [
+    "Khartoum"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "landlocked": false,
+  "borders": [
+    "CAF",
+    "TCD",
+    "EGY",
+    "ERI",
+    "ETH",
+    "LBY",
+    "SSD"
+  ],
+  "area": 1886068.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192789"
+  },
+  "population": 51662000,
+  "car": {
+    "signs": [
+      "SUD"
     ],
-    "cca2": "SD",
-    "ccn3": "729",
-    "cca3": "SDN",
-    "cioc": "SUD",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "49"
-        ]
-    },
-    "capital": [
-        "Khartoum"
-    ],
-    "altSpellings": [
-        "SD",
-        "Republic of the Sudan",
-        "Jumhūrīyat as-Sūdān"
-    ],
-    "region": "Africa",
-    "subregion": "Northern Africa",
-    "landlocked": false,
-    "borders": [
-        "CAF",
-        "TCD",
-        "EGY",
-        "ERI",
-        "ETH",
-        "LBY",
-        "SSD"
-    ],
-    "area": 1886068.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192789"
-    },
-    "population": 51662000,
-    "fifa": "SDN",
-    "car": {
-        "signs": [
-            "SUD"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇸🇩",
-    "name": {
-        "common": "Sudan",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇸🇩",
+  "name": {
+    "common": "Sudan",
+    "official": "Republic of the Sudan",
+    "nativeName": {
+      "ara": {
+        "official": "جمهورية السودان",
+        "common": "السودان"
+      },
+      "eng": {
         "official": "Republic of the Sudan",
-        "nativeName": {
-            "ara": {
-                "official": "جمهورية السودان",
-                "common": "السودان"
-            },
-            "eng": {
-                "official": "Republic of the Sudan",
-                "common": "Sudan"
-            }
-        }
-    },
-    "currencies": {
-        "SDG": {
-            "symbol": "ج.س",
-            "name": "Sudanese pound"
-        }
-    },
-    "languages": {
-        "ara": "Arabic",
-        "eng": "English"
-    },
-    "latlng": [
-        15.0,
-        30.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Sudanese",
-            "m": "Sudanese"
-        },
-        "fra": {
-            "f": "Soudanaise",
-            "m": "Soudanais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية السودان",
-            "common": "السودان"
-        },
-        "bre": {
-            "official": "Republik Soudan",
-            "common": "Soudan"
-        },
-        "ces": {
-            "official": "Súdánská republika",
-            "common": "Súdán"
-        },
-        "cym": {
-            "official": "Republic of the Sudan",
-            "common": "Sudan"
-        },
-        "deu": {
-            "official": "Republik Sudan",
-            "common": "Sudan"
-        },
-        "est": {
-            "official": "Sudaani Vabariik",
-            "common": "Sudaan"
-        },
-        "fin": {
-            "official": "Sudanin tasavalta",
-            "common": "Sudan"
-        },
-        "fra": {
-            "official": "République du Soudan",
-            "common": "Soudan"
-        },
-        "hrv": {
-            "official": "Republika Sudan",
-            "common": "Sudan"
-        },
-        "hun": {
-            "official": "Szudáni Köztársaság",
-            "common": "Szudán"
-        },
-        "ind": {
-            "official": "Republik Sudan",
-            "common": "Sudan"
-        },
-        "ita": {
-            "official": "Repubblica del Sudan",
-            "common": "Sudan"
-        },
-        "jpn": {
-            "official": "スーダン共和国",
-            "common": "スーダン"
-        },
-        "kor": {
-            "official": "수단 공화국",
-            "common": "수단"
-        },
-        "nld": {
-            "official": "Republiek Soedan",
-            "common": "Soedan"
-        },
-        "per": {
-            "official": "جمهوری سودان",
-            "common": "سودان"
-        },
-        "pol": {
-            "official": "Republika Sudanu",
-            "common": "Sudan"
-        },
-        "por": {
-            "official": "República do Sudão",
-            "common": "Sudão"
-        },
-        "rus": {
-            "official": "Республика Судан",
-            "common": "Судан"
-        },
-        "slk": {
-            "official": "Sudánska republika",
-            "common": "Sudán"
-        },
-        "spa": {
-            "official": "República de Sudán",
-            "common": "Sudán"
-        },
-        "srp": {
-            "official": "Република Судан",
-            "common": "Судан"
-        },
-        "swe": {
-            "official": "Republiken Sudan",
-            "common": "Sudan"
-        },
-        "tur": {
-            "official": "Sudan Cumhuriyeti",
-            "common": "Sudan"
-        },
-        "urd": {
-            "official": "جمہوریہ سودان",
-            "common": "سودان"
-        },
-        "zho": {
-            "official": "苏丹共和国",
-            "common": "苏丹"
-        }
-    },
-    "gini": {
-        "2014": 34.2
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/sd.png",
-        "svg": "https://flagcdn.com/sd.svg",
-        "alt": "The flag of Sudan is composed of three equal horizontal bands of red, white and black, with a green isosceles triangle superimposed on the hoist side. The green triangle spans about two-fifth the width of the field with its base on the hoist end."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/sd.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/sd.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            15.6,
-            32.53
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+        "common": "Sudan"
+      }
     }
+  },
+  "currencies": {
+    "SDG": {
+      "symbol": "ج.س",
+      "name": "Sudanese pound"
+    }
+  },
+  "languages": {
+    "ara": "Arabic",
+    "eng": "English"
+  },
+  "latlng": [
+    15.0,
+    30.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Sudanese",
+      "m": "Sudanese"
+    },
+    "fra": {
+      "f": "Soudanaise",
+      "m": "Soudanais"
+    }
+  },
+  "gini": {
+    "2014": 34.2
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      15.6,
+      32.53
+    ]
+  }
 }

@@ -1,214 +1,89 @@
 {
-    "tld": [
-        ".to"
+  "tld": [
+    ".to"
+  ],
+  "cca2": "TO",
+  "ccn3": "776",
+  "cca3": "TON",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "76"
+    ]
+  },
+  "capital": [
+    "Nuku'alofa"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "landlocked": false,
+  "area": 747.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/2186665"
+  },
+  "population": 100179,
+  "car": {
+    "signs": [
+      "TO"
     ],
-    "cca2": "TO",
-    "ccn3": "776",
-    "cca3": "TON",
-    "cioc": "TGA",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "76"
-        ]
-    },
-    "capital": [
-        "Nuku'alofa"
-    ],
-    "altSpellings": [
-        "TO"
-    ],
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "landlocked": false,
-    "area": 747.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2186665"
-    },
-    "population": 100179,
-    "fifa": "TGA",
-    "car": {
-        "signs": [
-            "TO"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+13:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇹🇴",
-    "name": {
-        "common": "Tonga",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+13:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇹🇴",
+  "name": {
+    "common": "Tonga",
+    "official": "Kingdom of Tonga",
+    "nativeName": {
+      "eng": {
         "official": "Kingdom of Tonga",
-        "nativeName": {
-            "eng": {
-                "official": "Kingdom of Tonga",
-                "common": "Tonga"
-            },
-            "ton": {
-                "official": "Kingdom of Tonga",
-                "common": "Tonga"
-            }
-        }
-    },
-    "currencies": {
-        "TOP": {
-            "symbol": "T$",
-            "name": "Tongan paʻanga"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "ton": "Tongan"
-    },
-    "latlng": [
-        -20.0,
-        -175.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Tongan",
-            "m": "Tongan"
-        },
-        "fra": {
-            "f": "Tonguienne",
-            "m": "Tonguien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "مملكة تونغا",
-            "common": "تونغا"
-        },
-        "bre": {
-            "official": "Rouantelezh Tonga",
-            "common": "Tonga"
-        },
-        "ces": {
-            "official": "Království Tonga",
-            "common": "Tonga"
-        },
-        "cym": {
-            "official": "Kingdom of Tonga",
-            "common": "Tonga"
-        },
-        "deu": {
-            "official": "Königreich Tonga",
-            "common": "Tonga"
-        },
-        "est": {
-            "official": "Tonga Kuningriik",
-            "common": "Tonga"
-        },
-        "fin": {
-            "official": "Tongan kuningaskunta",
-            "common": "Tonga"
-        },
-        "fra": {
-            "official": "Royaume des Tonga",
-            "common": "Tonga"
-        },
-        "hrv": {
-            "official": "Kraljevina Tonga",
-            "common": "Tonga"
-        },
-        "hun": {
-            "official": "Tongai Királyság",
-            "common": "Tonga"
-        },
-        "ind": {
-            "official": "Kerajaan Tonga",
-            "common": "Tonga"
-        },
-        "ita": {
-            "official": "Regno di Tonga",
-            "common": "Tonga"
-        },
-        "jpn": {
-            "official": "トンガ王国",
-            "common": "トンガ"
-        },
-        "kor": {
-            "official": "통가 왕국",
-            "common": "통가"
-        },
-        "nld": {
-            "official": "Koninkrijk Tonga",
-            "common": "Tonga"
-        },
-        "per": {
-            "official": "پادشاهی تونگا",
-            "common": "تونگا"
-        },
-        "pol": {
-            "official": "Królestwo Tonga",
-            "common": "Tonga"
-        },
-        "por": {
-            "official": "Reino de Tonga",
-            "common": "Tonga"
-        },
-        "rus": {
-            "official": "Королевство Тонга",
-            "common": "Тонга"
-        },
-        "slk": {
-            "official": "Tongské kráľovstvo",
-            "common": "Tonga"
-        },
-        "spa": {
-            "official": "Reino de Tonga",
-            "common": "Tonga"
-        },
-        "srp": {
-            "official": "Краљевина Тонга",
-            "common": "Тонга"
-        },
-        "swe": {
-            "official": "Konungariket Tonga",
-            "common": "Tonga"
-        },
-        "tur": {
-            "official": "Tonga Krallığı",
-            "common": "Tonga"
-        },
-        "urd": {
-            "official": "مملکتِ ٹونگا",
-            "common": "ٹونگا"
-        },
-        "zho": {
-            "official": "汤加王国",
-            "common": "汤加"
-        }
-    },
-    "gini": {
-        "2015": 37.6
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/to.png",
-        "svg": "https://flagcdn.com/to.svg",
-        "alt": "The flag of Tonga has a red field. A white rectangle bearing a red Greek cross is superimposed in the canton."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/to.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/to.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -21.13,
-            -175.2
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Tonga"
+      },
+      "ton": {
+        "official": "Kingdom of Tonga",
+        "common": "Tonga"
+      }
     }
+  },
+  "currencies": {
+    "TOP": {
+      "symbol": "T$",
+      "name": "Tongan paʻanga"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "ton": "Tongan"
+  },
+  "latlng": [
+    -20.0,
+    -175.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Tongan",
+      "m": "Tongan"
+    },
+    "fra": {
+      "f": "Tonguienne",
+      "m": "Tonguien"
+    }
+  },
+  "gini": {
+    "2015": 37.6
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -21.13,
+      -175.2
+    ]
+  }
 }

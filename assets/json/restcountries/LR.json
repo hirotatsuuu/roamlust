@@ -1,215 +1,89 @@
 {
-    "tld": [
-        ".lr"
+  "tld": [
+    ".lr"
+  ],
+  "cca2": "LR",
+  "ccn3": "430",
+  "cca3": "LBR",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "31"
+    ]
+  },
+  "capital": [
+    "Monrovia"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "borders": [
+    "GIN",
+    "CIV",
+    "SLE"
+  ],
+  "area": 111369.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/4VsHsc2oeGeRL3wg6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192780"
+  },
+  "population": 5248621,
+  "car": {
+    "signs": [
+      "LB"
     ],
-    "cca2": "LR",
-    "ccn3": "430",
-    "cca3": "LBR",
-    "cioc": "LBR",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "31"
-        ]
-    },
-    "capital": [
-        "Monrovia"
-    ],
-    "altSpellings": [
-        "LR",
-        "Republic of Liberia"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "borders": [
-        "GIN",
-        "CIV",
-        "SLE"
-    ],
-    "area": 111369.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/4VsHsc2oeGeRL3wg6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192780"
-    },
-    "population": 5248621,
-    "fifa": "LBR",
-    "car": {
-        "signs": [
-            "LB"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇱🇷",
-    "name": {
-        "common": "Liberia",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇱🇷",
+  "name": {
+    "common": "Liberia",
+    "official": "Republic of Liberia",
+    "nativeName": {
+      "eng": {
         "official": "Republic of Liberia",
-        "nativeName": {
-            "eng": {
-                "official": "Republic of Liberia",
-                "common": "Liberia"
-            }
-        }
-    },
-    "currencies": {
-        "LRD": {
-            "symbol": "$",
-            "name": "Liberian dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        6.5,
-        -9.5
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Liberian",
-            "m": "Liberian"
-        },
-        "fra": {
-            "f": "Libérienne",
-            "m": "Libérien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية ليبيريا",
-            "common": "ليبيريا"
-        },
-        "bre": {
-            "official": "Republik Liberia",
-            "common": "Liberia"
-        },
-        "ces": {
-            "official": "Liberijská republika",
-            "common": "Libérie"
-        },
-        "cym": {
-            "official": "Republic of Liberia",
-            "common": "Liberia"
-        },
-        "deu": {
-            "official": "Republik Liberia",
-            "common": "Liberia"
-        },
-        "est": {
-            "official": "Libeeria Vabariik",
-            "common": "Libeeria"
-        },
-        "fin": {
-            "official": "Liberian tasavalta",
-            "common": "Liberia"
-        },
-        "fra": {
-            "official": "République du Libéria",
-            "common": "Liberia"
-        },
-        "hrv": {
-            "official": "Republika Liberija",
-            "common": "Liberija"
-        },
-        "hun": {
-            "official": "Libériai Köztársaság",
-            "common": "Libéria"
-        },
-        "ind": {
-            "official": "Republik Liberia",
-            "common": "Liberia"
-        },
-        "ita": {
-            "official": "Repubblica di Liberia",
-            "common": "Liberia"
-        },
-        "jpn": {
-            "official": "リベリア共和国",
-            "common": "リベリア"
-        },
-        "kor": {
-            "official": "라이베리아 공화국",
-            "common": "라이베리아"
-        },
-        "nld": {
-            "official": "Republiek Liberia",
-            "common": "Liberia"
-        },
-        "per": {
-            "official": "جمهوری لیبریا",
-            "common": "لیبـِریا"
-        },
-        "pol": {
-            "official": "Republika Liberii",
-            "common": "Liberia"
-        },
-        "por": {
-            "official": "República da Libéria",
-            "common": "Libéria"
-        },
-        "rus": {
-            "official": "Республика Либерия",
-            "common": "Либерия"
-        },
-        "slk": {
-            "official": "Libérijská republika",
-            "common": "Libéria"
-        },
-        "spa": {
-            "official": "República de Liberia",
-            "common": "Liberia"
-        },
-        "srp": {
-            "official": "Република Либерија",
-            "common": "Либерија"
-        },
-        "swe": {
-            "official": "Republiken Liberia",
-            "common": "Liberia"
-        },
-        "tur": {
-            "official": "Liberya Cumhuriyeti",
-            "common": "Liberya"
-        },
-        "urd": {
-            "official": "جمہوریہ لائبیریا",
-            "common": "لائبیریا"
-        },
-        "zho": {
-            "official": "利比里亚共和国",
-            "common": "利比里亚"
-        }
-    },
-    "gini": {
-        "2016": 35.3
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/lr.png",
-        "svg": "https://flagcdn.com/lr.svg",
-        "alt": "The flag of Liberia is composed of eleven equal horizontal bands of red alternating with white. A blue square bearing a five-pointed white star is superimposed in the canton."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/lr.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/lr.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            6.3,
-            -10.8
-        ]
-    },
-    "postalCode": {
-        "format": "####",
-        "regex": "^(\\d{4})$"
+        "common": "Liberia"
+      }
     }
+  },
+  "currencies": {
+    "LRD": {
+      "symbol": "$",
+      "name": "Liberian dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    6.5,
+    -9.5
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Liberian",
+      "m": "Liberian"
+    },
+    "fra": {
+      "f": "Libérienne",
+      "m": "Libérien"
+    }
+  },
+  "gini": {
+    "2016": 35.3
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      6.3,
+      -10.8
+    ]
+  }
 }

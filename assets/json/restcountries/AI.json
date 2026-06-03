@@ -1,205 +1,81 @@
 {
-    "tld": [
-        ".ai"
+  "tld": [
+    ".ai"
+  ],
+  "cca2": "AI",
+  "ccn3": "660",
+  "cca3": "AIA",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "264"
+    ]
+  },
+  "capital": [
+    "The Valley"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 91.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/3KgLnEyN7amdno2p9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/2177161"
+  },
+  "population": 16010,
+  "car": {
+    "signs": [
+      "GB"
     ],
-    "cca2": "AI",
-    "ccn3": "660",
-    "cca3": "AIA",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "264"
-        ]
-    },
-    "capital": [
-        "The Valley"
-    ],
-    "altSpellings": [
-        "AI"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 91.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/3KgLnEyN7amdno2p9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2177161"
-    },
-    "population": 16010,
-    "fifa": "AIA",
-    "car": {
-        "signs": [
-            "GB"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇦🇮",
-    "name": {
-        "common": "Anguilla",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇦🇮",
+  "name": {
+    "common": "Anguilla",
+    "official": "Anguilla",
+    "nativeName": {
+      "eng": {
         "official": "Anguilla",
-        "nativeName": {
-            "eng": {
-                "official": "Anguilla",
-                "common": "Anguilla"
-            }
-        }
-    },
-    "currencies": {
-        "XCD": {
-            "symbol": "$",
-            "name": "Eastern Caribbean dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        18.25,
-        -63.16666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Anguillian",
-            "m": "Anguillian"
-        },
-        "fra": {
-            "f": "Anguillane",
-            "m": "Anguillan"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "أنغويلا",
-            "common": "أنغويلا"
-        },
-        "bre": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "ces": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "cym": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "deu": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "est": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "fin": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "fra": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "hrv": {
-            "official": "Anguilla",
-            "common": "Angvila"
-        },
-        "hun": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "ind": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "ita": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "jpn": {
-            "official": "アングィラ",
-            "common": "アンギラ"
-        },
-        "kor": {
-            "official": "앵귈라",
-            "common": "앵귈라"
-        },
-        "nld": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "per": {
-            "official": "آنگویلا",
-            "common": "آنگویلا"
-        },
-        "pol": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "por": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "rus": {
-            "official": "Ангилья",
-            "common": "Ангилья"
-        },
-        "slk": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "spa": {
-            "official": "Anguila",
-            "common": "Anguilla"
-        },
-        "srp": {
-            "official": "Ангвила",
-            "common": "Ангвила"
-        },
-        "swe": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "tur": {
-            "official": "Anguilla",
-            "common": "Anguilla"
-        },
-        "urd": {
-            "official": "اینگویلا",
-            "common": "اینگویلا"
-        },
-        "zho": {
-            "official": "安圭拉",
-            "common": "安圭拉"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ai.png",
-        "svg": "https://flagcdn.com/ai.svg",
-        "alt": "The flag of Anguilla is blue, with the flag of the UK in the canton and the national coat of arms centered in the fly half. The coat of arms depicts three orange dolphins in an interlocking circular design on a white background with a turquoise-blue field below."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ai.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ai.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            18.22,
-            -63.05
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Anguilla"
+      }
     }
+  },
+  "currencies": {
+    "XCD": {
+      "symbol": "$",
+      "name": "Eastern Caribbean dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    18.25,
+    -63.16666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Anguillian",
+      "m": "Anguillian"
+    },
+    "fra": {
+      "f": "Anguillane",
+      "m": "Anguillan"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      18.22,
+      -63.05
+    ]
+  }
 }

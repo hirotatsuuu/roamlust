@@ -1,207 +1,81 @@
 {
-    "tld": [
-        ".ax"
+  "tld": [
+    ".ax"
+  ],
+  "cca2": "AX",
+  "ccn3": "248",
+  "cca3": "ALA",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+3",
+    "suffixes": [
+      "5818"
+    ]
+  },
+  "capital": [
+    "Mariehamn"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "landlocked": false,
+  "area": 1580.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
+  },
+  "population": 30654,
+  "car": {
+    "signs": [
+      ""
     ],
-    "cca2": "AX",
-    "ccn3": "248",
-    "cca3": "ALA",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+3",
-        "suffixes": [
-            "5818"
-        ]
-    },
-    "capital": [
-        "Mariehamn"
-    ],
-    "altSpellings": [
-        "AX",
-        "Aaland",
-        "Aland",
-        "Ahvenanmaa"
-    ],
-    "region": "Europe",
-    "subregion": "Northern Europe",
-    "landlocked": false,
-    "area": 1580.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
-    },
-    "population": 30654,
-    "car": {
-        "signs": [
-            ""
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇦🇽",
-    "name": {
-        "common": "Åland Islands",
-        "official": "Åland Islands",
-        "nativeName": {
-            "swe": {
-                "official": "Landskapet Åland",
-                "common": "Åland"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "swe": "Swedish"
-    },
-    "latlng": [
-        60.116667,
-        19.9
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Ålandish",
-            "m": "Ålandish"
-        },
-        "fra": {
-            "f": "Ålandaise",
-            "m": "Ålandais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جزر أولاند",
-            "common": "جزر أولاند"
-        },
-        "bre": {
-            "official": "Inizi Åland",
-            "common": "Åland"
-        },
-        "ces": {
-            "official": "Ålandské ostrovy",
-            "common": "Ålandy"
-        },
-        "cym": {
-            "official": "Åland Islands",
-            "common": "Åland Islands"
-        },
-        "deu": {
-            "official": "Åland-Inseln",
-            "common": "Åland"
-        },
-        "est": {
-            "official": "Ahvenamaa maakond",
-            "common": "Ahvenamaa"
-        },
-        "fin": {
-            "official": "Ahvenanmaan maakunta",
-            "common": "Ahvenanmaa"
-        },
-        "fra": {
-            "official": "Ahvenanmaa",
-            "common": "Ahvenanmaa"
-        },
-        "hrv": {
-            "official": "Aland Islands",
-            "common": "Ålandski otoci"
-        },
-        "hun": {
-            "official": "Åland-szigetek",
-            "common": "Åland-szigetek"
-        },
-        "ind": {
-            "official": "Kepulauan Åland",
-            "common": "Aland"
-        },
-        "ita": {
-            "official": "Isole Åland",
-            "common": "Isole Aland"
-        },
-        "jpn": {
-            "official": "オーランド諸島",
-            "common": "オーランド諸島"
-        },
-        "kor": {
-            "official": "올란드 제도",
-            "common": "올란드 제도"
-        },
-        "nld": {
-            "official": "Åland eilanden",
-            "common": "Ålandeilanden"
-        },
-        "per": {
-            "official": "جزایر الند",
-            "common": "جزایر الند"
-        },
-        "pol": {
-            "official": "Wyspy Alandzkie",
-            "common": "Wyspy Alandzkie"
-        },
-        "por": {
-            "official": "Ilhas Åland",
-            "common": "Alândia"
-        },
-        "rus": {
-            "official": "Аландские острова",
-            "common": "Аландские острова"
-        },
-        "slk": {
-            "official": "Alandské ostrovy",
-            "common": "Alandy"
-        },
-        "spa": {
-            "official": "Islas Åland",
-            "common": "Alandia"
-        },
-        "srp": {
-            "official": "Оландска Острва",
-            "common": "Оландска Острва"
-        },
-        "swe": {
-            "official": "Åland",
-            "common": "Åland"
-        },
-        "tur": {
-            "official": "Åland Adaları",
-            "common": "Åland"
-        },
-        "urd": {
-            "official": "جزائر اولند",
-            "common": "جزائر اولند"
-        },
-        "zho": {
-            "official": "奥兰群岛",
-            "common": "奥兰群岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ax.png",
-        "svg": "https://flagcdn.com/ax.svg",
-        "alt": "The flag of the Åland Islands has a blue field with a large golden-yellow-edged red cross that extends to the edges of the field. The vertical part of this cross is offset towards the hoist side."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ax.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ax.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            60.12,
-            19.9
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+02:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇦🇽",
+  "name": {
+    "common": "Åland Islands",
+    "official": "Åland Islands",
+    "nativeName": {
+      "swe": {
+        "official": "Landskapet Åland",
+        "common": "Åland"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "swe": "Swedish"
+  },
+  "latlng": [
+    60.116667,
+    19.9
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Ålandish",
+      "m": "Ålandish"
+    },
+    "fra": {
+      "f": "Ålandaise",
+      "m": "Ålandais"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      60.12,
+      19.9
+    ]
+  }
 }

@@ -1,224 +1,97 @@
 {
-    "tld": [
-        ".cf"
+  "tld": [
+    ".cf"
+  ],
+  "cca2": "CF",
+  "ccn3": "140",
+  "cca3": "CAF",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "36"
+    ]
+  },
+  "capital": [
+    "Bangui"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "landlocked": true,
+  "borders": [
+    "CMR",
+    "TCD",
+    "COD",
+    "COG",
+    "SSD",
+    "SDN"
+  ],
+  "area": 622984.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192790"
+  },
+  "population": 6470307,
+  "car": {
+    "signs": [
+      "RCA"
     ],
-    "cca2": "CF",
-    "ccn3": "140",
-    "cca3": "CAF",
-    "cioc": "CAF",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "36"
-        ]
-    },
-    "capital": [
-        "Bangui"
-    ],
-    "altSpellings": [
-        "CF",
-        "Central African Republic",
-        "République centrafricaine"
-    ],
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "landlocked": true,
-    "borders": [
-        "CMR",
-        "TCD",
-        "COD",
-        "COG",
-        "SSD",
-        "SDN"
-    ],
-    "area": 622984.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192790"
-    },
-    "population": 6470307,
-    "fifa": "CTA",
-    "car": {
-        "signs": [
-            "RCA"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇨🇫",
-    "name": {
-        "common": "Central African Republic",
-        "official": "Central African Republic",
-        "nativeName": {
-            "fra": {
-                "official": "République centrafricaine",
-                "common": "République centrafricaine"
-            },
-            "sag": {
-                "official": "Ködörösêse tî Bêafrîka",
-                "common": "Bêafrîka"
-            }
-        }
-    },
-    "currencies": {
-        "XAF": {
-            "symbol": "Fr",
-            "name": "Central African CFA franc"
-        }
-    },
-    "languages": {
-        "fra": "French",
-        "sag": "Sango"
-    },
-    "latlng": [
-        7.0,
-        21.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Central African",
-            "m": "Central African"
-        },
-        "fra": {
-            "f": "Centrafricaine",
-            "m": "Centrafricain"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية أفريقيا الوسطى",
-            "common": "جمهورية أفريقيا الوسطى"
-        },
-        "bre": {
-            "official": "Republik Kreizafrikan",
-            "common": "Republik Kreizafrikan"
-        },
-        "ces": {
-            "official": "Středoafrická republika",
-            "common": "Středoafrická republika"
-        },
-        "cym": {
-            "official": "Gweriniaeth Canolbarth Affrica",
-            "common": "Gweriniaeth Canolbarth Affrica"
-        },
-        "deu": {
-            "official": "Zentralafrikanische Republik",
-            "common": "Zentralafrikanische Republik"
-        },
-        "est": {
-            "official": "Kesk-Aafrika Vabariik",
-            "common": "Kesk-Aafrika Vabariik"
-        },
-        "fin": {
-            "official": "Keski-Afrikan tasavalta",
-            "common": "Keski-Afrikan tasavalta"
-        },
-        "fra": {
-            "official": "République centrafricaine",
-            "common": "République centrafricaine"
-        },
-        "hrv": {
-            "official": "Centralna Afrička Republika",
-            "common": "Srednjoafrička Republika"
-        },
-        "hun": {
-            "official": "Közép-afrikai Köztársaság",
-            "common": "Közép-afrikai Köztársaság"
-        },
-        "ind": {
-            "official": "Republik Afrika Tengah",
-            "common": "Afrika Tengah"
-        },
-        "ita": {
-            "official": "Repubblica Centrafricana",
-            "common": "Repubblica Centrafricana"
-        },
-        "jpn": {
-            "official": "中央アフリカ共和国",
-            "common": "中央アフリカ共和国"
-        },
-        "kor": {
-            "official": "중앙아프리카 공화국",
-            "common": "중앙아프리카 공화국"
-        },
-        "nld": {
-            "official": "Centraal-Afrikaanse Republiek",
-            "common": "Centraal-Afrikaanse Republiek"
-        },
-        "per": {
-            "official": "جمهوری آفریقای مرکزی",
-            "common": "جمهوری آفریقای مرکزی"
-        },
-        "pol": {
-            "official": "Republika Środkowoafrykańska",
-            "common": "Republika Środkowoafrykańska"
-        },
-        "por": {
-            "official": "República Centro-Africano",
-            "common": "República Centro-Africana"
-        },
-        "rus": {
-            "official": "Центрально-Африканская Республика",
-            "common": "Центральноафриканская Республика"
-        },
-        "slk": {
-            "official": "Stredoafrická republika",
-            "common": "Stredoafrická republika"
-        },
-        "spa": {
-            "official": "República Centroafricana",
-            "common": "República Centroafricana"
-        },
-        "srp": {
-            "official": "Централноафричка Република",
-            "common": "Централноафричка Република"
-        },
-        "swe": {
-            "official": "Centralafrikanska republiken",
-            "common": "Centralafrikanska republiken"
-        },
-        "tur": {
-            "official": "Orta Afrika Cumhuriyeti",
-            "common": "Orta Afrika Cumhuriyeti"
-        },
-        "urd": {
-            "official": "وسطی افریقی جمہوریہ",
-            "common": "وسطی افریقی جمہوریہ"
-        },
-        "zho": {
-            "official": "中非共和国",
-            "common": "中非共和国"
-        }
-    },
-    "gini": {
-        "2008": 56.2
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/cf.png",
-        "svg": "https://flagcdn.com/cf.svg",
-        "alt": "The flag of Central African Republic is composed of four equal horizontal bands of blue, white, green and yellow intersected at the center by a vertical red band of equal size as the horizontal bands. A yellow five-pointed star is situated on the hoist side of the blue band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/cf.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/cf.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            4.37,
-            18.58
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇨🇫",
+  "name": {
+    "common": "Central African Republic",
+    "official": "Central African Republic",
+    "nativeName": {
+      "fra": {
+        "official": "République centrafricaine",
+        "common": "République centrafricaine"
+      },
+      "sag": {
+        "official": "Ködörösêse tî Bêafrîka",
+        "common": "Bêafrîka"
+      }
     }
+  },
+  "currencies": {
+    "XAF": {
+      "symbol": "Fr",
+      "name": "Central African CFA franc"
+    }
+  },
+  "languages": {
+    "fra": "French",
+    "sag": "Sango"
+  },
+  "latlng": [
+    7.0,
+    21.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Central African",
+      "m": "Central African"
+    },
+    "fra": {
+      "f": "Centrafricaine",
+      "m": "Centrafricain"
+    }
+  },
+  "gini": {
+    "2008": 56.2
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      4.37,
+      18.58
+    ]
+  }
 }

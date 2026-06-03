@@ -1,213 +1,91 @@
 {
-    "tld": [
-        ".mp"
+  "tld": [
+    ".mp"
+  ],
+  "cca2": "MP",
+  "ccn3": "580",
+  "cca3": "MNP",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "670"
+    ]
+  },
+  "capital": [
+    "Saipan"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "landlocked": false,
+  "area": 464.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/cpZ67knoRAcfu1417",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/306004"
+  },
+  "population": 47329,
+  "car": {
+    "signs": [
+      "USA"
     ],
-    "cca2": "MP",
-    "ccn3": "580",
-    "cca3": "MNP",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "670"
-        ]
-    },
-    "capital": [
-        "Saipan"
-    ],
-    "altSpellings": [
-        "MP",
-        "Commonwealth of the Northern Mariana Islands",
-        "Sankattan Siha Na Islas Mariånas"
-    ],
-    "region": "Oceania",
-    "subregion": "Micronesia",
-    "landlocked": false,
-    "area": 464.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/cpZ67knoRAcfu1417",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/306004"
-    },
-    "population": 47329,
-    "car": {
-        "signs": [
-            "USA"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+10:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇲🇵",
-    "name": {
-        "common": "Northern Mariana Islands",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+10:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇲🇵",
+  "name": {
+    "common": "Northern Mariana Islands",
+    "official": "Commonwealth of the Northern Mariana Islands",
+    "nativeName": {
+      "cal": {
         "official": "Commonwealth of the Northern Mariana Islands",
-        "nativeName": {
-            "cal": {
-                "official": "Commonwealth of the Northern Mariana Islands",
-                "common": "Northern Mariana Islands"
-            },
-            "cha": {
-                "official": "Sankattan Siha Na Islas Mariånas",
-                "common": "Na Islas Mariånas"
-            },
-            "eng": {
-                "official": "Commonwealth of the Northern Mariana Islands",
-                "common": "Northern Mariana Islands"
-            }
-        }
-    },
-    "currencies": {
-        "USD": {
-            "symbol": "$",
-            "name": "United States dollar"
-        }
-    },
-    "languages": {
-        "cal": "Carolinian",
-        "cha": "Chamorro",
-        "eng": "English"
-    },
-    "latlng": [
-        15.2,
-        145.75
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "American",
-            "m": "American"
-        },
-        "fra": {
-            "f": "Américaine",
-            "m": "Américan"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "كومونولث جزر ماريانا الشمالية",
-            "common": "جزر ماريانا الشمالية"
-        },
-        "bre": {
-            "official": "Kenglad Inizi Mariana an Norzh",
-            "common": "Inizi Mariana an Norzh"
-        },
-        "ces": {
-            "official": "Společenství Severních Marian",
-            "common": "Severní Mariany"
-        },
-        "cym": {
-            "official": "Commonwealth of the Northern Mariana Islands",
-            "common": "Northern Mariana Islands"
-        },
-        "deu": {
-            "official": "Commonwealth der Nördlichen Marianen",
-            "common": "Nördliche Marianen"
-        },
-        "est": {
-            "official": "Põhja-Mariaani Ühendus",
-            "common": "Põhja-Mariaanid"
-        },
-        "fin": {
-            "official": "Pohjois-Mariaanit",
-            "common": "Pohjois-Mariaanit"
-        },
-        "fra": {
-            "official": "Commonwealth des îles Mariannes du Nord",
-            "common": "Îles Mariannes du Nord"
-        },
-        "hrv": {
-            "official": "Zajednica je Sjeverni Marijanski otoci",
-            "common": "Sjevernomarijanski otoci"
-        },
-        "hun": {
-            "official": "Északi-Mariana-szigetek",
-            "common": "Északi-Mariana-szigetek"
-        },
-        "ind": {
-            "official": "Persemakmuran Kepulauan Mariana Utara",
-            "common": "Kepulauan Mariana Utara"
-        },
-        "ita": {
-            "official": "Commonwealth delle Isole Marianne Settentrionali",
-            "common": "Isole Marianne Settentrionali"
-        },
-        "jpn": {
-            "official": "北マリアナ諸島",
-            "common": "北マリアナ諸島"
-        },
-        "kor": {
-            "official": "북마리아나 제도",
-            "common": "북마리아나 제도"
-        },
-        "nld": {
-            "official": "Commonwealth van de Noordelijke Marianen",
-            "common": "Noordelijke Marianeneilanden"
-        },
-        "per": {
-            "official": "جزایر ماریانای شمالی",
-            "common": "جزایر ماریانای شمالی"
-        },
-        "pol": {
-            "official": "Wspólnota Marianów Północnych",
-            "common": "Mariany Północne"
-        },
-        "por": {
-            "official": "Comunidade das Ilhas Marianas do Norte",
-            "common": "Marianas Setentrionais"
-        },
-        "rus": {
-            "official": "Содружество Северных Марианских островов",
-            "common": "Северные Марианские острова"
-        },
-        "slk": {
-            "official": "Spoločenstvo ostrovov Severné Mariány",
-            "common": "Severné Mariány"
-        },
-        "spa": {
-            "official": "Mancomunidad de las Islas Marianas del Norte",
-            "common": "Islas Marianas del Norte"
-        },
-        "srp": {
-            "official": "Комонвелт Северна Маријанска Острва",
-            "common": "Северна Маријанска Острва"
-        },
-        "swe": {
-            "official": "Nordmarianerna",
-            "common": "Nordmarianerna"
-        },
-        "tur": {
-            "official": "Kuzey Mariana Adaları Milletler Topluluğu",
-            "common": "Kuzey Mariana Adaları"
-        },
-        "urd": {
-            "official": "دولتِ مشترکہ جزائر شمالی ماریانا",
-            "common": "جزائر شمالی ماریانا"
-        },
-        "zho": {
-            "official": "北马里亚纳群岛",
-            "common": "北马里亚纳群岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/mp.png",
-        "svg": "https://flagcdn.com/mp.svg",
-        "alt": "The flag of the Northern Mariana Islands is blue with a five-pointed white star on a gray latte stone (a traditional foundation stone) in the center, surrounded by a head lei (wreath)."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            15.2,
-            145.75
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Northern Mariana Islands"
+      },
+      "cha": {
+        "official": "Sankattan Siha Na Islas Mariånas",
+        "common": "Na Islas Mariånas"
+      },
+      "eng": {
+        "official": "Commonwealth of the Northern Mariana Islands",
+        "common": "Northern Mariana Islands"
+      }
     }
+  },
+  "currencies": {
+    "USD": {
+      "symbol": "$",
+      "name": "United States dollar"
+    }
+  },
+  "languages": {
+    "cal": "Carolinian",
+    "cha": "Chamorro",
+    "eng": "English"
+  },
+  "latlng": [
+    15.2,
+    145.75
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "American",
+      "m": "American"
+    },
+    "fra": {
+      "f": "Américaine",
+      "m": "Américan"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      15.2,
+      145.75
+    ]
+  }
 }

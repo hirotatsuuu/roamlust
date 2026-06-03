@@ -1,206 +1,86 @@
 {
-    "tld": [
-        ".nu"
+  "tld": [
+    ".nu"
+  ],
+  "cca2": "NU",
+  "ccn3": "570",
+  "cca3": "NIU",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "83"
+    ]
+  },
+  "capital": [
+    "Alofi"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "landlocked": false,
+  "area": 260.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1558556"
+  },
+  "population": 1681,
+  "car": {
+    "signs": [
+      "NZ"
     ],
-    "cca2": "NU",
-    "ccn3": "570",
-    "cca3": "NIU",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "83"
-        ]
-    },
-    "capital": [
-        "Alofi"
-    ],
-    "altSpellings": [
-        "NU"
-    ],
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "landlocked": false,
-    "area": 260.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1558556"
-    },
-    "population": 1681,
-    "car": {
-        "signs": [
-            "NZ"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC-11:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇳🇺",
-    "name": {
-        "common": "Niue",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC-11:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇳🇺",
+  "name": {
+    "common": "Niue",
+    "official": "Niue",
+    "nativeName": {
+      "eng": {
         "official": "Niue",
-        "nativeName": {
-            "eng": {
-                "official": "Niue",
-                "common": "Niue"
-            },
-            "niu": {
-                "official": "Niuē",
-                "common": "Niuē"
-            }
-        }
-    },
-    "currencies": {
-        "NZD": {
-            "symbol": "$",
-            "name": "New Zealand dollar"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "niu": "Niuean"
-    },
-    "latlng": [
-        -19.03333333,
-        -169.86666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Niuean",
-            "m": "Niuean"
-        },
-        "fra": {
-            "f": "Niuéenne",
-            "m": "Niuéen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "نييوي",
-            "common": "نييوي"
-        },
-        "bre": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "ces": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "cym": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "deu": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "est": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "fin": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "fra": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "hrv": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "hun": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "ind": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "ita": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "jpn": {
-            "official": "ニウエ",
-            "common": "ニウエ"
-        },
-        "kor": {
-            "official": "니우에",
-            "common": "니우에"
-        },
-        "nld": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "per": {
-            "official": "نیووی",
-            "common": "نیووی"
-        },
-        "pol": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "por": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "rus": {
-            "official": "Ниуэ",
-            "common": "Ниуэ"
-        },
-        "slk": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "spa": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "srp": {
-            "official": "Нијуе",
-            "common": "Нијуе"
-        },
-        "swe": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "tur": {
-            "official": "Niue",
-            "common": "Niue"
-        },
-        "urd": {
-            "official": "نیووے",
-            "common": "نیووے"
-        },
-        "zho": {
-            "official": "纽埃",
-            "common": "纽埃"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/nu.png",
-        "svg": "https://flagcdn.com/nu.svg",
-        "alt": "The flag of Niue is yellow with the UK flag in the canton. The UK flag has five yellow five-pointed stars, with a large star on a blue disk in the center and smaller stars on each arm of the red cross."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -19.02,
-            -169.92
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Niue"
+      },
+      "niu": {
+        "official": "Niuē",
+        "common": "Niuē"
+      }
     }
+  },
+  "currencies": {
+    "NZD": {
+      "symbol": "$",
+      "name": "New Zealand dollar"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "niu": "Niuean"
+  },
+  "latlng": [
+    -19.03333333,
+    -169.86666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Niuean",
+      "m": "Niuean"
+    },
+    "fra": {
+      "f": "Niuéenne",
+      "m": "Niuéen"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -19.02,
+      -169.92
+    ]
+  }
 }

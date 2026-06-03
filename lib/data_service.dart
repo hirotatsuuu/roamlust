@@ -137,7 +137,7 @@ class DataService {
       final prefs = await SharedPreferences.getInstance();
 
       final String masterJson =
-          await rootBundle.loadString('assets/json/countries_master.json');
+          await rootBundle.loadString('assets/json/country_master.json');
       await prefs.setString('master_data', masterJson);
       final List<dynamic> masterList = jsonDecode(masterJson);
 

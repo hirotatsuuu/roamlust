@@ -1,216 +1,90 @@
 {
-    "tld": [
-        ".im"
+  "tld": [
+    ".im"
+  ],
+  "cca2": "IM",
+  "ccn3": "833",
+  "cca3": "IMN",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+4",
+    "suffixes": [
+      "4"
+    ]
+  },
+  "capital": [
+    "Douglas"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "landlocked": false,
+  "area": 572.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/62269"
+  },
+  "population": 84530,
+  "car": {
+    "signs": [
+      "GBM"
     ],
-    "cca2": "IM",
-    "ccn3": "833",
-    "cca3": "IMN",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+4",
-        "suffixes": [
-            "4"
-        ]
-    },
-    "capital": [
-        "Douglas"
-    ],
-    "altSpellings": [
-        "IM",
-        "Ellan Vannin",
-        "Mann",
-        "Mannin"
-    ],
-    "region": "Europe",
-    "subregion": "Northern Europe",
-    "landlocked": false,
-    "area": 572.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/62269"
-    },
-    "population": 84530,
-    "car": {
-        "signs": [
-            "GBM"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇮🇲",
-    "name": {
-        "common": "Isle of Man",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+00:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇮🇲",
+  "name": {
+    "common": "Isle of Man",
+    "official": "Isle of Man",
+    "nativeName": {
+      "eng": {
         "official": "Isle of Man",
-        "nativeName": {
-            "eng": {
-                "official": "Isle of Man",
-                "common": "Isle of Man"
-            },
-            "glv": {
-                "official": "Ellan Vannin or Mannin",
-                "common": "Mannin"
-            }
-        }
-    },
-    "currencies": {
-        "GBP": {
-            "symbol": "£",
-            "name": "British pound"
-        },
-        "IMP": {
-            "symbol": "£",
-            "name": "Manx pound"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "glv": "Manx"
-    },
-    "latlng": [
-        54.25,
-        -4.5
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Manx",
-            "m": "Manx"
-        },
-        "fra": {
-            "f": "",
-            "m": ""
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جزيرة مان",
-            "common": "جزيرة مان"
-        },
-        "bre": {
-            "official": "Enez Vanav",
-            "common": "Enez Vanav"
-        },
-        "ces": {
-            "official": "Ostrov Man",
-            "common": "Ostrov Man"
-        },
-        "cym": {
-            "official": "Isle of Man",
-            "common": "Isle of Man"
-        },
-        "deu": {
-            "official": "Isle of Man",
-            "common": "Insel Man"
-        },
-        "est": {
-            "official": "Mani saar",
-            "common": "Mani saar"
-        },
-        "fin": {
-            "official": "Mansaari",
-            "common": "Mansaari"
-        },
-        "fra": {
-            "official": "Isle of Man",
-            "common": "Île de Man"
-        },
-        "hrv": {
-            "official": "Mana ostrvo",
-            "common": "Otok Man"
-        },
-        "hun": {
-            "official": "Man",
-            "common": "Man"
-        },
-        "ind": {
-            "official": "Pulau Man",
-            "common": "Pulau Man"
-        },
-        "ita": {
-            "official": "Isola di Man",
-            "common": "Isola di Man"
-        },
-        "jpn": {
-            "official": "マン島",
-            "common": "マン島"
-        },
-        "kor": {
-            "official": "맨섬",
-            "common": "맨섬"
-        },
-        "nld": {
-            "official": "Isle of Man",
-            "common": "Isle of Man"
-        },
-        "per": {
-            "official": "جزیرهٔ مَن",
-            "common": "جزیرهٔ مَن"
-        },
-        "pol": {
-            "official": "Wyspa Man",
-            "common": "Wyspa Man"
-        },
-        "por": {
-            "official": "Isle of Man",
-            "common": "Ilha de Man"
-        },
-        "rus": {
-            "official": "Остров Мэн",
-            "common": "Остров Мэн"
-        },
-        "slk": {
-            "official": "Ostrov Man",
-            "common": "Man"
-        },
-        "spa": {
-            "official": "Isla de Man",
-            "common": "Isla de Man"
-        },
-        "srp": {
-            "official": "Острво Мен",
-            "common": "Острво Мен"
-        },
-        "swe": {
-            "official": "Isle of Man",
-            "common": "Isle of Man"
-        },
-        "tur": {
-            "official": "Man Adası",
-            "common": "Man Adası"
-        },
-        "urd": {
-            "official": "آئل آف مین",
-            "common": "آئل آف مین"
-        },
-        "zho": {
-            "official": "马恩岛",
-            "common": "马恩岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/im.png",
-        "svg": "https://flagcdn.com/im.svg",
-        "alt": "The flag of the Isle of Man is red with an emblem comprising three legs (triskelion) in the center. The three legs are joined at the thigh and bent at the knee."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/im.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/im.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            54.15,
-            -4.48
-        ]
-    },
-    "postalCode": {
-        "format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
-        "regex": "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"
+        "common": "Isle of Man"
+      },
+      "glv": {
+        "official": "Ellan Vannin or Mannin",
+        "common": "Mannin"
+      }
     }
+  },
+  "currencies": {
+    "GBP": {
+      "symbol": "£",
+      "name": "British pound"
+    },
+    "IMP": {
+      "symbol": "£",
+      "name": "Manx pound"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "glv": "Manx"
+  },
+  "latlng": [
+    54.25,
+    -4.5
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Manx",
+      "m": "Manx"
+    },
+    "fra": {
+      "f": "",
+      "m": ""
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      54.15,
+      -4.48
+    ]
+  }
 }

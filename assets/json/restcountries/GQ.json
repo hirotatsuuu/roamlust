@@ -1,224 +1,95 @@
 {
-    "tld": [
-        ".gq"
+  "tld": [
+    ".gq"
+  ],
+  "cca2": "GQ",
+  "ccn3": "226",
+  "cca3": "GNQ",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "40"
+    ]
+  },
+  "capital": [
+    "Ciudad de la Paz"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "landlocked": false,
+  "borders": [
+    "CMR",
+    "GAB"
+  ],
+  "area": 28051.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192791"
+  },
+  "population": 1668768,
+  "car": {
+    "signs": [
+      "GQ"
     ],
-    "cca2": "GQ",
-    "ccn3": "226",
-    "cca3": "GNQ",
-    "cioc": "GEQ",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "40"
-        ]
-    },
-    "capital": [
-        "Ciudad de la Paz"
-    ],
-    "altSpellings": [
-        "GQ",
-        "Republic of Equatorial Guinea",
-        "República de Guinea Ecuatorial",
-        "République de Guinée équatoriale",
-        "República da Guiné Equatorial"
-    ],
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "landlocked": false,
-    "borders": [
-        "CMR",
-        "GAB"
-    ],
-    "area": 28051.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192791"
-    },
-    "population": 1668768,
-    "fifa": "EQG",
-    "car": {
-        "signs": [
-            "GQ"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇬🇶",
-    "name": {
-        "common": "Equatorial Guinea",
-        "official": "Republic of Equatorial Guinea",
-        "nativeName": {
-            "fra": {
-                "official": "République de la Guinée Équatoriale",
-                "common": "Guinée équatoriale"
-            },
-            "por": {
-                "official": "República da Guiné Equatorial",
-                "common": "Guiné Equatorial"
-            },
-            "spa": {
-                "official": "República de Guinea Ecuatorial",
-                "common": "Guinea Ecuatorial"
-            }
-        }
-    },
-    "currencies": {
-        "XAF": {
-            "symbol": "Fr",
-            "name": "Central African CFA franc"
-        }
-    },
-    "languages": {
-        "fra": "French",
-        "por": "Portuguese",
-        "spa": "Spanish"
-    },
-    "latlng": [
-        2.0,
-        10.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Equatorial Guinean",
-            "m": "Equatorial Guinean"
-        },
-        "fra": {
-            "f": "Équato-guinéenne",
-            "m": "Équato-guinéen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية غينيا الاستوائية",
-            "common": "غينيا الاستوائية"
-        },
-        "bre": {
-            "official": "Republik Ginea ar C'heheder",
-            "common": "Ginea ar C'heheder"
-        },
-        "ces": {
-            "official": "Republika Rovníková Guinea",
-            "common": "Rovníková Guinea"
-        },
-        "cym": {
-            "official": "Gweriniaeth Gini Gyhydeddol",
-            "common": "Gini Gyhydeddol"
-        },
-        "deu": {
-            "official": "Republik Äquatorialguinea",
-            "common": "Äquatorialguinea"
-        },
-        "est": {
-            "official": "Ekvatoriaal-Guinea Vabariik",
-            "common": "Ekvatoriaal-Guinea"
-        },
-        "fin": {
-            "official": "Päiväntasaajan Guinean tasavalta",
-            "common": "Päiväntasaajan Guinea"
-        },
-        "fra": {
-            "official": "République de Guinée équatoriale",
-            "common": "Guinée équatoriale"
-        },
-        "hrv": {
-            "official": "Republika Ekvatorska Gvineja",
-            "common": "Ekvatorijalna Gvineja"
-        },
-        "hun": {
-            "official": "Egyenlítői-Guinea-i Köztársaság",
-            "common": "Egyenlítői-Guinea"
-        },
-        "ind": {
-            "official": "Republik Ginea Ekuator",
-            "common": "Ginea Ekuator"
-        },
-        "ita": {
-            "official": "Repubblica della Guinea Equatoriale",
-            "common": "Guinea Equatoriale"
-        },
-        "jpn": {
-            "official": "赤道ギニア共和国",
-            "common": "赤道ギニア"
-        },
-        "kor": {
-            "official": "적도 기니 공화국",
-            "common": "적도 기니"
-        },
-        "nld": {
-            "official": "Republiek Equatoriaal-Guinea",
-            "common": "Equatoriaal-Guinea"
-        },
-        "per": {
-            "official": "جمهوری گینه استوایی",
-            "common": "گینه استوایی"
-        },
-        "pol": {
-            "official": "Republika Gwinei Równikowej",
-            "common": "Gwinea Równikowa"
-        },
-        "por": {
-            "official": "República da Guiné Equatorial",
-            "common": "Guiné Equatorial"
-        },
-        "rus": {
-            "official": "Республика Экваториальная Гвинея",
-            "common": "Экваториальная Гвинея"
-        },
-        "slk": {
-            "official": "Republika rovníkovej Guiney",
-            "common": "Rovníková Guinea"
-        },
-        "spa": {
-            "official": "República de Guinea Ecuatorial",
-            "common": "Guinea Ecuatorial"
-        },
-        "srp": {
-            "official": "Република Екваторијална Гвинеја",
-            "common": "Екваторијална Гвинеја"
-        },
-        "swe": {
-            "official": "Republiken Ekvatorialguinea",
-            "common": "Ekvatorialguinea"
-        },
-        "tur": {
-            "official": "Ekvator Ginesi Cumhuriyeti",
-            "common": "Ekvator Ginesi"
-        },
-        "urd": {
-            "official": "جمہوریہ استوائی گنی",
-            "common": "استوائی گنی"
-        },
-        "zho": {
-            "official": "赤道几内亚共和国",
-            "common": "赤道几内亚"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gq.png",
-        "svg": "https://flagcdn.com/gq.svg",
-        "alt": "The flag of Equatorial Guinea is composed of three equal horizontal bands of green, white and red with the national coat of arms centered in the white band and an isosceles triangle superimposed on the hoist side of the field. The triangle is light blue, has its base on the hoist end and spans about one-fifth the width of the field."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gq.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gq.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            1.35,
-            10.49
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇬🇶",
+  "name": {
+    "common": "Equatorial Guinea",
+    "official": "Republic of Equatorial Guinea",
+    "nativeName": {
+      "fra": {
+        "official": "République de la Guinée Équatoriale",
+        "common": "Guinée équatoriale"
+      },
+      "por": {
+        "official": "República da Guiné Equatorial",
+        "common": "Guiné Equatorial"
+      },
+      "spa": {
+        "official": "República de Guinea Ecuatorial",
+        "common": "Guinea Ecuatorial"
+      }
     }
+  },
+  "currencies": {
+    "XAF": {
+      "symbol": "Fr",
+      "name": "Central African CFA franc"
+    }
+  },
+  "languages": {
+    "fra": "French",
+    "por": "Portuguese",
+    "spa": "Spanish"
+  },
+  "latlng": [
+    2.0,
+    10.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Equatorial Guinean",
+      "m": "Equatorial Guinean"
+    },
+    "fra": {
+      "f": "Équato-guinéenne",
+      "m": "Équato-guinéen"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      1.35,
+      10.49
+    ]
+  }
 }

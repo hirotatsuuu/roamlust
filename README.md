@@ -83,7 +83,7 @@ roamlust
     │   ├── icon.png                    # アプリアイコン生成用大元画像（1024x1024）
     │   ├── flags/                      # 各国の国旗データフォルダ（SVG形式）
     │   └── json/                       # アプリ内オフラインデータ（JSON形式）
-    │       ├── countries_master.json   # 国コードと国名を紐づけるマスターファイル
+    │       ├── country_master.json   # 国コードと国名を紐づけるマスターファイル
     │       ├── rankings/               # 人口・面積・GDPのランキングデータ
     │       ├── restcountries/          # 各国の詳細な国際統計データ
     │       └── wikipedia/              # 各国のWikipedia概要テキストデータ
@@ -139,6 +139,9 @@ dart run flutter_launcher_icons
   - ライセンス: 無料・認証不要のオープンデータ
 - **アイコン素材**
   - 出典: [Google Material Symbols & Icons](https://fonts.google.com/icons)
+- **世界銀行 ランキングデータ**
+  - 出典: [世界銀行](https://api.worldbank.org/v2/country)
+  - ライセンス: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 
 ---
 

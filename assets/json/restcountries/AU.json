@@ -1,216 +1,91 @@
 {
-    "tld": [
-        ".au"
+  "tld": [
+    ".au"
+  ],
+  "cca2": "AU",
+  "ccn3": "036",
+  "cca3": "AUS",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "1"
+    ]
+  },
+  "capital": [
+    "Canberra"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "landlocked": false,
+  "area": 7692024.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/80500"
+  },
+  "population": 27536874,
+  "car": {
+    "signs": [
+      "AUS"
     ],
-    "cca2": "AU",
-    "ccn3": "036",
-    "cca3": "AUS",
-    "cioc": "AUS",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "1"
-        ]
-    },
-    "capital": [
-        "Canberra"
-    ],
-    "altSpellings": [
-        "AU"
-    ],
-    "region": "Oceania",
-    "subregion": "Australia and New Zealand",
-    "landlocked": false,
-    "area": 7692024.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/80500"
-    },
-    "population": 27536874,
-    "fifa": "AUS",
-    "car": {
-        "signs": [
-            "AUS"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+05:00",
-        "UTC+06:30",
-        "UTC+07:00",
-        "UTC+08:00",
-        "UTC+09:30",
-        "UTC+10:00",
-        "UTC+10:30",
-        "UTC+11:30"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇦🇺",
-    "name": {
-        "common": "Australia",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+05:00",
+    "UTC+06:30",
+    "UTC+07:00",
+    "UTC+08:00",
+    "UTC+09:30",
+    "UTC+10:00",
+    "UTC+10:30",
+    "UTC+11:30"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇦🇺",
+  "name": {
+    "common": "Australia",
+    "official": "Commonwealth of Australia",
+    "nativeName": {
+      "eng": {
         "official": "Commonwealth of Australia",
-        "nativeName": {
-            "eng": {
-                "official": "Commonwealth of Australia",
-                "common": "Australia"
-            }
-        }
-    },
-    "currencies": {
-        "AUD": {
-            "symbol": "$",
-            "name": "Australian dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        -27.0,
-        133.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Australian",
-            "m": "Australian"
-        },
-        "fra": {
-            "f": "Australienne",
-            "m": "Australien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "كومونولث أستراليا",
-            "common": "أستراليا"
-        },
-        "bre": {
-            "official": "Kenglad Aostralia",
-            "common": "Aostralia"
-        },
-        "ces": {
-            "official": "Australské společenství",
-            "common": "Austrálie"
-        },
-        "cym": {
-            "official": "Cymanwlad Awstralia",
-            "common": "Awstralia"
-        },
-        "deu": {
-            "official": "Commonwealth Australien",
-            "common": "Australien"
-        },
-        "est": {
-            "official": "Austraalia Ühendus",
-            "common": "Austraalia"
-        },
-        "fin": {
-            "official": "Australian liittovaltio",
-            "common": "Australia"
-        },
-        "fra": {
-            "official": "Australie",
-            "common": "Australie"
-        },
-        "hrv": {
-            "official": "Commonwealth of Australia",
-            "common": "Australija"
-        },
-        "hun": {
-            "official": "Ausztrál Államszövetség",
-            "common": "Ausztrália"
-        },
-        "ind": {
-            "official": "Australia",
-            "common": "Australia"
-        },
-        "ita": {
-            "official": "Commonwealth dell'Australia",
-            "common": "Australia"
-        },
-        "jpn": {
-            "official": "オーストラリア連邦",
-            "common": "オーストラリア"
-        },
-        "kor": {
-            "official": "오스트레일리아 연방",
-            "common": "호주"
-        },
-        "nld": {
-            "official": "Gemenebest van Australië",
-            "common": "Australië"
-        },
-        "per": {
-            "official": "قلمرو همسود استرالیا",
-            "common": "استرالیا"
-        },
-        "pol": {
-            "official": "Związek Australijski",
-            "common": "Australia"
-        },
-        "por": {
-            "official": "Comunidade da Austrália",
-            "common": "Austrália"
-        },
-        "rus": {
-            "official": "Содружество Австралии",
-            "common": "Австралия"
-        },
-        "slk": {
-            "official": "Austrálsky zväz",
-            "common": "Austrália"
-        },
-        "spa": {
-            "official": "Mancomunidad de Australia",
-            "common": "Australia"
-        },
-        "srp": {
-            "official": "Комонвелт Аустралија",
-            "common": "Аустралија"
-        },
-        "swe": {
-            "official": "Australiska statsförbundet",
-            "common": "Australien"
-        },
-        "tur": {
-            "official": "Avustralya Federal Devleti",
-            "common": "Avustralya"
-        },
-        "urd": {
-            "official": "دولتِ مشترکہ آسٹریلیا",
-            "common": "آسٹریلیا"
-        },
-        "zho": {
-            "official": "澳大利亚联邦",
-            "common": "澳大利亚"
-        }
-    },
-    "gini": {
-        "2014": 34.4
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/au.png",
-        "svg": "https://flagcdn.com/au.svg",
-        "alt": "The flag of Australia has a dark blue field. It features the flag of the United Kingdom — the Union Jack — in the canton, beneath which is a large white seven-pointed star. A representation of the Southern Cross constellation, made up of one small five-pointed and four larger seven-pointed white stars, is situated on the fly side of the field."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/au.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/au.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -35.27,
-            149.13
-        ]
-    },
-    "postalCode": {
-        "format": "####",
-        "regex": "^(\\d{4})$"
+        "common": "Australia"
+      }
     }
+  },
+  "currencies": {
+    "AUD": {
+      "symbol": "$",
+      "name": "Australian dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    -27.0,
+    133.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Australian",
+      "m": "Australian"
+    },
+    "fra": {
+      "f": "Australienne",
+      "m": "Australien"
+    }
+  },
+  "gini": {
+    "2014": 34.4
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -35.27,
+      149.13
+    ]
+  }
 }

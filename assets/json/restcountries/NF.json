@@ -1,208 +1,86 @@
 {
-    "tld": [
-        ".nf"
+  "tld": [
+    ".nf"
+  ],
+  "cca2": "NF",
+  "ccn3": "574",
+  "cca3": "NFK",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "72"
+    ]
+  },
+  "capital": [
+    "Kingston"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "landlocked": false,
+  "area": 36.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/2574988"
+  },
+  "population": 2188,
+  "car": {
+    "signs": [
+      "AUS"
     ],
-    "cca2": "NF",
-    "ccn3": "574",
-    "cca3": "NFK",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "72"
-        ]
-    },
-    "capital": [
-        "Kingston"
-    ],
-    "altSpellings": [
-        "NF",
-        "Territory of Norfolk Island",
-        "Teratri of Norf'k Ailen"
-    ],
-    "region": "Oceania",
-    "subregion": "Australia and New Zealand",
-    "landlocked": false,
-    "area": 36.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/2574988"
-    },
-    "population": 2188,
-    "car": {
-        "signs": [
-            "AUS"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+11:30"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇳🇫",
-    "name": {
-        "common": "Norfolk Island",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+11:30"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇳🇫",
+  "name": {
+    "common": "Norfolk Island",
+    "official": "Territory of Norfolk Island",
+    "nativeName": {
+      "eng": {
         "official": "Territory of Norfolk Island",
-        "nativeName": {
-            "eng": {
-                "official": "Territory of Norfolk Island",
-                "common": "Norfolk Island"
-            },
-            "pih": {
-                "official": "Teratri of Norf'k Ailen",
-                "common": "Norf'k Ailen"
-            }
-        }
-    },
-    "currencies": {
-        "AUD": {
-            "symbol": "$",
-            "name": "Australian dollar"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "pih": "Norfuk"
-    },
-    "latlng": [
-        -29.03333333,
-        167.95
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Norfolk Islander",
-            "m": "Norfolk Islander"
-        },
-        "fra": {
-            "f": "Norfolkaise",
-            "m": "Norfolkais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "إقليم جزيرة نورفولك",
-            "common": "جزيرة نورفولك"
-        },
-        "bre": {
-            "official": "Tiriad Enez Norfolk",
-            "common": "Enez Norfolk"
-        },
-        "ces": {
-            "official": "Teritorium ostrova Norfolk",
-            "common": "Norfolk"
-        },
-        "cym": {
-            "official": "Territory of Norfolk Island",
-            "common": "Norfolk Island"
-        },
-        "deu": {
-            "official": "Gebiet der Norfolkinsel",
-            "common": "Norfolkinsel"
-        },
-        "est": {
-            "official": "Norfolki saare ala",
-            "common": "Norfolk"
-        },
-        "fin": {
-            "official": "Norfolkinsaaren territorio",
-            "common": "Norfolkinsaari"
-        },
-        "fra": {
-            "official": "Territoire de l'île Norfolk",
-            "common": "Île Norfolk"
-        },
-        "hrv": {
-            "official": "Teritorij Norfolk Island",
-            "common": "Otok Norfolk"
-        },
-        "hun": {
-            "official": "Norfolk-sziget",
-            "common": "Norfolk-sziget"
-        },
-        "ind": {
-            "official": "Wilayah Pulau Norfolk",
-            "common": "Pulau Norfolk"
-        },
-        "ita": {
-            "official": "Territorio di Norfolk Island",
-            "common": "Isola Norfolk"
-        },
-        "jpn": {
-            "official": "ノーフォーク島の領土",
-            "common": "ノーフォーク島"
-        },
-        "kor": {
-            "official": "노퍽 섬",
-            "common": "노퍽 섬"
-        },
-        "nld": {
-            "official": "Grondgebied van Norfolk Island",
-            "common": "Norfolkeiland"
-        },
-        "per": {
-            "official": "قلمرو جزایر نورفک",
-            "common": "جزیره نورفک"
-        },
-        "pol": {
-            "official": "Terytorium Wyspy Norfolk",
-            "common": "Wyspa Norfolk"
-        },
-        "por": {
-            "official": "Território da Ilha Norfolk",
-            "common": "Ilha Norfolk"
-        },
-        "rus": {
-            "official": "Территория острова Норфолк",
-            "common": "Норфолк"
-        },
-        "slk": {
-            "official": "Teritórium ostrova Norfolk",
-            "common": "Norfolk"
-        },
-        "spa": {
-            "official": "Territorio de la Isla Norfolk",
-            "common": "Isla de Norfolk"
-        },
-        "srp": {
-            "official": "Територија Острва Норфок",
-            "common": "Норфок"
-        },
-        "swe": {
-            "official": "Norfolkön",
-            "common": "Norfolkön"
-        },
-        "tur": {
-            "official": "Norfolk Adası",
-            "common": "Norfolk Adası"
-        },
-        "urd": {
-            "official": "جزیرہ نورفک خطہ",
-            "common": "جزیرہ نورفک"
-        },
-        "zho": {
-            "official": "诺福克岛",
-            "common": "诺福克岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/nf.png",
-        "svg": "https://flagcdn.com/nf.svg",
-        "alt": "The flag of Norfolk Island has three vertical bands of green, white, and green, with a large green native pine tree centered in the white band."
-    },
-    "coatOfArms": {},
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -29.05,
-            167.97
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Norfolk Island"
+      },
+      "pih": {
+        "official": "Teratri of Norf'k Ailen",
+        "common": "Norf'k Ailen"
+      }
     }
+  },
+  "currencies": {
+    "AUD": {
+      "symbol": "$",
+      "name": "Australian dollar"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "pih": "Norfuk"
+  },
+  "latlng": [
+    -29.03333333,
+    167.95
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Norfolk Islander",
+      "m": "Norfolk Islander"
+    },
+    "fra": {
+      "f": "Norfolkaise",
+      "m": "Norfolkais"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -29.05,
+      167.97
+    ]
+  }
 }

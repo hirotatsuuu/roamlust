@@ -1,218 +1,91 @@
 {
-    "tld": [
-        ".lk",
-        ".இலங்கை",
-        ".ලංකා"
+  "tld": [
+    ".lk",
+    ".இலங்கை",
+    ".ලංකා"
+  ],
+  "cca2": "LK",
+  "ccn3": "144",
+  "cca3": "LKA",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+9",
+    "suffixes": [
+      "4"
+    ]
+  },
+  "capital": [
+    "Sri Jayawardenepura Kotte"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "landlocked": false,
+  "area": 65610.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/VkPHoeFSfgzRQCDv8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/536807"
+  },
+  "population": 21763170,
+  "car": {
+    "signs": [
+      "CL"
     ],
-    "cca2": "LK",
-    "ccn3": "144",
-    "cca3": "LKA",
-    "cioc": "SRI",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+9",
-        "suffixes": [
-            "4"
-        ]
-    },
-    "capital": [
-        "Sri Jayawardenepura Kotte"
-    ],
-    "altSpellings": [
-        "LK",
-        "ilaṅkai",
-        "Democratic Socialist Republic of Sri Lanka"
-    ],
-    "region": "Asia",
-    "subregion": "Southern Asia",
-    "landlocked": false,
-    "area": 65610.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/VkPHoeFSfgzRQCDv8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/536807"
-    },
-    "population": 21763170,
-    "fifa": "SRI",
-    "car": {
-        "signs": [
-            "CL"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+05:30"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇱🇰",
-    "name": {
-        "common": "Sri Lanka",
-        "official": "Democratic Socialist Republic of Sri Lanka",
-        "nativeName": {
-            "sin": {
-                "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
-                "common": "ශ්‍රී ලංකාව"
-            },
-            "tam": {
-                "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
-                "common": "இலங்கை"
-            }
-        }
-    },
-    "currencies": {
-        "LKR": {
-            "symbol": "Rs  රු",
-            "name": "Sri Lankan rupee"
-        }
-    },
-    "languages": {
-        "sin": "Sinhala",
-        "tam": "Tamil"
-    },
-    "latlng": [
-        7.0,
-        81.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Sri Lankan",
-            "m": "Sri Lankan"
-        },
-        "fra": {
-            "f": "Sri-lankaise",
-            "m": "Sri-lankais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية سريلانكا الديمقراطية الشعبية",
-            "common": "سريلانكا"
-        },
-        "bre": {
-            "official": "Republik Demokratel ha Sokialour Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "ces": {
-            "official": "Srílanská demokratická socialistická republika",
-            "common": "Srí Lanka"
-        },
-        "cym": {
-            "official": "Democratic Socialist Republic of Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "deu": {
-            "official": "Demokratische Sozialistische Republik Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "est": {
-            "official": "Sri Lanka Demokraatlik Sotsialistlik Vabariik",
-            "common": "Sri Lanka"
-        },
-        "fin": {
-            "official": "Sri Lankan demokraattinen sosialistinen tasavalta",
-            "common": "Sri Lanka"
-        },
-        "fra": {
-            "official": "République démocratique socialiste du Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "hrv": {
-            "official": "Demokratska Socijalističke Republike Šri Lanke",
-            "common": "Šri Lanka"
-        },
-        "hun": {
-            "official": "Srí Lanka-i Demokratikus Szocialista Köztársaság",
-            "common": "Srí Lanka"
-        },
-        "ind": {
-            "official": "Republik Demokratik Sosialis Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "ita": {
-            "official": "Repubblica democratica socialista dello Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "jpn": {
-            "official": "スリランカ民主社会主義共和国",
-            "common": "スリランカ"
-        },
-        "kor": {
-            "official": "스리랑카 민주 사회주의 공화국",
-            "common": "스리랑카"
-        },
-        "nld": {
-            "official": "Democratische Socialistische Republiek Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "per": {
-            "official": "جمهوری دموکراتیک سوسیالیستی سری‌لانکا",
-            "common": "سری‌لانکا"
-        },
-        "pol": {
-            "official": "Demokratyczno-Socjalistyczna Republika Sri Lanki",
-            "common": "Sri Lanka"
-        },
-        "por": {
-            "official": "República Democrática Socialista do Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "rus": {
-            "official": "Демократическая Социалистическая Республика Шри-Ланка",
-            "common": "Шри-Ланка"
-        },
-        "slk": {
-            "official": "Srílanská demokratická socialistická republika",
-            "common": "Srí Lanka"
-        },
-        "spa": {
-            "official": "República Democrática Socialista de Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "srp": {
-            "official": "Демократска Социјалистичка Република Сри Ланка",
-            "common": "Сри Ланка"
-        },
-        "swe": {
-            "official": "Demokratiska socialistiska republiken Sri Lanka",
-            "common": "Sri Lanka"
-        },
-        "tur": {
-            "official": "Sri Lanka Demokratik Sosyalist Cumhuriyeti",
-            "common": "Sri Lanka"
-        },
-        "urd": {
-            "official": "جمہوری و اشتراکی جمہوریہ سری لنکا",
-            "common": "سری لنکا"
-        },
-        "zho": {
-            "official": "斯里兰卡民主社会主义共和国",
-            "common": "斯里兰卡"
-        }
-    },
-    "gini": {
-        "2016": 39.3
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/lk.png",
-        "svg": "https://flagcdn.com/lk.svg",
-        "alt": "The flag of Sri Lanka features two large adjacent but separate rectangular areas, centered on a golden-yellow field. The smaller hoist-side rectangle is divided into two equal vertical bands of teal and orange, and the larger fly-side rectangle is maroon with a centered golden-yellow lion holding a Kastane sword in its right fore-paw and four golden-yellow Bo leaves, one in each corner."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/lk.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/lk.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            6.89,
-            79.9
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+05:30"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇱🇰",
+  "name": {
+    "common": "Sri Lanka",
+    "official": "Democratic Socialist Republic of Sri Lanka",
+    "nativeName": {
+      "sin": {
+        "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+        "common": "ශ්‍රී ලංකාව"
+      },
+      "tam": {
+        "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+        "common": "இலங்கை"
+      }
     }
+  },
+  "currencies": {
+    "LKR": {
+      "symbol": "Rs  රු",
+      "name": "Sri Lankan rupee"
+    }
+  },
+  "languages": {
+    "sin": "Sinhala",
+    "tam": "Tamil"
+  },
+  "latlng": [
+    7.0,
+    81.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Sri Lankan",
+      "m": "Sri Lankan"
+    },
+    "fra": {
+      "f": "Sri-lankaise",
+      "m": "Sri-lankais"
+    }
+  },
+  "gini": {
+    "2016": 39.3
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      6.89,
+      79.9
+    ]
+  }
 }

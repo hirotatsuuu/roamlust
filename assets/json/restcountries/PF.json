@@ -1,209 +1,83 @@
 {
-    "tld": [
-        ".pf"
+  "tld": [
+    ".pf"
+  ],
+  "cca2": "PF",
+  "ccn3": "258",
+  "cca3": "PYF",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "89"
+    ]
+  },
+  "capital": [
+    "Papeetē"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "landlocked": false,
+  "area": 4167.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/3412620"
+  },
+  "population": 279500,
+  "car": {
+    "signs": [
+      "F"
     ],
-    "cca2": "PF",
-    "ccn3": "258",
-    "cca3": "PYF",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "89"
-        ]
-    },
-    "capital": [
-        "Papeetē"
-    ],
-    "altSpellings": [
-        "PF",
-        "Polynésie française",
-        "French Polynesia",
-        "Pōrīnetia Farāni"
-    ],
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "landlocked": false,
-    "area": 4167.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/3412620"
-    },
-    "population": 279500,
-    "car": {
-        "signs": [
-            "F"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-10:00",
-        "UTC-09:30",
-        "UTC-09:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇵🇫",
-    "name": {
-        "common": "French Polynesia",
-        "official": "French Polynesia",
-        "nativeName": {
-            "fra": {
-                "official": "Polynésie française",
-                "common": "Polynésie française"
-            }
-        }
-    },
-    "currencies": {
-        "XPF": {
-            "symbol": "₣",
-            "name": "CFP franc"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        -17.6797,
-        -149.4068
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "French Polynesian",
-            "m": "French Polynesian"
-        },
-        "fra": {
-            "f": "Polynésienne",
-            "m": "Polynésien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "بولينزيا الفرنسية",
-            "common": "بولينزيا الفرنسية"
-        },
-        "bre": {
-            "official": "Polinezia C'hall",
-            "common": "Polinezia C'hall"
-        },
-        "ces": {
-            "official": "Francouzská Polynésie",
-            "common": "Francouzská Polynésie"
-        },
-        "cym": {
-            "official": "French Polynesia",
-            "common": "French Polynesia"
-        },
-        "deu": {
-            "official": "Französisch-Polynesien",
-            "common": "Französisch-Polynesien"
-        },
-        "est": {
-            "official": "Prantsuse Polüneesia",
-            "common": "Prantsuse Polüneesia"
-        },
-        "fin": {
-            "official": "Ranskan Polynesia",
-            "common": "Ranskan Polynesia"
-        },
-        "fra": {
-            "official": "Polynésie française",
-            "common": "Polynésie française"
-        },
-        "hrv": {
-            "official": "Francuska Polinezija",
-            "common": "Francuska Polinezija"
-        },
-        "hun": {
-            "official": "Francia Polinézia",
-            "common": "Francia Polinézia"
-        },
-        "ind": {
-            "official": "Polinesia Prancis",
-            "common": "Polinesia Prancis"
-        },
-        "ita": {
-            "official": "Polinesia Francese",
-            "common": "Polinesia Francese"
-        },
-        "jpn": {
-            "official": "フランス領ポリネシア",
-            "common": "フランス領ポリネシア"
-        },
-        "kor": {
-            "official": "프랑스령 폴리네시아",
-            "common": "프랑스령 폴리네시아"
-        },
-        "nld": {
-            "official": "Frans-Polynesië",
-            "common": "Frans-Polynesië"
-        },
-        "per": {
-            "official": "پُلی‌نِزی فرانسه",
-            "common": "پُلی‌نِزی فرانسه"
-        },
-        "pol": {
-            "official": "Polinezja Francuska",
-            "common": "Polinezja Francuska"
-        },
-        "por": {
-            "official": "Polinésia Francesa",
-            "common": "Polinésia Francesa"
-        },
-        "rus": {
-            "official": "Французская Полинезия",
-            "common": "Французская Полинезия"
-        },
-        "slk": {
-            "official": "Francúzska Polynézia",
-            "common": "Francúzska Polynézia"
-        },
-        "spa": {
-            "official": "Polinesia francés",
-            "common": "Polinesia Francesa"
-        },
-        "srp": {
-            "official": "Француска Полинезија",
-            "common": "Француска Полинезија"
-        },
-        "swe": {
-            "official": "Franska Polynesien",
-            "common": "Franska Polynesien"
-        },
-        "tur": {
-            "official": "Fransız Polinezyası",
-            "common": "Fransız Polinezyası"
-        },
-        "urd": {
-            "official": "فرانسیسی پولینیشیا",
-            "common": "فرانسیسی پولینیشیا"
-        },
-        "zho": {
-            "official": "法属波利尼西亚",
-            "common": "法属波利尼西亚"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/pf.png",
-        "svg": "https://flagcdn.com/pf.svg",
-        "alt": "The flag of French Polynesia has two red horizontal bands flanking a wide white band in a 1:2:1 ratio. Centered on the white band is a disk with a blue-and-white wave pattern depicting the sea on the lower half and a gold-and-white ray pattern depicting the sun on the upper half. A canoe on the disk has a crew of five."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/pf.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/pf.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -17.53,
-            -149.56
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^((97|98)7\\d{2})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-10:00",
+    "UTC-09:30",
+    "UTC-09:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇵🇫",
+  "name": {
+    "common": "French Polynesia",
+    "official": "French Polynesia",
+    "nativeName": {
+      "fra": {
+        "official": "Polynésie française",
+        "common": "Polynésie française"
+      }
     }
+  },
+  "currencies": {
+    "XPF": {
+      "symbol": "₣",
+      "name": "CFP franc"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    -17.6797,
+    -149.4068
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "French Polynesian",
+      "m": "French Polynesian"
+    },
+    "fra": {
+      "f": "Polynésienne",
+      "m": "Polynésien"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -17.53,
+      -149.56
+    ]
+  }
 }

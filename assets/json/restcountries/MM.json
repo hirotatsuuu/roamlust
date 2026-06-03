@@ -1,219 +1,91 @@
 {
-    "tld": [
-        ".mm"
+  "tld": [
+    ".mm"
+  ],
+  "cca2": "MM",
+  "ccn3": "104",
+  "cca3": "MMR",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+9",
+    "suffixes": [
+      "5"
+    ]
+  },
+  "capital": [
+    "Naypyidaw"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "landlocked": false,
+  "borders": [
+    "BGD",
+    "CHN",
+    "IND",
+    "LAO",
+    "THA"
+  ],
+  "area": 676578.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/4jrZyJkDERUfHyp26",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/50371"
+  },
+  "population": 51316756,
+  "car": {
+    "signs": [
+      "BUR"
     ],
-    "cca2": "MM",
-    "ccn3": "104",
-    "cca3": "MMR",
-    "cioc": "MYA",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+9",
-        "suffixes": [
-            "5"
-        ]
-    },
-    "capital": [
-        "Naypyidaw"
-    ],
-    "altSpellings": [
-        "MM",
-        "Burma",
-        "Republic of the Union of Myanmar",
-        "Pyidaunzu Thanmăda Myăma Nainngandaw"
-    ],
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "landlocked": false,
-    "borders": [
-        "BGD",
-        "CHN",
-        "IND",
-        "LAO",
-        "THA"
-    ],
-    "area": 676578.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/4jrZyJkDERUfHyp26",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/50371"
-    },
-    "population": 51316756,
-    "fifa": "MYA",
-    "car": {
-        "signs": [
-            "BUR"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+06:30"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇲🇲",
-    "name": {
-        "common": "Myanmar",
-        "official": "Republic of the Union of Myanmar",
-        "nativeName": {
-            "mya": {
-                "official": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
-                "common": "မြန်မာ"
-            }
-        }
-    },
-    "currencies": {
-        "MMK": {
-            "symbol": "Ks",
-            "name": "Burmese kyat"
-        }
-    },
-    "languages": {
-        "mya": "Burmese"
-    },
-    "latlng": [
-        22.0,
-        98.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Burmese",
-            "m": "Burmese"
-        },
-        "fra": {
-            "f": "Birmane",
-            "m": "Birman"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية اتحاد ميانمار",
-            "common": "ميانمار"
-        },
-        "bre": {
-            "official": "Republik Unaniezh Myanmar",
-            "common": "Myanmar"
-        },
-        "ces": {
-            "official": "Republika Myanmarský svaz",
-            "common": "Myanmar"
-        },
-        "cym": {
-            "official": "Republic of the Union of Myanmar",
-            "common": "Myanmar"
-        },
-        "deu": {
-            "official": "Republik der Union Myanmar",
-            "common": "Myanmar"
-        },
-        "est": {
-            "official": "Myanmari Liidu Vabariik",
-            "common": "Myanmar"
-        },
-        "fin": {
-            "official": "Myanmarin liiton tasavalta",
-            "common": "Myanmar"
-        },
-        "fra": {
-            "official": "République de l'Union du Myanmar",
-            "common": "Birmanie"
-        },
-        "hrv": {
-            "official": "Republika Unije Mijanmar",
-            "common": "Mijanmar"
-        },
-        "hun": {
-            "official": "Mianmari Államszövetség Köztársasága",
-            "common": "Mianmar"
-        },
-        "ind": {
-            "official": "Republik Perserikatan Myanmar",
-            "common": "Myanmar"
-        },
-        "ita": {
-            "official": "Repubblica dell'Unione di Myanmar",
-            "common": "Birmania"
-        },
-        "jpn": {
-            "official": "ミャンマー連邦共和国",
-            "common": "ミャンマー"
-        },
-        "kor": {
-            "official": "미얀마 연방 공화국",
-            "common": "미얀마"
-        },
-        "nld": {
-            "official": "Republiek van de Unie van Myanmar",
-            "common": "Myanmar"
-        },
-        "per": {
-            "official": "اتحادیه جمهوری میانمار",
-            "common": "میانمار"
-        },
-        "pol": {
-            "official": "Republika Związku Mjanmy",
-            "common": "Mjanma"
-        },
-        "por": {
-            "official": "República da União de Myanmar",
-            "common": "Myanmar"
-        },
-        "rus": {
-            "official": "Республика Союза Мьянма",
-            "common": "Мьянма"
-        },
-        "slk": {
-            "official": "Mjanmarská zväzová republika",
-            "common": "Mjanmarsko"
-        },
-        "spa": {
-            "official": "República de la Unión de Myanmar",
-            "common": "Myanmar"
-        },
-        "srp": {
-            "official": "Република Савез Мјанмара",
-            "common": "Мјанмар"
-        },
-        "swe": {
-            "official": "Republiken Unionen Myanmar",
-            "common": "Myanmar"
-        },
-        "tur": {
-            "official": "Myanmar Birliği Cumhuriyeti",
-            "common": "Myanmar"
-        },
-        "urd": {
-            "official": "متحدہ جمہوریہ میانمار",
-            "common": "میانمار"
-        },
-        "zho": {
-            "official": "缅甸联邦共和国",
-            "common": "缅甸"
-        }
-    },
-    "gini": {
-        "2017": 30.7
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/mm.png",
-        "svg": "https://flagcdn.com/mm.svg",
-        "alt": "The flag of Myanmar is composed of three equal horizontal bands of yellow, green and red, with a large five-pointed white star superimposed at the center of the field."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/mm.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/mm.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            19.76,
-            96.07
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+06:30"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇲🇲",
+  "name": {
+    "common": "Myanmar",
+    "official": "Republic of the Union of Myanmar",
+    "nativeName": {
+      "mya": {
+        "official": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+        "common": "မြန်မာ"
+      }
     }
+  },
+  "currencies": {
+    "MMK": {
+      "symbol": "Ks",
+      "name": "Burmese kyat"
+    }
+  },
+  "languages": {
+    "mya": "Burmese"
+  },
+  "latlng": [
+    22.0,
+    98.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Burmese",
+      "m": "Burmese"
+    },
+    "fra": {
+      "f": "Birmane",
+      "m": "Birman"
+    }
+  },
+  "gini": {
+    "2017": 30.7
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      19.76,
+      96.07
+    ]
+  }
 }

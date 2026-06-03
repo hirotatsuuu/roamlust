@@ -1,217 +1,89 @@
 {
-    "tld": [
-        ".vn"
+  "tld": [
+    ".vn"
+  ],
+  "cca2": "VN",
+  "ccn3": "704",
+  "cca3": "VNM",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+8",
+    "suffixes": [
+      "4"
+    ]
+  },
+  "capital": [
+    "Hanoi"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "landlocked": false,
+  "borders": [
+    "KHM",
+    "CHN",
+    "LAO"
+  ],
+  "area": 331212.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/49915"
+  },
+  "population": 101343800,
+  "car": {
+    "signs": [
+      "VN"
     ],
-    "cca2": "VN",
-    "ccn3": "704",
-    "cca3": "VNM",
-    "cioc": "VIE",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+8",
-        "suffixes": [
-            "4"
-        ]
-    },
-    "capital": [
-        "Hanoi"
-    ],
-    "altSpellings": [
-        "VN",
-        "Socialist Republic of Vietnam",
-        "Cộng hòa Xã hội chủ nghĩa Việt Nam",
-        "Viet Nam"
-    ],
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "landlocked": false,
-    "borders": [
-        "KHM",
-        "CHN",
-        "LAO"
-    ],
-    "area": 331212.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/49915"
-    },
-    "population": 101343800,
-    "fifa": "VIE",
-    "car": {
-        "signs": [
-            "VN"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+07:00"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇻🇳",
-    "name": {
-        "common": "Vietnam",
-        "official": "Socialist Republic of Vietnam",
-        "nativeName": {
-            "vie": {
-                "official": "Cộng hòa xã hội chủ nghĩa Việt Nam",
-                "common": "Việt Nam"
-            }
-        }
-    },
-    "currencies": {
-        "VND": {
-            "symbol": "₫",
-            "name": "Vietnamese đồng"
-        }
-    },
-    "languages": {
-        "vie": "Vietnamese"
-    },
-    "latlng": [
-        16.16666666,
-        107.83333333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Vietnamese",
-            "m": "Vietnamese"
-        },
-        "fra": {
-            "f": "Vietnamienne",
-            "m": "Vietnamien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية فيتنام الاشتراكية",
-            "common": "فيتنام"
-        },
-        "bre": {
-            "official": "Republik Sokialour Viêt Nam",
-            "common": "Viêt Nam"
-        },
-        "ces": {
-            "official": "Vietnamská socialistická republika",
-            "common": "Vietnam"
-        },
-        "cym": {
-            "official": "Socialist Republic of Vietnam",
-            "common": "Vietnam"
-        },
-        "deu": {
-            "official": "Sozialistische Republik Vietnam",
-            "common": "Vietnam"
-        },
-        "est": {
-            "official": "Vietnami Sotsialistlik Vabariik",
-            "common": "Vietnam"
-        },
-        "fin": {
-            "official": "Vietnamin sosialistinen tasavalta",
-            "common": "Vietnam"
-        },
-        "fra": {
-            "official": "République socialiste du Viêt Nam",
-            "common": "Viêt Nam"
-        },
-        "hrv": {
-            "official": "Socijalistička Republika Vijetnam",
-            "common": "Vijetnam"
-        },
-        "hun": {
-            "official": "Vietnámi Szocialista Köztársaság",
-            "common": "Vietnám"
-        },
-        "ind": {
-            "official": "Republik Sosialis Vietnam",
-            "common": "Vietnam"
-        },
-        "ita": {
-            "official": "Repubblica socialista del Vietnam",
-            "common": "Vietnam"
-        },
-        "jpn": {
-            "official": "ベトナム社会主義共和国",
-            "common": "ベトナム"
-        },
-        "kor": {
-            "official": "베트남 사회주의 공화국",
-            "common": "베트남"
-        },
-        "nld": {
-            "official": "Socialistische Republiek Vietnam",
-            "common": "Vietnam"
-        },
-        "per": {
-            "official": "جمهوری سوسیالیستی ویتنام",
-            "common": "ویتنام"
-        },
-        "pol": {
-            "official": "Socjalistyczna Republika Wietnamu",
-            "common": "Wietnam"
-        },
-        "por": {
-            "official": "República Socialista do Vietname",
-            "common": "Vietname"
-        },
-        "rus": {
-            "official": "Социалистическая Республика Вьетнам",
-            "common": "Вьетнам"
-        },
-        "slk": {
-            "official": "Vietnamská socialistická republika",
-            "common": "Vietnam"
-        },
-        "spa": {
-            "official": "República Socialista de Vietnam",
-            "common": "Vietnam"
-        },
-        "srp": {
-            "official": "Социјалистичка Република Вијетнам",
-            "common": "Вијетнам"
-        },
-        "swe": {
-            "official": "Socialistiska republiken Vietnam",
-            "common": "Vietnam"
-        },
-        "tur": {
-            "official": "Vietnam Sosyalist Cumhuriyeti",
-            "common": "Vietnam"
-        },
-        "urd": {
-            "official": "اشتراکی جمہوریہ ویتنام",
-            "common": "ویتنام"
-        },
-        "zho": {
-            "official": "越南社会主义共和国",
-            "common": "越南"
-        }
-    },
-    "gini": {
-        "2018": 35.7
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/vn.png",
-        "svg": "https://flagcdn.com/vn.svg",
-        "alt": "The flag of Vietnam features a large five-pointed yellow star on a red field."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/vn.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/vn.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            21.03,
-            105.85
-        ]
-    },
-    "postalCode": {
-        "format": "######",
-        "regex": "^(\\d{6})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+07:00"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇻🇳",
+  "name": {
+    "common": "Vietnam",
+    "official": "Socialist Republic of Vietnam",
+    "nativeName": {
+      "vie": {
+        "official": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+        "common": "Việt Nam"
+      }
     }
+  },
+  "currencies": {
+    "VND": {
+      "symbol": "₫",
+      "name": "Vietnamese đồng"
+    }
+  },
+  "languages": {
+    "vie": "Vietnamese"
+  },
+  "latlng": [
+    16.16666666,
+    107.83333333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Vietnamese",
+      "m": "Vietnamese"
+    },
+    "fra": {
+      "f": "Vietnamienne",
+      "m": "Vietnamien"
+    }
+  },
+  "gini": {
+    "2018": 35.7
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      21.03,
+      105.85
+    ]
+  }
 }

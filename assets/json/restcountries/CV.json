@@ -1,211 +1,84 @@
 {
-    "tld": [
-        ".cv"
+  "tld": [
+    ".cv"
+  ],
+  "cca2": "CV",
+  "ccn3": "132",
+  "cca3": "CPV",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "38"
+    ]
+  },
+  "capital": [
+    "Praia"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "area": 4033.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/535774"
+  },
+  "population": 491233,
+  "car": {
+    "signs": [
+      "CV"
     ],
-    "cca2": "CV",
-    "ccn3": "132",
-    "cca3": "CPV",
-    "cioc": "CPV",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "38"
-        ]
-    },
-    "capital": [
-        "Praia"
-    ],
-    "altSpellings": [
-        "CV",
-        "Republic of Cabo Verde",
-        "República de Cabo Verde"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "area": 4033.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/535774"
-    },
-    "population": 491233,
-    "fifa": "CPV",
-    "car": {
-        "signs": [
-            "CV"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-01:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇨🇻",
-    "name": {
-        "common": "Cape Verde",
-        "official": "Republic of Cabo Verde",
-        "nativeName": {
-            "por": {
-                "official": "República de Cabo Verde",
-                "common": "Cabo Verde"
-            }
-        }
-    },
-    "currencies": {
-        "CVE": {
-            "symbol": "Esc",
-            "name": "Cape Verdean escudo"
-        }
-    },
-    "languages": {
-        "por": "Portuguese"
-    },
-    "latlng": [
-        16.5388,
-        -23.0418
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Cape Verdian",
-            "m": "Cape Verdian"
-        },
-        "fra": {
-            "f": "Cap-verdienne",
-            "m": "Cap-verdien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية كابو فيردي",
-            "common": "كابو فيردي"
-        },
-        "bre": {
-            "official": "Republik Kab Glas",
-            "common": "Kab Glas"
-        },
-        "ces": {
-            "official": "Kapverdská republika",
-            "common": "Kapverdy"
-        },
-        "cym": {
-            "official": "Gweriniaeth Cabo Verde",
-            "common": "Penrhyn Verde"
-        },
-        "deu": {
-            "official": "Republik Cabo Verde",
-            "common": "Kap Verde"
-        },
-        "est": {
-            "official": "Cabo Verde Vabariik",
-            "common": "Roheneemesaared"
-        },
-        "fin": {
-            "official": "Kap Verden tasavalta",
-            "common": "Kap Verde"
-        },
-        "fra": {
-            "official": "République du Cap-Vert",
-            "common": "Îles du Cap-Vert"
-        },
-        "hrv": {
-            "official": "Republika Cabo Verde",
-            "common": "Zelenortska Republika"
-        },
-        "hun": {
-            "official": "Zöld-foki Köztársaság",
-            "common": "Zöld-foki Köztársaság"
-        },
-        "ind": {
-            "official": "Republik Tanjung Hijau",
-            "common": "Tanjung Hijau"
-        },
-        "ita": {
-            "official": "Repubblica di Capo Verde",
-            "common": "Capo Verde"
-        },
-        "jpn": {
-            "official": "カーボベルデ共和国",
-            "common": "カーボベルデ"
-        },
-        "kor": {
-            "official": "카보베르데 공화국",
-            "common": "카보베르데"
-        },
-        "nld": {
-            "official": "Republiek van Cabo Verde",
-            "common": "Kaapverdië"
-        },
-        "per": {
-            "official": "جمهوری کبو ورد",
-            "common": "دماغهٔ سبز"
-        },
-        "pol": {
-            "official": "Republika Zielonego Przylądka",
-            "common": "Republika Zielonego Przylądka"
-        },
-        "por": {
-            "official": "República de Cabo Verde",
-            "common": "Cabo Verde"
-        },
-        "rus": {
-            "official": "Республика Кабо -Верде",
-            "common": "Кабо-Верде"
-        },
-        "slk": {
-            "official": "Kapverdská republika",
-            "common": "Kapverdy"
-        },
-        "spa": {
-            "official": "República de Cabo Verde",
-            "common": "Cabo Verde"
-        },
-        "srp": {
-            "official": "Зеленортска Република",
-            "common": "Зеленортска Острва"
-        },
-        "swe": {
-            "official": "Republiken Kap Verde",
-            "common": "Kap Verde"
-        },
-        "tur": {
-            "official": "Yeşil Burun Cumhuriyeti",
-            "common": "Yeşil Burun"
-        },
-        "urd": {
-            "official": "جمہوریہ کیپ ورڈی",
-            "common": "کیپ ورڈی"
-        },
-        "zho": {
-            "official": "佛得角共和国",
-            "common": "佛得角"
-        }
-    },
-    "gini": {
-        "2015": 42.4
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/cv.png",
-        "svg": "https://flagcdn.com/cv.svg",
-        "alt": "The flag of Cape Verde is composed of five horizontal bands of blue, white, red, white and blue in the ratio of 6:1:1:1:3. A ring of ten five-pointed yellow stars is centered at three-eighth of the height from the bottom edge and three-eighth of the width from the hoist end of the field."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/cv.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/cv.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            14.92,
-            -23.52
-        ]
-    },
-    "postalCode": {
-        "format": "####",
-        "regex": "^(\\d{4})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-01:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇨🇻",
+  "name": {
+    "common": "Cape Verde",
+    "official": "Republic of Cabo Verde",
+    "nativeName": {
+      "por": {
+        "official": "República de Cabo Verde",
+        "common": "Cabo Verde"
+      }
     }
+  },
+  "currencies": {
+    "CVE": {
+      "symbol": "Esc",
+      "name": "Cape Verdean escudo"
+    }
+  },
+  "languages": {
+    "por": "Portuguese"
+  },
+  "latlng": [
+    16.5388,
+    -23.0418
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Cape Verdian",
+      "m": "Cape Verdian"
+    },
+    "fra": {
+      "f": "Cap-verdienne",
+      "m": "Cap-verdien"
+    }
+  },
+  "gini": {
+    "2015": 42.4
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      14.92,
+      -23.52
+    ]
+  }
 }

@@ -1,212 +1,91 @@
 {
-    "tld": [
-        ".cw"
+  "tld": [
+    ".cw"
+  ],
+  "cca2": "CW",
+  "ccn3": "531",
+  "cca3": "CUW",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+5",
+    "suffixes": [
+      "99"
+    ]
+  },
+  "capital": [
+    "Willemstad"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 444.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1216719"
+  },
+  "population": 156115,
+  "car": {
+    "signs": [
+      "CW"
     ],
-    "cca2": "CW",
-    "ccn3": "531",
-    "cca3": "CUW",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+5",
-        "suffixes": [
-            "99"
-        ]
-    },
-    "capital": [
-        "Willemstad"
-    ],
-    "altSpellings": [
-        "CW",
-        "Curacao",
-        "Kòrsou",
-        "Country of Curaçao",
-        "Land Curaçao",
-        "Pais Kòrsou"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 444.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1216719"
-    },
-    "population": 156115,
-    "fifa": "CUW",
-    "car": {
-        "signs": [
-            "CW"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇨🇼",
-    "name": {
-        "common": "Curaçao",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇨🇼",
+  "name": {
+    "common": "Curaçao",
+    "official": "Country of Curaçao",
+    "nativeName": {
+      "eng": {
         "official": "Country of Curaçao",
-        "nativeName": {
-            "eng": {
-                "official": "Country of Curaçao",
-                "common": "Curaçao"
-            },
-            "nld": {
-                "official": "Land Curaçao",
-                "common": "Curaçao"
-            },
-            "pap": {
-                "official": "Pais Kòrsou",
-                "common": "Pais Kòrsou"
-            }
-        }
-    },
-    "currencies": {
-        "ANG": {
-            "symbol": "ƒ",
-            "name": "Netherlands Antillean guilder"
-        }
-    },
-    "languages": {
-        "eng": "English",
-        "nld": "Dutch",
-        "pap": "Papiamento"
-    },
-    "latlng": [
-        12.116667,
-        -68.933333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Curaçaoan",
-            "m": "Curaçaoan"
-        },
-        "fra": {
-            "f": "Curacienne",
-            "m": "Curacien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "دولة كوراساو",
-            "common": "كوراساو"
-        },
-        "bre": {
-            "official": "Bro Curaçao",
-            "common": "Curaçao"
-        },
-        "ces": {
-            "official": "Autonomní země Curaçao",
-            "common": "Curaçao"
-        },
-        "cym": {
-            "official": "Country of Curaçao",
-            "common": "Curaçao"
-        },
-        "deu": {
-            "official": "Land Curaçao",
-            "common": "Curaçao"
-        },
-        "est": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "fin": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "fra": {
-            "official": "Pays de Curaçao",
-            "common": "Curaçao"
-        },
-        "hun": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "ind": {
-            "official": "Negara Curaçao",
-            "common": "Curaçao"
-        },
-        "ita": {
-            "official": "Paese di Curaçao",
-            "common": "Curaçao"
-        },
-        "kor": {
-            "official": "퀴라소",
-            "common": "퀴라소"
-        },
-        "nld": {
-            "official": "Land Curaçao",
-            "common": "Curaçao"
-        },
-        "per": {
-            "official": "کوراسائو",
-            "common": "کوراسائو"
-        },
-        "pol": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "por": {
-            "official": "País de Curaçao",
-            "common": "ilha da Curação"
-        },
-        "rus": {
-            "official": "Страна Кюрасао",
-            "common": "Кюрасао"
-        },
-        "slk": {
-            "official": "Curacao",
-            "common": "Curacao"
-        },
-        "spa": {
-            "official": "País de Curazao",
-            "common": "Curazao"
-        },
-        "srp": {
-            "official": "Курасао",
-            "common": "Курасао"
-        },
-        "swe": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "tur": {
-            "official": "Curaçao",
-            "common": "Curaçao"
-        },
-        "urd": {
-            "official": "مملکتِ کیوراساؤ",
-            "common": "کیوراساؤ"
-        },
-        "zho": {
-            "official": "库拉索",
-            "common": "库拉索"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/cw.png",
-        "svg": "https://flagcdn.com/cw.svg",
-        "alt": "The flag of Curaçao shows a blue field, on which a horizontal yellow band below the center divides the flag. Two five-pointed white stars, the smaller above and to the left of the larger, appear in the canton."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/cw.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/cw.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            12.1,
-            -68.92
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Curaçao"
+      },
+      "nld": {
+        "official": "Land Curaçao",
+        "common": "Curaçao"
+      },
+      "pap": {
+        "official": "Pais Kòrsou",
+        "common": "Pais Kòrsou"
+      }
     }
+  },
+  "currencies": {
+    "ANG": {
+      "symbol": "ƒ",
+      "name": "Netherlands Antillean guilder"
+    }
+  },
+  "languages": {
+    "eng": "English",
+    "nld": "Dutch",
+    "pap": "Papiamento"
+  },
+  "latlng": [
+    12.116667,
+    -68.933333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Curaçaoan",
+      "m": "Curaçaoan"
+    },
+    "fra": {
+      "f": "Curacienne",
+      "m": "Curacien"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      12.1,
+      -68.92
+    ]
+  }
 }

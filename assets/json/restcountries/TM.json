@@ -1,220 +1,95 @@
 {
-    "tld": [
-        ".tm"
+  "tld": [
+    ".tm"
+  ],
+  "cca2": "TM",
+  "ccn3": "795",
+  "cca3": "TKM",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+9",
+    "suffixes": [
+      "93"
+    ]
+  },
+  "capital": [
+    "Ashgabat"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "landlocked": true,
+  "borders": [
+    "AFG",
+    "IRN",
+    "KAZ",
+    "UZB"
+  ],
+  "area": 488100.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/cgfUcaQHSWKuqeKk9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/223026"
+  },
+  "population": 7057841,
+  "car": {
+    "signs": [
+      "TM"
     ],
-    "cca2": "TM",
-    "ccn3": "795",
-    "cca3": "TKM",
-    "cioc": "TKM",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+9",
-        "suffixes": [
-            "93"
-        ]
-    },
-    "capital": [
-        "Ashgabat"
-    ],
-    "altSpellings": [
-        "TM"
-    ],
-    "region": "Asia",
-    "subregion": "Central Asia",
-    "landlocked": true,
-    "borders": [
-        "AFG",
-        "IRN",
-        "KAZ",
-        "UZB"
-    ],
-    "area": 488100.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/cgfUcaQHSWKuqeKk9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/223026"
-    },
-    "population": 7057841,
-    "fifa": "TKM",
-    "car": {
-        "signs": [
-            "TM"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+05:00"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇹🇲",
-    "name": {
-        "common": "Turkmenistan",
-        "official": "Turkmenistan",
-        "nativeName": {
-            "rus": {
-                "official": "Туркменистан",
-                "common": "Туркмения"
-            },
-            "tuk": {
-                "official": "Türkmenistan",
-                "common": "Türkmenistan"
-            }
-        }
-    },
-    "currencies": {
-        "TMT": {
-            "symbol": "m",
-            "name": "Turkmenistan manat"
-        }
-    },
-    "languages": {
-        "rus": "Russian",
-        "tuk": "Turkmen"
-    },
-    "latlng": [
-        40.0,
-        60.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Turkmen",
-            "m": "Turkmen"
-        },
-        "fra": {
-            "f": "Turkmène",
-            "m": "Turkmène"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "تركمانستان",
-            "common": "تركمانستان"
-        },
-        "bre": {
-            "official": "Republik Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "ces": {
-            "official": "Turkmenistán",
-            "common": "Turkmenistán"
-        },
-        "cym": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "deu": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "est": {
-            "official": "Türkmenistan",
-            "common": "Türkmenistan"
-        },
-        "fin": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "fra": {
-            "official": "Turkménistan",
-            "common": "Turkménistan"
-        },
-        "hrv": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "hun": {
-            "official": "Türkmén Köztársaság",
-            "common": "Türkmenisztán"
-        },
-        "ind": {
-            "official": "Turmenistan",
-            "common": "Turmenistan"
-        },
-        "ita": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "jpn": {
-            "official": "トルクメニスタン",
-            "common": "トルクメニスタン"
-        },
-        "kor": {
-            "official": "투르크메니스탄",
-            "common": "투르크메니스탄"
-        },
-        "nld": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "per": {
-            "official": "جمهوری خلق ترکمنستان",
-            "common": "ترکمنستان"
-        },
-        "pol": {
-            "official": "Republika Turkmenistanu",
-            "common": "Turkmenistan"
-        },
-        "por": {
-            "official": "Turcomenistão",
-            "common": "Turquemenistão"
-        },
-        "rus": {
-            "official": "Туркменистан",
-            "common": "Туркмения"
-        },
-        "slk": {
-            "official": "Turkménsko",
-            "common": "Turkménsko"
-        },
-        "spa": {
-            "official": "Turkmenistán",
-            "common": "Turkmenistán"
-        },
-        "srp": {
-            "official": "Туркменистан",
-            "common": "Туркменистан"
-        },
-        "swe": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "tur": {
-            "official": "Türkmenistan",
-            "common": "Türkmenistan"
-        },
-        "urd": {
-            "official": "ترکمانستان",
-            "common": "ترکمانستان"
-        },
-        "zho": {
-            "official": "土库曼斯坦",
-            "common": "土库曼斯坦"
-        }
-    },
-    "gini": {
-        "1998": 40.8
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/tm.png",
-        "svg": "https://flagcdn.com/tm.svg",
-        "alt": "The flag of Turkmenistan has a green field. It features a red vertical band, bearing five carpet guls stacked above two crossed olive branches, near the hoist end of the field. Just to the fly side of the vertical band near the top edge of the field is a hoist-side facing white crescent and five small five-pointed white stars placed just outside the crescent opening."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/tm.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/tm.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            37.95,
-            58.38
-        ]
-    },
-    "postalCode": {
-        "format": "######",
-        "regex": "^(\\d{6})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+05:00"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇹🇲",
+  "name": {
+    "common": "Turkmenistan",
+    "official": "Turkmenistan",
+    "nativeName": {
+      "rus": {
+        "official": "Туркменистан",
+        "common": "Туркмения"
+      },
+      "tuk": {
+        "official": "Türkmenistan",
+        "common": "Türkmenistan"
+      }
     }
+  },
+  "currencies": {
+    "TMT": {
+      "symbol": "m",
+      "name": "Turkmenistan manat"
+    }
+  },
+  "languages": {
+    "rus": "Russian",
+    "tuk": "Turkmen"
+  },
+  "latlng": [
+    40.0,
+    60.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Turkmen",
+      "m": "Turkmen"
+    },
+    "fra": {
+      "f": "Turkmène",
+      "m": "Turkmène"
+    }
+  },
+  "gini": {
+    "1998": 40.8
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      37.95,
+      58.38
+    ]
+  }
 }

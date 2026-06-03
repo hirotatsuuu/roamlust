@@ -1,214 +1,89 @@
 {
-    "tld": [
-        ".gh"
+  "tld": [
+    ".gh"
+  ],
+  "cca2": "GH",
+  "ccn3": "288",
+  "cca3": "GHA",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "33"
+    ]
+  },
+  "capital": [
+    "Accra"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "borders": [
+    "BFA",
+    "CIV",
+    "TGO"
+  ],
+  "area": 238533.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/Avy5RSmdsXFBaiXq8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192781"
+  },
+  "population": 33742380,
+  "car": {
+    "signs": [
+      "GH"
     ],
-    "cca2": "GH",
-    "ccn3": "288",
-    "cca3": "GHA",
-    "cioc": "GHA",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "33"
-        ]
-    },
-    "capital": [
-        "Accra"
-    ],
-    "altSpellings": [
-        "GH"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "borders": [
-        "BFA",
-        "CIV",
-        "TGO"
-    ],
-    "area": 238533.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/Avy5RSmdsXFBaiXq8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192781"
-    },
-    "population": 33742380,
-    "fifa": "GHA",
-    "car": {
-        "signs": [
-            "GH"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇬🇭",
-    "name": {
-        "common": "Ghana",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇬🇭",
+  "name": {
+    "common": "Ghana",
+    "official": "Republic of Ghana",
+    "nativeName": {
+      "eng": {
         "official": "Republic of Ghana",
-        "nativeName": {
-            "eng": {
-                "official": "Republic of Ghana",
-                "common": "Ghana"
-            }
-        }
-    },
-    "currencies": {
-        "GHS": {
-            "symbol": "₵",
-            "name": "Ghanaian cedi"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        8.0,
-        -2.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Ghanaian",
-            "m": "Ghanaian"
-        },
-        "fra": {
-            "f": "Ghanéenne",
-            "m": "Ghanéen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية غانا",
-            "common": "غانا"
-        },
-        "bre": {
-            "official": "Republik Ghana",
-            "common": "Ghana"
-        },
-        "ces": {
-            "official": "Ghanská republika",
-            "common": "Ghana"
-        },
-        "cym": {
-            "official": "Republic of Ghana",
-            "common": "Ghana"
-        },
-        "deu": {
-            "official": "Republik Ghana",
-            "common": "Ghana"
-        },
-        "est": {
-            "official": "Ghana Vabariik",
-            "common": "Ghana"
-        },
-        "fin": {
-            "official": "Ghanan tasavalta",
-            "common": "Ghana"
-        },
-        "fra": {
-            "official": "République du Ghana",
-            "common": "Ghana"
-        },
-        "hrv": {
-            "official": "Republika Gana",
-            "common": "Gana"
-        },
-        "hun": {
-            "official": "Ghánai Köztársaság",
-            "common": "Ghána"
-        },
-        "ind": {
-            "official": "Republik Gana",
-            "common": "Gana"
-        },
-        "ita": {
-            "official": "Repubblica del Ghana",
-            "common": "Ghana"
-        },
-        "jpn": {
-            "official": "ガーナ共和国",
-            "common": "ガーナ"
-        },
-        "kor": {
-            "official": "가나 공화국",
-            "common": "가나"
-        },
-        "nld": {
-            "official": "Republiek Ghana",
-            "common": "Ghana"
-        },
-        "per": {
-            "official": "جمهوری غنا",
-            "common": "غنا"
-        },
-        "pol": {
-            "official": "Republika Ghany",
-            "common": "Ghana"
-        },
-        "por": {
-            "official": "República do Gana",
-            "common": "Gana"
-        },
-        "rus": {
-            "official": "Республика Гана",
-            "common": "Гана"
-        },
-        "slk": {
-            "official": "Ghanská republika",
-            "common": "Ghana"
-        },
-        "spa": {
-            "official": "República de Ghana",
-            "common": "Ghana"
-        },
-        "srp": {
-            "official": "Република Гана",
-            "common": "Гана"
-        },
-        "swe": {
-            "official": "Republiken Ghana",
-            "common": "Ghana"
-        },
-        "tur": {
-            "official": "Gana Cumhuriyeti",
-            "common": "Gana"
-        },
-        "urd": {
-            "official": "جمہوریہ گھانا",
-            "common": "گھانا"
-        },
-        "zho": {
-            "official": "加纳共和国",
-            "common": "加纳"
-        }
-    },
-    "gini": {
-        "2016": 43.5
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gh.png",
-        "svg": "https://flagcdn.com/gh.svg",
-        "alt": "The flag of Ghana is composed of three equal horizontal bands of red, gold and green, with a five-pointed black star centered in the gold band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gh.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gh.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            5.55,
-            -0.22
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Ghana"
+      }
     }
+  },
+  "currencies": {
+    "GHS": {
+      "symbol": "₵",
+      "name": "Ghanaian cedi"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    8.0,
+    -2.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Ghanaian",
+      "m": "Ghanaian"
+    },
+    "fra": {
+      "f": "Ghanéenne",
+      "m": "Ghanéen"
+    }
+  },
+  "gini": {
+    "2016": 43.5
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      5.55,
+      -0.22
+    ]
+  }
 }

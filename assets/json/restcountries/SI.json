@@ -1,217 +1,90 @@
 {
-    "tld": [
-        ".si"
+  "tld": [
+    ".si"
+  ],
+  "cca2": "SI",
+  "ccn3": "705",
+  "cca3": "SVN",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+3",
+    "suffixes": [
+      "86"
+    ]
+  },
+  "capital": [
+    "Ljubljana"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "landlocked": false,
+  "borders": [
+    "AUT",
+    "HRV",
+    "ITA",
+    "HUN"
+  ],
+  "area": 20273.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
+  },
+  "population": 2130638,
+  "car": {
+    "signs": [
+      "SLO"
     ],
-    "cca2": "SI",
-    "ccn3": "705",
-    "cca3": "SVN",
-    "cioc": "SLO",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+3",
-        "suffixes": [
-            "86"
-        ]
-    },
-    "capital": [
-        "Ljubljana"
-    ],
-    "altSpellings": [
-        "SI",
-        "Republic of Slovenia",
-        "Republika Slovenija"
-    ],
-    "region": "Europe",
-    "subregion": "Central Europe",
-    "landlocked": false,
-    "borders": [
-        "AUT",
-        "HRV",
-        "ITA",
-        "HUN"
-    ],
-    "area": 20273.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
-    },
-    "population": 2130638,
-    "fifa": "SVN",
-    "car": {
-        "signs": [
-            "SLO"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇸🇮",
-    "name": {
-        "common": "Slovenia",
-        "official": "Republic of Slovenia",
-        "nativeName": {
-            "slv": {
-                "official": "Republika Slovenija",
-                "common": "Slovenija"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "slv": "Slovene"
-    },
-    "latlng": [
-        46.11666666,
-        14.81666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Slovene",
-            "m": "Slovene"
-        },
-        "fra": {
-            "f": "Slovène",
-            "m": "Slovène"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية سلوفينيا",
-            "common": "سلوفينيا"
-        },
-        "bre": {
-            "official": "Republik Slovenia",
-            "common": "Slovenia"
-        },
-        "ces": {
-            "official": "Slovinská republika",
-            "common": "Slovinsko"
-        },
-        "cym": {
-            "official": "Republic of Slovenia",
-            "common": "Slovenia"
-        },
-        "deu": {
-            "official": "Republik Slowenien",
-            "common": "Slowenien"
-        },
-        "est": {
-            "official": "Sloveenia Vabariik",
-            "common": "Sloveenia"
-        },
-        "fin": {
-            "official": "Slovenian tasavalta",
-            "common": "Slovenia"
-        },
-        "fra": {
-            "official": "République de Slovénie",
-            "common": "Slovénie"
-        },
-        "hrv": {
-            "official": "Republika Slovenija",
-            "common": "Slovenija"
-        },
-        "hun": {
-            "official": "Szlovén Köztársaság",
-            "common": "Szlovénia"
-        },
-        "ind": {
-            "official": "Republik Slowenia",
-            "common": "Slowenia"
-        },
-        "ita": {
-            "official": "Repubblica di Slovenia",
-            "common": "Slovenia"
-        },
-        "jpn": {
-            "official": "スロベニア共和国",
-            "common": "スロベニア"
-        },
-        "kor": {
-            "official": "슬로베니아 공화국",
-            "common": "슬로베니아"
-        },
-        "nld": {
-            "official": "Republiek Slovenië",
-            "common": "Slovenië"
-        },
-        "per": {
-            "official": "جمهوری اسلوونی",
-            "common": "اسلوونی"
-        },
-        "pol": {
-            "official": "Republika Słowenii",
-            "common": "Słowenia"
-        },
-        "por": {
-            "official": "República da Eslovénia",
-            "common": "Eslovénia"
-        },
-        "rus": {
-            "official": "Республика Словения",
-            "common": "Словения"
-        },
-        "slk": {
-            "official": "Slovinská republika",
-            "common": "Slovinsko"
-        },
-        "spa": {
-            "official": "República de Eslovenia",
-            "common": "Eslovenia"
-        },
-        "srp": {
-            "official": "Република Словенија",
-            "common": "Словенија"
-        },
-        "swe": {
-            "official": "Republiken Slovenien",
-            "common": "Slovenien"
-        },
-        "tur": {
-            "official": "Slovenya Cumhuriyeti",
-            "common": "Slovenya"
-        },
-        "urd": {
-            "official": "جمہوریہ سلووینیا",
-            "common": "سلووینیا"
-        },
-        "zho": {
-            "official": "斯洛文尼亚共和国",
-            "common": "斯洛文尼亚"
-        }
-    },
-    "gini": {
-        "2018": 24.6
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/si.png",
-        "svg": "https://flagcdn.com/si.svg",
-        "alt": "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/si.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/si.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            46.05,
-            14.52
-        ]
-    },
-    "postalCode": {
-        "format": "SI- ####",
-        "regex": "^(?:SI)*(\\d{4})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇸🇮",
+  "name": {
+    "common": "Slovenia",
+    "official": "Republic of Slovenia",
+    "nativeName": {
+      "slv": {
+        "official": "Republika Slovenija",
+        "common": "Slovenija"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "slv": "Slovene"
+  },
+  "latlng": [
+    46.11666666,
+    14.81666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Slovene",
+      "m": "Slovene"
+    },
+    "fra": {
+      "f": "Slovène",
+      "m": "Slovène"
+    }
+  },
+  "gini": {
+    "2018": 24.6
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      46.05,
+      14.52
+    ]
+  }
 }

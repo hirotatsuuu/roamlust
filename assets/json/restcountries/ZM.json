@@ -1,220 +1,94 @@
 {
-    "tld": [
-        ".zm"
+  "tld": [
+    ".zm"
+  ],
+  "cca2": "ZM",
+  "ccn3": "894",
+  "cca3": "ZMB",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "60"
+    ]
+  },
+  "capital": [
+    "Lusaka"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "landlocked": true,
+  "borders": [
+    "AGO",
+    "BWA",
+    "COD",
+    "MWI",
+    "MOZ",
+    "NAM",
+    "TZA",
+    "ZWE"
+  ],
+  "area": 752612.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/mweBcqvW8TppZW6q9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/195271"
+  },
+  "population": 19693423,
+  "car": {
+    "signs": [
+      "RNR"
     ],
-    "cca2": "ZM",
-    "ccn3": "894",
-    "cca3": "ZMB",
-    "cioc": "ZAM",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "60"
-        ]
-    },
-    "capital": [
-        "Lusaka"
-    ],
-    "altSpellings": [
-        "ZM",
-        "Republic of Zambia"
-    ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "landlocked": true,
-    "borders": [
-        "AGO",
-        "BWA",
-        "COD",
-        "MWI",
-        "MOZ",
-        "NAM",
-        "TZA",
-        "ZWE"
-    ],
-    "area": 752612.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/mweBcqvW8TppZW6q9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/195271"
-    },
-    "population": 19693423,
-    "fifa": "ZAM",
-    "car": {
-        "signs": [
-            "RNR"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇿🇲",
-    "name": {
-        "common": "Zambia",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+02:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇿🇲",
+  "name": {
+    "common": "Zambia",
+    "official": "Republic of Zambia",
+    "nativeName": {
+      "eng": {
         "official": "Republic of Zambia",
-        "nativeName": {
-            "eng": {
-                "official": "Republic of Zambia",
-                "common": "Zambia"
-            }
-        }
-    },
-    "currencies": {
-        "ZMW": {
-            "symbol": "ZK",
-            "name": "Zambian kwacha"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        -15.0,
-        30.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Zambian",
-            "m": "Zambian"
-        },
-        "fra": {
-            "f": "Zambienne",
-            "m": "Zambien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية زامبيا",
-            "common": "زامبيا"
-        },
-        "bre": {
-            "official": "Republik Zambia",
-            "common": "Zambia"
-        },
-        "ces": {
-            "official": "Zambijská republika",
-            "common": "Zambie"
-        },
-        "cym": {
-            "official": "Republic of Zambia",
-            "common": "Zambia"
-        },
-        "deu": {
-            "official": "Republik Sambia",
-            "common": "Sambia"
-        },
-        "est": {
-            "official": "Sambia Vabariik",
-            "common": "Sambia"
-        },
-        "fin": {
-            "official": "Sambian tasavalta",
-            "common": "Sambia"
-        },
-        "fra": {
-            "official": "République de Zambie",
-            "common": "Zambie"
-        },
-        "hrv": {
-            "official": "Republika Zambija",
-            "common": "Zambija"
-        },
-        "hun": {
-            "official": "Zambiai Köztársaság",
-            "common": "Zambia"
-        },
-        "ind": {
-            "official": "Republik Zambia",
-            "common": "Zambia"
-        },
-        "ita": {
-            "official": "Repubblica di Zambia",
-            "common": "Zambia"
-        },
-        "jpn": {
-            "official": "ザンビア共和国",
-            "common": "ザンビア"
-        },
-        "kor": {
-            "official": "잠비아 공화국",
-            "common": "잠비아"
-        },
-        "nld": {
-            "official": "Republiek Zambia",
-            "common": "Zambia"
-        },
-        "per": {
-            "official": "جمهوری زامبیا",
-            "common": "زامبیا"
-        },
-        "pol": {
-            "official": "Republika Zambii",
-            "common": "Zambia"
-        },
-        "por": {
-            "official": "República da Zâmbia",
-            "common": "Zâmbia"
-        },
-        "rus": {
-            "official": "Республика Замбия",
-            "common": "Замбия"
-        },
-        "slk": {
-            "official": "Zambijská republika",
-            "common": "Zambia"
-        },
-        "spa": {
-            "official": "República de Zambia",
-            "common": "Zambia"
-        },
-        "srp": {
-            "official": "Република Замбија",
-            "common": "Замбија"
-        },
-        "swe": {
-            "official": "Republiken Zambia",
-            "common": "Zambia"
-        },
-        "tur": {
-            "official": "Zambiya Cumhuriyeti",
-            "common": "Zambiya"
-        },
-        "urd": {
-            "official": "جمہوریہ زیمبیا",
-            "common": "زیمبیا"
-        },
-        "zho": {
-            "official": "赞比亚共和国",
-            "common": "赞比亚"
-        }
-    },
-    "gini": {
-        "2015": 57.1
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/zm.png",
-        "svg": "https://flagcdn.com/zm.svg",
-        "alt": "The flag of Zambia has a green field, on the fly side of which is a soaring orange African fish eagle above a rectangular area divided into three equal vertical bands of red, black and orange."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/zm.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/zm.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -15.42,
-            28.28
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+        "common": "Zambia"
+      }
     }
+  },
+  "currencies": {
+    "ZMW": {
+      "symbol": "ZK",
+      "name": "Zambian kwacha"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    -15.0,
+    30.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Zambian",
+      "m": "Zambian"
+    },
+    "fra": {
+      "f": "Zambienne",
+      "m": "Zambien"
+    }
+  },
+  "gini": {
+    "2015": 57.1
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -15.42,
+      28.28
+    ]
+  }
 }

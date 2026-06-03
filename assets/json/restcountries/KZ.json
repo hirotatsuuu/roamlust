@@ -1,231 +1,99 @@
 {
-    "tld": [
-        ".kz",
-        ".қаз"
+  "tld": [
+    ".kz",
+    ".қаз"
+  ],
+  "cca2": "KZ",
+  "ccn3": "398",
+  "cca3": "KAZ",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+7",
+    "suffixes": [
+      "6",
+      "7"
+    ]
+  },
+  "capital": [
+    "Astana"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "landlocked": true,
+  "borders": [
+    "CHN",
+    "KGZ",
+    "RUS",
+    "TKM",
+    "UZB"
+  ],
+  "area": 2724900.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/8VohJGu7ShuzZYyeA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/214665"
+  },
+  "population": 20426568,
+  "car": {
+    "signs": [
+      "KZ"
     ],
-    "cca2": "KZ",
-    "ccn3": "398",
-    "cca3": "KAZ",
-    "cioc": "KAZ",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+7",
-        "suffixes": [
-            "6",
-            "7"
-        ]
-    },
-    "capital": [
-        "Astana"
-    ],
-    "altSpellings": [
-        "KZ",
-        "Qazaqstan",
-        "Казахстан",
-        "Republic of Kazakhstan",
-        "Қазақстан Республикасы",
-        "Qazaqstan Respublïkası",
-        "Республика Казахстан",
-        "Respublika Kazakhstan"
-    ],
-    "region": "Asia",
-    "subregion": "Central Asia",
-    "landlocked": true,
-    "borders": [
-        "CHN",
-        "KGZ",
-        "RUS",
-        "TKM",
-        "UZB"
-    ],
-    "area": 2724900.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/8VohJGu7ShuzZYyeA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/214665"
-    },
-    "population": 20426568,
-    "fifa": "KAZ",
-    "car": {
-        "signs": [
-            "KZ"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+05:00",
-        "UTC+06:00"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇰🇿",
-    "name": {
-        "common": "Kazakhstan",
-        "official": "Republic of Kazakhstan",
-        "nativeName": {
-            "kaz": {
-                "official": "Қазақстан Республикасы",
-                "common": "Қазақстан"
-            },
-            "rus": {
-                "official": "Республика Казахстан",
-                "common": "Казахстан"
-            }
-        }
-    },
-    "currencies": {
-        "KZT": {
-            "symbol": "₸",
-            "name": "Kazakhstani tenge"
-        }
-    },
-    "languages": {
-        "kaz": "Kazakh",
-        "rus": "Russian"
-    },
-    "latlng": [
-        48.0196,
-        66.9237
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Kazakhstani",
-            "m": "Kazakhstani"
-        },
-        "fra": {
-            "f": "Kazakhstanaise",
-            "m": "Kazakhstanais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية كازاخستان",
-            "common": "كازاخستان"
-        },
-        "bre": {
-            "official": "Republik Kazakstan",
-            "common": "Kazakstan"
-        },
-        "ces": {
-            "official": "Republika Kazachstán",
-            "common": "Kazachstán"
-        },
-        "cym": {
-            "official": "Republic of Kazakhstan",
-            "common": "Kazakhstan"
-        },
-        "deu": {
-            "official": "Republik Kasachstan",
-            "common": "Kasachstan"
-        },
-        "est": {
-            "official": "Kasahstani Vabariik",
-            "common": "Kasahstan"
-        },
-        "fin": {
-            "official": "Kazakstanin tasavalta",
-            "common": "Kazakstan"
-        },
-        "fra": {
-            "official": "République du Kazakhstan",
-            "common": "Kazakhstan"
-        },
-        "hrv": {
-            "official": "Republika Kazahstan",
-            "common": "Kazahstan"
-        },
-        "hun": {
-            "official": "Kazah Köztársaság",
-            "common": "Kazahsztán"
-        },
-        "ind": {
-            "official": "Republik Kazakstan",
-            "common": "Kazakstan"
-        },
-        "ita": {
-            "official": "Repubblica del Kazakhstan",
-            "common": "Kazakistan"
-        },
-        "jpn": {
-            "official": "カザフスタン共和国",
-            "common": "カザフスタン"
-        },
-        "kor": {
-            "official": "카자흐스탄 공화국",
-            "common": "카자흐스탄"
-        },
-        "nld": {
-            "official": "Republiek Kazachstan",
-            "common": "Kazachstan"
-        },
-        "per": {
-            "official": "جمهوری قزاقستان",
-            "common": "قزاقستان"
-        },
-        "pol": {
-            "official": "Republika Kazachstanu",
-            "common": "Kazachstan"
-        },
-        "por": {
-            "official": "República do Cazaquistão",
-            "common": "Cazaquistão"
-        },
-        "rus": {
-            "official": "Республика Казахстан",
-            "common": "Казахстан"
-        },
-        "slk": {
-            "official": "Kazašská republika",
-            "common": "Kazachstan"
-        },
-        "spa": {
-            "official": "República de Kazajstán",
-            "common": "Kazajistán"
-        },
-        "srp": {
-            "official": "Република Казахстан",
-            "common": "Казахстан"
-        },
-        "swe": {
-            "official": "Republiken Kazakstan",
-            "common": "Kazakstan"
-        },
-        "tur": {
-            "official": "Kazakistan Cumhuriyeti",
-            "common": "Kazakistan"
-        },
-        "urd": {
-            "official": "جمہوریہ قازقستان",
-            "common": "قازقستان"
-        },
-        "zho": {
-            "official": "哈萨克斯坦共和国",
-            "common": "哈萨克斯坦"
-        }
-    },
-    "gini": {
-        "2018": 27.8
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/kz.png",
-        "svg": "https://flagcdn.com/kz.svg",
-        "alt": "The flag of Kazakhstan has a turquoise field, at the center of which is a gold sun with thirty-two rays above a soaring golden steppe eagle. A thin vertical band displays a national ornamental pattern — koshkar-muiz — in gold near the hoist end."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/kz.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/kz.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            51.16,
-            71.45
-        ]
-    },
-    "postalCode": {
-        "format": "######",
-        "regex": "^(\\d{6})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+05:00",
+    "UTC+06:00"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇰🇿",
+  "name": {
+    "common": "Kazakhstan",
+    "official": "Republic of Kazakhstan",
+    "nativeName": {
+      "kaz": {
+        "official": "Қазақстан Республикасы",
+        "common": "Қазақстан"
+      },
+      "rus": {
+        "official": "Республика Казахстан",
+        "common": "Казахстан"
+      }
     }
+  },
+  "currencies": {
+    "KZT": {
+      "symbol": "₸",
+      "name": "Kazakhstani tenge"
+    }
+  },
+  "languages": {
+    "kaz": "Kazakh",
+    "rus": "Russian"
+  },
+  "latlng": [
+    48.0196,
+    66.9237
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Kazakhstani",
+      "m": "Kazakhstani"
+    },
+    "fra": {
+      "f": "Kazakhstanaise",
+      "m": "Kazakhstanais"
+    }
+  },
+  "gini": {
+    "2018": 27.8
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      51.16,
+      71.45
+    ]
+  }
 }

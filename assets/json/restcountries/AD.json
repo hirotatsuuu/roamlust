@@ -1,212 +1,85 @@
 {
-    "tld": [
-        ".ad"
+  "tld": [
+    ".ad"
+  ],
+  "cca2": "AD",
+  "ccn3": "020",
+  "cca3": "AND",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+3",
+    "suffixes": [
+      "76"
+    ]
+  },
+  "capital": [
+    "Andorra la Vella"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "landlocked": true,
+  "borders": [
+    "FRA",
+    "ESP"
+  ],
+  "area": 468.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/9407"
+  },
+  "population": 88406,
+  "car": {
+    "signs": [
+      "AND"
     ],
-    "cca2": "AD",
-    "ccn3": "020",
-    "cca3": "AND",
-    "cioc": "AND",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+3",
-        "suffixes": [
-            "76"
-        ]
-    },
-    "capital": [
-        "Andorra la Vella"
-    ],
-    "altSpellings": [
-        "AD",
-        "Principality of Andorra",
-        "Principat d'Andorra"
-    ],
-    "region": "Europe",
-    "subregion": "Southern Europe",
-    "landlocked": true,
-    "borders": [
-        "FRA",
-        "ESP"
-    ],
-    "area": 468.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/9407"
-    },
-    "population": 88406,
-    "fifa": "AND",
-    "car": {
-        "signs": [
-            "AND"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇦🇩",
-    "name": {
-        "common": "Andorra",
-        "official": "Principality of Andorra",
-        "nativeName": {
-            "cat": {
-                "official": "Principat d'Andorra",
-                "common": "Andorra"
-            }
-        }
-    },
-    "currencies": {
-        "EUR": {
-            "symbol": "€",
-            "name": "euro"
-        }
-    },
-    "languages": {
-        "cat": "Catalan"
-    },
-    "latlng": [
-        42.5,
-        1.5
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Andorran",
-            "m": "Andorran"
-        },
-        "fra": {
-            "f": "Andorrane",
-            "m": "Andorran"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "إمارة أندورا",
-            "common": "أندورا"
-        },
-        "bre": {
-            "official": "Priñselezh Andorra",
-            "common": "Andorra"
-        },
-        "ces": {
-            "official": "Andorrské knížectví",
-            "common": "Andorra"
-        },
-        "cym": {
-            "official": "Tywysogaeth Andorra",
-            "common": "Andorra"
-        },
-        "deu": {
-            "official": "Fürstentum Andorra",
-            "common": "Andorra"
-        },
-        "est": {
-            "official": "Andorra Vürstiriik",
-            "common": "Andorra"
-        },
-        "fin": {
-            "official": "Andorran ruhtinaskunta",
-            "common": "Andorra"
-        },
-        "fra": {
-            "official": "Principauté d'Andorre",
-            "common": "Andorre"
-        },
-        "hrv": {
-            "official": "Kneževina Andora",
-            "common": "Andora"
-        },
-        "hun": {
-            "official": "Andorra",
-            "common": "Andorra"
-        },
-        "ind": {
-            "official": "Kepangeranan Andora",
-            "common": "Andora"
-        },
-        "ita": {
-            "official": "Principato di Andorra",
-            "common": "Andorra"
-        },
-        "jpn": {
-            "official": "アンドラ公国",
-            "common": "アンドラ"
-        },
-        "kor": {
-            "official": "안도라 공국",
-            "common": "안도라"
-        },
-        "nld": {
-            "official": "Prinsdom Andorra",
-            "common": "Andorra"
-        },
-        "per": {
-            "official": "شاهزاده‌نشین آندورا",
-            "common": "آندورا"
-        },
-        "pol": {
-            "official": "Księstwo Andory",
-            "common": "Andora"
-        },
-        "por": {
-            "official": "Principado de Andorra",
-            "common": "Andorra"
-        },
-        "rus": {
-            "official": "Княжество Андорра",
-            "common": "Андорра"
-        },
-        "slk": {
-            "official": "Andorrské kniežatstvo",
-            "common": "Andorra"
-        },
-        "spa": {
-            "official": "Principado de Andorra",
-            "common": "Andorra"
-        },
-        "srp": {
-            "official": "Кнежевина Андора",
-            "common": "Андора"
-        },
-        "swe": {
-            "official": "Furstendömet Andorra",
-            "common": "Andorra"
-        },
-        "tur": {
-            "official": "Andorra Prensliği",
-            "common": "Andorra"
-        },
-        "urd": {
-            "official": "اماراتِ انڈورا",
-            "common": "انڈورا"
-        },
-        "zho": {
-            "official": "安道尔公国",
-            "common": "安道尔"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ad.png",
-        "svg": "https://flagcdn.com/ad.svg",
-        "alt": "The flag of Andorra features three equal vertical bands of blue, yellow and red, with the coat of arms of Andorra centered in the yellow band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ad.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ad.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            42.5,
-            1.52
-        ]
-    },
-    "postalCode": {
-        "format": "AD###",
-        "regex": "^(?:AD)*(\\d{3})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇦🇩",
+  "name": {
+    "common": "Andorra",
+    "official": "Principality of Andorra",
+    "nativeName": {
+      "cat": {
+        "official": "Principat d'Andorra",
+        "common": "Andorra"
+      }
     }
+  },
+  "currencies": {
+    "EUR": {
+      "symbol": "€",
+      "name": "euro"
+    }
+  },
+  "languages": {
+    "cat": "Catalan"
+  },
+  "latlng": [
+    42.5,
+    1.5
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Andorran",
+      "m": "Andorran"
+    },
+    "fra": {
+      "f": "Andorrane",
+      "m": "Andorran"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      42.5,
+      1.52
+    ]
+  }
 }

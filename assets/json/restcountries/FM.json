@@ -1,211 +1,85 @@
 {
-    "tld": [
-        ".fm"
+  "tld": [
+    ".fm"
+  ],
+  "cca2": "FM",
+  "ccn3": "583",
+  "cca3": "FSM",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+6",
+    "suffixes": [
+      "91"
+    ]
+  },
+  "capital": [
+    "Palikir"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "landlocked": false,
+  "area": 702.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/571802"
+  },
+  "population": 105564,
+  "car": {
+    "signs": [
+      "FSM"
     ],
-    "cca2": "FM",
-    "ccn3": "583",
-    "cca3": "FSM",
-    "cioc": "FSM",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+6",
-        "suffixes": [
-            "91"
-        ]
-    },
-    "capital": [
-        "Palikir"
-    ],
-    "altSpellings": [
-        "FM",
-        "Federated States of Micronesia",
-        "Micronesia, Federated States of"
-    ],
-    "region": "Oceania",
-    "subregion": "Micronesia",
-    "landlocked": false,
-    "area": 702.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/571802"
-    },
-    "population": 105564,
-    "car": {
-        "signs": [
-            "FSM"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+10:00",
-        "UTC+11:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇫🇲",
-    "name": {
-        "common": "Micronesia",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+10:00",
+    "UTC+11:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇫🇲",
+  "name": {
+    "common": "Micronesia",
+    "official": "Federated States of Micronesia",
+    "nativeName": {
+      "eng": {
         "official": "Federated States of Micronesia",
-        "nativeName": {
-            "eng": {
-                "official": "Federated States of Micronesia",
-                "common": "Micronesia"
-            }
-        }
-    },
-    "currencies": {
-        "USD": {
-            "symbol": "$",
-            "name": "United States dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        6.91666666,
-        158.25
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Micronesian",
-            "m": "Micronesian"
-        },
-        "fra": {
-            "f": "Micronésienne",
-            "m": "Micronésien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "ولايات ميكرونيسيا المتحدة",
-            "common": "ميكرونيسيا"
-        },
-        "bre": {
-            "official": "Stadoù Kevreet Mikronezia",
-            "common": "Mikronezia"
-        },
-        "ces": {
-            "official": "Federativní státy Mikronésie",
-            "common": "Mikronésie"
-        },
-        "cym": {
-            "official": "Federated States of Micronesia",
-            "common": "Micronesia"
-        },
-        "deu": {
-            "official": "Föderierte Staaten von Mikronesien",
-            "common": "Mikronesien"
-        },
-        "est": {
-            "official": "Mikroneesia Liiduriigid",
-            "common": "Mikroneesia"
-        },
-        "fin": {
-            "official": "Mikronesian liittovaltio",
-            "common": "Mikronesia"
-        },
-        "fra": {
-            "official": "États fédérés de Micronésie",
-            "common": "Micronésie"
-        },
-        "hrv": {
-            "official": "Savezne Države Mikronezije",
-            "common": "Mikronezija"
-        },
-        "hun": {
-            "official": "Mikronéziai Szövetségi Államok",
-            "common": "Mikronéziai Szövetségi Államok"
-        },
-        "ind": {
-            "official": "Negara Federasi Mikronesia",
-            "common": "Mikronesia"
-        },
-        "ita": {
-            "official": "Stati federati di Micronesia",
-            "common": "Micronesia"
-        },
-        "jpn": {
-            "official": "ミクロネシア連邦",
-            "common": "ミクロネシア連邦"
-        },
-        "kor": {
-            "official": "미크로네시아 연방",
-            "common": "미크로네시아"
-        },
-        "nld": {
-            "official": "Federale Staten van Micronesia",
-            "common": "Micronesië"
-        },
-        "per": {
-            "official": "ایالات فدرال میکرونزی",
-            "common": "میکرونزی"
-        },
-        "pol": {
-            "official": "Sfederowane Stany Mikronezji",
-            "common": "Mikronezja"
-        },
-        "por": {
-            "official": "Estados Federados da Micronésia",
-            "common": "Micronésia"
-        },
-        "rus": {
-            "official": "Федеративные Штаты Микронезии",
-            "common": "Федеративные Штаты Микронезии"
-        },
-        "slk": {
-            "official": "Mikronézske federatívne štáty",
-            "common": "Mikronézia"
-        },
-        "spa": {
-            "official": "Estados Federados de Micronesia",
-            "common": "Micronesia"
-        },
-        "srp": {
-            "official": "Савез Држава Микронезије",
-            "common": "Микронезија"
-        },
-        "swe": {
-            "official": "Mikronesiska federationen",
-            "common": "Mikronesiska federationen"
-        },
-        "tur": {
-            "official": "Mikronezya Federal Devletleri",
-            "common": "Mikronezya"
-        },
-        "urd": {
-            "official": "ریاستہائے وفاقیہ مائکرونیشیا",
-            "common": "مائکرونیشیا"
-        },
-        "zho": {
-            "official": "密克罗尼西亚联邦",
-            "common": "密克罗尼西亚"
-        }
-    },
-    "gini": {
-        "2013": 40.1
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/fm.png",
-        "svg": "https://flagcdn.com/fm.svg",
-        "alt": "The flag of Micronesia has a light blue field, at the center of which are four five-pointed white stars arranged in the shape of a diamond."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/fm.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/fm.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            6.92,
-            158.15
-        ]
-    },
-    "postalCode": {
-        "format": "#####",
-        "regex": "^(\\d{5})$"
+        "common": "Micronesia"
+      }
     }
+  },
+  "currencies": {
+    "USD": {
+      "symbol": "$",
+      "name": "United States dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    6.91666666,
+    158.25
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Micronesian",
+      "m": "Micronesian"
+    },
+    "fra": {
+      "f": "Micronésienne",
+      "m": "Micronésien"
+    }
+  },
+  "gini": {
+    "2013": 40.1
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      6.92,
+      158.15
+    ]
+  }
 }

@@ -1,217 +1,91 @@
 {
-    "tld": [
-        ".gu"
+  "tld": [
+    ".gu"
+  ],
+  "cca2": "GU",
+  "ccn3": "316",
+  "cca3": "GUM",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "671"
+    ]
+  },
+  "capital": [
+    "Hagåtña"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "landlocked": false,
+  "area": 549.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/Xfnq2i279b18cH3C9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/306001"
+  },
+  "population": 153836,
+  "car": {
+    "signs": [
+      "USA"
     ],
-    "cca2": "GU",
-    "ccn3": "316",
-    "cca3": "GUM",
-    "cioc": "GUM",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "671"
-        ]
-    },
-    "capital": [
-        "Hagåtña"
-    ],
-    "altSpellings": [
-        "GU",
-        "Guåhån"
-    ],
-    "region": "Oceania",
-    "subregion": "Micronesia",
-    "landlocked": false,
-    "area": 549.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/Xfnq2i279b18cH3C9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/306001"
-    },
-    "population": 153836,
-    "fifa": "GUM",
-    "car": {
-        "signs": [
-            "USA"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+10:00"
-    ],
-    "continents": [
-        "Oceania"
-    ],
-    "flag": "🇬🇺",
-    "name": {
-        "common": "Guam",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+10:00"
+  ],
+  "continents": [
+    "Oceania"
+  ],
+  "flag": "🇬🇺",
+  "name": {
+    "common": "Guam",
+    "official": "Guam",
+    "nativeName": {
+      "cha": {
+        "official": "Guåhån",
+        "common": "Guåhån"
+      },
+      "eng": {
         "official": "Guam",
-        "nativeName": {
-            "cha": {
-                "official": "Guåhån",
-                "common": "Guåhån"
-            },
-            "eng": {
-                "official": "Guam",
-                "common": "Guam"
-            },
-            "spa": {
-                "official": "Guam",
-                "common": "Guam"
-            }
-        }
-    },
-    "currencies": {
-        "USD": {
-            "symbol": "$",
-            "name": "United States dollar"
-        }
-    },
-    "languages": {
-        "cha": "Chamorro",
-        "eng": "English",
-        "spa": "Spanish"
-    },
-    "latlng": [
-        13.46666666,
-        144.78333333
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Guamanian",
-            "m": "Guamanian"
-        },
-        "fra": {
-            "f": "",
-            "m": ""
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "غوام",
-            "common": "غوام"
-        },
-        "bre": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "ces": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "cym": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "deu": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "est": {
-            "official": "Guami ala",
-            "common": "Guam"
-        },
-        "fin": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "fra": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "hrv": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "hun": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "ind": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "ita": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "jpn": {
-            "official": "グアム",
-            "common": "グアム"
-        },
-        "kor": {
-            "official": "괌",
-            "common": "괌"
-        },
-        "nld": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "per": {
-            "official": "گوآم",
-            "common": "گوآم"
-        },
-        "pol": {
-            "official": "Terytorium Guamu",
-            "common": "Guam"
-        },
-        "por": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "rus": {
-            "official": "Гуам",
-            "common": "Гуам"
-        },
-        "slk": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "spa": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "srp": {
-            "official": "Гуам",
-            "common": "Гуам"
-        },
-        "swe": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "tur": {
-            "official": "Guam Toprağı",
-            "common": "Guam"
-        },
-        "urd": {
-            "official": "گوام",
-            "common": "گوام"
-        },
-        "zho": {
-            "official": "关岛",
-            "common": "关岛"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gu.png",
-        "svg": "https://flagcdn.com/gu.svg",
-        "alt": "The flag of Guam is dark blue with a narrow red border on all four sides. Centered is a red-bordered, pointed, vertical ellipse containing a beach scene, a proa (outrigger canoe with sail), and a palm tree. The country's name in red is centered in the ellipse."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gu.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gu.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            13.48,
-            144.75
-        ]
-    },
-    "postalCode": {
-        "format": "969##",
-        "regex": "^(969\\d{2})$"
+        "common": "Guam"
+      },
+      "spa": {
+        "official": "Guam",
+        "common": "Guam"
+      }
     }
+  },
+  "currencies": {
+    "USD": {
+      "symbol": "$",
+      "name": "United States dollar"
+    }
+  },
+  "languages": {
+    "cha": "Chamorro",
+    "eng": "English",
+    "spa": "Spanish"
+  },
+  "latlng": [
+    13.46666666,
+    144.78333333
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Guamanian",
+      "m": "Guamanian"
+    },
+    "fra": {
+      "f": "",
+      "m": ""
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      13.48,
+      144.75
+    ]
+  }
 }

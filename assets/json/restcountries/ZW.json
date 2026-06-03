@@ -1,286 +1,160 @@
 {
-    "tld": [
-        ".zw"
+  "tld": [
+    ".zw"
+  ],
+  "cca2": "ZW",
+  "ccn3": "716",
+  "cca3": "ZWE",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "63"
+    ]
+  },
+  "capital": [
+    "Harare"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "landlocked": true,
+  "borders": [
+    "BWA",
+    "MOZ",
+    "ZAF",
+    "ZMB"
+  ],
+  "area": 390757.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/M26BqdwQctqxXS65A",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/195272"
+  },
+  "population": 17073087,
+  "car": {
+    "signs": [
+      "ZW"
     ],
-    "cca2": "ZW",
-    "ccn3": "716",
-    "cca3": "ZWE",
-    "cioc": "ZIM",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "63"
-        ]
-    },
-    "capital": [
-        "Harare"
-    ],
-    "altSpellings": [
-        "ZW",
-        "Republic of Zimbabwe"
-    ],
-    "region": "Africa",
-    "subregion": "Southern Africa",
-    "landlocked": true,
-    "borders": [
-        "BWA",
-        "MOZ",
-        "ZAF",
-        "ZMB"
-    ],
-    "area": 390757.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/M26BqdwQctqxXS65A",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/195272"
-    },
-    "population": 17073087,
-    "fifa": "ZIM",
-    "car": {
-        "signs": [
-            "ZW"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇿🇼",
-    "name": {
-        "common": "Zimbabwe",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC+02:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇿🇼",
+  "name": {
+    "common": "Zimbabwe",
+    "official": "Republic of Zimbabwe",
+    "nativeName": {
+      "bwg": {
         "official": "Republic of Zimbabwe",
-        "nativeName": {
-            "bwg": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "eng": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "kck": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "khi": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "ndc": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "nde": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "nya": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "sna": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "sot": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "toi": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "tsn": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "tso": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "ven": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "xho": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            },
-            "zib": {
-                "official": "Republic of Zimbabwe",
-                "common": "Zimbabwe"
-            }
-        }
-    },
-    "currencies": {
-        "ZWL": {
-            "symbol": "$",
-            "name": "Zimbabwean dollar"
-        }
-    },
-    "languages": {
-        "bwg": "Chibarwe",
-        "eng": "English",
-        "kck": "Kalanga",
-        "khi": "Khoisan",
-        "ndc": "Ndau",
-        "nde": "Northern Ndebele",
-        "nya": "Chewa",
-        "sna": "Shona",
-        "sot": "Sotho",
-        "toi": "Tonga",
-        "tsn": "Tswana",
-        "tso": "Tsonga",
-        "ven": "Venda",
-        "xho": "Xhosa",
-        "zib": "Zimbabwean Sign Language"
-    },
-    "latlng": [
-        -20.0,
-        30.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Zimbabwean",
-            "m": "Zimbabwean"
-        },
-        "fra": {
-            "f": "Zimbabwéenne",
-            "m": "Zimbabwéen"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية زيمبابوي",
-            "common": "زيمبابوي"
-        },
-        "bre": {
-            "official": "Republik Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "ces": {
-            "official": "Zimbabwská republika",
-            "common": "Zimbabwe"
-        },
-        "cym": {
-            "official": "Republic of Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "deu": {
-            "official": "Republik Simbabwe",
-            "common": "Simbabwe"
-        },
-        "est": {
-            "official": "Zimbabwe Vabariik",
-            "common": "Zimbabwe"
-        },
-        "fin": {
-            "official": "Zimbabwen tasavalta",
-            "common": "Zimbabwe"
-        },
-        "fra": {
-            "official": "République du Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "hrv": {
-            "official": "Republika Zimbabve",
-            "common": "Zimbabve"
-        },
-        "hun": {
-            "official": "Zimbabwei Köztársaság",
-            "common": "Zimbabwe"
-        },
-        "ind": {
-            "official": "Republik Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "ita": {
-            "official": "Repubblica dello Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "jpn": {
-            "official": "ジンバブエ共和国",
-            "common": "ジンバブエ"
-        },
-        "kor": {
-            "official": "짐바브웨 공화국",
-            "common": "짐바브웨"
-        },
-        "nld": {
-            "official": "Republiek Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "per": {
-            "official": "جمهوری زیمبابوه",
-            "common": "زیمبابوه"
-        },
-        "pol": {
-            "official": "Republika Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "por": {
-            "official": "República do Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "rus": {
-            "official": "Республика Зимбабве",
-            "common": "Зимбабве"
-        },
-        "slk": {
-            "official": "Zimbabwianska republika",
-            "common": "Zimbabwe"
-        },
-        "spa": {
-            "official": "República de Zimbabue",
-            "common": "Zimbabue"
-        },
-        "srp": {
-            "official": "Република Зимбабве",
-            "common": "Зимбабве"
-        },
-        "swe": {
-            "official": "Republiken Zimbabwe",
-            "common": "Zimbabwe"
-        },
-        "tur": {
-            "official": "Zimbabve Cumhuriyeti",
-            "common": "Zimbabve"
-        },
-        "urd": {
-            "official": "جمہوریہ زمبابوے",
-            "common": "زمبابوے"
-        },
-        "zho": {
-            "official": "津巴布韦共和国",
-            "common": "津巴布韦"
-        }
-    },
-    "gini": {
-        "2019": 50.3
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/zw.png",
-        "svg": "https://flagcdn.com/zw.svg",
-        "alt": "The flag of Zimbabwe is composed of seven equal horizontal bands of green, yellow, red, black, red, yellow and green, with a white isosceles triangle superimposed on the hoist side of the field. This triangle is edged in black, spans about one-fourth the width of the field and has its base on the hoist end. A yellow Zimbabwe Bird superimposed on a five-pointed red star is centered in the triangle."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/zw.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/zw.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -17.82,
-            31.03
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Zimbabwe"
+      },
+      "eng": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "kck": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "khi": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "ndc": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "nde": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "nya": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "sna": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "sot": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "toi": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "tsn": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "tso": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "ven": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "xho": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      },
+      "zib": {
+        "official": "Republic of Zimbabwe",
+        "common": "Zimbabwe"
+      }
     }
+  },
+  "currencies": {
+    "ZWL": {
+      "symbol": "$",
+      "name": "Zimbabwean dollar"
+    }
+  },
+  "languages": {
+    "bwg": "Chibarwe",
+    "eng": "English",
+    "kck": "Kalanga",
+    "khi": "Khoisan",
+    "ndc": "Ndau",
+    "nde": "Northern Ndebele",
+    "nya": "Chewa",
+    "sna": "Shona",
+    "sot": "Sotho",
+    "toi": "Tonga",
+    "tsn": "Tswana",
+    "tso": "Tsonga",
+    "ven": "Venda",
+    "xho": "Xhosa",
+    "zib": "Zimbabwean Sign Language"
+  },
+  "latlng": [
+    -20.0,
+    30.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Zimbabwean",
+      "m": "Zimbabwean"
+    },
+    "fra": {
+      "f": "Zimbabwéenne",
+      "m": "Zimbabwéen"
+    }
+  },
+  "gini": {
+    "2019": 50.3
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -17.82,
+      31.03
+    ]
+  }
 }

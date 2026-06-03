@@ -1,206 +1,81 @@
 {
-    "tld": [
-        ".ag"
+  "tld": [
+    ".ag"
+  ],
+  "cca2": "AG",
+  "ccn3": "028",
+  "cca3": "ATG",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "268"
+    ]
+  },
+  "capital": [
+    "Saint John's"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 442.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/536900"
+  },
+  "population": 103603,
+  "car": {
+    "signs": [
+      "AG"
     ],
-    "cca2": "AG",
-    "ccn3": "028",
-    "cca3": "ATG",
-    "cioc": "ANT",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "268"
-        ]
-    },
-    "capital": [
-        "Saint John's"
-    ],
-    "altSpellings": [
-        "AG"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 442.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/536900"
-    },
-    "population": 103603,
-    "fifa": "ATG",
-    "car": {
-        "signs": [
-            "AG"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇦🇬",
-    "name": {
-        "common": "Antigua and Barbuda",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇦🇬",
+  "name": {
+    "common": "Antigua and Barbuda",
+    "official": "Antigua and Barbuda",
+    "nativeName": {
+      "eng": {
         "official": "Antigua and Barbuda",
-        "nativeName": {
-            "eng": {
-                "official": "Antigua and Barbuda",
-                "common": "Antigua and Barbuda"
-            }
-        }
-    },
-    "currencies": {
-        "XCD": {
-            "symbol": "$",
-            "name": "Eastern Caribbean dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        17.05,
-        -61.8
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Antiguan, Barbudan",
-            "m": "Antiguan, Barbudan"
-        },
-        "fra": {
-            "f": "Antiguaise et barbudienne",
-            "m": "Antiguaise et barbudien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "أنتيغوا وباربودا",
-            "common": "أنتيغوا وباربودا"
-        },
-        "bre": {
-            "official": "Antigua ha Barbuda",
-            "common": "Antigua ha Barbuda"
-        },
-        "ces": {
-            "official": "Antigua a Barbuda",
-            "common": "Antigua a Barbuda"
-        },
-        "cym": {
-            "official": "Antigwa a Barbiwda",
-            "common": "Antigwa a Barbiwda"
-        },
-        "deu": {
-            "official": "Antigua und Barbuda",
-            "common": "Antigua und Barbuda"
-        },
-        "est": {
-            "official": "Antigua ja Barbuda",
-            "common": "Antigua ja Barbuda"
-        },
-        "fin": {
-            "official": "Antigua ja Barbuda",
-            "common": "Antigua ja Barbuda"
-        },
-        "fra": {
-            "official": "Antigua-et-Barbuda",
-            "common": "Antigua-et-Barbuda"
-        },
-        "hrv": {
-            "official": "Antigva i Barbuda",
-            "common": "Antigva i Barbuda"
-        },
-        "hun": {
-            "official": "Antigua és Barbuda",
-            "common": "Antigua és Barbuda"
-        },
-        "ind": {
-            "official": "Antigua dan Barbuda",
-            "common": "Antigua dan Barbuda"
-        },
-        "ita": {
-            "official": "Antigua e Barbuda",
-            "common": "Antigua e Barbuda"
-        },
-        "jpn": {
-            "official": "アンチグアバーブーダ",
-            "common": "アンティグア・バーブーダ"
-        },
-        "kor": {
-            "official": "앤티가 바부다",
-            "common": "앤티가 바부다"
-        },
-        "nld": {
-            "official": "Antigua en Barbuda",
-            "common": "Antigua en Barbuda"
-        },
-        "per": {
-            "official": "آنتیگوا و باربودا",
-            "common": "آنتیگوا و باربودا"
-        },
-        "pol": {
-            "official": "Antigua i Barbuda",
-            "common": "Antigua i Barbuda"
-        },
-        "por": {
-            "official": "Antigua e Barbuda",
-            "common": "Antígua e Barbuda"
-        },
-        "rus": {
-            "official": "Антигуа и Барбуда",
-            "common": "Антигуа и Барбуда"
-        },
-        "slk": {
-            "official": "Antigua a Barbuda",
-            "common": "Antigua a Barbuda"
-        },
-        "spa": {
-            "official": "Antigua y Barbuda",
-            "common": "Antigua y Barbuda"
-        },
-        "srp": {
-            "official": "Антигва и Барбуда",
-            "common": "Антигва и Барбуда"
-        },
-        "swe": {
-            "official": "Antigua och Barbuda",
-            "common": "Antigua och Barbuda"
-        },
-        "tur": {
-            "official": "Antigua ve Barbuda",
-            "common": "Antigua ve Barbuda"
-        },
-        "urd": {
-            "official": "اینٹیگوا و باربوڈا",
-            "common": "اینٹیگوا و باربوڈا"
-        },
-        "zho": {
-            "official": "安提瓜和巴布达",
-            "common": "安提瓜和巴布达"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/ag.png",
-        "svg": "https://flagcdn.com/ag.svg",
-        "alt": "The flag of Antigua and Barbuda has a red field with an inverted isosceles triangle based on the top edge and spanning the height of the field. This triangle has three horizontal bands of black, light blue and white, with the light blue band half the height of the two other bands. The top half of a golden-yellow sun is situated in the lower two-third of the black band to depict a rising sun."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/ag.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/ag.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            17.12,
-            -61.85
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Antigua and Barbuda"
+      }
     }
+  },
+  "currencies": {
+    "XCD": {
+      "symbol": "$",
+      "name": "Eastern Caribbean dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    17.05,
+    -61.8
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Antiguan, Barbudan",
+      "m": "Antiguan, Barbudan"
+    },
+    "fra": {
+      "f": "Antiguaise et barbudienne",
+      "m": "Antiguaise et barbudien"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      17.12,
+      -61.85
+    ]
+  }
 }

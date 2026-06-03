@@ -1,225 +1,99 @@
 {
-    "tld": [
-        ".af"
+  "tld": [
+    ".af"
+  ],
+  "cca2": "AF",
+  "ccn3": "004",
+  "cca3": "AFG",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+9",
+    "suffixes": [
+      "3"
+    ]
+  },
+  "capital": [
+    "Kabul"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "landlocked": true,
+  "borders": [
+    "IRN",
+    "PAK",
+    "TKM",
+    "UZB",
+    "TJK",
+    "CHN"
+  ],
+  "area": 652230.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/BXBGw7yUUFknCfva9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/303427"
+  },
+  "population": 43844000,
+  "car": {
+    "signs": [
+      "AFG"
     ],
-    "cca2": "AF",
-    "ccn3": "004",
-    "cca3": "AFG",
-    "cioc": "AFG",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+9",
-        "suffixes": [
-            "3"
-        ]
-    },
-    "capital": [
-        "Kabul"
-    ],
-    "altSpellings": [
-        "AF",
-        "Afġānistān"
-    ],
-    "region": "Asia",
-    "subregion": "Southern Asia",
-    "landlocked": true,
-    "borders": [
-        "IRN",
-        "PAK",
-        "TKM",
-        "UZB",
-        "TJK",
-        "CHN"
-    ],
-    "area": 652230.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/BXBGw7yUUFknCfva9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/303427"
-    },
-    "population": 43844000,
-    "fifa": "AFG",
-    "car": {
-        "signs": [
-            "AFG"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+04:30"
-    ],
-    "continents": [
-        "Asia"
-    ],
-    "flag": "🇦🇫",
-    "name": {
-        "common": "Afghanistan",
-        "official": "Islamic Republic of Afghanistan",
-        "nativeName": {
-            "prs": {
-                "official": "جمهوری اسلامی افغانستان",
-                "common": "افغانستان"
-            },
-            "pus": {
-                "official": "د افغانستان اسلامي جمهوریت",
-                "common": "افغانستان"
-            },
-            "tuk": {
-                "official": "Owganystan Yslam Respublikasy",
-                "common": "Owganystan"
-            }
-        }
-    },
-    "currencies": {
-        "AFN": {
-            "symbol": "؋",
-            "name": "Afghan afghani"
-        }
-    },
-    "languages": {
-        "prs": "Dari",
-        "pus": "Pashto",
-        "tuk": "Turkmen"
-    },
-    "latlng": [
-        33.0,
-        65.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Afghan",
-            "m": "Afghan"
-        },
-        "fra": {
-            "f": "Afghane",
-            "m": "Afghan"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية أففانستان الإسلامية",
-            "common": "أفغانستان"
-        },
-        "bre": {
-            "official": "Republik Islamek Afghanistan",
-            "common": "Afghanistan"
-        },
-        "ces": {
-            "official": "Afghánská islámská republika",
-            "common": "Afghánistán"
-        },
-        "cym": {
-            "official": "Gweriniaeth Islamaidd Affganistan",
-            "common": "Affganistan"
-        },
-        "deu": {
-            "official": "Islamische Republik Afghanistan",
-            "common": "Afghanistan"
-        },
-        "est": {
-            "official": "Afganistani Islamivabariik",
-            "common": "Afganistan"
-        },
-        "fin": {
-            "official": "Afganistanin islamilainen tasavalta",
-            "common": "Afganistan"
-        },
-        "fra": {
-            "official": "République islamique d'Afghanistan",
-            "common": "Afghanistan"
-        },
-        "hrv": {
-            "official": "Islamska Republika Afganistan",
-            "common": "Afganistan"
-        },
-        "hun": {
-            "official": "Afganisztáni Iszlám Köztársaság",
-            "common": "Afganisztán"
-        },
-        "ind": {
-            "official": "Republik Islam Afganistan",
-            "common": "Afganistan"
-        },
-        "ita": {
-            "official": "Repubblica islamica dell'Afghanistan",
-            "common": "Afghanistan"
-        },
-        "jpn": {
-            "official": "アフガニスタン·イスラム共和国",
-            "common": "アフガニスタン"
-        },
-        "kor": {
-            "official": "아프가니스탄 이슬람 공화국",
-            "common": "아프가니스탄"
-        },
-        "nld": {
-            "official": "Islamitische Republiek Afghanistan",
-            "common": "Afghanistan"
-        },
-        "per": {
-            "official": "جمهوری اسلامی افغانستان",
-            "common": "افغانستان"
-        },
-        "pol": {
-            "official": "Islamska Republika Afganistanu",
-            "common": "Afganistan"
-        },
-        "por": {
-            "official": "República Islâmica do Afeganistão",
-            "common": "Afeganistão"
-        },
-        "rus": {
-            "official": "Исламская Республика Афганистан",
-            "common": "Афганистан"
-        },
-        "slk": {
-            "official": "Afgánsky islamský štát",
-            "common": "Afganistan"
-        },
-        "spa": {
-            "official": "República Islámica de Afganistán",
-            "common": "Afganistán"
-        },
-        "srp": {
-            "official": "Исламска Република Авганистан",
-            "common": "Авганистан"
-        },
-        "swe": {
-            "official": "Islamiska republiken Afghanistan",
-            "common": "Afghanistan"
-        },
-        "tur": {
-            "official": "Afganistan İslam Cumhuriyeti",
-            "common": "Afganistan"
-        },
-        "urd": {
-            "official": "اسلامی جمہوریہ افغانستان",
-            "common": "افغانستان"
-        },
-        "zho": {
-            "official": "阿富汗伊斯兰共和国",
-            "common": "阿富汗"
-        }
-    },
-    "flags": {
-        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-        "alt": "The flag of the Islamic Emirate of Afghanistan has a white field with Arabic inscriptions — the Shahada — in black across its center."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/af.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/af.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            34.52,
-            69.18
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+04:30"
+  ],
+  "continents": [
+    "Asia"
+  ],
+  "flag": "🇦🇫",
+  "name": {
+    "common": "Afghanistan",
+    "official": "Islamic Republic of Afghanistan",
+    "nativeName": {
+      "prs": {
+        "official": "جمهوری اسلامی افغانستان",
+        "common": "افغانستان"
+      },
+      "pus": {
+        "official": "د افغانستان اسلامي جمهوریت",
+        "common": "افغانستان"
+      },
+      "tuk": {
+        "official": "Owganystan Yslam Respublikasy",
+        "common": "Owganystan"
+      }
     }
+  },
+  "currencies": {
+    "AFN": {
+      "symbol": "؋",
+      "name": "Afghan afghani"
+    }
+  },
+  "languages": {
+    "prs": "Dari",
+    "pus": "Pashto",
+    "tuk": "Turkmen"
+  },
+  "latlng": [
+    33.0,
+    65.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Afghan",
+      "m": "Afghan"
+    },
+    "fra": {
+      "f": "Afghane",
+      "m": "Afghan"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      34.52,
+      69.18
+    ]
+  }
 }

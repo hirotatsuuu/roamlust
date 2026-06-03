@@ -1,206 +1,81 @@
 {
-    "tld": [
-        ".gd"
+  "tld": [
+    ".gd"
+  ],
+  "cca2": "GD",
+  "ccn3": "308",
+  "cca3": "GRD",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+1",
+    "suffixes": [
+      "473"
+    ]
+  },
+  "capital": [
+    "St. George's"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "landlocked": false,
+  "area": 344.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/550727"
+  },
+  "population": 109021,
+  "car": {
+    "signs": [
+      "WG"
     ],
-    "cca2": "GD",
-    "ccn3": "308",
-    "cca3": "GRD",
-    "cioc": "GRN",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+1",
-        "suffixes": [
-            "473"
-        ]
-    },
-    "capital": [
-        "St. George's"
-    ],
-    "altSpellings": [
-        "GD"
-    ],
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "landlocked": false,
-    "area": 344.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/550727"
-    },
-    "population": 109021,
-    "fifa": "GRN",
-    "car": {
-        "signs": [
-            "WG"
-        ],
-        "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-    "continents": [
-        "North America"
-    ],
-    "flag": "🇬🇩",
-    "name": {
-        "common": "Grenada",
+    "side": "left"
+  },
+  "timezones": [
+    "UTC-04:00"
+  ],
+  "continents": [
+    "North America"
+  ],
+  "flag": "🇬🇩",
+  "name": {
+    "common": "Grenada",
+    "official": "Grenada",
+    "nativeName": {
+      "eng": {
         "official": "Grenada",
-        "nativeName": {
-            "eng": {
-                "official": "Grenada",
-                "common": "Grenada"
-            }
-        }
-    },
-    "currencies": {
-        "XCD": {
-            "symbol": "$",
-            "name": "Eastern Caribbean dollar"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        12.11666666,
-        -61.66666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Grenadian",
-            "m": "Grenadian"
-        },
-        "fra": {
-            "f": "Grenadienne",
-            "m": "Grenadien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "غرينادا",
-            "common": "غرينادا"
-        },
-        "bre": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "ces": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "cym": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "deu": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "est": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "fin": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "fra": {
-            "official": "Grenade",
-            "common": "Grenade"
-        },
-        "hrv": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "hun": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "ind": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "ita": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "jpn": {
-            "official": "グレナダ",
-            "common": "グレナダ"
-        },
-        "kor": {
-            "official": "그레나다",
-            "common": "그레나다"
-        },
-        "nld": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "per": {
-            "official": "گرنادا",
-            "common": "گرنادا"
-        },
-        "pol": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "por": {
-            "official": "Grenada",
-            "common": "Granada"
-        },
-        "rus": {
-            "official": "Гренада",
-            "common": "Гренада"
-        },
-        "slk": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "spa": {
-            "official": "Granada",
-            "common": "Grenada"
-        },
-        "srp": {
-            "official": "Гренада",
-            "common": "Гренада"
-        },
-        "swe": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "tur": {
-            "official": "Grenada",
-            "common": "Grenada"
-        },
-        "urd": {
-            "official": "گریناڈا",
-            "common": "گریناڈا"
-        },
-        "zho": {
-            "official": "格林纳达",
-            "common": "格林纳达"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gd.png",
-        "svg": "https://flagcdn.com/gd.svg",
-        "alt": "The flag of Grenada features a large central rectangular area surrounded by a red border, with three five-pointed yellow stars centered on the top and bottom borders. The central rectangle is divided diagonally into four alternating triangular areas of yellow at the top and bottom and green on the hoist and fly sides, and a five-pointed yellow star on a red circle is superimposed at its center. A symbolic nutmeg pod is situated on the green hoist-side triangle."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gd.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gd.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            32.38,
-            -64.68
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Grenada"
+      }
     }
+  },
+  "currencies": {
+    "XCD": {
+      "symbol": "$",
+      "name": "Eastern Caribbean dollar"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    12.11666666,
+    -61.66666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Grenadian",
+      "m": "Grenadian"
+    },
+    "fra": {
+      "f": "Grenadienne",
+      "m": "Grenadien"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      32.38,
+      -64.68
+    ]
+  }
 }

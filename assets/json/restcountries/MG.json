@@ -1,217 +1,89 @@
 {
-    "tld": [
-        ".mg"
+  "tld": [
+    ".mg"
+  ],
+  "cca2": "MG",
+  "ccn3": "450",
+  "cca3": "MDG",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "61"
+    ]
+  },
+  "capital": [
+    "Antananarivo"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "landlocked": false,
+  "area": 587041.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/447325"
+  },
+  "population": 31727042,
+  "car": {
+    "signs": [
+      "RM"
     ],
-    "cca2": "MG",
-    "ccn3": "450",
-    "cca3": "MDG",
-    "cioc": "MAD",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "61"
-        ]
-    },
-    "capital": [
-        "Antananarivo"
-    ],
-    "altSpellings": [
-        "MG",
-        "Republic of Madagascar",
-        "Repoblikan'i Madagasikara",
-        "République de Madagascar"
-    ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "landlocked": false,
-    "area": 587041.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/447325"
-    },
-    "population": 31727042,
-    "fifa": "MAD",
-    "car": {
-        "signs": [
-            "RM"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇲🇬",
-    "name": {
-        "common": "Madagascar",
-        "official": "Republic of Madagascar",
-        "nativeName": {
-            "fra": {
-                "official": "République de Madagascar",
-                "common": "Madagascar"
-            },
-            "mlg": {
-                "official": "Repoblikan'i Madagasikara",
-                "common": "Madagasikara"
-            }
-        }
-    },
-    "currencies": {
-        "MGA": {
-            "symbol": "Ar",
-            "name": "Malagasy ariary"
-        }
-    },
-    "languages": {
-        "fra": "French",
-        "mlg": "Malagasy"
-    },
-    "latlng": [
-        -20.0,
-        47.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Malagasy",
-            "m": "Malagasy"
-        },
-        "fra": {
-            "f": "Malgache",
-            "m": "Malgache"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية مدغشقر",
-            "common": "مدغشقر"
-        },
-        "bre": {
-            "official": "Republik Madagaskar",
-            "common": "Madagaskar"
-        },
-        "ces": {
-            "official": "Madagaskarská republika",
-            "common": "Madagaskar"
-        },
-        "cym": {
-            "official": "Republic of Madagascar",
-            "common": "Madagascar"
-        },
-        "deu": {
-            "official": "Republik Madagaskar",
-            "common": "Madagaskar"
-        },
-        "est": {
-            "official": "Madagaskari Vabariik",
-            "common": "Madagaskar"
-        },
-        "fin": {
-            "official": "Madagaskarin tasavalta",
-            "common": "Madagaskar"
-        },
-        "fra": {
-            "official": "République de Madagascar",
-            "common": "Madagascar"
-        },
-        "hrv": {
-            "official": "Republika Madagaskar",
-            "common": "Madagaskar"
-        },
-        "hun": {
-            "official": "Madagaszkári Köztársaság",
-            "common": "Madagaszkár"
-        },
-        "ind": {
-            "official": "Republik Madagaskar",
-            "common": "Madagaskar"
-        },
-        "ita": {
-            "official": "Repubblica del Madagascar",
-            "common": "Madagascar"
-        },
-        "jpn": {
-            "official": "マダガスカル共和国",
-            "common": "マダガスカル"
-        },
-        "kor": {
-            "official": "마다가스카르 공화국",
-            "common": "마다가스카르"
-        },
-        "nld": {
-            "official": "Republiek Madagaskar",
-            "common": "Madagaskar"
-        },
-        "per": {
-            "official": "جمهوری ماداگاسکار",
-            "common": "ماداگاسکار"
-        },
-        "pol": {
-            "official": "Republika Madagaskaru",
-            "common": "Madagaskar"
-        },
-        "por": {
-            "official": "República de Madagáscar",
-            "common": "Madagáscar"
-        },
-        "rus": {
-            "official": "Республика Мадагаскар",
-            "common": "Мадагаскар"
-        },
-        "slk": {
-            "official": "Madagaskarská republika",
-            "common": "Madagaskar"
-        },
-        "spa": {
-            "official": "República de Madagascar",
-            "common": "Madagascar"
-        },
-        "srp": {
-            "official": "Република Мадагаскар",
-            "common": "Мадагаскар"
-        },
-        "swe": {
-            "official": "Republiken Madagaskar",
-            "common": "Madagaskar"
-        },
-        "tur": {
-            "official": "Madagaskar Cumhuriyeti",
-            "common": "Madagaskar"
-        },
-        "urd": {
-            "official": "جمہوریہ مڈغاسکر",
-            "common": "مڈغاسکر"
-        },
-        "zho": {
-            "official": "马达加斯加共和国",
-            "common": "马达加斯加"
-        }
-    },
-    "gini": {
-        "2012": 42.6
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/mg.png",
-        "svg": "https://flagcdn.com/mg.svg",
-        "alt": "The flag of Madagascar features a white vertical band on the hoist side that takes up about one-third the width of the field, and two equal horizontal bands of red and green adjoining the vertical band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/mg.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/mg.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -18.92,
-            47.52
-        ]
-    },
-    "postalCode": {
-        "format": "###",
-        "regex": "^(\\d{3})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇲🇬",
+  "name": {
+    "common": "Madagascar",
+    "official": "Republic of Madagascar",
+    "nativeName": {
+      "fra": {
+        "official": "République de Madagascar",
+        "common": "Madagascar"
+      },
+      "mlg": {
+        "official": "Repoblikan'i Madagasikara",
+        "common": "Madagasikara"
+      }
     }
+  },
+  "currencies": {
+    "MGA": {
+      "symbol": "Ar",
+      "name": "Malagasy ariary"
+    }
+  },
+  "languages": {
+    "fra": "French",
+    "mlg": "Malagasy"
+  },
+  "latlng": [
+    -20.0,
+    47.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Malagasy",
+      "m": "Malagasy"
+    },
+    "fra": {
+      "f": "Malgache",
+      "m": "Malgache"
+    }
+  },
+  "gini": {
+    "2012": 42.6
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -18.92,
+      47.52
+    ]
+  }
 }

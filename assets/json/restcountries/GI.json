@@ -1,208 +1,84 @@
 {
-    "tld": [
-        ".gi"
+  "tld": [
+    ".gi"
+  ],
+  "cca2": "GI",
+  "ccn3": "292",
+  "cca3": "GIB",
+  "independent": false,
+  "unMember": false,
+  "idd": {
+    "root": "+3",
+    "suffixes": [
+      "50"
+    ]
+  },
+  "capital": [
+    "Gibraltar"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "landlocked": false,
+  "borders": [
+    "ESP"
+  ],
+  "area": 6.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/1278736"
+  },
+  "population": 38000,
+  "car": {
+    "signs": [
+      "GBZ"
     ],
-    "cca2": "GI",
-    "ccn3": "292",
-    "cca3": "GIB",
-    "independent": false,
-    "status": "officially-assigned",
-    "unMember": false,
-    "idd": {
-        "root": "+3",
-        "suffixes": [
-            "50"
-        ]
-    },
-    "capital": [
-        "Gibraltar"
-    ],
-    "altSpellings": [
-        "GI"
-    ],
-    "region": "Europe",
-    "subregion": "Southern Europe",
-    "landlocked": false,
-    "borders": [
-        "ESP"
-    ],
-    "area": 6.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/1278736"
-    },
-    "population": 38000,
-    "fifa": "GIB",
-    "car": {
-        "signs": [
-            "GBZ"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇬🇮",
-    "name": {
-        "common": "Gibraltar",
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇬🇮",
+  "name": {
+    "common": "Gibraltar",
+    "official": "Gibraltar",
+    "nativeName": {
+      "eng": {
         "official": "Gibraltar",
-        "nativeName": {
-            "eng": {
-                "official": "Gibraltar",
-                "common": "Gibraltar"
-            }
-        }
-    },
-    "currencies": {
-        "GIP": {
-            "symbol": "£",
-            "name": "Gibraltar pound"
-        }
-    },
-    "languages": {
-        "eng": "English"
-    },
-    "latlng": [
-        36.13333333,
-        -5.35
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Gibraltar",
-            "m": "Gibraltar"
-        },
-        "fra": {
-            "f": "Gibraltarienne",
-            "m": "Gibraltarien"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جبل طارق",
-            "common": "جبل طارق"
-        },
-        "bre": {
-            "official": "Jibraltar",
-            "common": "Jibraltar"
-        },
-        "ces": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "cym": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "deu": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "est": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "fin": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "fra": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "hrv": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "hun": {
-            "official": "Gibraltár",
-            "common": "Gibraltár"
-        },
-        "ind": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "ita": {
-            "official": "Gibilterra",
-            "common": "Gibilterra"
-        },
-        "jpn": {
-            "official": "ジブラルタル",
-            "common": "ジブラルタル"
-        },
-        "kor": {
-            "official": "지브롤터",
-            "common": "지브롤터"
-        },
-        "nld": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "per": {
-            "official": "جبل طارق",
-            "common": "جبل طارق"
-        },
-        "pol": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "por": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "rus": {
-            "official": "Гибралтар",
-            "common": "Гибралтар"
-        },
-        "slk": {
-            "official": "Gibraltár",
-            "common": "Gibraltár"
-        },
-        "spa": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "srp": {
-            "official": "Гибралтар",
-            "common": "Гибралтар"
-        },
-        "swe": {
-            "official": "Gibraltar",
-            "common": "Gibraltar"
-        },
-        "tur": {
-            "official": "Cebelitarık",
-            "common": "Cebelitarık"
-        },
-        "urd": {
-            "official": "جبل الطارق",
-            "common": "جبل الطارق"
-        },
-        "zho": {
-            "official": "直布罗陀",
-            "common": "直布罗陀"
-        }
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/gi.png",
-        "svg": "https://flagcdn.com/gi.svg",
-        "alt": "The flag of Gibraltar has two horizontal bands of white (double-width) and red, with a three-towered red castle in the center of the white band. A gold key hangs from the castle gate and is centered in the red band."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/gi.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/gi.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            36.13,
-            -5.35
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+        "common": "Gibraltar"
+      }
     }
+  },
+  "currencies": {
+    "GIP": {
+      "symbol": "£",
+      "name": "Gibraltar pound"
+    }
+  },
+  "languages": {
+    "eng": "English"
+  },
+  "latlng": [
+    36.13333333,
+    -5.35
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Gibraltar",
+      "m": "Gibraltar"
+    },
+    "fra": {
+      "f": "Gibraltarienne",
+      "m": "Gibraltarien"
+    }
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      36.13,
+      -5.35
+    ]
+  }
 }

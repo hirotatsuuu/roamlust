@@ -1,215 +1,88 @@
 {
-    "tld": [
-        ".se"
+  "tld": [
+    ".se"
+  ],
+  "cca2": "SE",
+  "ccn3": "752",
+  "cca3": "SWE",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+4",
+    "suffixes": [
+      "6"
+    ]
+  },
+  "capital": [
+    "Stockholm"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "landlocked": false,
+  "borders": [
+    "FIN",
+    "NOR"
+  ],
+  "area": 450295.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/iqygE491ADVgnBW39",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
+  },
+  "population": 10605098,
+  "car": {
+    "signs": [
+      "S"
     ],
-    "cca2": "SE",
-    "ccn3": "752",
-    "cca3": "SWE",
-    "cioc": "SWE",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+4",
-        "suffixes": [
-            "6"
-        ]
-    },
-    "capital": [
-        "Stockholm"
-    ],
-    "altSpellings": [
-        "SE",
-        "Kingdom of Sweden",
-        "Konungariket Sverige"
-    ],
-    "region": "Europe",
-    "subregion": "Northern Europe",
-    "landlocked": false,
-    "borders": [
-        "FIN",
-        "NOR"
-    ],
-    "area": 450295.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/iqygE491ADVgnBW39",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
-    },
-    "population": 10605098,
-    "fifa": "SWE",
-    "car": {
-        "signs": [
-            "S"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-    "continents": [
-        "Europe"
-    ],
-    "flag": "🇸🇪",
-    "name": {
-        "common": "Sweden",
-        "official": "Kingdom of Sweden",
-        "nativeName": {
-            "swe": {
-                "official": "Konungariket Sverige",
-                "common": "Sverige"
-            }
-        }
-    },
-    "currencies": {
-        "SEK": {
-            "symbol": "kr",
-            "name": "Swedish krona"
-        }
-    },
-    "languages": {
-        "swe": "Swedish"
-    },
-    "latlng": [
-        62.0,
-        15.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Swedish",
-            "m": "Swedish"
-        },
-        "fra": {
-            "f": "Suédoise",
-            "m": "Suédois"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "مملكة السويد",
-            "common": "السويد"
-        },
-        "bre": {
-            "official": "Rouantelezh Sveden",
-            "common": "Sveden"
-        },
-        "ces": {
-            "official": "Švédské království",
-            "common": "Švédsko"
-        },
-        "cym": {
-            "official": "Kingdom of Sweden",
-            "common": "Sweden"
-        },
-        "deu": {
-            "official": "Königreich Schweden",
-            "common": "Schweden"
-        },
-        "est": {
-            "official": "Rootsi Kuningriik",
-            "common": "Rootsi"
-        },
-        "fin": {
-            "official": "Ruotsin kuningaskunta",
-            "common": "Ruotsi"
-        },
-        "fra": {
-            "official": "Royaume de Suède",
-            "common": "Suède"
-        },
-        "hrv": {
-            "official": "Kraljevina Švedska",
-            "common": "Švedska"
-        },
-        "hun": {
-            "official": "Svéd Királyság",
-            "common": "Svédország"
-        },
-        "ind": {
-            "official": "Kerajaan Swedia",
-            "common": "Swedia"
-        },
-        "ita": {
-            "official": "Regno di Svezia",
-            "common": "Svezia"
-        },
-        "jpn": {
-            "official": "スウェーデン王国",
-            "common": "スウェーデン"
-        },
-        "kor": {
-            "official": "스웨덴 왕국",
-            "common": "스웨덴"
-        },
-        "nld": {
-            "official": "Koninkrijk Zweden",
-            "common": "Zweden"
-        },
-        "per": {
-            "official": "پادشاهی سوئد",
-            "common": "سوئد"
-        },
-        "pol": {
-            "official": "Królestwo Szwecji",
-            "common": "Szwecja"
-        },
-        "por": {
-            "official": "Reino da Suécia",
-            "common": "Suécia"
-        },
-        "rus": {
-            "official": "Королевство Швеция",
-            "common": "Швеция"
-        },
-        "slk": {
-            "official": "Švédske kráľovstvo",
-            "common": "Švédsko"
-        },
-        "spa": {
-            "official": "Reino de Suecia",
-            "common": "Suecia"
-        },
-        "srp": {
-            "official": "Краљевина Шведска",
-            "common": "Шведска"
-        },
-        "swe": {
-            "official": "Konungariket Sverige",
-            "common": "Sverige"
-        },
-        "tur": {
-            "official": "İsveç Krallığı",
-            "common": "İsveç"
-        },
-        "urd": {
-            "official": "مملکتِ سویڈن",
-            "common": "سویڈن"
-        },
-        "zho": {
-            "official": "瑞典王国",
-            "common": "瑞典"
-        }
-    },
-    "gini": {
-        "2018": 30.0
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/se.png",
-        "svg": "https://flagcdn.com/se.svg",
-        "alt": "The flag of Sweden has a blue field with a large golden-yellow cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/se.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/se.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            59.33,
-            18.05
-        ]
-    },
-    "postalCode": {
-        "format": "SE-### ##",
-        "regex": "^(?:SE)*(\\d{5})$"
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "continents": [
+    "Europe"
+  ],
+  "flag": "🇸🇪",
+  "name": {
+    "common": "Sweden",
+    "official": "Kingdom of Sweden",
+    "nativeName": {
+      "swe": {
+        "official": "Konungariket Sverige",
+        "common": "Sverige"
+      }
     }
+  },
+  "currencies": {
+    "SEK": {
+      "symbol": "kr",
+      "name": "Swedish krona"
+    }
+  },
+  "languages": {
+    "swe": "Swedish"
+  },
+  "latlng": [
+    62.0,
+    15.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Swedish",
+      "m": "Swedish"
+    },
+    "fra": {
+      "f": "Suédoise",
+      "m": "Suédois"
+    }
+  },
+  "gini": {
+    "2018": 30.0
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      59.33,
+      18.05
+    ]
+  }
 }

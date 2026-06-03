@@ -1,217 +1,89 @@
 {
-    "tld": [
-        ".tg"
+  "tld": [
+    ".tg"
+  ],
+  "cca2": "TG",
+  "ccn3": "768",
+  "cca3": "TGO",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "28"
+    ]
+  },
+  "capital": [
+    "Lomé"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "landlocked": false,
+  "borders": [
+    "BEN",
+    "BFA",
+    "GHA"
+  ],
+  "area": 56785.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/jzAa9feXuXPrKVb89",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/192782"
+  },
+  "population": 8095498,
+  "car": {
+    "signs": [
+      "TG"
     ],
-    "cca2": "TG",
-    "ccn3": "768",
-    "cca3": "TGO",
-    "cioc": "TOG",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "28"
-        ]
-    },
-    "capital": [
-        "Lomé"
-    ],
-    "altSpellings": [
-        "TG",
-        "Togolese",
-        "Togolese Republic",
-        "République Togolaise"
-    ],
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "landlocked": false,
-    "borders": [
-        "BEN",
-        "BFA",
-        "GHA"
-    ],
-    "area": 56785.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/jzAa9feXuXPrKVb89",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/192782"
-    },
-    "population": 8095498,
-    "fifa": "TOG",
-    "car": {
-        "signs": [
-            "TG"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇹🇬",
-    "name": {
-        "common": "Togo",
-        "official": "Togolese Republic",
-        "nativeName": {
-            "fra": {
-                "official": "République togolaise",
-                "common": "Togo"
-            }
-        }
-    },
-    "currencies": {
-        "XOF": {
-            "symbol": "Fr",
-            "name": "West African CFA franc"
-        }
-    },
-    "languages": {
-        "fra": "French"
-    },
-    "latlng": [
-        8.0,
-        1.16666666
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Togolese",
-            "m": "Togolese"
-        },
-        "fra": {
-            "f": "Togolaise",
-            "m": "Togolais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية توغو",
-            "common": "توغو"
-        },
-        "bre": {
-            "official": "Republik Togoat",
-            "common": "Togo"
-        },
-        "ces": {
-            "official": "Republika Togo",
-            "common": "Togo"
-        },
-        "cym": {
-            "official": "Togolese Republic",
-            "common": "Togo"
-        },
-        "deu": {
-            "official": "Republik Togo",
-            "common": "Togo"
-        },
-        "est": {
-            "official": "Togo Vabariik",
-            "common": "Togo"
-        },
-        "fin": {
-            "official": "Togon tasavalta",
-            "common": "Togo"
-        },
-        "fra": {
-            "official": "République togolaise",
-            "common": "Togo"
-        },
-        "hrv": {
-            "official": "Togolese Republika",
-            "common": "Togo"
-        },
-        "hun": {
-            "official": "Togói Köztársaság",
-            "common": "Togo"
-        },
-        "ind": {
-            "official": "Republik Togo",
-            "common": "Togo"
-        },
-        "ita": {
-            "official": "Repubblica del Togo",
-            "common": "Togo"
-        },
-        "jpn": {
-            "official": "トーゴ共和国",
-            "common": "トーゴ"
-        },
-        "kor": {
-            "official": "토고 공화국",
-            "common": "토고"
-        },
-        "nld": {
-            "official": "Republiek Togo",
-            "common": "Togo"
-        },
-        "per": {
-            "official": "جمهوری توگو",
-            "common": "توگو"
-        },
-        "pol": {
-            "official": "Republika Togijska",
-            "common": "Togo"
-        },
-        "por": {
-            "official": "República do Togo",
-            "common": "Togo"
-        },
-        "rus": {
-            "official": "Того Республика",
-            "common": "Того"
-        },
-        "slk": {
-            "official": "Togská republika",
-            "common": "Togo"
-        },
-        "spa": {
-            "official": "República de Togo",
-            "common": "Togo"
-        },
-        "srp": {
-            "official": "Тоголешка Република",
-            "common": "Того"
-        },
-        "swe": {
-            "official": "Republiken Togo",
-            "common": "Togo"
-        },
-        "tur": {
-            "official": "Togo Cumhuriyeti",
-            "common": "Togo"
-        },
-        "urd": {
-            "official": "جمہوریہ ٹوگو",
-            "common": "ٹوگو"
-        },
-        "zho": {
-            "official": "多哥共和国",
-            "common": "多哥"
-        }
-    },
-    "gini": {
-        "2015": 43.1
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/tg.png",
-        "svg": "https://flagcdn.com/tg.svg",
-        "alt": "The flag of Togo is composed of five equal horizontal bands of green alternating with yellow. A red square bearing a five-pointed white star is superimposed in the canton."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/tg.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/tg.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            6.14,
-            1.21
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇹🇬",
+  "name": {
+    "common": "Togo",
+    "official": "Togolese Republic",
+    "nativeName": {
+      "fra": {
+        "official": "République togolaise",
+        "common": "Togo"
+      }
     }
+  },
+  "currencies": {
+    "XOF": {
+      "symbol": "Fr",
+      "name": "West African CFA franc"
+    }
+  },
+  "languages": {
+    "fra": "French"
+  },
+  "latlng": [
+    8.0,
+    1.16666666
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Togolese",
+      "m": "Togolese"
+    },
+    "fra": {
+      "f": "Togolaise",
+      "m": "Togolais"
+    }
+  },
+  "gini": {
+    "2015": 43.1
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      6.14,
+      1.21
+    ]
+  }
 }

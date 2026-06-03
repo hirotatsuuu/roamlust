@@ -1,222 +1,94 @@
 {
-    "tld": [
-        ".bi"
+  "tld": [
+    ".bi"
+  ],
+  "cca2": "BI",
+  "ccn3": "108",
+  "cca3": "BDI",
+  "independent": true,
+  "unMember": true,
+  "idd": {
+    "root": "+2",
+    "suffixes": [
+      "57"
+    ]
+  },
+  "capital": [
+    "Gitega"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "landlocked": true,
+  "borders": [
+    "COD",
+    "RWA",
+    "TZA"
+  ],
+  "area": 27834.0,
+  "maps": {
+    "googleMaps": "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
+    "openStreetMaps": "https://www.openstreetmap.org/relation/195269"
+  },
+  "population": 12332788,
+  "car": {
+    "signs": [
+      "RU"
     ],
-    "cca2": "BI",
-    "ccn3": "108",
-    "cca3": "BDI",
-    "cioc": "BDI",
-    "independent": true,
-    "status": "officially-assigned",
-    "unMember": true,
-    "idd": {
-        "root": "+2",
-        "suffixes": [
-            "57"
-        ]
-    },
-    "capital": [
-        "Gitega"
-    ],
-    "altSpellings": [
-        "BI",
-        "Republic of Burundi",
-        "Republika y'Uburundi",
-        "République du Burundi"
-    ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "landlocked": true,
-    "borders": [
-        "COD",
-        "RWA",
-        "TZA"
-    ],
-    "area": 27834.0,
-    "maps": {
-        "googleMaps": "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/195269"
-    },
-    "population": 12332788,
-    "fifa": "BDI",
-    "car": {
-        "signs": [
-            "RU"
-        ],
-        "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-    "continents": [
-        "Africa"
-    ],
-    "flag": "🇧🇮",
-    "name": {
-        "common": "Burundi",
-        "official": "Republic of Burundi",
-        "nativeName": {
-            "fra": {
-                "official": "République du Burundi",
-                "common": "Burundi"
-            },
-            "run": {
-                "official": "Republika y'Uburundi ",
-                "common": "Uburundi"
-            }
-        }
-    },
-    "currencies": {
-        "BIF": {
-            "symbol": "Fr",
-            "name": "Burundian franc"
-        }
-    },
-    "languages": {
-        "fra": "French",
-        "run": "Kirundi"
-    },
-    "latlng": [
-        -3.5,
-        30.0
-    ],
-    "demonyms": {
-        "eng": {
-            "f": "Burundian",
-            "m": "Burundian"
-        },
-        "fra": {
-            "f": "Burundaise",
-            "m": "Burundais"
-        }
-    },
-    "translations": {
-        "ara": {
-            "official": "جمهورية بوروندي",
-            "common": "بوروندي"
-        },
-        "bre": {
-            "official": "Republik Burundi",
-            "common": "Burundi"
-        },
-        "ces": {
-            "official": "Burundská republika",
-            "common": "Burundi"
-        },
-        "cym": {
-            "official": "Gweriniaeth Bwrwndi",
-            "common": "Bwrwndi"
-        },
-        "deu": {
-            "official": "Republik Burundi",
-            "common": "Burundi"
-        },
-        "est": {
-            "official": "Burundi Vabariik",
-            "common": "Burundi"
-        },
-        "fin": {
-            "official": "Burundin tasavalta",
-            "common": "Burundi"
-        },
-        "fra": {
-            "official": "République du Burundi",
-            "common": "Burundi"
-        },
-        "hrv": {
-            "official": "Burundi",
-            "common": "Burundi"
-        },
-        "hun": {
-            "official": "Burundi",
-            "common": "Burundi"
-        },
-        "ind": {
-            "official": "Republik Burundi",
-            "common": "Burundi"
-        },
-        "ita": {
-            "official": "Repubblica del Burundi",
-            "common": "Burundi"
-        },
-        "jpn": {
-            "official": "ブルンジ共和国",
-            "common": "ブルンジ"
-        },
-        "kor": {
-            "official": "부룬디",
-            "common": "부룬디"
-        },
-        "nld": {
-            "official": "Republiek Burundi",
-            "common": "Burundi"
-        },
-        "per": {
-            "official": "جمهوری بوروندی",
-            "common": "بوروندی"
-        },
-        "pol": {
-            "official": "Republika Burundi",
-            "common": "Burundi"
-        },
-        "por": {
-            "official": "República do Burundi",
-            "common": "Burundi"
-        },
-        "rus": {
-            "official": "Республика Бурунди",
-            "common": "Бурунди"
-        },
-        "slk": {
-            "official": "Burundská republika",
-            "common": "Burundi"
-        },
-        "spa": {
-            "official": "República de Burundi",
-            "common": "Burundi"
-        },
-        "srp": {
-            "official": "Република Бурунди",
-            "common": "Бурунди"
-        },
-        "swe": {
-            "official": "Republiken Burundi",
-            "common": "Burundi"
-        },
-        "tur": {
-            "official": "Burundi Cumhuriyeti",
-            "common": "Burundi"
-        },
-        "urd": {
-            "official": "جمہوریہ برونڈی",
-            "common": "برونڈی"
-        },
-        "zho": {
-            "official": "布隆迪共和国",
-            "common": "布隆迪"
-        }
-    },
-    "gini": {
-        "2013": 38.6
-    },
-    "flags": {
-        "png": "https://flagcdn.com/w320/bi.png",
-        "svg": "https://flagcdn.com/bi.svg",
-        "alt": "The flag of Burundi is divided by a white diagonal cross into four alternating triangular areas of red at the top and bottom, and green on the hoist and fly sides. A white circle, with three green-edged red six-pointed stars arranged to form a triangle, is superimposed at the center of the cross."
-    },
-    "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/bi.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/bi.svg"
-    },
-    "startOfWeek": "monday",
-    "capitalInfo": {
-        "latlng": [
-            -3.43,
-            29.93
-        ]
-    },
-    "postalCode": {
-        "format": null,
-        "regex": null
+    "side": "right"
+  },
+  "timezones": [
+    "UTC+02:00"
+  ],
+  "continents": [
+    "Africa"
+  ],
+  "flag": "🇧🇮",
+  "name": {
+    "common": "Burundi",
+    "official": "Republic of Burundi",
+    "nativeName": {
+      "fra": {
+        "official": "République du Burundi",
+        "common": "Burundi"
+      },
+      "run": {
+        "official": "Republika y'Uburundi ",
+        "common": "Uburundi"
+      }
     }
+  },
+  "currencies": {
+    "BIF": {
+      "symbol": "Fr",
+      "name": "Burundian franc"
+    }
+  },
+  "languages": {
+    "fra": "French",
+    "run": "Kirundi"
+  },
+  "latlng": [
+    -3.5,
+    30.0
+  ],
+  "demonyms": {
+    "eng": {
+      "f": "Burundian",
+      "m": "Burundian"
+    },
+    "fra": {
+      "f": "Burundaise",
+      "m": "Burundais"
+    }
+  },
+  "gini": {
+    "2013": 38.6
+  },
+  "startOfWeek": "monday",
+  "capitalInfo": {
+    "latlng": [
+      -3.43,
+      29.93
+    ]
+  }
 }
