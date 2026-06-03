@@ -4,8 +4,10 @@ import 'data_service.dart';
 import 'country_detail_screen.dart';
 import 'format_utils.dart';
 
+// どんな順番で国を並び替えるかの「種類」を定義しています。
 enum SortType { alphabetical, population, area, gdp }
 
+// すべての国を一覧で表示する画面です。
 class CountryListScreen extends StatefulWidget {
   const CountryListScreen({super.key});
 
@@ -14,18 +16,20 @@ class CountryListScreen extends StatefulWidget {
 }
 
 class _CountryListScreenState extends State<CountryListScreen> {
-  List<Map<String, dynamic>> _countries = [];
-  Map<String, dynamic> _currentRankingData = {};
-  List<String> _favorites = []; // お気に入りリストを保持する変数
-  bool _isLoading = true;
-  SortType _currentSort = SortType.alphabetical;
+  List<Map<String, dynamic>> _countries = []; // 国のリストデータ
+  Map<String, dynamic> _currentRankingData = {}; // ランキング（人口など）のデータ
+  List<String> _favorites = []; // お気に入りの国のコードリスト
+  bool _isLoading = true; // 読み込み中フラグ
+  SortType _currentSort = SortType.alphabetical; // 現在の並び替えルール
 
   @override
   void initState() {
     super.initState();
+    // 画面が開かれた最初は「あいうえお順」でデータを読み込みます。
     _loadData(SortType.alphabetical);
   }
 
+  // 指定された並び替えルールに従ってデータを読み込む処理です。
   Future<void> _loadData(SortType sortType) async {
     setState(() {
       _isLoading = true;
@@ -33,11 +37,13 @@ class _CountryListScreenState extends State<CountryListScreen> {
     });
 
     try {
+      // マスターデータがまだ空っぽなら読み込みます。
       if (_countries.isEmpty) {
         final master = await DataService.loadMasterData();
         _countries = List<Map<String, dynamic>>.from(master);
       }
 
+      // ランキング順が選ばれた場合は、該当するランキングデータを読み込みます。
       if (sortType == SortType.population) {
         _currentRankingData = await DataService.loadRanking('population');
       } else if (sortType == SortType.area) {
@@ -48,8 +54,8 @@ class _CountryListScreenState extends State<CountryListScreen> {
         _currentRankingData = {};
       }
 
-      await _refreshFavorites(); // お気に入りの状態を取得
-      _sortCountries();
+      await _refreshFavorites(); // お気に入りの状態を最新にします。
+      _sortCountries(); // 読み込んだデータを使って並び替えを実行します。
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context)
@@ -60,7 +66,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
     }
   }
 
-  // お気に入り情報を取得する関数
+  // スマホに保存されているお気に入りリストを取得します。
   Future<void> _refreshFavorites() async {
     try {
       final favs = await DataService.getFavorites();
@@ -70,16 +76,16 @@ class _CountryListScreenState extends State<CountryListScreen> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-              content: Text('お気に入りデータが読み込めません。データがリセットされた可能性があります。')),
+          const SnackBar(content: Text('お気に入りデータが読み込めません。')),
         );
       }
     }
   }
 
-  // お気に入りボタンが押されたときの処理
+  // お気に入りを付けたり外したりする処理です。
   Future<void> _toggleFavorite(String iso2) async {
     try {
+      // 画面の見た目を先に変えて、サクサク動いているように見せます（オプティミスティックUI）。
       setState(() {
         if (_favorites.contains(iso2)) {
           _favorites.remove(iso2);
@@ -87,57 +93,52 @@ class _CountryListScreenState extends State<CountryListScreen> {
           _favorites.add(iso2);
         }
       });
+      // 実際の裏側のデータ保存処理を実行します。
       await DataService.toggleFavorite(iso2);
     } catch (e) {
-      _refreshFavorites();
+      _refreshFavorites(); // 失敗したら元の状態に戻します。
     }
   }
 
-  // ★修正：並び替えの処理（情報がない国を一番下にする）
+  // 国のリストを並び替える処理です。
   void _sortCountries() {
     _countries.sort((a, b) {
       if (_currentSort == SortType.alphabetical) {
+        // あいうえお順の場合はシンプルに文字列として比較します。
         final nameA = a['name_ja']?.toString() ?? '';
         final nameB = b['name_ja']?.toString() ?? '';
-
-        // -- ここから追加：名前情報がない国をリストの下へ移動させる処理 --
-        if (nameA.isEmpty && nameB.isEmpty) return 0; // 両方ない場合はそのまま
-        if (nameA.isEmpty) return 1; // Aの情報がない場合は、Aを後ろ(下)へ
-        if (nameB.isEmpty) return -1; // Bの情報がない場合は、Bを後ろ(下)へ
-        // -------------------------------------------------------------
-
         return nameA.compareTo(nameB);
       } else {
+        // ランキング順の場合は、数値データを取り出して比較します。
         final iso3A = a['iso3'];
         final iso3B = b['iso3'];
         final valA = _currentRankingData[iso3A];
         final valB = _currentRankingData[iso3B];
 
+        // データがない国同士はあいうえお順にします。
         if (valA == null && valB == null) {
           final nameA = a['name_ja']?.toString() ?? '';
           final nameB = b['name_ja']?.toString() ?? '';
-
-          // -- ランキング表示時も同様に、名前がない国を下へ --
-          if (nameA.isEmpty && nameB.isEmpty) return 0;
-          if (nameA.isEmpty) return 1;
-          if (nameB.isEmpty) return -1;
-          // ----------------------------------------------
-
           return nameA.compareTo(nameB);
         }
-        if (valA == null) return 1; // ランキングデータがない場合も下へ
+        // データがない国はリストの一番下に追いやります。
+        if (valA == null) return 1;
         if (valB == null) return -1;
+
+        // どちらもデータがある場合は、数字が大きい方を上にします。
         return (valB as num).compareTo(valA as num);
       }
     });
   }
 
+  // ランキングの順位（1, 2, 3...）を文字として返す処理です。
   String _getRankString(int index, Map<String, dynamic> country) {
     if (_currentSort == SortType.alphabetical) return '${index + 1}';
     final val = _currentRankingData[country['iso3']];
     return val == null ? '-' : '${index + 1}';
   }
 
+  // 1〜10位までは文字色を濃く、それ以外は薄くする処理です。
   Color _getRankColor(int index, bool isDark, String rankStr) {
     if (rankStr == '-' || _currentSort == SortType.alphabetical) {
       return isDark ? Colors.grey.shade500 : Colors.grey.shade400;
@@ -147,6 +148,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
         : (isDark ? Colors.grey.shade400 : Colors.grey.shade700);
   }
 
+  // ランキングの1〜10位まで、カードの背景色を特別グラデーションカラーにする処理です。
   Color? _getRankCardColor(int index, bool isDark, String rankStr) {
     if (rankStr == '-' || _currentSort == SortType.alphabetical) return null;
     final rank = index + 1;
@@ -203,6 +205,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
     }
   }
 
+  // リストの下段に表示する補助テキスト（人口などの数値）を作る処理です。
   String _getSubtitleText(Map<String, dynamic> country) {
     if (_currentSort == SortType.alphabetical) return country['name_en'] ?? '';
     final val = _currentRankingData[country['iso3']];
@@ -219,6 +222,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
     return '';
   }
 
+  // 画面下から「並び替えメニュー」をニュッと出す処理です（BottomSheet）。
   void _showSortBottomSheet(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     showModalBottomSheet(
@@ -262,9 +266,10 @@ class _CountryListScreenState extends State<CountryListScreen> {
     );
   }
 
+  // 並び替えメニューの中のボタン部品です。
   Widget _buildSortOption(
       BuildContext context, SortType type, String title, IconData icon) {
-    final isSelected = _currentSort == type;
+    final isSelected = _currentSort == type; // 自分が選ばれているかどうか
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final primaryColor = Theme.of(context).colorScheme.primary;
 
@@ -278,10 +283,12 @@ class _CountryListScreenState extends State<CountryListScreen> {
               fontSize: 16,
               fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
               color: isSelected ? primaryColor : null)),
-      trailing: isSelected ? Icon(Icons.check, color: primaryColor) : null,
+      trailing: isSelected
+          ? Icon(Icons.check, color: primaryColor)
+          : null, // 選ばれていればチェックマークを出す
       onTap: () {
-        Navigator.pop(context);
-        if (_currentSort != type) _loadData(type);
+        Navigator.pop(context); // メニューを閉じる
+        if (_currentSort != type) _loadData(type); // 新しい順番で読み込み直す
       },
     );
   }
@@ -299,25 +306,21 @@ class _CountryListScreenState extends State<CountryListScreen> {
           IconButton(
             icon:
                 Icon(Icons.sort, color: isDark ? Colors.white : Colors.black87),
-            onPressed: () => _showSortBottomSheet(context),
+            onPressed: () => _showSortBottomSheet(context), // 並び替えボタン
           ),
         ],
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
+          // ListView.builderを使うと、見えている部分だけを描画するので大量のデータでもサクサク動きます。
           : ListView.builder(
               itemCount: _countries.length,
               itemBuilder: (context, index) {
                 final country = _countries[index];
                 final iso2 = country['iso2'];
-
-                // ★修正：名前情報がない場合は「国名情報なし」と表示する安全設計
-                final rawNameJa = country['name_ja']?.toString() ?? '';
-                final nameJa =
-                    rawNameJa.isNotEmpty ? rawNameJa : '国名情報なし (国旗から確認)';
+                final String nameJa = country['name_ja']?.toString() ?? '不明な国';
 
                 final isFav = _favorites.contains(iso2);
-
                 final rankStr = _getRankString(index, country);
                 final subtitleStr = _getSubtitleText(country);
                 final rankColor = _getRankColor(index, isDark, rankStr);
@@ -350,6 +353,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
                           child: SizedBox(
                             width: 45,
                             height: 30,
+                            // assetsから国旗のSVG画像を読み込んで表示します。
                             child: SvgPicture.asset(
                               'assets/flags/${iso2.toLowerCase()}.svg',
                               fit: BoxFit.cover,
@@ -368,6 +372,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
+                        // お気に入り（ハート）ボタン
                         GestureDetector(
                           onTap: () => _toggleFavorite(iso2),
                           child: Padding(
@@ -382,13 +387,15 @@ class _CountryListScreenState extends State<CountryListScreen> {
                         const Icon(Icons.chevron_right, color: Colors.grey),
                       ],
                     ),
+                    // カード全体がタップされたら詳細画面へ移動します。
                     onTap: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => CountryDetailScreen(
                                 iso2: iso2, nameJa: nameJa)),
-                      ).then((_) => _refreshFavorites());
+                      ).then((_) =>
+                          _refreshFavorites()); // 戻ってきたときにお気に入り状態を再取得します。
                     },
                   ),
                 );

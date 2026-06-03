@@ -2,12 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'initial_load_screen.dart';
 
-void main() {
+// アプリのスタート地点となる関数です。
+// async（非同期）にすることで、時間のかかる処理を待つことができます。
+void main() async {
+  // Flutterのエンジンが正しく動くように準備を確実に行います。
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Googleフォントがインターネットから完全に読み込まれるまで待機します。
+  // これにより、アプリ起動直後の一瞬の文字化けを防ぐことができます。
+  await GoogleFonts.pendingFonts([
+    GoogleFonts.notoSansJpTextTheme(),
+  ]);
+
+  // 準備ができたらアプリ（MyApp）を起動します。
   runApp(const MyApp());
 }
 
-// ★修正: テーマの状態を保持し続けるために StatefulWidget に変更しました
+// アプリ全体の設定を管理する土台となる画面です。
+// テーマ（色合い）の変更を監視するため StatefulWidget にしています。
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -16,23 +28,25 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // ★ここでテーマを管理することで、画面が更新されてもリセットされなくなります
+  // テーマ（ライト/ダーク）の状態を保持し、変化を監視するための変数です。
   final themeNotifier = ValueNotifier<ThemeMode>(ThemeMode.light);
 
   @override
   Widget build(BuildContext context) {
-    // ValueListenableBuilderでthemeNotifierを監視し、変化があったら全体を描画し直します
+    // themeNotifier（テーマの状態）を常に監視し、変化があったらアプリ全体を描画し直します。
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: themeNotifier,
       builder: (_, currentMode, __) {
         return MaterialApp(
           title: 'Roamlust',
-          // 【ライトモードのデザイン設定】
+
+          // --- ここからライトモード（通常時）のデザイン設定 ---
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
             useMaterial3: true,
-            textTheme: GoogleFonts.notoSansJpTextTheme(
-                ThemeData.light().textTheme), // Googleフォントの適用
+            // アプリ全体の文字にNoto Sans JPフォントを適用します。
+            textTheme:
+                GoogleFonts.notoSansJpTextTheme(ThemeData.light().textTheme),
             scaffoldBackgroundColor: const Color(0xFFF8FAFC),
             appBarTheme: AppBarTheme(
               backgroundColor: Colors.lightGreen.shade100,
@@ -50,11 +64,12 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
           ),
-          // 【ダークモードのデザイン設定】
+
+          // --- ここからダークモード（暗い画面）のデザイン設定 ---
           darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
             scaffoldBackgroundColor: const Color(0xFF1E1E1E),
-            textTheme: GoogleFonts.notoSansJpTextTheme(
-                ThemeData.light().textTheme), // Googleフォントの適用
+            textTheme:
+                GoogleFonts.notoSansJpTextTheme(ThemeData.light().textTheme),
             appBarTheme: const AppBarTheme(
               backgroundColor: Color(0xFF2E4C31),
               elevation: 0,
@@ -74,9 +89,10 @@ class _MyAppState extends State<MyApp> {
               backgroundColor: Color(0xFF2C2C2C),
             ),
           ),
-          // 現在のテーマを適用します
+
+          // 監視している現在のテーマをアプリに適用します。
           themeMode: currentMode,
-          // 最初の画面
+          // 起動時に最初に表示する画面を指定します。
           home: InitialLoadScreen(themeNotifier: themeNotifier),
         );
       },

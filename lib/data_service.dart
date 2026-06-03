@@ -3,11 +3,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+// アプリのデータの読み書き（保存と取得）を全て担当する裏方のクラスです。
 class DataService {
-  static const String _cacheCompletedKey = 'cache_completed';
+  static const String _cacheCompletedKey = 'cache_completed'; // ダウンロード完了の証
   static const String _favoritesKey = 'favorites_list'; // お気に入りを保存するキー
 
-  // ダウンロードが完了しているかを確認する関数
+  // ダウンロードが完了しているかを確認する処理です。
   static Future<bool> isCacheCompleted() async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -17,37 +18,34 @@ class DataService {
     }
   }
 
-  // キャッシュをすべて削除します（★お気に入りは保護します）
+  // アプリを初期化する（キャッシュをすべて削除する）処理です。
   static Future<void> clearCache() async {
     try {
       final prefs = await SharedPreferences.getInstance();
-      // 削除前にお気に入りのリストだけ避難させます
+      // 全削除する前に、大切なお気に入りリストだけ一時的に避難させます。
       final List<String> savedFavorites =
           prefs.getStringList(_favoritesKey) ?? [];
 
       await prefs.clear(); // 全データを消去
 
-      // 避難させておいたお気に入りを元に戻します（消えない設計）
+      // 避難させておいたお気に入りを元に戻します。
       await prefs.setStringList(_favoritesKey, savedFavorites);
     } catch (e) {
       debugPrint('キャッシュの削除中にエラーが発生しました: $e');
     }
   }
 
-  // --- お気に入り専用の関数群 ---
-
-  // お気に入りのリスト（国コードの配列）を取得します
+  // お気に入りの国コードのリストを取得します。
   static Future<List<String>> getFavorites() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       return prefs.getStringList(_favoritesKey) ?? [];
     } catch (e) {
-      // エラーを投げて、画面側で「消えた」ことを通知できるようにします
       throw Exception('お気に入りデータの読み込みに失敗しました');
     }
   }
 
-  // お気に入りをON/OFF切り替える関数です（現在の状態を返します）
+  // お気に入りをON/OFF切り替える処理です。
   static Future<bool> toggleFavorite(String iso2) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -55,9 +53,9 @@ class DataService {
       bool isNowFavorite = false;
 
       if (favs.contains(iso2)) {
-        favs.remove(iso2); // あれば削除（OFF）
+        favs.remove(iso2); // 既にあれば外す
       } else {
-        favs.add(iso2); // なければ追加（ON）
+        favs.add(iso2); // なければ入れる
         isNowFavorite = true;
       }
 
@@ -68,7 +66,7 @@ class DataService {
     }
   }
 
-  // 特定の国がお気に入りかどうかを判定します
+  // 特定の国がお気に入りかどうかを判定します。
   static Future<bool> isFavorite(String iso2) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -79,8 +77,7 @@ class DataService {
     }
   }
 
-  // --- データ読み込み用の関数群 ---
-
+  // JSONファイルからマスターデータを読み込む処理です。
   static Future<List<dynamic>> loadMasterData() async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -93,6 +90,7 @@ class DataService {
     }
   }
 
+  // JSONファイルから特定の国の詳細データ（RestCountry）を読み込みます。
   static Future<Map<String, dynamic>?> loadRestCountry(String iso2) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -105,6 +103,7 @@ class DataService {
     }
   }
 
+  // JSONファイルから特定の国のWikipediaデータを読み込みます。
   static Future<Map<String, dynamic>?> loadWikipedia(String iso2) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -117,6 +116,7 @@ class DataService {
     }
   }
 
+  // ランキングデータを読み込みます。
   static Future<Map<String, dynamic>> loadRanking(String rankingName) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -128,7 +128,7 @@ class DataService {
     }
   }
 
-  // 初期化用の関数（ダウンロード）
+  // 初回起動時にすべてのJSONデータをスマホに保存（キャッシュ）する大掛かりな処理です。
   static Future<void> downloadAndCacheAllData(
     Function(double) onProgress,
     bool Function() shouldStop,
@@ -155,11 +155,12 @@ class DataService {
       final int totalCountries = masterList.length;
       int processedCount = 0;
 
+      // すべての国を順番に処理していきます。
       for (var country in masterList) {
         if (shouldStop()) return;
 
-        // ★追加：国ごとの処理全体を「try-catch-finally」で囲むことで、
-        // どんなエラーが起きても絶対に途中で止まらない「最強の防御」にします。
+        // 国ごとの処理全体を try-catch で囲むことで、何かの国のデータが壊れていても
+        // アプリ全体が止まってしまうのを防ぎます（最強の防御です）。
         try {
           final String iso2 = country['iso2'];
           final bool isAlreadyCached = prefs.containsKey('rest_$iso2') &&
@@ -167,7 +168,6 @@ class DataService {
 
           if (isAlreadyCached) {
             if (processedCount % 10 == 0) await Future.delayed(Duration.zero);
-            // ★追加：すでにキャッシュがある場合はスキップして下の「finally」へジャンプします
             continue;
           }
 
@@ -187,18 +187,19 @@ class DataService {
             debugPrint('Wikipediaなし: $iso2');
           }
 
-          await Future.delayed(const Duration(milliseconds: 10));
+          await Future.delayed(
+              const Duration(milliseconds: 10)); // 少し休んでスマホへの負荷を和らげます
         } catch (e) {
-          // ★追加：予期せぬエラーが起きても、この国だけ諦めて次へ進む（アプリは止まらない）
           debugPrint('予期せぬエラーでスキップしました: $e');
           continue;
         } finally {
-          // ★追加：エラーが起きても起きなくても、絶対にカウントを増やして画面の「〇〇%」を進める
+          // エラーが起きても起きなくても、確実にカウントを増やしてプログレスバーを進めます。
           processedCount++;
           onProgress(processedCount / totalCountries);
         }
       }
 
+      // 全て終わったら「完了の証」を保存します。
       await prefs.setBool(_cacheCompletedKey, true);
     } catch (e) {
       throw Exception('ダウンロードに失敗しました: $e');

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:url_launcher/url_launcher.dart';
 import 'config.dart';
 
+// お問い合わせ画面です。
 class SupportScreen extends StatefulWidget {
   const SupportScreen({super.key});
 
@@ -10,17 +11,21 @@ class SupportScreen extends StatefulWidget {
 }
 
 class _SupportScreenState extends State<SupportScreen> {
-  // ユーザーが入力した文字を管理するためのコントローラーです
+  // ユーザーが入力した文字を管理するためのコントローラーです。
   final _nameController = TextEditingController();
-  final _emailController = TextEditingController();
   final _bodyController = TextEditingController();
 
-  // 送信中かどうかを管理して、ボタンの二重押しを防ぎます
-  bool _isSubmitting = false;
+  // メールアプリを起動する際、日本語などの文字が文字化けしないように変換（エンコード）する処理です。
+  String? _encodeQueryParameters(Map<String, String> params) {
+    return params.entries
+        .map((MapEntry<String, String> e) =>
+            '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+        .join('&');
+  }
 
-  // フォームの内容をGoogleフォームへ送信する処理です
-  Future<void> _submitForm() async {
-    // お問い合わせ内容が空っぽならエラーを出して止めます
+  // 送信ボタンが押されたときの処理（メールアプリを起動します）
+  Future<void> _sendEmail() async {
+    // お問い合わせ内容が空っぽならエラーを出して処理を止めます。
     if (_bodyController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('お問い合わせ内容は必須です')),
@@ -28,58 +33,36 @@ class _SupportScreenState extends State<SupportScreen> {
       return;
     }
 
-    // 送信中フラグをONにします
-    setState(() {
-      _isSubmitting = true;
-    });
+    // 入力された名前と本文を合体させて、メールの本文を作ります。
+    final String emailBody =
+        'お名前: ${_nameController.text}\n\nお問い合わせ内容:\n${_bodyController.text}';
 
-    try {
-      // config.dartで設定した項目IDと、入力された文字を紐づけます
-      final Map<String, String> body = {
-        Config.formEntryName: _nameController.text,
-        Config.formEntryEmail: _emailController.text,
-        Config.formEntryBody: _bodyController.text,
-      };
+    // mailto: という特殊なURL形式を作ることで、スマホが「これはメール送信だ！」と認識してくれます。
+    final Uri emailLaunchUri = Uri(
+      scheme: 'mailto',
+      path: Config.supportEmail, // config.dartからメールアドレスを読み込み
+      query: _encodeQueryParameters(<String, String>{
+        'subject': Config.supportSubject, // config.dartから件名を読み込み
+        'body': emailBody,
+      }),
+    );
 
-      // 実際にGoogleフォームのURLに向けてデータを投げます（POSTリクエスト）
-      final response = await http.post(
-        Uri.parse(Config.googleFormPostUrl),
-        body: body,
-      );
-
-      // 成功した場合（Google Formは通常200か、リダイレクトの302を返します）
-      if (response.statusCode == 200 || response.statusCode == 302) {
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('送信が完了しました。ありがとうございます。')),
-          );
-          Navigator.pop(context); // 送信が成功したら画面を閉じます
-        }
-      } else {
-        throw Exception('送信エラー'); // 失敗した場合はエラーを起こして下へ逃がします
-      }
-    } catch (e) {
-      // エラーが起きた場合のメッセージ表示
+    // 準備した設定を使ってメールアプリを立ち上げます。
+    if (await canLaunchUrl(emailLaunchUri)) {
+      await launchUrl(emailLaunchUri);
+    } else {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('送信に失敗しました。時間をおいて再度お試しください。')),
+          const SnackBar(content: Text('メールアプリを起動できませんでした。設定をご確認ください。')),
         );
-      }
-    } finally {
-      // 成功しても失敗しても、送信中フラグをOFFに戻します
-      if (mounted) {
-        setState(() {
-          _isSubmitting = false;
-        });
       }
     }
   }
 
-  // 画面が閉じられるときにコントローラーを破棄してメモリを節約します
+  // 画面が閉じられるときにコントローラーを破棄して、スマホのメモリを節約します。
   @override
   void dispose() {
     _nameController.dispose();
-    _emailController.dispose();
     _bodyController.dispose();
     super.dispose();
   }
@@ -88,18 +71,18 @@ class _SupportScreenState extends State<SupportScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:
-            const Text('サポート', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text(Config.menuSupport,
+            style: const TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('お困りのことやご意見がございましたら、以下のフォームより送信してください。',
+            const Text(
+                'お困りのことやご意見がございましたら、以下のフォームより送信してください。\n※お使いのメールアプリが起動します。',
                 style: TextStyle(fontSize: 16)),
             const SizedBox(height: 24),
-            // お名前入力欄
             TextField(
               controller: _nameController,
               decoration: const InputDecoration(
@@ -108,20 +91,9 @@ class _SupportScreenState extends State<SupportScreen> {
               ),
             ),
             const SizedBox(height: 16),
-            // メールアドレス入力欄（キーボードがメールアドレス用になります）
-            TextField(
-              controller: _emailController,
-              keyboardType: TextInputType.emailAddress,
-              decoration: const InputDecoration(
-                labelText: 'メールアドレス (任意)',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            const SizedBox(height: 16),
-            // お問い合わせ内容入力欄（大きめに作ります）
             TextField(
               controller: _bodyController,
-              maxLines: 6,
+              maxLines: 6, // 本文を長く書けるように入力欄を広げます
               textAlignVertical: TextAlignVertical.top,
               decoration: const InputDecoration(
                 labelText: 'お問い合わせ内容 (必須)',
@@ -130,23 +102,18 @@ class _SupportScreenState extends State<SupportScreen> {
               ),
             ),
             const SizedBox(height: 32),
-            // 送信ボタン
             SizedBox(
               width: double.infinity,
               height: 50,
               child: ElevatedButton(
-                // _isSubmittingがtrue（送信中）ならボタンを押せなくします
-                onPressed: _isSubmitting ? null : _submitForm,
+                onPressed: _sendEmail,
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8)),
                 ),
-                child: _isSubmitting
-                    // 送信中はくるくる回るアイコンを表示します
-                    ? const CircularProgressIndicator(color: Colors.white)
-                    : const Text('送信する',
-                        style: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold)),
+                child: const Text('メールアプリを起動する',
+                    style:
+                        TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
               ),
             ),
           ],

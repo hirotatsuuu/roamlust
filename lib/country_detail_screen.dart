@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'data_service.dart';
 import 'format_utils.dart';
 
-// ★動的にお気に入りを変更するため StatefulWidget に変更しました
+// 選択された国のすべての情報を表示する画面です。
 class CountryDetailScreen extends StatefulWidget {
-  final String iso2;
-  final String nameJa;
+  final String iso2; // 国のコード（例: JP）
+  final String nameJa; // 日本語の国名
 
   const CountryDetailScreen({
     super.key,
@@ -27,7 +28,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     _checkFavorite();
   }
 
-  // 画面が開かれたときに、現在お気に入りかどうかを調べます
+  // この国がすでにお気に入りに登録されているかチェックします。
   Future<void> _checkFavorite() async {
     final isFav = await DataService.isFavorite(widget.iso2);
     setState(() {
@@ -35,7 +36,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     });
   }
 
-  // ヘッダーのハートを押したときの処理
+  // ヘッダーのハートを押したときの処理です。
   Future<void> _toggleFavorite() async {
     try {
       final isNowFav = await DataService.toggleFavorite(widget.iso2);
@@ -57,17 +58,56 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     }
   }
 
+  // 渡されたURL（文字列）を、スマホの標準ブラウザ（SafariやChromeなど）で開く処理です。
+  Future<void> _launchURL(String urlString) async {
+    final Uri url = Uri.parse(urlString);
+    if (await canLaunchUrl(url)) {
+      // 外部アプリとして開くように指定します。
+      await launchUrl(url, mode: LaunchMode.externalApplication);
+    } else {
+      if (mounted) {
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('リンクを開けませんでした')));
+      }
+    }
+  }
+
+  // 英語の曜日データを日本語に翻訳する処理です。
+  String _translateDay(String? day) {
+    switch (day?.toLowerCase()) {
+      case 'monday':
+        return '月曜日';
+      case 'tuesday':
+        return '火曜日';
+      case 'wednesday':
+        return '水曜日';
+      case 'thursday':
+        return '木曜日';
+      case 'friday':
+        return '金曜日';
+      case 'saturday':
+        return '土曜日';
+      case 'sunday':
+        return '日曜日';
+      default:
+        return '情報なし';
+    }
+  }
+
+  // 2つの異なるデータ（RestCountryとWikipedia）を同時に読み込む処理です。
   Future<Map<String, dynamic>> loadDetails() async {
     final restData = await DataService.loadRestCountry(widget.iso2);
     final wikiData = await DataService.loadWikipedia(widget.iso2);
     return {'rest': restData, 'wiki': wikiData};
   }
 
+  // 辞書データの中から値だけを取り出してカンマ区切りの文字列にする処理です（言語などに使用）。
   String _extractMapValues(Map<String, dynamic>? data) {
     if (data == null || data.isEmpty) return 'データなし';
     return data.values.join(', ');
   }
 
+  // 通貨データを見やすく整形する処理です。
   String _extractCurrency(Map<String, dynamic>? currencies) {
     if (currencies == null || currencies.isEmpty) return 'データなし';
     final firstKey = currencies.keys.first;
@@ -83,9 +123,8 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.nameJa,
-            style: const TextStyle(fontWeight: FontWeight.bold)),
-        // ★右上にハートマークを追加
+        title:
+            const Text('詳細情報', style: TextStyle(fontWeight: FontWeight.bold)),
         actions: [
           IconButton(
             icon: Icon(
@@ -98,6 +137,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
           ),
         ],
       ),
+      // FutureBuilderは、非同期処理（データの読み込み）が終わるまで待機し、終わったら画面を描画する便利な仕組みです。
       body: FutureBuilder<Map<String, dynamic>>(
         future: loadDetails(),
         builder: (context, snapshot) {
@@ -122,10 +162,10 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // ★他のセクションと全く同じ部品（_buildSectionTitle）を使います
                 _buildSectionTitle('国旗', Icons.flag, isDark, context),
-                const SizedBox(height: 12), // タイトルと国旗の間のすき間
+                const SizedBox(height: 12),
                 Center(
+                  // Heroアニメーションを使って、リスト画面から滑らかに画像が飛んでくるようにします。
                   child: Hero(
                     tag: 'flag_${widget.iso2}',
                     child: Container(
@@ -157,8 +197,10 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                   ),
                 ),
                 const SizedBox(height: 32),
+
                 _buildSectionTitle('基本情報', Icons.badge, isDark, context),
                 _buildInfoCard([
+                  _buildRow('国名 (日本語)', widget.nameJa, isDark),
                   _buildRow('正式名称', rest['name']?['official'], isDark),
                   _buildRow('通称', rest['name']?['common'], isDark),
                   _buildRow(
@@ -166,6 +208,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                       'cca2: ${rest['cca2']} / cca3: ${rest['cca3']} / ccn3: ${rest['ccn3']}',
                       isDark),
                 ], context),
+
                 _buildSectionTitle('地理・位置情報', Icons.public, isDark, context),
                 _buildInfoCard([
                   _buildRow(
@@ -182,7 +225,10 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                       '隣接国',
                       (rest['borders'] as List?)?.join(', ') ?? '島国・陸続きなし',
                       isDark),
+                  _buildLinkRow('地図', rest['maps']?['googleMaps'],
+                      'Google Mapsを開く', isDark),
                 ], context),
+
                 _buildSectionTitle('社会・人口情報', Icons.people, isDark, context),
                 _buildInfoCard([
                   _buildRow(
@@ -195,11 +241,14 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                   _buildRow(
                       '国連加盟', rest['unMember'] == true ? '加盟' : '非加盟', isDark),
                 ], context),
+
                 _buildSectionTitle(
                     '経済・文化・インフラ', Icons.account_balance, isDark, context),
                 _buildInfoCard([
                   _buildRow('通貨', _extractCurrency(rest['currencies']), isDark),
                   _buildRow('言語', _extractMapValues(rest['languages']), isDark),
+                  _buildRow(
+                      '週の始まり', _translateDay(rest['startOfWeek']), isDark),
                   _buildRow(
                       'ドメイン (TLD)', (rest['tld'] as List?)?.join(', '), isDark),
                   _buildRow('タイムゾーン', (rest['timezones'] as List?)?.join(', '),
@@ -216,19 +265,63 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                     _buildRow(
                         'ジニ係数', rest['gini'].values.first.toString(), isDark),
                 ], context),
+
+                // Wikipediaの情報が存在する場合のみ表示します。
                 if (wiki != null && wiki['article'] != null) ...[
                   _buildSectionTitle(
                       '概要 (Wikipedia)', Icons.menu_book, isDark, context),
                   Card(
                     child: Padding(
                       padding: const EdgeInsets.all(16.0),
-                      child: Text(
-                        wiki['article'],
-                        style: TextStyle(
-                            height: 1.8,
-                            fontSize: 15,
-                            color:
-                                isDark ? Colors.grey.shade300 : Colors.black87),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            '本文の文字数: ${FormatUtils.formatNumber(wiki['article_length'] ?? 0)} 文字',
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.bold,
+                              color: isDark
+                                  ? Colors.grey.shade400
+                                  : Colors.grey.shade600,
+                            ),
+                          ),
+                          const SizedBox(height: 12),
+                          Text(
+                            wiki['article'],
+                            style: TextStyle(
+                                height: 1.8,
+                                fontSize: 15,
+                                color: isDark
+                                    ? Colors.grey.shade300
+                                    : Colors.black87),
+                          ),
+                          const SizedBox(height: 16),
+                          const Divider(),
+                          const SizedBox(height: 8),
+                          // InkWellを使うと、タップしたときに波紋のようなアニメーションを出せます。
+                          InkWell(
+                            onTap: () => _launchURL(wiki['url']),
+                            child: Row(
+                              children: [
+                                Icon(Icons.open_in_browser,
+                                    size: 18,
+                                    color:
+                                        Theme.of(context).colorScheme.primary),
+                                const SizedBox(width: 8),
+                                Text(
+                                  'Wikipediaのサイトで続きを読む',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color:
+                                        Theme.of(context).colorScheme.primary,
+                                    decoration: TextDecoration.underline,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -242,6 +335,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     );
   }
 
+  // 見出しを作るための共通部品（関数）です。
   Widget _buildSectionTitle(
       String title, IconData icon, bool isDark, BuildContext context) {
     return Padding(
@@ -264,6 +358,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     );
   }
 
+  // 情報をまとめるカードを作るための共通部品です。
   Widget _buildInfoCard(List<Widget> children, BuildContext context) {
     return Card(
       child: Padding(
@@ -272,6 +367,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
     );
   }
 
+  // カードの中の「ラベル: 値」の1行分を作る共通部品です。
   Widget _buildRow(String label, dynamic value, bool isDark) {
     final textValue = value?.toString() ?? '情報なし';
     return Padding(
@@ -288,11 +384,48 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                     fontWeight: FontWeight.bold)),
           ),
           Expanded(
+            // 右側の文字が長くなった場合、自動で折り返します。
             child: Text(textValue,
                 style: TextStyle(
                     fontSize: 15,
                     color: isDark ? Colors.grey.shade200 : Colors.black87,
                     height: 1.4)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // Google Mapsのような、タップできるリンクの行を作る共通部品です。
+  Widget _buildLinkRow(
+      String label, String? url, String displayText, bool isDark) {
+    if (url == null || url.isEmpty) return _buildRow(label, '情報なし', isDark);
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(
+            width: 100,
+            child: Text(label,
+                style: TextStyle(
+                    color: isDark ? Colors.grey.shade400 : Colors.grey.shade600,
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold)),
+          ),
+          Expanded(
+            child: InkWell(
+              onTap: () => _launchURL(url),
+              child: Text(
+                displayText,
+                style: const TextStyle(
+                  fontSize: 15,
+                  color: Colors.blueAccent,
+                  decoration: TextDecoration.underline,
+                  height: 1.4,
+                ),
+              ),
+            ),
           ),
         ],
       ),

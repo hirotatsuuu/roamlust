@@ -17,7 +17,7 @@ class Config {
   // 3. お問い合わせ関連 (support_screen.dart で使用)
   // ===========================================================================
   // ★ここにあなた自身のメールアドレスを設定してください（ユーザーからのメールの宛先になります）
-  static const String supportEmail = 'your_email@example.com';
+  static const String supportEmail = 'otatsu1522@gmail.com';
   static const String supportSubject = 'Roamlust お問い合わせ'; // メールの件名
 
   // ===========================================================================

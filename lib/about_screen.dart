@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'config.dart';
 
+// アプリの情報を表示する画面です。状態が変わらないため StatelessWidget にしています。
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
+  // URLを開く共通処理です。
   Future<void> _launchURL(String urlString, BuildContext context) async {
     final Uri url = Uri.parse(urlString);
 
@@ -22,15 +24,15 @@ class AboutScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('このアプリについて',
+        title: const Text(Config.menuAbout,
             style: TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: SingleChildScrollView(
-        // ★画面がはみ出さないようにスクロール可能にしました
         padding: const EdgeInsets.all(24.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            // アプリのロゴとバージョン情報を中央に表示します。
             Center(
               child: Column(
                 children: [
@@ -41,18 +43,21 @@ class AboutScreen extends StatelessWidget {
                     Config.appTitle,
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                   ),
-                  const Text('Version 1.0.0',
+                  const Text(Config.appVersion,
                       style: TextStyle(color: Colors.grey)),
                 ],
               ),
             ),
             const SizedBox(height: 48),
-            const Text('データ出典',
+
+            // データ出典（Wikipedia等）についての表示です。
+            const Text(Config.aboutDataTitle,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
-            const Text('本アプリは、以下のオープンデータを利用して作成されています。各データの詳細は公式サイトをご確認ください。'),
+            const Text(Config.aboutDataDescription),
             const SizedBox(height: 16),
 
+            // タップすると公式サイトに飛べるボタン（ListTile）です。
             ListTile(
               leading: const Icon(Icons.language),
               title: const Text('Wikipedia (CC BY-SA 4.0)'),
@@ -79,10 +84,11 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 40),
             const Divider(),
             const SizedBox(height: 32),
-            const Text('製作者の声',
+
+            // config.dartから読み込んだ製作者のメッセージを表示します。
+            const Text(Config.creatorVoiceTitle,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             const SizedBox(height: 16),
-            // ★config.dart から読み込みます
             const Text(
               Config.creatorVoice,
               style: TextStyle(height: 1.8, fontSize: 15),

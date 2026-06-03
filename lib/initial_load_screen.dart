@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'data_service.dart';
 import 'home_screen.dart';
+import 'config.dart';
 
+// アプリの初回起動時にデータをダウンロードするための画面です。
+// 進捗状況（%）を動的に表示するため StatefulWidget を使用しています。
 class InitialLoadScreen extends StatefulWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
 
@@ -12,21 +15,24 @@ class InitialLoadScreen extends StatefulWidget {
 }
 
 class _InitialLoadScreenState extends State<InitialLoadScreen> {
-  double _progress = 0.0;
-  bool _isPaused = false;
-  bool _isDownloading = false;
-  String? _errorMessage;
+  double _progress = 0.0; // ダウンロードの進み具合（0.0〜1.0）
+  bool _isPaused = false; // ダウンロードが一時停止中かどうか
+  bool _isDownloading = false; // ダウンロードが実行中かどうか
+  String? _errorMessage; // エラーが起きたときのメッセージ
 
   @override
   void initState() {
     super.initState();
+    // 画面が開かれた直後に、すでにデータを持っているか確認します。
     _checkCacheStatus();
   }
 
+  // スマホ内にすでにダウンロード済みのデータ（キャッシュ）があるか確認する処理です。
   Future<void> _checkCacheStatus() async {
     try {
       final isCompleted = await DataService.isCacheCompleted();
       if (isCompleted) {
+        // すでに完了していれば、ダウンロード画面を飛ばしてホーム画面へ進みます。
         _navigateToHome();
       } else {
         setState(() {
@@ -40,6 +46,8 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
     }
   }
 
+  // ホーム画面へ移動する処理です。
+  // pushReplacement を使うことで、スマホの「戻る」ボタンでこの画面に戻ってこれないようにします。
   void _navigateToHome() {
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
@@ -48,6 +56,7 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
     );
   }
 
+  // ダウンロードを開始する処理です。
   Future<void> _startDownload() async {
     setState(() {
       _isDownloading = true;
@@ -56,6 +65,8 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
     });
 
     try {
+      // DataServiceにダウンロードを依頼します。
+      // onProgressで進捗を受け取り、画面のバー（_progress）を更新します。
       await DataService.downloadAndCacheAllData(
         (progress) {
           setState(() {
@@ -65,19 +76,17 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
         () => _isPaused,
       );
 
-      // 正常に最後まで終わったらホーム画面へ
+      // 途中で停止されず、無事にすべて完了したらホーム画面へ進みます。
       if (!_isPaused && await DataService.isCacheCompleted()) {
         _navigateToHome();
       }
     } catch (e) {
-      // ★修正：エラーになっても止まらず、強制的に次へ進む処理
+      // エラーが起きた場合はメッセージを表示し、少し待ってから強制的にホーム画面へ進みます。
       setState(() {
-        // ユーザーには「一部スキップしたけど進むよ」とだけ優しく伝えます
-        _errorMessage = '一部の国情報（Wikipedia等）が取得できませんでしたが、\n取得できたデータでアプリを開始します。';
+        _errorMessage = Config.loadErrorMessage;
         _isDownloading = false;
       });
 
-      // 2.5秒だけメッセージを見せたあと、強制的にホーム画面へ移動させます
       Future.delayed(const Duration(milliseconds: 2500), () {
         if (mounted) {
           _navigateToHome();
@@ -86,6 +95,7 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
     }
   }
 
+  // ダウンロードを一時停止する処理です。
   void _pauseDownload() {
     setState(() {
       _isPaused = true;
@@ -97,6 +107,7 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
     return Scaffold(
       body: Container(
         width: double.infinity,
+        // 背景をきれいなグラデーションで塗りつぶします。
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: Theme.of(context).brightness == Brightness.dark
@@ -106,121 +117,141 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
             end: Alignment.bottomCenter,
           ),
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.travel_explore,
-              size: 80,
-              color: Theme.of(context).colorScheme.primary,
-            ),
-            const SizedBox(height: 24),
-            const Text(
-              '世界の情報を集めています',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 8),
-            const Text(
-              '初回のみ少し時間がかかります',
-              style: TextStyle(fontSize: 14, color: Colors.grey),
-            ),
-            const SizedBox(height: 48),
-
-            // エラーメッセージが出た場合（すぐに次へ進むので短時間の表示になります）
-            if (_errorMessage != null) ...[
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                child: Text(
-                  _errorMessage!,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                      color: Colors.redAccent,
+        // スマホのノッチ（カメラの出っ張りなど）に被らないようにSafeAreaで囲みます。
+        child: SafeArea(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // 画面上部にアプリのタイトルを配置するための余白（Expanded）です。
+              Expanded(
+                flex: 1,
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 40.0),
+                  child: Text(
+                    Config.appTitle,
+                    style: TextStyle(
+                      fontSize: 32,
                       fontWeight: FontWeight.bold,
-                      height: 1.5),
-                ),
-              ),
-              const SizedBox(height: 16),
-              const CircularProgressIndicator(), // 画面遷移待ちのぐるぐる
-            ]
-            // 一時停止中の場合
-            else if (_isPaused) ...[
-              const Text(
-                'ダウンロードが一時停止中です',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 16),
-              ElevatedButton.icon(
-                onPressed: _startDownload,
-                icon: const Icon(Icons.play_arrow),
-                label: const Text('再開する'),
-                style: ElevatedButton.styleFrom(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                ),
-              ),
-            ]
-            // ダウンロード開始前の場合
-            else if (!_isDownloading && _progress == 0.0) ...[
-              const Text(
-                'ダウンロードの準備ができました',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 16),
-              ElevatedButton.icon(
-                onPressed: _startDownload,
-                icon: const Icon(Icons.download),
-                label: const Text('ダウンロードを開始する'),
-                style: ElevatedButton.styleFrom(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30)),
-                ),
-              ),
-            ]
-            // ダウンロード実行中の場合
-            else ...[
-              Stack(
-                alignment: Alignment.center,
-                children: [
-                  SizedBox(
-                    width: 120,
-                    height: 120,
-                    child: CircularProgressIndicator(
-                      value: _progress,
-                      strokeWidth: 8,
-                      backgroundColor: Colors.grey.withValues(alpha: 0.2),
+                      letterSpacing: 2.0,
                       color: Theme.of(context).colorScheme.primary,
                     ),
                   ),
-                  Text(
-                    '${(_progress * 100).toInt()}%',
-                    style: const TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 32),
-              OutlinedButton.icon(
-                onPressed: _pauseDownload,
-                icon: const Icon(Icons.pause),
-                label: const Text('中断する'),
-                style: OutlinedButton.styleFrom(
-                  foregroundColor: Colors.redAccent,
-                  side: const BorderSide(color: Colors.redAccent),
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30)),
                 ),
               ),
+              Icon(
+                Icons.travel_explore,
+                size: 80,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(height: 24),
+              const Text(
+                Config.loadTitle,
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 8),
+              const Text(
+                Config.loadSubtitle,
+                style: TextStyle(fontSize: 14, color: Colors.grey),
+              ),
+              const SizedBox(height: 48),
+
+              // 状況に合わせて、画面中央の表示を切り替えます。
+              if (_errorMessage != null) ...[
+                // エラー時
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                  child: Text(
+                    _errorMessage!,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                        color: Colors.redAccent,
+                        fontWeight: FontWeight.bold,
+                        height: 1.5),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                const CircularProgressIndicator(),
+              ] else if (_isPaused) ...[
+                // 一時停止時
+                const Text(
+                  Config.loadPaused,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 16),
+                ElevatedButton.icon(
+                  onPressed: _startDownload,
+                  icon: const Icon(Icons.play_arrow),
+                  label: const Text('再開する'),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 32, vertical: 12),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                ),
+              ] else if (!_isDownloading && _progress == 0.0) ...[
+                // ダウンロード開始前
+                const Text(
+                  Config.loadReady,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 16),
+                ElevatedButton.icon(
+                  onPressed: _startDownload,
+                  icon: const Icon(Icons.download),
+                  label: const Text('ダウンロードを開始する'),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 32, vertical: 12),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                ),
+              ] else ...[
+                // ダウンロード中（プログレスバーの表示）
+                Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    SizedBox(
+                      width: 120,
+                      height: 120,
+                      child: CircularProgressIndicator(
+                        value: _progress,
+                        strokeWidth: 8,
+                        backgroundColor: Colors.grey.withValues(alpha: 0.2),
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                    ),
+                    Text(
+                      '${(_progress * 100).toInt()}%',
+                      style: const TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 32),
+                OutlinedButton.icon(
+                  onPressed: _pauseDownload,
+                  icon: const Icon(Icons.pause),
+                  label: const Text('中断する'),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: Colors.redAccent,
+                    side: const BorderSide(color: Colors.redAccent),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 24, vertical: 12),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                ),
+              ],
+
+              // 画面下部のバランスを整えるための余白です。
+              const Spacer(flex: 2),
             ],
-          ],
+          ),
         ),
       ),
     );
