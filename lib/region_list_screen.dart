@@ -71,6 +71,28 @@ class _RegionListScreenState extends State<RegionListScreen> {
     }
   }
 
+  // 英語の地域名を「日本語 (英語)」の形に変換する便利な関数です。
+  String _translateRegion(String regionEn) {
+    switch (regionEn) {
+      case 'Asia':
+        return 'アジア (Asia)';
+      case 'Europe':
+        return 'ヨーロッパ (Europe)';
+      case 'Africa':
+        return 'アフリカ (Africa)';
+      case 'Americas':
+        return 'アメリカ (Americas)';
+      case 'Oceania':
+        return 'オセアニア (Oceania)';
+      case 'Antarctic':
+        return '南極 (Antarctic)';
+      case 'Other':
+        return 'その他 (Other)';
+      default:
+        return '$regionEn (Other)';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
@@ -94,8 +116,8 @@ class _RegionListScreenState extends State<RegionListScreen> {
                 // ExpansionTileを使うと、タップして「アコーディオンのようにパカッと開く」メニューが作れます。
                 return ExpansionTile(
                   title: Text(
-                    // 英語の地域名をそのまま表示し、横に所属する国の数を添えます。
-                    '$regionName (${countries.length} か国)',
+                    // 翻訳関数を通してから表示します
+                    '${_translateRegion(regionName)} (${countries.length} か国)',
                     style: const TextStyle(
                         fontWeight: FontWeight.bold, fontSize: 16),
                   ),

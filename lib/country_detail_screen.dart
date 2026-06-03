@@ -158,179 +158,196 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
             return const Center(child: Text('詳細データが見つかりませんでした'));
           }
 
-          return SingleChildScrollView(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 20.0, vertical: 16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _buildSectionTitle('国旗', Icons.flag, isDark, context),
-                const SizedBox(height: 12),
-                Center(
-                  // Heroアニメーションを使って、リスト画面から滑らかに画像が飛んでくるようにします。
-                  child: Hero(
-                    tag: 'flag_${widget.iso2}',
-                    child: Container(
-                      decoration: BoxDecoration(
-                        boxShadow: [
-                          BoxShadow(
-                            color: isDark
-                                ? Colors.black.withValues(alpha: 0.3)
-                                : Colors.black.withValues(alpha: 0.1),
-                            blurRadius: 10,
-                            offset: const Offset(0, 5),
+          return Scrollbar(
+              interactive: true,
+              thumbVisibility: true,
+              thickness: 8.0, // バーの太さを少し太くして掴みやすくします
+              radius: const Radius.circular(10), // バーの角を丸くして可愛くします
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 20.0, vertical: 16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildSectionTitle('国旗', Icons.flag, isDark, context),
+                    const SizedBox(height: 12),
+                    Center(
+                      // Heroアニメーションを使って、リスト画面から滑らかに画像が飛んでくるようにします。
+                      child: Hero(
+                        tag: 'flag_${widget.iso2}',
+                        child: Container(
+                          decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: isDark
+                                    ? Colors.black.withValues(alpha: 0.3)
+                                    : Colors.black.withValues(alpha: 0.1),
+                                blurRadius: 10,
+                                offset: const Offset(0, 5),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(8),
-                        child: SvgPicture.asset(
-                          'assets/flags/${widget.iso2.toLowerCase()}.svg',
-                          height: 140,
-                          placeholderBuilder: (_) => Container(
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: SvgPicture.asset(
+                              'assets/flags/${widget.iso2.toLowerCase()}.svg',
                               height: 140,
-                              width: 210,
-                              color: isDark
-                                  ? Colors.grey.shade800
-                                  : Colors.grey.shade200),
+                              placeholderBuilder: (_) => Container(
+                                  height: 140,
+                                  width: 210,
+                                  color: isDark
+                                      ? Colors.grey.shade800
+                                      : Colors.grey.shade200),
+                            ),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                ),
-                const SizedBox(height: 32),
+                    const SizedBox(height: 32),
 
-                _buildSectionTitle('基本情報', Icons.badge, isDark, context),
-                _buildInfoCard([
-                  _buildRow('国名', widget.nameJa, isDark),
-                  _buildRow('正式名称', rest['name']?['official'], isDark),
-                  _buildRow('通称', rest['name']?['common'], isDark),
-                  _buildRow(
-                      'コード',
-                      'cca2: ${rest['cca2']} / cca3: ${rest['cca3']} / ccn3: ${rest['ccn3']}',
-                      isDark),
-                ], context),
+                    _buildSectionTitle('基本情報', Icons.badge, isDark, context),
+                    _buildInfoCard([
+                      _buildRow('国名', widget.nameJa, isDark),
+                      _buildRow('正式名称', rest['name']?['official'], isDark),
+                      _buildRow('通称', rest['name']?['common'], isDark),
+                      _buildRow(
+                          'コード',
+                          'cca2: ${rest['cca2']} / cca3: ${rest['cca3']} / ccn3: ${rest['ccn3']}',
+                          isDark),
+                    ], context),
 
-                _buildSectionTitle('地理・位置情報', Icons.public, isDark, context),
-                _buildInfoCard([
-                  _buildRow(
-                      '首都', (rest['capital'] as List?)?.join(', '), isDark),
-                  _buildRow(
-                      '地域',
-                      '${rest['continents']?[0]} > ${rest['region']} > ${rest['subregion']}',
-                      isDark),
-                  _buildRow('面積',
-                      '${FormatUtils.formatNumber(rest['area'])} km²', isDark),
-                  _buildRow(
-                      '緯度・経度', (rest['latlng'] as List?)?.join(', '), isDark),
-                  _buildRow(
-                      '隣接国',
-                      (rest['borders'] as List?)?.join(', ') ?? '島国・陸続きなし',
-                      isDark),
-                  _buildLinkRow('地図', rest['maps']?['googleMaps'],
-                      'Google Mapsを開く', isDark),
-                ], context),
+                    _buildSectionTitle(
+                        '地理・位置情報', Icons.public, isDark, context),
+                    _buildInfoCard([
+                      _buildRow(
+                          '首都', (rest['capital'] as List?)?.join(', '), isDark),
+                      _buildRow(
+                          '地域',
+                          '${rest['continents']?[0]} > ${rest['region']} > ${rest['subregion']}',
+                          isDark),
+                      _buildRow(
+                          '面積',
+                          '${FormatUtils.formatNumber(rest['area'])} km²',
+                          isDark),
+                      _buildRow('緯度・経度', (rest['latlng'] as List?)?.join(', '),
+                          isDark),
+                      _buildRow(
+                          '隣接国',
+                          (rest['borders'] as List?)?.join(', ') ?? '島国・陸続きなし',
+                          isDark),
+                      _buildLinkRow('地図', rest['maps']?['googleMaps'],
+                          'Google Mapsを開く', isDark),
+                    ], context),
 
-                _buildSectionTitle('社会・人口情報', Icons.people, isDark, context),
-                _buildInfoCard([
-                  _buildRow(
-                      '人口',
-                      '${FormatUtils.formatNumber(rest['population'])} 人',
-                      isDark),
-                  _buildRow('住民の呼称', rest['demonyms']?['eng']?['m'], isDark),
-                  _buildRow('独立状況',
-                      rest['independent'] == true ? '独立国' : '非独立領域', isDark),
-                  _buildRow(
-                      '国連加盟', rest['unMember'] == true ? '加盟' : '非加盟', isDark),
-                ], context),
+                    _buildSectionTitle(
+                        '社会・人口情報', Icons.people, isDark, context),
+                    _buildInfoCard([
+                      _buildRow(
+                          '人口',
+                          '${FormatUtils.formatNumber(rest['population'])} 人',
+                          isDark),
+                      _buildRow(
+                          '住民の呼称', rest['demonyms']?['eng']?['m'], isDark),
+                      _buildRow(
+                          '独立状況',
+                          rest['independent'] == true ? '独立国' : '非独立領域',
+                          isDark),
+                      _buildRow('国連加盟', rest['unMember'] == true ? '加盟' : '非加盟',
+                          isDark),
+                    ], context),
 
-                _buildSectionTitle(
-                    '経済・文化・インフラ', Icons.account_balance, isDark, context),
-                _buildInfoCard([
-                  _buildRow('通貨', _extractCurrency(rest['currencies']), isDark),
-                  _buildRow('言語', _extractMapValues(rest['languages']), isDark),
-                  _buildRow(
-                      '週の始まり', _translateDay(rest['startOfWeek']), isDark),
-                  _buildRow(
-                      'ドメイン (TLD)', (rest['tld'] as List?)?.join(', '), isDark),
-                  _buildRow('タイムゾーン', (rest['timezones'] as List?)?.join(', '),
-                      isDark),
-                  _buildRow(
-                      '電話番号',
-                      '${rest['idd']?['root']}${rest['idd']?['suffixes']?[0] ?? ''}',
-                      isDark),
-                  _buildRow(
-                      '自動車通行帯',
-                      rest['car']?['side'] == 'right' ? '右側通行' : '左側通行',
-                      isDark),
-                  if (rest['gini'] != null)
-                    _buildGiniRow(rest['gini'].values.first.toString(), isDark),
-                ], context),
+                    _buildSectionTitle(
+                        '経済・文化・インフラ', Icons.account_balance, isDark, context),
+                    _buildInfoCard([
+                      _buildRow(
+                          '通貨', _extractCurrency(rest['currencies']), isDark),
+                      _buildRow(
+                          '言語', _extractMapValues(rest['languages']), isDark),
+                      _buildRow(
+                          '週の始まり', _translateDay(rest['startOfWeek']), isDark),
+                      _buildRow('ドメイン (TLD)',
+                          (rest['tld'] as List?)?.join(', '), isDark),
+                      _buildRow('タイムゾーン',
+                          (rest['timezones'] as List?)?.join(', '), isDark),
+                      _buildRow(
+                          '電話番号',
+                          '${rest['idd']?['root']}${rest['idd']?['suffixes']?[0] ?? ''}',
+                          isDark),
+                      _buildRow(
+                          '自動車通行帯',
+                          rest['car']?['side'] == 'right' ? '右側通行' : '左側通行',
+                          isDark),
+                      if (rest['gini'] != null)
+                        _buildGiniRow(
+                            rest['gini'].values.first.toString(), isDark),
+                    ], context),
 
-                // Wikipediaの情報が存在する場合のみ表示します。
-                if (wiki != null && wiki['article'] != null) ...[
-                  _buildSectionTitle(
-                      '概要 (Wikipedia)', Icons.menu_book, isDark, context),
-                  Card(
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            '本文の文字数: ${FormatUtils.formatNumber(wiki['article_length'] ?? 0)} 文字',
-                            style: TextStyle(
-                              fontSize: 13,
-                              fontWeight: FontWeight.bold,
-                              color: isDark
-                                  ? Colors.grey.shade400
-                                  : Colors.grey.shade600,
-                            ),
-                          ),
-                          const SizedBox(height: 12),
-                          Text(
-                            wiki['article'],
-                            style: TextStyle(
-                                height: 1.8,
-                                fontSize: 15,
-                                color: isDark
-                                    ? Colors.grey.shade300
-                                    : Colors.black87),
-                          ),
-                          const SizedBox(height: 16),
-                          const Divider(),
-                          const SizedBox(height: 8),
-                          // InkWellを使うと、タップしたときに波紋のようなアニメーションを出せます。
-                          InkWell(
-                            onTap: () => _launchURL(wiki['url']),
-                            child: Row(
-                              children: [
-                                Icon(Icons.open_in_browser,
-                                    size: 18,
-                                    color:
-                                        Theme.of(context).colorScheme.primary),
-                                const SizedBox(width: 8),
-                                Text(
-                                  'Wikipediaのサイトで続きを読む',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color:
-                                        Theme.of(context).colorScheme.primary,
-                                    decoration: TextDecoration.underline,
-                                  ),
+                    // Wikipediaの情報が存在する場合のみ表示します。
+                    if (wiki != null && wiki['article'] != null) ...[
+                      _buildSectionTitle(
+                          '概要 (Wikipedia)', Icons.menu_book, isDark, context),
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                '本文の文字数: ${FormatUtils.formatNumber(wiki['article_length'] ?? 0)} 文字',
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                  color: isDark
+                                      ? Colors.grey.shade400
+                                      : Colors.grey.shade600,
                                 ),
-                              ],
-                            ),
+                              ),
+                              const SizedBox(height: 12),
+                              Text(
+                                wiki['article'],
+                                style: TextStyle(
+                                    height: 1.8,
+                                    fontSize: 15,
+                                    color: isDark
+                                        ? Colors.grey.shade300
+                                        : Colors.black87),
+                              ),
+                              const SizedBox(height: 16),
+                              const Divider(),
+                              const SizedBox(height: 8),
+                              // InkWellを使うと、タップしたときに波紋のようなアニメーションを出せます。
+                              InkWell(
+                                onTap: () => _launchURL(wiki['url']),
+                                child: Row(
+                                  children: [
+                                    Icon(Icons.open_in_browser,
+                                        size: 18,
+                                        color: Theme.of(context)
+                                            .colorScheme
+                                            .primary),
+                                    const SizedBox(width: 8),
+                                    Text(
+                                      'Wikipediaのサイトで続きを読む',
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Theme.of(context)
+                                            .colorScheme
+                                            .primary,
+                                        decoration: TextDecoration.underline,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
                           ),
-                        ],
+                        ),
                       ),
-                    ),
-                  ),
-                ],
-                const SizedBox(height: 40),
-              ],
-            ),
-          );
+                    ],
+                    const SizedBox(height: 40),
+                  ],
+                ),
+              ));
         },
       ),
     );

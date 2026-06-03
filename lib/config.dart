@@ -5,6 +5,8 @@ class Config {
   // ===========================================================================
   static const String appTitle = 'Roamlust';
   static const String appSubtitle = 'Roam (放浪する) + Lust (強い欲求)';
+  static const String appOneWord =
+      '日常を抜け出して、新しい世界へ'; // 旅に出たくなるような一言に変更しました by Gemini
   static const String appVersion = 'Version 1.0.0'; // about_screen.dart で使用
 
   // ===========================================================================

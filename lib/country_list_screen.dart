@@ -108,18 +108,38 @@ class _CountryListScreenState extends State<CountryListScreen> {
     }
   }
 
+  // タップしたときに下から通知を出すように書き換えます
   Future<void> _toggleFavorite(String iso2) async {
     try {
-      setState(() {
-        if (_favorites.contains(iso2)) {
-          _favorites.remove(iso2);
-        } else {
-          _favorites.add(iso2);
-        }
-      });
-      await DataService.toggleFavorite(iso2);
+      // お気に入りの状態を反転させ、新しく登録されたか(true)解除されたか(false)を受け取ります
+      final isNowFav = await DataService.toggleFavorite(iso2);
+
+      // リストのハートの色を最新にするために、お気に入りデータを再読み込みします
+      await _refreshFavorites();
+
+      if (mounted) {
+        // 下からメッセージ（SnackBar）を表示します
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            // テキストを中央揃えにします
+            content: Text(
+              isNowFav ? 'お気に入りに追加しました' : 'お気に入りから削除しました',
+              textAlign: TextAlign.center,
+            ),
+            // 表示時間を3秒にします
+            duration: const Duration(seconds: 2),
+          ),
+        );
+      }
     } catch (e) {
-      _refreshFavorites();
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('お気に入りの更新に失敗しました: $e', textAlign: TextAlign.center),
+            duration: const Duration(seconds: 2),
+          ),
+        );
+      }
     }
   }
 
@@ -284,6 +304,78 @@ class _CountryListScreenState extends State<CountryListScreen> {
     );
   }
 
+  // 絞り込みメニューを下から出す処理です
+  void _showFilterBottomSheet(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+      builder: (BuildContext context) {
+        // 状態を管理するために StatefulBuilder を使います（メニューの中だけでチェックマークを更新するため）
+        return StatefulBuilder(
+            builder: (BuildContext context, StateSetter setModalState) {
+          return SafeArea(
+            child: Padding(
+              padding:
+                  const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Text('絞り込み',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  const SizedBox(height: 16),
+                  // チェックボックスのリスト（※今は見た目だけですが、今後ここに判定処理を入れます）
+                  CheckboxListTile(
+                    title: const Text('国連加盟国'),
+                    value: false, // 今後ここを変数にしてON/OFFを管理します
+                    onChanged: (bool? value) {
+                      setModalState(() {});
+                    },
+                  ),
+                  CheckboxListTile(
+                    title: const Text('独立国'),
+                    value: false,
+                    onChanged: (bool? value) {
+                      setModalState(() {});
+                    },
+                  ),
+                  CheckboxListTile(
+                    title: const Text('北半球'),
+                    value: false,
+                    onChanged: (bool? value) {
+                      setModalState(() {});
+                    },
+                  ),
+                  const SizedBox(height: 24),
+                  // 下部のボタン群
+                  Row(
+                    children: [
+                      Expanded(
+                        child: OutlinedButton(
+                          onPressed: () => Navigator.pop(context),
+                          child: const Text('クリア'),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: () => Navigator.pop(context), // 適用して閉じる
+                          child: const Text('適用',
+                              style: TextStyle(fontWeight: FontWeight.bold)),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          );
+        });
+      },
+    );
+  }
+
   Widget _buildSortOption(
       BuildContext context, SortType type, String title, IconData icon) {
     final isSelected = _currentSort == type;
@@ -318,13 +410,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
         title:
             const Text('国の一覧', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
-        actions: [
-          IconButton(
-            icon:
-                Icon(Icons.sort, color: isDark ? Colors.white : Colors.black87),
-            onPressed: () => _showSortBottomSheet(context),
-          ),
-        ],
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
@@ -338,12 +423,50 @@ class _CountryListScreenState extends State<CountryListScreen> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('全 ${_countries.length} か国',
-                          style: TextStyle(
-                              color: Colors.grey.shade500, fontSize: 13)),
-                      Text('並び順: ${_getSortName(_currentSort)}',
-                          style: TextStyle(
-                              color: Colors.grey.shade500, fontSize: 13)),
+                      // InkWellで囲むことで、タップ可能にし、波紋のアニメーションをつけます
+                      InkWell(
+                        onTap: () =>
+                            _showFilterBottomSheet(context), // 絞り込み画面を開く
+                        borderRadius: BorderRadius.circular(4), // 波紋の角を少し丸くします
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 4.0, horizontal: 8.0),
+                          child: Row(
+                            children: [
+                              const Icon(Icons.filter_list,
+                                  size: 16, color: Colors.grey),
+                              const SizedBox(width: 4),
+                              Text('全 ${_countries.length} か国',
+                                  style: TextStyle(
+                                      color: Colors.grey.shade600,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.bold)),
+                            ],
+                          ),
+                        ),
+                      ),
+                      // こちらも同様にタップできるようにします
+                      InkWell(
+                        onTap: () => _showSortBottomSheet(context), // 並び替え画面を開く
+                        borderRadius: BorderRadius.circular(4),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 4.0, horizontal: 8.0),
+                          child: Row(
+                            children: [
+                              Text('並び順: ${_getSortName(_currentSort)}',
+                                  style: TextStyle(
+                                      color: Colors.grey.shade600,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.bold)),
+                              const SizedBox(width: 4),
+                              const Icon(Icons.arrow_drop_down,
+                                  size: 18,
+                                  color: Colors.grey), // 下矢印で「押せる」ことをアピール
+                            ],
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),

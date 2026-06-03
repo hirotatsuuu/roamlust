@@ -85,18 +85,29 @@ class _SupportScreenState extends State<SupportScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-                'お困りのことやご意見がございましたら、以下のフォームより送信してください。\n※お使いのメールアプリが起動します。',
-                style: TextStyle(fontSize: 16)),
-            const SizedBox(height: 24),
-            TextField(
-              controller: _nameController,
-              decoration: const InputDecoration(
-                labelText: 'お名前 (任意)',
-                border: OutlineInputBorder(),
-              ),
-            ),
+            // --- ここからQ&Aセクション ---
+            const Text('よくある質問',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 16),
+            _buildQAItem('Q. オフラインでも使えますか？',
+                'A. はい。初回起動時にデータをダウンロードした後は、完全にインターネット通信なしでご利用いただけます。'),
+            _buildQAItem(
+                'Q. アプリの容量はどれくらいですか？', 'A. 国旗の画像やデータを含め、約数MB〜十数MBを使用します。'),
+            _buildQAItem(
+                'Q. 不要になったデータを消すには？', 'A. 左上のメニューにある「データの初期化」からいつでも削除できます。'),
+            _buildQAItem(
+                'Q. ダークモードに対応していますか？', 'A. はい。メニューの「テーマ切り替え」からいつでも変更可能です。'),
+            _buildQAItem('Q. 新しい機能の要望はできますか？', 'A. はい！ぜひ下のフォームからアイデアをお送りください。'),
+
+            const Divider(height: 48), // 区切り線
+
+            const Text('お問い合わせフォーム',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            const Text('その他のご意見・ご要望は、以下のフォームより送信してください。\n※お使いのメールアプリが起動します。',
+                style: TextStyle(fontSize: 14)),
+            const SizedBox(height: 24),
+            // --- ここまで ---
             TextField(
               controller: _bodyController,
               maxLines: 6, // 本文を長く書けるように入力欄を広げます
@@ -124,6 +135,25 @@ class _SupportScreenState extends State<SupportScreen> {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  // Q&Aの1セットを綺麗に表示するための専用部品です。
+  Widget _buildQAItem(String question, String answer) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 16.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(question,
+              style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15,
+                  color: Colors.blueGrey)),
+          const SizedBox(height: 4),
+          Text(answer, style: const TextStyle(fontSize: 14, height: 1.4)),
+        ],
       ),
     );
   }
