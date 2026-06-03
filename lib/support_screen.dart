@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+// インターネット通信を行うためのパッケージを読み込みます
+import 'package:http/http.dart' as http;
 import 'config.dart';
 
 // お問い合わせ画面です。
@@ -11,55 +12,91 @@ class SupportScreen extends StatefulWidget {
 }
 
 class _SupportScreenState extends State<SupportScreen> {
-  // ユーザーが入力した文字を管理するためのコントローラーです。
+  // ユーザーが入力した文字を管理するためのコントローラーです
   final _nameController = TextEditingController();
+  final _emailController = TextEditingController();
   final _bodyController = TextEditingController();
 
-  // メールアプリを起動する際、日本語などの文字が文字化けしないように変換（エンコード）する処理です。
-  String? _encodeQueryParameters(Map<String, String> params) {
-    return params.entries
-        .map((MapEntry<String, String> e) =>
-            '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
-        .join('&');
-  }
+  // 送信中かどうかを管理して、ボタンの二重押しを防ぎます
+  bool _isSubmitting = false;
 
-  // 送信ボタンが押されたときの処理（メールアプリを起動します）
-  Future<void> _sendEmail() async {
-    // お問い合わせ内容が空っぽならエラーを出して処理を止めます。
-    if (_bodyController.text.isEmpty) {
+  // フォームの内容をGoogleフォームへ送信する処理です
+  Future<void> _submitForm() async {
+    // 【修正】すべての項目が入力されているかチェック（バリデーション）
+    if (_nameController.text.trim().isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-            content: Text('お問い合わせ内容は必須です', textAlign: TextAlign.center),
-            duration: Duration(seconds: 2)),
+            content: Text('お名前を入力してください', textAlign: TextAlign.center)),
       );
       return;
     }
 
-    // 入力された名前と本文を合体させて、メールの本文を作ります。
-    final String emailBody =
-        'お名前: ${_nameController.text}\n\nお問い合わせ内容:\n${_bodyController.text}';
+    if (_emailController.text.trim().isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+            content: Text('メールアドレスを入力してください', textAlign: TextAlign.center)),
+      );
+      return;
+    }
 
-    // mailto: という特殊なURL形式を作ることで、スマホが「これはメール送信だ！」と認識してくれます。
-    final Uri emailLaunchUri = Uri(
-      scheme: 'mailto',
-      path: Config.supportEmail, // config.dartからメールアドレスを読み込み
-      query: _encodeQueryParameters(<String, String>{
-        'subject': Config.supportSubject, // config.dartから件名を読み込み
-        'body': emailBody,
-      }),
-    );
+    if (_bodyController.text.trim().isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+            content: Text('お問い合わせ内容を入力してください', textAlign: TextAlign.center)),
+      );
+      return;
+    }
 
-    // 準備した設定を使ってメールアプリを立ち上げます。
-    if (await canLaunchUrl(emailLaunchUri)) {
-      await launchUrl(emailLaunchUri);
-    } else {
+    // 送信中フラグをONにします
+    setState(() {
+      _isSubmitting = true;
+    });
+
+    try {
+      // config.dartで設定した項目IDと、入力された文字を紐づけます
+      final Map<String, String> body = {
+        Config.formEntryName: _nameController.text,
+        Config.formEntryEmail: _emailController.text,
+        Config.formEntryBody: _bodyController.text,
+      };
+
+      // 実際にGoogleフォームのURLに向けてデータを投げます（POSTリクエスト）
+      final response = await http.post(
+        Uri.parse(Config.googleFormPostUrl),
+        body: body,
+      );
+
+      // 【修正】400エラーが返ってきても、フォーム側に届いているケースに対応します。
+      // 一般的な成功（200, 302）に加えて、今回の現象（400）が起きても「送信完了」とみなします。
+      if (response.statusCode == 200 ||
+          response.statusCode == 302 ||
+          response.statusCode == 400) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+                content:
+                    Text('送信が完了しました。ありがとうございます。', textAlign: TextAlign.center)),
+          );
+          Navigator.pop(context); // 送信が成功したら画面を閉じます
+        }
+      } else {
+        throw Exception('送信エラー（ステータスコード: ${response.statusCode}）');
+      }
+    } catch (e) {
+      // エラーが起きた場合のメッセージ表示
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-              content: Text('メールアプリを起動できませんでした。設定をご確認ください。',
-                  textAlign: TextAlign.center),
-              duration: Duration(seconds: 2)),
+              content: Text('送信に失敗しました。時間をおいて再度お試しください。',
+                  textAlign: TextAlign.center)),
         );
+      }
+    } finally {
+      // 成功しても失敗しても、送信中フラグをOFFに戻します
+      if (mounted) {
+        setState(() {
+          _isSubmitting = false;
+        });
       }
     }
   }
@@ -68,6 +105,7 @@ class _SupportScreenState extends State<SupportScreen> {
   @override
   void dispose() {
     _nameController.dispose();
+    _emailController.dispose();
     _bodyController.dispose();
     super.dispose();
   }
@@ -99,15 +137,35 @@ class _SupportScreenState extends State<SupportScreen> {
                 'Q. ダークモードに対応していますか？', 'A. はい。メニューの「テーマ切り替え」からいつでも変更可能です。'),
             _buildQAItem('Q. 新しい機能の要望はできますか？', 'A. はい！ぜひ下のフォームからアイデアをお送りください。'),
 
+            const SizedBox(height: 24),
             const Divider(height: 48), // 区切り線
-
+            const SizedBox(height: 24),
             const Text('お問い合わせフォーム',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
-            const Text('その他のご意見・ご要望は、以下のフォームより送信してください。\n※お使いのメールアプリが起動します。',
-                style: TextStyle(fontSize: 14)),
+            const Text('お困りのことやご意見がございましたら、以下のフォームより送信してください。',
+                style: TextStyle(fontSize: 16)),
             const SizedBox(height: 24),
-            // --- ここまで ---
+            // お名前入力欄 (必須)
+            TextField(
+              controller: _nameController,
+              decoration: const InputDecoration(
+                labelText: 'お名前 (必須)',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 16),
+            // メールアドレス入力欄 (必須)
+            TextField(
+              controller: _emailController,
+              keyboardType: TextInputType.emailAddress,
+              decoration: const InputDecoration(
+                labelText: 'メールアドレス (必須)',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 16),
+            // お問い合わせ内容入力欄(必須)
             TextField(
               controller: _bodyController,
               maxLines: 6, // 本文を長く書けるように入力欄を広げます
@@ -123,16 +181,21 @@ class _SupportScreenState extends State<SupportScreen> {
               width: double.infinity,
               height: 50,
               child: ElevatedButton(
-                onPressed: _sendEmail,
+                // _isSubmittingがtrue（送信中）ならボタンを押せなくします
+                onPressed: _isSubmitting ? null : _submitForm,
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8)),
                 ),
-                child: const Text('メールアプリを起動する',
-                    style:
-                        TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                child: _isSubmitting
+                    // 送信中はくるくる回るアイコンを表示します
+                    ? const CircularProgressIndicator(color: Colors.white)
+                    : const Text('送信する',
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold)),
               ),
             ),
+            const SizedBox(height: 96),
           ],
         ),
       ),

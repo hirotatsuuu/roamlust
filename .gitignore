@@ -46,3 +46,4 @@ app.*.map.json
 
 # 追加
 .metadata
+/assets_original

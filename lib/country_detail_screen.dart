@@ -191,10 +191,12 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                             borderRadius: BorderRadius.circular(8),
                             child: SvgPicture.asset(
                               'assets/flags/${widget.iso2.toLowerCase()}.svg',
-                              height: 140,
+                              width: double.infinity,
+                              height: 250,
+                              fit: BoxFit.contain,
                               placeholderBuilder: (_) => Container(
-                                  height: 140,
-                                  width: 210,
+                                  height: 250,
+                                  width: double.infinity,
                                   color: isDark
                                       ? Colors.grey.shade800
                                       : Colors.grey.shade200),
@@ -303,7 +305,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                                 ),
                               ),
                               const SizedBox(height: 12),
-                              Text(
+                              SelectableText(
                                 wiki['article'],
                                 style: TextStyle(
                                     height: 1.8,
@@ -395,7 +397,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
         children: [
           SizedBox(
             width: 100,
-            child: Text(label,
+            child: SelectableText(label,
                 style: TextStyle(
                     color: isDark ? Colors.grey.shade400 : Colors.grey.shade600,
                     fontSize: 13,
@@ -403,7 +405,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
           ),
           Expanded(
             // 右側の文字が長くなった場合、自動で折り返します。
-            child: Text(textValue,
+            child: SelectableText(textValue,
                 style: TextStyle(
                     fontSize: 15,
                     color: isDark ? Colors.grey.shade200 : Colors.black87,
@@ -429,7 +431,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
         children: [
           SizedBox(
             width: 100,
-            child: Text('ジニ係数',
+            child: SelectableText('ジニ係数',
                 style: TextStyle(
                     color: isDark ? Colors.grey.shade400 : Colors.grey.shade600,
                     fontSize: 13,
@@ -440,14 +442,14 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                SelectableText(
                   displayValue, // 100で割った数値を表示します
                   style: TextStyle(
                       fontSize: 15,
                       color: isDark ? Colors.grey.shade200 : Colors.black87,
                       height: 1.4),
                 ),
-                Text(
+                SelectableText(
                   '※所得の不平等さを測る指標(0~1)',
                   style: TextStyle(
                       fontSize: 11,

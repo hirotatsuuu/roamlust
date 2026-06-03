@@ -122,16 +122,6 @@ class AppDrawer extends StatelessWidget {
               );
             },
           ),
-
-          ListTile(
-            leading: const Icon(Icons.info),
-            title: const Text(Config.menuAbout),
-            onTap: () {
-              Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AboutScreen()));
-            },
-          ),
           ListTile(
             leading: const Icon(Icons.support_agent),
             title: const Text(Config.menuSupport),
@@ -141,6 +131,15 @@ class AppDrawer extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (context) => const SupportScreen()));
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.info),
+            title: const Text(Config.menuAbout),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const AboutScreen()));
             },
           ),
           const Divider(),

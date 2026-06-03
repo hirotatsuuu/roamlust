@@ -20,10 +20,20 @@ class _CountryListScreenState extends State<CountryListScreen> {
   bool _isLoading = true;
   SortType _currentSort = SortType.alphabetical;
 
+  // スクロール位置を管理するコントローラーを追加
+  final ScrollController _scrollController = ScrollController();
+
   @override
   void initState() {
     super.initState();
     _loadData(SortType.alphabetical, isInitialLoad: true);
+  }
+
+  // 画面が閉じるときにコントローラーを安全に破棄する処理を追加
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
   }
 
   // 並び替えの種類（SortType）を、画面に表示するための日本語に変換します。
@@ -279,14 +289,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold))),
                 const SizedBox(height: 24),
-                Text('ランキング順',
-                    style: TextStyle(
-                        fontSize: 14,
-                        color: isDark
-                            ? Colors.grey.shade400
-                            : Colors.grey.shade600,
-                        fontWeight: FontWeight.bold)),
-                const SizedBox(height: 8),
                 _buildSortOption(context, SortType.alphabetical, 'あいうえお順',
                     Icons.sort_by_alpha),
                 _buildSortOption(
@@ -300,78 +302,6 @@ class _CountryListScreenState extends State<CountryListScreen> {
             ),
           ),
         );
-      },
-    );
-  }
-
-  // 絞り込みメニューを下から出す処理です
-  void _showFilterBottomSheet(BuildContext context) {
-    showModalBottomSheet(
-      context: context,
-      shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
-      builder: (BuildContext context) {
-        // 状態を管理するために StatefulBuilder を使います（メニューの中だけでチェックマークを更新するため）
-        return StatefulBuilder(
-            builder: (BuildContext context, StateSetter setModalState) {
-          return SafeArea(
-            child: Padding(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  const Text('絞り込み',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 16),
-                  // チェックボックスのリスト（※今は見た目だけですが、今後ここに判定処理を入れます）
-                  CheckboxListTile(
-                    title: const Text('国連加盟国'),
-                    value: false, // 今後ここを変数にしてON/OFFを管理します
-                    onChanged: (bool? value) {
-                      setModalState(() {});
-                    },
-                  ),
-                  CheckboxListTile(
-                    title: const Text('独立国'),
-                    value: false,
-                    onChanged: (bool? value) {
-                      setModalState(() {});
-                    },
-                  ),
-                  CheckboxListTile(
-                    title: const Text('北半球'),
-                    value: false,
-                    onChanged: (bool? value) {
-                      setModalState(() {});
-                    },
-                  ),
-                  const SizedBox(height: 24),
-                  // 下部のボタン群
-                  Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton(
-                          onPressed: () => Navigator.pop(context),
-                          child: const Text('クリア'),
-                        ),
-                      ),
-                      const SizedBox(width: 16),
-                      Expanded(
-                        child: ElevatedButton(
-                          onPressed: () => Navigator.pop(context), // 適用して閉じる
-                          child: const Text('適用',
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          );
-        });
       },
     );
   }
@@ -407,8 +337,10 @@ class _CountryListScreenState extends State<CountryListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title:
-            const Text('国の一覧', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text(
+          _isLoading ? '国の一覧' : '国一覧（${_countries.length}か国）',
+          style: const TextStyle(fontWeight: FontWeight.bold),
+        ),
         centerTitle: true,
       ),
       body: _isLoading
@@ -421,30 +353,8 @@ class _CountryListScreenState extends State<CountryListScreen> {
                   padding: const EdgeInsets.symmetric(
                       vertical: 8.0, horizontal: 16.0),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      // InkWellで囲むことで、タップ可能にし、波紋のアニメーションをつけます
-                      InkWell(
-                        onTap: () =>
-                            _showFilterBottomSheet(context), // 絞り込み画面を開く
-                        borderRadius: BorderRadius.circular(4), // 波紋の角を少し丸くします
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              vertical: 4.0, horizontal: 8.0),
-                          child: Row(
-                            children: [
-                              const Icon(Icons.filter_list,
-                                  size: 16, color: Colors.grey),
-                              const SizedBox(width: 4),
-                              Text('全 ${_countries.length} か国',
-                                  style: TextStyle(
-                                      color: Colors.grey.shade600,
-                                      fontSize: 13,
-                                      fontWeight: FontWeight.bold)),
-                            ],
-                          ),
-                        ),
-                      ),
                       // こちらも同様にタップできるようにします
                       InkWell(
                         onTap: () => _showSortBottomSheet(context), // 並び替え画面を開く
@@ -472,97 +382,97 @@ class _CountryListScreenState extends State<CountryListScreen> {
                 ),
                 // Expandedで囲むことで、残りの画面の広さをすべてリストに使わせます。
                 Expanded(
-                  child: ListView.builder(
-                    itemCount: _countries.length,
-                    itemBuilder: (context, index) {
-                      final country = _countries[index];
-                      final iso2 = country['iso2'];
-                      final String nameJa =
-                          country['name_ja']?.toString() ?? '不明な国';
+                  child: Scrollbar(
+                    controller: _scrollController, // スクロールバー用のコントローラー
+                    interactive: true, // バーを直接指で掴んでスクロールできるようにします
+                    thumbVisibility:
+                        true, // もしスクロール中以外も「常に」バーを表示したい場合はここをtrueにしてください
+                    child: ListView.builder(
+                      controller: _scrollController, // リスト用のコントローラー（上と同じものを指定）
+                      itemCount: _countries.length,
+                      itemBuilder: (context, index) {
+                        final country = _countries[index];
+                        final iso2 = country['iso2'];
+                        final String nameJa =
+                            country['name_ja']?.toString() ?? '不明な国';
 
-                      final isFav = _favorites.contains(iso2);
-                      final rankStr = _getRankString(index, country);
-                      final subtitleStr = _getSubtitleText(country);
-                      final rankColor = _getRankColor(index, isDark, rankStr);
-                      final cardColor =
-                          _getRankCardColor(index, isDark, rankStr);
+                        final isFav = _favorites.contains(iso2);
+                        final rankStr = _getRankString(index, country);
+                        final subtitleStr = _getSubtitleText(country);
+                        final rankColor = _getRankColor(index, isDark, rankStr);
+                        final cardColor =
+                            _getRankCardColor(index, isDark, rankStr);
 
-                      return Card(
-                        color: cardColor,
-                        margin: const EdgeInsets.symmetric(
-                            horizontal: 16, vertical: 6),
-                        child: ListTile(
-                          contentPadding: const EdgeInsets.symmetric(
-                              horizontal: 16, vertical: 4),
-                          leading: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              SizedBox(
-                                width: 30,
-                                child: Text(
-                                  rankStr,
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                      color: rankColor),
-                                ),
-                              ),
-                              const SizedBox(width: 8),
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(4),
-                                child: SizedBox(
-                                  width: 45,
-                                  height: 30,
-                                  child: SvgPicture.asset(
-                                    'assets/flags/${iso2.toLowerCase()}.svg',
-                                    fit: BoxFit.cover,
-                                    placeholderBuilder: (_) => Container(
-                                        color: isDark
-                                            ? Colors.grey.shade800
-                                            : Colors.grey.shade200),
+                        return Card(
+                          color: cardColor,
+                          margin: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 6),
+                          child: ListTile(
+                            contentPadding: const EdgeInsets.symmetric(
+                                horizontal: 16, vertical: 4),
+                            leading: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                SizedBox(
+                                  width: 30,
+                                  child: Text(
+                                    rankStr,
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                        color: rankColor),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
-                          title: Text(nameJa,
-                              style:
-                                  const TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text(subtitleStr),
-                          trailing: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              GestureDetector(
-                                onTap: () => _toggleFavorite(iso2),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Icon(
-                                    isFav
-                                        ? Icons.favorite
-                                        : Icons.favorite_border,
-                                    color: isFav
-                                        ? Colors.pink.shade100
-                                        : Colors.grey,
-                                    size: 28,
+                                const SizedBox(width: 8),
+                                ClipRRect(
+                                  borderRadius: BorderRadius.circular(4),
+                                  child: SizedBox(
+                                    width: 45,
+                                    height: 30,
+                                    child: SvgPicture.asset(
+                                      'assets/flags/${iso2.toLowerCase()}.svg',
+                                      fit: BoxFit.cover,
+                                      placeholderBuilder: (_) => Container(
+                                          color: isDark
+                                              ? Colors.grey.shade800
+                                              : Colors.grey.shade200),
+                                    ),
                                   ),
                                 ),
+                              ],
+                            ),
+                            title: Text(nameJa,
+                                style: const TextStyle(
+                                    fontWeight: FontWeight.bold)),
+                            subtitle: Text(subtitleStr),
+                            trailing: GestureDetector(
+                              onTap: () => _toggleFavorite(iso2),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Icon(
+                                  isFav
+                                      ? Icons.favorite
+                                      : Icons.favorite_border,
+                                  color: isFav
+                                      ? Colors.pink.shade100
+                                      : Colors.grey,
+                                  size: 28,
+                                ),
                               ),
-                              const Icon(Icons.chevron_right,
-                                  color: Colors.grey),
-                            ],
+                            ),
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => CountryDetailScreen(
+                                        iso2: iso2, nameJa: nameJa)),
+                              ).then((_) => _refreshFavorites());
+                            },
                           ),
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => CountryDetailScreen(
-                                      iso2: iso2, nameJa: nameJa)),
-                            ).then((_) => _refreshFavorites());
-                          },
-                        ),
-                      );
-                    },
+                        );
+                      },
+                    ),
                   ),
                 ),
               ],

@@ -69,4 +69,15 @@ class Config {
   // ===========================================================================
   static const String favoriteEmptyMessage =
       'お気に入りに登録された国はありません\n\nハートをタップして追加してみましょう';
+
+  // ===========================================================================
+  // 9. Googleフォームの設定 (suport_screen.dart)
+  // ===========================================================================
+  // 各入力項目の裏のID（entry.から始まる数字）
+  static const String formEntryName = 'entry.1381778466'; // お名前欄のID
+  static const String formEntryEmail = 'entry.558376730'; // メール欄のID
+  static const String formEntryBody = 'entry.2117745455'; // お問い合わせ内容欄のID
+  // フォームの送信先URL（末尾が /formResponse になるURLです）
+  static const String googleFormPostUrl =
+      'https://docs.google.com/forms/d/e/1FAIpQLSfCDVaPrbFpttA439ETf-4xE42DW-5ZjJ-TE23MqwwfnjNHCA/formResponse';
 }

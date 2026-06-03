@@ -149,9 +149,20 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Map<String, dynamic>>.empty();
                             }
                             // 入力された文字が含まれる国を探し、多すぎないように最大5件までに絞ります。
+                            // 入力された文字（ひらがなをカタカナに変換）
+                            final query = _toKatakana(textEditingValue.text);
+
                             return masterData.where((country) {
-                              final name = country['name_ja']?.toString() ?? '';
-                              return name.contains(textEditingValue.text);
+                              final nameJa =
+                                  country['name_ja']?.toString() ?? '';
+
+                              // ★もしJSONデータに「name_kana」（例: にほん、かんこく）が含まれている場合
+                              final nameKana =
+                                  country['name_kana']?.toString() ?? '';
+
+                              // 日本語名にヒットするか、または読み仮名にヒットするかを判定
+                              return nameJa.contains(query) ||
+                                  nameKana.contains(textEditingValue.text);
                             }).take(5);
                           },
                           // 予測リストに表示する文字（日本語の国名）を指定します。
@@ -234,5 +245,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
     );
+  }
+
+  // 入力された文字の中にある「ひらがな」を「カタカナ」に自動変換する関数です
+  String _toKatakana(String input) {
+    return input.replaceAllMapped(RegExp(r'[\u3041-\u3096]'), (match) {
+      return String.fromCharCode(match.group(0)!.codeUnitAt(0) + 0x60);
+    });
   }
 }
