@@ -73,6 +73,7 @@ class _SupportScreenState extends State<SupportScreen> {
       appBar: AppBar(
         title: Text(Config.menuSupport,
             style: const TextStyle(fontWeight: FontWeight.bold)),
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24.0),

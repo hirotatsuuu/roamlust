@@ -125,6 +125,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
       appBar: AppBar(
         title:
             const Text('詳細情報', style: TextStyle(fontWeight: FontWeight.bold)),
+        centerTitle: true, // ヘッダーの文字を真ん中に寄せます
         actions: [
           IconButton(
             icon: Icon(
@@ -200,7 +201,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
 
                 _buildSectionTitle('基本情報', Icons.badge, isDark, context),
                 _buildInfoCard([
-                  _buildRow('国名 (日本語)', widget.nameJa, isDark),
+                  _buildRow('国名', widget.nameJa, isDark),
                   _buildRow('正式名称', rest['name']?['official'], isDark),
                   _buildRow('通称', rest['name']?['common'], isDark),
                   _buildRow(
@@ -262,8 +263,7 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                       rest['car']?['side'] == 'right' ? '右側通行' : '左側通行',
                       isDark),
                   if (rest['gini'] != null)
-                    _buildRow(
-                        'ジニ係数', rest['gini'].values.first.toString(), isDark),
+                    _buildGiniRow(rest['gini'].values.first.toString(), isDark),
                 ], context),
 
                 // Wikipediaの情報が存在する場合のみ表示します。
@@ -390,6 +390,55 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
                     fontSize: 15,
                     color: isDark ? Colors.grey.shade200 : Colors.black87,
                     height: 1.4)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ジニ係数専用の行です。取得した数値を100で割り、説明文を数字の下に表示します。
+  Widget _buildGiniRow(String value, bool isDark) {
+    // 文字列として渡ってきた数字を、計算できるように実数（double）に変換します。
+    final double? numericValue = double.tryParse(value);
+    // 変換に成功したら100で割り、失敗したら元の文字のままにします。
+    final String displayValue =
+        numericValue != null ? (numericValue / 100).toString() : value;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(
+            width: 100,
+            child: Text('ジニ係数',
+                style: TextStyle(
+                    color: isDark ? Colors.grey.shade400 : Colors.grey.shade600,
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold)),
+          ),
+          Expanded(
+            // Columnを使って、数字と説明文を縦に並べます。
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  displayValue, // 100で割った数値を表示します
+                  style: TextStyle(
+                      fontSize: 15,
+                      color: isDark ? Colors.grey.shade200 : Colors.black87,
+                      height: 1.4),
+                ),
+                Text(
+                  '※所得の不平等さを測る指標(0~1)',
+                  style: TextStyle(
+                      fontSize: 11,
+                      color:
+                          isDark ? Colors.grey.shade500 : Colors.grey.shade500,
+                      height: 1.4),
+                ),
+              ],
+            ),
           ),
         ],
       ),

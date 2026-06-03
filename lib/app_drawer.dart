@@ -6,6 +6,7 @@ import 'config.dart';
 import 'about_screen.dart';
 import 'support_screen.dart';
 import 'favorite_list_screen.dart';
+import 'region_list_screen.dart';
 
 // 左上からスライドして出てくるメニュー（ドロワー）の部品です。
 class AppDrawer extends StatelessWidget {
@@ -71,6 +72,19 @@ class AppDrawer extends StatelessWidget {
             },
           ),
           ListTile(
+            leading: const Icon(Icons.public),
+            title: const Text(Config.menuRegion),
+            onTap: () {
+              Navigator.pop(context);
+              // タップすると新しく作成した地域別リスト画面へ移動します。
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const RegionListScreen()));
+            },
+          ),
+          const Divider(), // 区切り線
+          ListTile(
             leading: const Icon(Icons.brightness_6),
             title: const Text(Config.menuTheme),
             onTap: () {
@@ -84,7 +98,6 @@ class AppDrawer extends StatelessWidget {
                 themeNotifier.value = ThemeMode.light;
                 themeName = 'ライトテーマ';
               }
-
               // 新しく変更されたテーマの色を取得します。
               final newMode = themeNotifier.value;
               // 新しいテーマがダークなら背景を黒く、ライトなら背景を白くして、通知を目立たせます。
@@ -109,7 +122,7 @@ class AppDrawer extends StatelessWidget {
               );
             },
           ),
-          const Divider(), // 区切り線
+
           ListTile(
             leading: const Icon(Icons.info),
             title: const Text(Config.menuAbout),
@@ -141,8 +154,7 @@ class AppDrawer extends StatelessWidget {
                     context: context,
                     builder: (context) => AlertDialog(
                       title: const Text('確認'),
-                      content: const Text(
-                          'ダウンロードした情報をすべて削除して初期状態に戻しますか？\n(※お気に入りは保持されます)'),
+                      content: const Text('ダウンロードした情報をすべて削除して初期状態に戻しますか？'),
                       actions: [
                         TextButton(
                           onPressed: () =>
@@ -165,6 +177,9 @@ class AppDrawer extends StatelessWidget {
                 try {
                   await DataService.clearCache(); // スマホ内のデータを消去
                   if (context.mounted) {
+                    // ダウンロード画面に戻る直前に、テーマを強制的にライトモードへ戻します。
+                    themeNotifier.value = ThemeMode.light;
+
                     // 全ての画面履歴を消して、強制的にロード画面（初期状態）へ戻します。
                     Navigator.pushAndRemoveUntil(
                       context,

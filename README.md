@@ -71,6 +71,7 @@ roamlust
     │   ├── country_list_screen.dart    # 国の一覧表示・ランキング並び替え
     │   ├── country_detail_screen.dart  # 各国の詳細表示・お気に入り切り替え
     │   ├── favorite_list_screen.dart   # お気に入り国の一覧画面
+    │   ├── region_list_screen.dart     # 地域別の国の一覧画面
     │   ├── app_drawer.dart             # サイドナビゲーションメニュー
     │   ├── about_screen.dart           # このアプリについて（ライセンス等）画面
     │   ├── support_screen.dart         # お問い合わせ・サポート画面
@@ -131,17 +132,22 @@ dart run flutter_launcher_icons
 
 本アプリは、世界中の素晴らしいオープンデータおよびフリー素材を利用して構築されています。
 
-- **Wikipedia 概要データ**
+- **Wikipedia データ**
   - 出典: [Wikipedia](https://wikipedia.org)
   - ライセンス: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 - **国際統計データ**
-  - 出典: [REST Countries API](https://restcountries.com) （世界の国、首都、人口、通貨、言語、面積、地域などの情報を取得）
-  - ライセンス: 無料・認証不要のオープンデータ
-- **アイコン素材**
-  - 出典: [Google Material Symbols & Icons](https://fonts.google.com/icons)
-- **世界銀行 ランキングデータ**
+  - 出典: [REST Countries API](https://restcountries.com) 
+  - ライセンス: [Mozilla Public License(MPL 2.0)](https://www.mozilla.org/en-US/MPL/2.0/)
+- **世界銀行ランキングデータ**
   - 出典: [世界銀行](https://api.worldbank.org/v2/country)
   - ライセンス: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+- **世界幸福度指数データ**
+  - 出典: [World Happiness Report 2026](https://www.worldhappiness.report)
+  - ライセンス: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+- **アイコン素材**
+  - 出典: [Google Material Symbols & Icons](https://fonts.google.com/icons)
+  - ライセンス: [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+
 
 ---
 

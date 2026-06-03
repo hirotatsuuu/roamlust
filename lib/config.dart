@@ -12,6 +12,8 @@ class Config {
   // ===========================================================================
   static const String wikipediaUrl = 'https://ja.wikipedia.org/';
   static const String restCountriesUrl = 'https://restcountries.com/';
+  static const String worldBankUrl = 'https://data.worldbank.org/';
+  static const String worldHappinessUrl = 'https://www.worldhappiness.report';
 
   // ===========================================================================
   // 3. お問い合わせ関連 (support_screen.dart で使用)
@@ -44,8 +46,9 @@ class Config {
   // ===========================================================================
   static const String menuCountryList = '国の一覧';
   static const String menuFavorite = 'お気に入り';
+  static const String menuRegion = '地域別';
   static const String menuTheme = 'テーマ切り替え';
-  static const String menuAbout = 'このアプリについて';
+  static const String menuAbout = 'アプリについて';
   static const String menuSupport = 'お問い合わせ';
   static const String menuReset = 'データの初期化';
 

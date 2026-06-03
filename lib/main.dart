@@ -67,7 +67,7 @@ class _MyAppState extends State<MyApp> {
 
           // --- ここからダークモード（暗い画面）のデザイン設定 ---
           darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
-            scaffoldBackgroundColor: const Color(0xFF1E1E1E),
+            scaffoldBackgroundColor: const Color(0xFF424242),
             textTheme:
                 GoogleFonts.notoSansJpTextTheme(ThemeData.light().textTheme),
             appBarTheme: const AppBarTheme(
@@ -78,7 +78,7 @@ class _MyAppState extends State<MyApp> {
               iconTheme: IconThemeData(size: 32),
             ),
             cardTheme: CardThemeData(
-              color: const Color(0xFF2C2C2C),
+              color: const Color(0xFF505050),
               elevation: 0,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(16),

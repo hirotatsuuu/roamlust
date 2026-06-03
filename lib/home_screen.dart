@@ -116,111 +116,66 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         const SizedBox(height: 32),
 
-                        // LayoutBuilderを使うと、画面上の「今使える横幅（constraints）」を取得できます。
-                        // これを利用して、検索の予測リストを検索フォームとぴったり同じ幅にします。
-                        LayoutBuilder(builder: (context, constraints) {
-                          // 文字を入力すると候補が出てくる便利な部品（Autocomplete）です。
-                          return Autocomplete<Map<String, dynamic>>(
-                            optionsBuilder:
-                                (TextEditingValue textEditingValue) {
-                              if (textEditingValue.text.isEmpty) {
-                                return const Iterable<
-                                    Map<String, dynamic>>.empty();
-                              }
-                              // 入力された文字が含まれる国だけを絞り込みます。
-                              return masterData.where((country) {
-                                final name =
-                                    country['name_ja']?.toString() ?? '';
-                                return name.contains(textEditingValue.text);
-                              });
-                            },
-                            displayStringForOption:
-                                (Map<String, dynamic> option) {
-                              return option['name_ja']?.toString() ?? '不明な国';
-                            },
-                            // 検索の予測リストの「見た目」と「表示位置」をカスタマイズする処理です。
-                            optionsViewBuilder: (context, onSelected, options) {
-                              // ★修正: 候補の数(options.length)に合わせて高さを計算します。
-                              // 1個あたり約50pxとして計算し、最大で200pxを超えないように制御します。
-                              final double listHeight =
-                                  (options.length * 50.0).clamp(0.0, 200.0);
+                        // 文字を入力すると、一番シンプルな標準の形（下に垂れ下がる）で予測リストを出します。
+                        Autocomplete<Map<String, dynamic>>(
+                          optionsBuilder: (TextEditingValue textEditingValue) {
+                            if (textEditingValue.text.isEmpty) {
+                              return const Iterable<
+                                  Map<String, dynamic>>.empty();
+                            }
+                            // 入力された文字が含まれる国を探し、多すぎないように最大5件までに絞ります。
+                            return masterData.where((country) {
+                              final name = country['name_ja']?.toString() ?? '';
+                              return name.contains(textEditingValue.text);
+                            }).take(5);
+                          },
+                          // 予測リストに表示する文字（日本語の国名）を指定します。
+                          displayStringForOption:
+                              (Map<String, dynamic> option) {
+                            return option['name_ja']?.toString() ?? '不明な国';
+                          },
+                          // 予測リストの中から国が1つ選ばれたときの処理です。
+                          onSelected: (Map<String, dynamic> selection) async {
+                            FocusScope.of(context).unfocus(); // キーボードを閉じます
 
-                              return Align(
-                                alignment: Alignment.topLeft,
-                                child: Transform.translate(
-                                  // リストの高さが変わっても、常に入力欄の「すぐ上」に来るように
-                                  // 移動させる距離（Y軸マイナス方向）を高さに合わせて計算します。
-                                  offset: Offset(0,
-                                      -(listHeight + 10)), // 高さ + 少しの隙間(10px)
-                                  child: Material(
-                                    elevation: 8.0,
-                                    borderRadius: BorderRadius.circular(16),
-                                    clipBehavior: Clip.antiAlias,
-                                    child: SizedBox(
-                                      width: constraints.maxWidth,
-                                      height: listHeight, // 固定ではなく計算した高さをセットします
-                                      child: ListView.builder(
-                                        padding: EdgeInsets.zero,
-                                        itemCount: options.length,
-                                        itemBuilder: (context, index) {
-                                          final option =
-                                              options.elementAt(index);
-                                          return ListTile(
-                                            title: Text(
-                                                option['name_ja']?.toString() ??
-                                                    ''),
-                                            onTap: () => onSelected(option),
-                                          );
-                                        },
-                                      ),
-                                    ),
-                                  ),
+                            // 詳細画面へ移動し、ユーザーが戻ってくるまでここで処理を一時停止して待ちます。
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => CountryDetailScreen(
+                                  iso2: selection['iso2'].toString(),
+                                  nameJa: selection['name_ja'].toString(),
                                 ),
-                              );
-                            },
-                            // 国が選ばれたときの処理です。
-                            onSelected: (Map<String, dynamic> selection) async {
-                              // 画面遷移前にキーボードを閉じます（画面のチラつき防止）。
-                              FocusScope.of(context).unfocus();
+                              ),
+                            );
 
-                              // 詳細画面へ移動し、戻ってくるまで待機します。
-                              await Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => CountryDetailScreen(
-                                    iso2: selection['iso2'].toString(),
-                                    nameJa: selection['name_ja'].toString(),
-                                  ),
+                            // 詳細画面から戻ってきた「直後」に検索窓の文字を消すことで、確実に空っぽにします。
+                            _searchController?.clear();
+                          },
+                          // 検索入力欄（テキストボックス）自体のデザインを設定します。
+                          fieldViewBuilder: (context, controller, focusNode,
+                              onEditingComplete) {
+                            // 文字を消す処理で使えるように、コントローラーを変数に保存しておきます。
+                            _searchController = controller;
+                            return TextField(
+                              controller: controller,
+                              focusNode: focusNode,
+                              onEditingComplete: onEditingComplete,
+                              decoration: InputDecoration(
+                                hintText: Config.homeSearchHint,
+                                hintStyle: const TextStyle(color: Colors.grey),
+                                prefixIcon: const Icon(Icons.search),
+                                border: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(30),
                                 ),
-                              );
-                              // 戻ってきたら検索フォームの文字をきれいに消します。
-                              _searchController?.clear();
-                              _searchController?.text = '';
-                            },
-                            fieldViewBuilder: (context, controller, focusNode,
-                                onEditingComplete) {
-                              _searchController = controller;
-                              return TextField(
-                                controller: controller,
-                                focusNode: focusNode,
-                                onEditingComplete: onEditingComplete,
-                                decoration: InputDecoration(
-                                  hintText: Config.homeSearchHint,
-                                  hintStyle:
-                                      const TextStyle(color: Colors.grey),
-                                  prefixIcon: const Icon(Icons.search),
-                                  border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(30),
-                                  ),
-                                  filled: true,
-                                  fillColor: isDark
-                                      ? const Color(0xFF2C2C2C)
-                                      : Colors.white,
-                                ),
-                              );
-                            },
-                          );
-                        }),
+                                filled: true,
+                                fillColor: isDark
+                                    ? const Color(0xFF2C2C2C)
+                                    : Colors.white,
+                              ),
+                            );
+                          },
+                        ),
                         const SizedBox(height: 32),
                         Text(
                           Config.homePoetry,

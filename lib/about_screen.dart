@@ -26,6 +26,8 @@ class AboutScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(Config.menuAbout,
             style: TextStyle(fontWeight: FontWeight.bold)),
+        // タイトルの文字を画面のちょうど真ん中に配置します。
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24.0),
@@ -79,6 +81,32 @@ class AboutScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8)),
               tileColor: Theme.of(context).colorScheme.surfaceContainerHighest,
               onTap: () => _launchURL(Config.restCountriesUrl, context),
+            ),
+            const SizedBox(height: 16),
+
+            // ランキングデータの出典元として、世界銀行の情報を新しく追加しました。
+            ListTile(
+              leading: const Icon(Icons.account_balance), // 銀行っぽいアイコン
+              title: const Text('World Bank Open Data'),
+              subtitle: const Text('各国の人口、面積、GDPランキング等'),
+              trailing: const Icon(Icons.open_in_new),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8)),
+              tileColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+              onTap: () => _launchURL(Config.worldBankUrl, context),
+            ),
+            const SizedBox(height: 16),
+
+            // 幸福度指数の出典元として、WorldHappinesの情報を追加
+            ListTile(
+              leading: const Icon(Icons.sentiment_very_satisfied), // 幸福アイコン
+              title: const Text('World Happiness'),
+              subtitle: const Text('世界の幸福度ランキング'),
+              trailing: const Icon(Icons.open_in_new),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8)),
+              tileColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+              onTap: () => _launchURL(Config.worldBankUrl, context),
             ),
 
             const SizedBox(height: 40),

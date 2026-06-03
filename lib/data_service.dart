@@ -141,7 +141,7 @@ class DataService {
       await prefs.setString('master_data', masterJson);
       final List<dynamic> masterList = jsonDecode(masterJson);
 
-      final List<String> rankings = ['population', 'area', 'gdp'];
+      final List<String> rankings = ['population', 'area', 'gdp', 'happiness'];
       for (String rank in rankings) {
         try {
           final String rankJson =
@@ -176,7 +176,8 @@ class DataService {
                 .loadString('assets/json/restcountries/$iso2.json');
             await prefs.setString('rest_$iso2', restJson);
           } catch (e) {
-            debugPrint('RestCountryなし: $iso2');
+            // エラーの原因が特定しやすいように、e (Exception) の中身を出力するようにしました。
+            debugPrint('RestCountry取得失敗 ($iso2): $e');
           }
 
           try {
@@ -184,7 +185,8 @@ class DataService {
                 await rootBundle.loadString('assets/json/wikipedia/$iso2.json');
             await prefs.setString('wiki_$iso2', wikiJson);
           } catch (e) {
-            debugPrint('Wikipediaなし: $iso2');
+            // エラーの原因が特定しやすいように、e (Exception) の中身を出力するようにしました。
+            debugPrint('Wikipedia取得失敗 ($iso2): $e');
           }
 
           await Future.delayed(
