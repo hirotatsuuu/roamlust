@@ -73,88 +73,114 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(Config.menuFavorite,
-            style: TextStyle(fontWeight: FontWeight.bold)),
-        centerTitle: true,
-      ),
-      body: _isLoading
-          ? const Center(child: CircularProgressIndicator())
-          : _favoriteCountries.isEmpty
-              // ひとつもお気に入りがない場合は案内メッセージを表示します。
-              ? Center(
-                  child: Text(
-                    Config.favoriteEmptyMessage,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: isDark
-                            ? Colors.grey.shade400
-                            : Colors.grey.shade600,
-                        height: 1.8),
-                  ),
-                )
-              : ListView.builder(
-                  itemCount: _favoriteCountries.length,
-                  itemBuilder: (context, index) {
-                    final country = _favoriteCountries[index];
-                    final iso2 = country['iso2'];
-                    final nameJa = country['name_ja'] ?? '不明';
-                    final nameEn = country['name_en'] ?? '';
-
-                    return Card(
-                      margin: const EdgeInsets.symmetric(
-                          horizontal: 16, vertical: 6),
-                      child: ListTile(
-                        contentPadding: const EdgeInsets.symmetric(
-                            horizontal: 16, vertical: 4),
-                        leading: ClipRRect(
-                          borderRadius: BorderRadius.circular(4),
-                          child: SizedBox(
-                            width: 45,
-                            height: 30,
-                            child: SvgPicture.asset(
-                              'assets/flags/${iso2.toLowerCase()}.svg',
-                              fit: BoxFit.cover,
-                              placeholderBuilder: (_) => Container(
-                                  color: isDark
-                                      ? Colors.grey.shade800
-                                      : Colors.grey.shade200),
-                            ),
-                          ),
-                        ),
-                        title: Text(nameJa,
-                            style:
-                                const TextStyle(fontWeight: FontWeight.bold)),
-                        subtitle: Text(nameEn),
-                        trailing: Row(
-                          mainAxisSize: MainAxisSize.min,
+        appBar: AppBar(
+          title: const Text(Config.menuFavorite,
+              style: TextStyle(fontWeight: FontWeight.bold)),
+          centerTitle: true,
+        ),
+        body: _isLoading
+            ? const Center(child: CircularProgressIndicator())
+            : _favoriteCountries.isEmpty
+                // ひとつもお気に入りがない場合は案内メッセージを表示します。
+                ? Center(
+                    child: Text(
+                      Config.favoriteEmptyMessage,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          color: isDark
+                              ? Colors.grey.shade400
+                              : Colors.grey.shade600,
+                          height: 1.8),
+                    ),
+                  )
+                : Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // お気に入り件数を表示するエリア
+                      Padding(
+                        padding: const EdgeInsets.only(
+                            right: 16, top: 12, bottom: 4),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
                           children: [
-                            GestureDetector(
-                              onTap: () => _removeFavorite(iso2),
-                              child: const Padding(
-                                padding: EdgeInsets.all(8.0),
-                                child: Icon(Icons.favorite,
-                                    color: Color.fromARGB(
-                                        255, 248, 187, 208), // かわいいピンク色
-                                    size: 28),
-                              ),
+                            Text(
+                              'お気に入り件数: ${_favoriteCountries.length} 件',
+                              style: const TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold),
                             ),
-                            const Icon(Icons.chevron_right, color: Colors.grey),
                           ],
                         ),
-                        onTap: () {
-                          // 詳細画面へ移動し、戻ってきたときに（詳細画面で外されているかもしれないので）リストを更新します。
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => CountryDetailScreen(
-                                    iso2: iso2, nameJa: nameJa)),
-                          ).then((_) => _loadFavorites());
-                        },
                       ),
-                    );
-                  },
-                ),
-    );
+                      // リスト表示（Expandedで残りの画面幅いっぱいに広げる）
+                      Expanded(
+                        child: ListView.builder(
+                          itemCount: _favoriteCountries.length,
+                          itemBuilder: (context, index) {
+                            final country = _favoriteCountries[index];
+                            final iso2 = country['iso2'];
+                            final nameJa = country['name_ja'] ?? '不明';
+                            final nameEn = country['name_en'] ?? '';
+
+                            return Card(
+                              margin: const EdgeInsets.symmetric(
+                                  horizontal: 16, vertical: 6),
+                              child: ListTile(
+                                contentPadding: const EdgeInsets.symmetric(
+                                    horizontal: 16, vertical: 4),
+                                leading: ClipRRect(
+                                  borderRadius: BorderRadius.circular(4),
+                                  child: SizedBox(
+                                    width: 45,
+                                    height: 30,
+                                    child: SvgPicture.asset(
+                                      'assets/flags/${iso2.toLowerCase()}.svg',
+                                      fit: BoxFit.cover,
+                                      placeholderBuilder: (_) => Container(
+                                          color: isDark
+                                              ? Colors.grey.shade800
+                                              : Colors.grey.shade200),
+                                    ),
+                                  ),
+                                ),
+                                title: Text(nameJa,
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold)),
+                                subtitle: Text(nameEn),
+                                trailing: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    GestureDetector(
+                                      onTap: () => _removeFavorite(iso2),
+                                      child: const Padding(
+                                        padding: EdgeInsets.all(8.0),
+                                        child: Icon(Icons.favorite,
+                                            color: Color.fromARGB(
+                                                255, 248, 187, 208), // かわいいピンク色
+                                            size: 28),
+                                      ),
+                                    ),
+                                    const Icon(Icons.chevron_right,
+                                        color: Colors.grey),
+                                  ],
+                                ),
+                                onTap: () {
+                                  // 詳細画面へ移動し、戻ってきたときに（詳細画面で外されているかもしれないので）リストを更新します。
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            CountryDetailScreen(
+                                                iso2: iso2, nameJa: nameJa)),
+                                  ).then((_) => _loadFavorites());
+                                },
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ));
   }
 }

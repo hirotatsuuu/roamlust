@@ -93,6 +93,26 @@ class _RegionListScreenState extends State<RegionListScreen> {
     }
   }
 
+  // 地域ごとに背景色を切り替える関数（ライトモード用。ダークモードなら薄いグレー等に自動調整されるようにします）
+  Color _getRegionColor(String region, bool isDark) {
+    if (isDark) return Colors.grey.shade900; // ダークモードの時は一律で暗いグレー
+
+    switch (region) {
+      case 'Asia':
+        return Colors.amber.shade50; // アジアは薄い黄色
+      case 'Europe':
+        return Colors.blue.shade50; // ヨーロッパは薄い青
+      case 'Africa':
+        return Colors.orange.shade50; // アフリカは薄いオレンジ
+      case 'Americas':
+        return Colors.green.shade50; // アメリカは薄い緑
+      case 'Oceania':
+        return Colors.purple.shade50; // オセアニアは薄い紫
+      default:
+        return Colors.grey.shade100; // その他・南極は薄いグレー
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
@@ -113,59 +133,78 @@ class _RegionListScreenState extends State<RegionListScreen> {
                 // その地域に属する国のリストを取り出します
                 final countries = _groupedCountries[regionName]!;
 
-                // ExpansionTileを使うと、タップして「アコーディオンのようにパカッと開く」メニューが作れます。
-                return ExpansionTile(
-                  title: Text(
-                    // 翻訳関数を通してから表示します
-                    '${_translateRegion(regionName)} (${countries.length} か国)',
-                    style: const TextStyle(
-                        fontWeight: FontWeight.bold, fontSize: 16),
-                  ),
-                  // パカッと開いた中身（children）に、所属する国をすべて並べます。
-                  children: countries.map((country) {
-                    final iso2 = country['iso2'];
-                    final nameJa = country['name_ja']?.toString() ?? '不明な国';
+                return Card(
+                  // ① すき間を作るためのマージン
+                  margin:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  // ② 地域ごとの色分け（上で作った関数を使う）
+                  color: _getRegionColor(regionName, isDark),
+                  // カードの影を少し滑らかにする
+                  elevation: 2,
+                  child: Theme(
+                    // タップ時の波紋の色などもきれいに収めるための設定
+                    data: Theme.of(context)
+                        .copyWith(dividerColor: Colors.transparent),
+                    child: ExpansionTile(
+                      // ③ タップしたときに上下に出るライン（境界線）を消す設定
+                      shape: const Border(),
+                      collapsedShape: const Border(),
 
-                    return ListTile(
-                      contentPadding: const EdgeInsets.symmetric(
-                          horizontal: 32, vertical: 0),
-                      leading: Row(
-                        mainAxisSize: MainAxisSize.min, // 必要な幅だけを占有します
-                        children: [
-                          // SVG画像の読み込みエラーを防ぎ、きれいに表示するための枠を作ります
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(4),
-                            child: SizedBox(
-                              width: 45, // 一覧画面と同じ幅に合わせました
-                              height: 30, // 一覧画面と同じ高さに合わせました
-                              child: SvgPicture.asset(
-                                'assets/flags/${iso2.toLowerCase()}.svg',
-                                fit: BoxFit.cover,
-                                // 画像の読み込み中や、エラーが起きたときの代わりの表示（グレーの箱）です
-                                placeholderBuilder: (_) => Container(
-                                    color: isDark
-                                        ? Colors.grey.shade800
-                                        : Colors.grey.shade200),
-                              ),
-                            ),
-                          ),
-                        ],
+                      title: Text(
+                        '${_translateRegion(regionName)} (${countries.length} か国)',
+                        style: const TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 16),
                       ),
-                      // 長い国名でも見切れないように、少し文字を小さくして表示します。
-                      title: Text(nameJa, style: const TextStyle(fontSize: 14)),
-                      trailing: const Icon(Icons.chevron_right,
-                          size: 16, color: Colors.grey),
-                      // タップすると詳細画面へ移動します。
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => CountryDetailScreen(
-                                  iso2: iso2, nameJa: nameJa)),
+                      // パカッと開いた中身の背景を少し白っぽくして見やすくする（お好みで）
+                      backgroundColor: isDark ? Colors.black12 : Colors.white70,
+
+                      children: countries.map((country) {
+                        final iso2 = country['iso2'];
+                        final nameJa = country['name_ja']?.toString() ?? '不明な国';
+
+                        return ListTile(
+                          contentPadding: const EdgeInsets.symmetric(
+                              horizontal: 32, vertical: 0),
+                          leading: Row(
+                            mainAxisSize: MainAxisSize.min, // 必要な幅だけを占有します
+                            children: [
+                              // SVG画像の読み込みエラーを防ぎ、きれいに表示するための枠を作ります
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(4),
+                                child: SizedBox(
+                                  width: 45, // 一覧画面と同じ幅に合わせました
+                                  height: 30, // 一覧画面と同じ高さに合わせました
+                                  child: SvgPicture.asset(
+                                    'assets/flags/${iso2.toLowerCase()}.svg',
+                                    fit: BoxFit.cover,
+                                    // 画像の読み込み中や、エラーが起きたときの代わりの表示（グレーの箱）です
+                                    placeholderBuilder: (_) => Container(
+                                        color: isDark
+                                            ? Colors.grey.shade800
+                                            : Colors.grey.shade200),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          // 長い国名でも見切れないように、少し文字を小さくして表示します。
+                          title: Text(nameJa,
+                              style: const TextStyle(fontSize: 14)),
+                          trailing: const Icon(Icons.chevron_right,
+                              size: 16, color: Colors.grey),
+                          // タップすると詳細画面へ移動します。
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => CountryDetailScreen(
+                                      iso2: iso2, nameJa: nameJa)),
+                            );
+                          },
                         );
-                      },
-                    );
-                  }).toList(),
+                      }).toList(),
+                    ),
+                  ),
                 );
               },
             ),

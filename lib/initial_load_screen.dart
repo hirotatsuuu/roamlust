@@ -161,60 +161,37 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
               const SizedBox(height: 48),
 
               // 状況に合わせて、画面中央の表示を切り替えます。
+              // 修正後（build メソッド内の条件分岐部分）
               if (_errorMessage != null) ...[
-                // エラー時
+                // エラー時の表示（元のまま）
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                  child: Text(
-                    _errorMessage!,
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(
-                        color: Colors.redAccent,
-                        fontWeight: FontWeight.bold,
-                        height: 1.5),
-                  ),
+                  child: Text(_errorMessage!,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                          color: Colors.redAccent,
+                          fontWeight: FontWeight.bold,
+                          height: 1.5)),
                 ),
                 const SizedBox(height: 16),
                 const CircularProgressIndicator(),
-              ] else if (_isPaused) ...[
-                // 一時停止時
-                const Text(
-                  Config.loadPaused,
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
-                const SizedBox(height: 16),
-                ElevatedButton.icon(
-                  onPressed: _startDownload,
-                  icon: const Icon(Icons.play_arrow),
-                  label: const Text('再開する'),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 32, vertical: 12),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                  ),
-                ),
               ] else if (!_isDownloading && _progress == 0.0) ...[
-                // ダウンロード開始前
-                const Text(
-                  Config.loadReady,
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
+                // ダウンロード開始前の表示（元のまま）
+                const Text(Config.loadReady,
+                    style: TextStyle(fontWeight: FontWeight.bold)),
                 const SizedBox(height: 16),
                 ElevatedButton.icon(
                   onPressed: _startDownload,
                   icon: const Icon(Icons.download),
                   label: const Text('ダウンロードを開始する'),
                   style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 32, vertical: 12),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
-                  ),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 32, vertical: 12),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30))),
                 ),
               ] else ...[
-                // ダウンロード中（プログレスバーの表示）
+                // 進行中、または一時停止中（進捗が0%より進んでいる場合）
                 Stack(
                   alignment: Alignment.center,
                   children: [
@@ -225,32 +202,58 @@ class _InitialLoadScreenState extends State<InitialLoadScreen> {
                         value: _progress,
                         strokeWidth: 8,
                         backgroundColor: Colors.grey.withValues(alpha: 0.2),
-                        color: Theme.of(context).colorScheme.primary,
+                        color: _isPaused
+                            ? Colors.grey
+                            : Theme.of(context)
+                                .colorScheme
+                                .primary, // 一時停止中はグレーにする
                       ),
                     ),
                     Text(
                       '${(_progress * 100).toInt()}%',
                       style: const TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
+                          fontSize: 24, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
-                const SizedBox(height: 32),
-                OutlinedButton.icon(
-                  onPressed: _pauseDownload,
-                  icon: const Icon(Icons.pause),
-                  label: const Text('中断する'),
-                  style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.redAccent,
-                    side: const BorderSide(color: Colors.redAccent),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 24, vertical: 12),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
+                const SizedBox(height: 16),
+                // 一時停止中ならテキストを表示
+                if (_isPaused)
+                  const Text(
+                    '一時停止中',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.grey,
+                        fontSize: 16),
                   ),
-                ),
+                const SizedBox(height: 32),
+
+                // 状態（ダウンロード中か一時停止中か）によってボタンを切り替える
+                _isPaused
+                    ? ElevatedButton.icon(
+                        onPressed: _startDownload,
+                        icon: const Icon(Icons.play_arrow),
+                        label: const Text('再開する'),
+                        style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 32, vertical: 12),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30)),
+                        ),
+                      )
+                    : OutlinedButton.icon(
+                        onPressed: _pauseDownload,
+                        icon: const Icon(Icons.pause),
+                        label: const Text('中断する'),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: Colors.redAccent,
+                          side: const BorderSide(color: Colors.redAccent),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 24, vertical: 12),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30)),
+                        ),
+                      ),
               ],
 
               // 画面下部のバランスを整えるための余白です。

@@ -106,7 +106,7 @@ class AboutScreen extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8)),
               tileColor: Theme.of(context).colorScheme.surfaceContainerHighest,
-              onTap: () => _launchURL(Config.worldBankUrl, context),
+              onTap: () => _launchURL(Config.worldHappinessUrl, context),
             ),
 
             const SizedBox(height: 40),

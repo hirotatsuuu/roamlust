@@ -27,7 +27,9 @@ class Config {
   // ===========================================================================
   // 4. ホーム画面のテキスト (home_screen.dart)
   // ===========================================================================
-  static const String homeQuestion = 'あなたの次の目的地は、どこですか？';
+  static const String homeOpening = 'Roamlustの意味は';
+  static const String homeOpening2 = 'この二つの造語です。';
+  static const String homeQuestion = 'あなたの次の目的地はどこですか？';
   static const String homeSearchHint = '国名を入力 (例: 日本)';
   static const String homePoetry =
       'まだ見ぬ景色の記憶をたどり、\n僕らは果てしない旅路を夢見る。\n胸の奥に灯る小さな憧れは、\n未知なる世界へ飛び出すための確かな道標。\n地図の余白を埋めるのはあなた自身。\n\nさぁ、旅の準備を始めましょう。';
@@ -46,7 +48,7 @@ class Config {
   // ===========================================================================
   // 6. メニュー（ドロワー）のテキスト (app_drawer.dart)
   // ===========================================================================
-  static const String menuCountryList = '国一覧';
+  static const String menuCountryList = '国一覧 (250か国)';
   static const String menuRegion = '地域別';
   static const String menuFavorite = 'お気に入り';
   static const String menuTheme = 'テーマ切り替え';
