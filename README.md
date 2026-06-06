@@ -147,6 +147,8 @@ dart run flutter_launcher_icons
 - **アイコン素材**
   - 出典: [Google Material Symbols & Icons](https://fonts.google.com/icons)
   - ライセンス: [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+- **国旗**
+  - 出典: [Flagpedia.net](https://flagpedia.net)
 
 
 ---
